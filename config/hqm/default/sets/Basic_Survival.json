@@ -1562,7 +1562,7 @@
             },
             {
               "item": {
-                "id": "exdeorum:bone_crook",
+                "id": "exdeorum:crook",
                 "Count": 1,
                 "tag": "{Damage:0}"
               },
