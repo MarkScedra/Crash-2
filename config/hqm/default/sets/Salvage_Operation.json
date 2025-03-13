@@ -21,7 +21,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "We are working on the tripling Scorched recipes, dont worry!",
+            "text": "We are working on the tripling Scorched recipes, don\u0027t worry!",
             "isTranslationKey": true
           },
           "items": [
@@ -269,7 +269,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "A melee weapon of some sort would be a wise idea and perhaps some armor as well. Also, make sure you fill that tank with water as much as you can before leaving and make sure you bring enough food and food variety as well. (Note: There\u0027s a city by the East of the shuttle. More risk breings greater reward)",
+            "text": "A melee weapon of some sort would be a wise idea and perhaps some armor as well. Also, make sure you fill that tank with water as much as you can before leaving and make sure you bring enough food and food variety as well. (Note: There\u0027s a city by the West of the shuttle. More risk breings greater reward)",
             "isTranslationKey": true
           },
           "items": [
