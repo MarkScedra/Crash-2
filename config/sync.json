@@ -1,13 +1,13 @@
 {
   "enableInstantShellConstruction": false,
   "warnPlayerInsteadOfKilling": false,
-  "fingerstickDamage": 1.0,
-  "hardcoreFingerstickDamage": 1.0,
+  "fingerstickDamage": 2.0,
+  "hardcoreFingerstickDamage": 2.0,
   "shellConstructorCapacity": 699999,
   "shellStorageCapacity": 320,
   "shellStorageConsumption": 0,
   "shellStorageAcceptsRedstone": true,
-  "shellStorageMaxUnpoweredLifespan": 20,
+  "shellStorageMaxUnpoweredLifespan": 1200,
   "energyMap": [
     {
       "entityId": "minecraft:chicken",

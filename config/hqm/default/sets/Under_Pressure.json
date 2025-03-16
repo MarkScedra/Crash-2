@@ -359,7 +359,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Now that you have an empty PCB you need to make an etching tank",
+        "text": "Now that you have an empty PCB you need to make an etching tank.",
         "isTranslationKey": false
       },
       "x": 106,
@@ -442,6 +442,14 @@
         {
           "id": "pneumaticcraft:printed_circuit_board",
           "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:transistor",
+          "Count": 2
+        },
+        {
+          "id": "pneumaticcraft:capacitor",
+          "Count": 2
         }
       ],
       "rewardchoice": [],
@@ -702,7 +710,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "No wwe have gotten this far, we can get started on the foundation of all technological progression. The PCB. To start, you simply need to toss a compressed iron and place a green plastic in the pressure chamber.",
+        "text": "Now that we have gotten this far, we can get started on the foundation of all technological progression. The PCB. To start, you simply need to toss a compressed iron and place a green plastic in the pressure chamber.",
         "isTranslationKey": false
       },
       "x": 106,

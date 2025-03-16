@@ -9,7 +9,7 @@
     },
     "tconstruct:head": {
       "durability": 85,
-      "melee_attack": 1.25,
+      "melee_attack": 1.0,
       "mining_speed": 3.5,
       "mining_tier": "minecraft:stone"
     }

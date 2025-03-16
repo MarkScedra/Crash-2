@@ -535,7 +535,7 @@
         "isTranslationKey": true
       },
       "description": {
-        "text": "You only have one life. You die and that is that. Or is it? With a bit of work and some effort you can give yourself a second chance if the worst happens. Or even a third or fourth...  ",
+        "text": "You only have one life. You die and that is that. Or is it? With a bit of work and some effort you can give yourself a second chance if the worst happens. Or even a third or fourth...",
         "isTranslationKey": true
       },
       "x": 108,
@@ -544,6 +544,7 @@
         "id": "sync:sync_core",
         "Count": 1
       },
+      "parentrequirement": 1,
       "tasks": [
         {
           "type": "hardcorequesting:craft",
@@ -571,7 +572,7 @@
             "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Once you have created a new Shell you need some place to store it for future use. While you can leave it in the Constructor until you die, that leaves you vulnerable until the Constructor builds you a new Shell. Shell Storage is a better solution. Simply supply it with a redstone signal of some sort, a lever works, and it is ready to use. Walk in and you can Sync to any available Shells. Note, if a Shell Storage loses its redstone signal the Shell it is storing will be lost, along with its inventory. ",
+            "text": "Once you have created a new Shell you need some place to store it for future use. The Shell constructor is not prepared to accept a transfer if you die, you MUST have a Shell in Shell Storage to come back to life. Supply the Shell Storage with a redstone signal of some sort, a lever works, and it will be ready to use. Walk in and you can Sync to any available Shells, transferring your consiousness to the newly constructed body.",
             "isTranslationKey": true
           },
           "items": [
@@ -582,20 +583,36 @@
               }
             }
           ]
+        },
+        {
+          "type": "hardcorequesting:checkbox",
+          "description": {
+            "text": "Warnings",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "Three important warnings:\n\n1. When you enter storage to switch shells, your items stay in that body. Empty your inventory before syncing unless you have multiple Shell Storage chambers available.\n2. If a Shell Storage loses its redstone signal, the Shell it is storing will be lost and its inventory will be scattered on the ground.\n3. Shell storage must be chunkloaded for you to transfer into it. Place a chunk loader under the shell storage chambers or it may not be loaded and will not allow you to transfer into it.\n\nCheck the box below to acknowledge the Sync™ terms and conditions.",
+            "isTranslationKey": true
+          }
         }
       ],
       "prerequisites": [
-        "d870404e-3382-4dc8-91ea-4db728f38060"
+        "d870404e-3382-4dc8-91ea-4db728f38060",
+        "7ee731c2-da61-4aab-a5fa-864fc4b62277"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "mekanism:ultimate_energy_cube",
+          "id": "thermal:energy_cell",
           "Count": 1,
-          "tag": "{mekData:{EnergyContainers:[{Container:0b,stored:\"256000000\"}]}}"
+          "tag": "{BlockEntityTag:{AmountIn:1000,AmountOut:1000,Energy:1000000,EnergyMax:1000000,EnergyRecv:1000,EnergySend:1000,RSControl:{RSMode:0b,RSThreshold:0b},Sides:[B;3B,3B,3B,3B,3B,3B],Xfer:{XferIn:1b,XferOut:1b}},Properties:{}}"
         },
         {
-          "id": "survive:canteen",
+          "id": "sync:treadmill",
+          "Count": 1
+        },
+        {
+          "id": "chunkloaders:single_chunk_loader",
           "Count": 1
         }
       ],

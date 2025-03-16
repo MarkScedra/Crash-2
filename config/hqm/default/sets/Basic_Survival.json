@@ -8,11 +8,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "In order to get water more consistently you will need to use the Centrifugal Separator you will get a little bit of water while supplying it with power and saplings. Please be careful and don\u0027t use up all of your saplings!",
+        "text": "In order to get water more consistently you will need to use the Centrifugal Separator you will get a little bit of water while supplying it with power and saplings or leaves. Please be careful and don\u0027t use up all of your saplings!",
         "isTranslationKey": false
       },
-      "x": 106,
-      "y": 48,
+      "x": 139,
+      "y": 32,
       "icon": {
         "id": "minecraft:birch_sapling",
         "Count": 1
@@ -39,7 +39,7 @@
         }
       ],
       "prerequisites": [
-        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
+        "41cb1853-af1c-4cbd-b4ff-3d7781e6c90a"
       ],
       "optionlinks": [],
       "reward": [
@@ -53,93 +53,102 @@
       "commandrewards": []
     },
     {
-      "uuid": "68e49d0e-4d69-421a-98f6-878939a5cbc4",
+      "uuid": "89f755cb-748d-43d1-9430-0a3f3de8d907",
       "name": {
-        "text": "Desperate Times...",
+        "text": "Live to Fight Another Day",
         "isTranslationKey": false
       },
       "description": {
-        "text": "You may have noticed the lack of food on this planet. Well, I have a temporary solution. You might not like it but given the only alternative is starving...",
+        "text": "The night is dark and full of terrors. Your chances of survival are low, but you can improve them with some sort of weapon and some protection from attack. For your weapon, you\u0027ll need the blade to be bone to start. No other starting material is comparable for weapons.",
         "isTranslationKey": false
       },
-      "x": 261,
-      "y": 14,
+      "x": 158,
+      "y": 134,
       "icon": {
-        "id": "pamhc2foodcore:saltitem",
-        "Count": 1
+        "id": "tconstruct:sword",
+        "Count": 1,
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:bone\",\"tconstruct:wood\",\"tconstruct:bone\"],tic_modifiers:[{level:2,name:\"tconstruct:pierce\"},{level:1,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:durability\":1.1f,\"tconstruct:mining_speed\":0.5f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":5.25f,\"tconstruct:attack_speed\":1.68f,\"tconstruct:durability\":96.25f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":1.75f},tic_volatile_data:{abilities:1,upgrades:3}}"
       },
       "tasks": [
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Salt",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "Salt can be obtained by sifting dust",
-            "isTranslationKey": false
+            "text": "Weapons",
+            "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "pamhc2foodcore:saltitem",
-                "Count": 1
-              },
-              "precision": "TAG_FUZZY"
+                "id": "tconstruct:small_blade",
+                "Count": 1,
+                "tag": "{Material:\"tconstruct:bone\"}"
+              }
             }
           ]
         },
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Rotten Flesh",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "Kill a few zombies to get some rotten flesh",
-            "isTranslationKey": false
+            "text": "Armor",
+            "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "minecraft:rotten_flesh",
-                "Count": 1
-              },
-              "required": 2
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:craft",
-          "description": {
-            "text": "Desperate Measures",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "Combining 2 salt and 1 rotten flesh in any order in a crafting grid will make  1 zombie jerky",
-            "isTranslationKey": false
-          },
-          "items": [
+                "id": "extra_food_items:wooden_helmet",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            },
             {
               "item": {
-                "id": "extra_food_items:zombie_jerky",
-                "Count": 1
+                "id": "extra_food_items:wooden_chestplate",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            },
+            {
+              "item": {
+                "id": "extra_food_items:wooden_leggings",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            },
+            {
+              "item": {
+                "id": "extra_food_items:wooden_boots",
+                "Count": 1,
+                "tag": "{Damage:0}"
               }
             }
           ]
         }
       ],
       "prerequisites": [
-        "feb164b4-e0bf-48e0-aaec-b8bb1118c3b8"
+        "0f7c28b0-3881-419c-9d4b-ca936ad109f3"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "extra_food_items:zombie_jerky",
-          "Count": 4
+          "id": "bhc:heart_amulet",
+          "Count": 1
         }
       ],
-      "rewardchoice": [],
+      "rewardchoice": [
+        {
+          "id": "bhc:red_heart_canister",
+          "Count": 1
+        },
+        {
+          "id": "tconstruct:small_blade",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:bronze\"}"
+        },
+        {
+          "id": "cgm:shell",
+          "Count": 32
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -149,11 +158,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Choose this path if you want a challenge. Expect to die alot. Note: Choosing this path will disable the easy route quest.",
+        "text": "In case case of crash landing, you were equipped with a basic survival package:\n- 16 Shotgun shells\n- Saplings\n- Fertilizer\n- Dried nutrient blocks\nNote: Choose this path if you want a challenge. Don\u0027t expect to stay alive. Completing this quest disables the easy route quest.",
         "isTranslationKey": false
       },
-      "x": 171,
-      "y": 54,
+      "x": 16,
+      "y": 129,
       "icon": {
         "id": "minecraft:skeleton_skull",
         "Count": 1
@@ -184,6 +193,10 @@
       ],
       "reward": [
         {
+          "id": "cgm:shell",
+          "Count": 16
+        },
+        {
           "id": "minecraft:birch_sapling",
           "Count": 1
         },
@@ -192,59 +205,45 @@
           "Count": 1
         },
         {
-          "id": "minecraft:bone_meal",
+          "id": "thermal:phytogro",
           "Count": 8
         },
         {
-          "id": "cgm:shell",
-          "Count": 16
+          "id": "pamhc2foodextended:driedsoupitem",
+          "Count": 4
         }
       ],
       "rewardchoice": [],
       "commandrewards": []
     },
     {
-      "uuid": "256dccbf-c539-4b55-9102-d14e06b3a74f",
+      "uuid": "e715d347-80fc-4afe-87cd-fdea564d6fb7",
       "name": {
-        "text": "Important pt.2",
+        "text": "WIP",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Obtaining Purified water",
+        "text": "Quests are work in progress, especially this one. Here\u0027s a check box.",
         "isTranslationKey": false
       },
-      "x": 18,
-      "y": 42,
+      "x": 224,
+      "y": 39,
       "icon": {
-        "id": "hardcorequesting:hqm_invalid_item",
+        "id": "exdeorum:stone_pebble",
         "Count": 1
       },
       "tasks": [
         {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Purfied water bottles",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "You can use a spout from create to automate the process of getting purified water.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:spout",
-                "Count": 1
-              }
-            }
-          ]
+          "type": "hardcorequesting:checkbox"
         }
       ],
-      "prerequisites": [],
+      "prerequisites": [
+        "3f740b4d-65a3-42b9-85ea-bd8a54c1a3ea"
+      ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "survive:purified_water_bucket",
+          "id": "exdeorum:stone_pebble",
           "Count": 1
         }
       ],
@@ -258,11 +257,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "After setting up a furnace you can begin setting up for lava smelting!\n\nYou can craft a Porcelain Bucket, but i need to know that it can be buggy with the purified water.",
+        "text": "With a furnace up, you can now take your next step. Look by the port engine, the one not currently on fire. Apparently the water reclamation leaked a little and has turned some of the dust to clay. Dig it up and make a crucible. Stick a torch under that and not only can you melt cobble to lava but you can smelt ore dust to ingots, if you provide it with a faucet and a casting table or basin.",
         "isTranslationKey": false
       },
-      "x": 216,
-      "y": 131,
+      "x": 158,
+      "y": 102,
       "icon": {
         "id": "exdeorum:unfired_porcelain_crucible",
         "Count": 1
@@ -273,6 +272,10 @@
           "description": {
             "text": "Warming up",
             "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "You can use the crucible as a mini-smeltery. Shift-right click to place a faucet. It only takes blocks, not dusts or broken pieces of ore. If you\u0027ve still have lava by the broken engine, you can use that to heat your crucible. Also, you can make casts by pouring gold over stone parts.",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -334,8 +337,8 @@
         "text": "Now that you are stable and able to survive somewhat comfortably, Its time to start planning on your future.\nYou can melt some scraps found on the cities to make some plastic sheets.",
         "isTranslationKey": false
       },
-      "x": 127,
-      "y": 166,
+      "x": 250,
+      "y": 132,
       "icon": {
         "id": "industrialforegoing:plastic",
         "Count": 1
@@ -386,127 +389,54 @@
       "commandrewards": []
     },
     {
-      "uuid": "32852a9b-1b0c-4954-99c3-92501611c7d7",
+      "uuid": "804f4329-c6f5-4df8-915c-c590329cf26c",
       "name": {
-        "text": "Cooking Utensils",
+        "text": "Unconventional Tools",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Thankfully you wont be cooking from a furnace forever. Youll need to craft a few kitchen utensils for better food recipes.",
+        "text": "To build up from nothing, you\u0027ll have to have some interesting survival strategies, and unique tools to go with them.",
         "isTranslationKey": false
       },
-      "x": 261,
-      "y": 41,
+      "x": 82,
+      "y": 159,
       "icon": {
-        "id": "pamhc2foodcore:mixingbowlitem",
-        "Count": 1
+        "id": "exdeorum:crook",
+        "Count": 1,
+        "tag": "{Damage:0}"
       },
       "tasks": [
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Make sure to vary your diet as eating to much of one item will make it give you less nutrition.",
-            "isTranslationKey": false
+            "text": "A crook can give you silkworms from breaking leaves and a hammer can crush stone into gravel and sand.",
+            "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "pamhc2foodcore:mixingbowlitem",
-                "Count": 1
-              }
+                "id": "exdeorum:crook",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "FUZZY"
             },
             {
               "item": {
-                "id": "pamhc2foodcore:juiceritem",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "pamhc2foodcore:cuttingboarditem",
-                "Count": 1
-              }
+                "id": "exdeorum:stone_hammer",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "FUZZY"
             }
           ]
         }
       ],
       "prerequisites": [
-        "68e49d0e-4d69-421a-98f6-878939a5cbc4"
+        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
       ],
       "optionlinks": [],
-      "reward": [
-        {
-          "id": "pamhc2foodcore:potitem",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "233f486d-f99b-4c35-babf-cbd631ee64a8",
-      "name": {
-        "text": "Important information",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Regarding the sync shells",
-        "isTranslationKey": false
-      },
-      "x": 18,
-      "y": 14,
-      "icon": {
-        "id": "hardcorequesting:hqm_invalid_item",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Sync constructor",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "The shell constructor has been updated. \n\nIn order for you to properly use it you must first create a clone with the shell constructor and then use the shell storage to store your original body. \n\nMake sure your INVENTORY IS EMPTY otherwise you wont have your items.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "sync:shell_constructor",
-                "Count": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Shell Storage",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "When using the shell storage make sure your inventory is empty! Otherwise you wont have your items untill you respawn.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "sync:shell_storage",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "sync:treadmill",
-          "Count": 1
-        }
-      ],
+      "reward": [],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -520,8 +450,8 @@
         "text": "Finally sustainable power!",
         "isTranslationKey": false
       },
-      "x": 127,
-      "y": 136,
+      "x": 300,
+      "y": 132,
       "icon": {
         "id": "industrialforegoing:mycelial_ender",
         "Count": 1
@@ -545,8 +475,8 @@
         }
       ],
       "prerequisites": [
-        "0bdfc96b-6b5e-4f8f-932f-bda70b2114d7",
-        "a06fbc3a-5b54-4b9a-8f91-6dd3cdd5181e"
+        "a06fbc3a-5b54-4b9a-8f91-6dd3cdd5181e",
+        "336ad751-3c3d-457d-b85c-e6d0bbe7b125"
       ],
       "optionlinks": [],
       "reward": [
@@ -572,8 +502,8 @@
         "text": "Congrats on slaying those monsters",
         "isTranslationKey": false
       },
-      "x": 59,
-      "y": 16,
+      "x": 223,
+      "y": 161,
       "icon": {
         "id": "minecraft:zombie_spawn_egg",
         "Count": 1
@@ -672,11 +602,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "For an easier experience, this is the way. Note: Choosing this path disables the hard route quest.",
+        "text": "In case case of crash landing, you were equipped with a deluxe survival package:\n- Supplies for a sync shell\n- 32 Shotgun shells\n- Saplings\n- Fertilizer\n- Choice of sandwich\nNote: Choose this for an easier experience. Completing this quest disables the hard route quest.",
         "isTranslationKey": false
       },
-      "x": 184,
-      "y": 32,
+      "x": 16,
+      "y": 76,
       "icon": {
         "id": "thermal:pbj_sandwich",
         "Count": 1
@@ -704,36 +634,53 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "minecraft:oak_sapling",
-          "Count": 1
-        },
-        {
-          "id": "thermal:pbj_sandwich",
-          "Count": 2
-        },
-        {
-          "id": "cgm:shell",
-          "Count": 32
-        },
-        {
-          "id": "minecraft:bone_meal",
-          "Count": 64
-        },
-        {
-          "id": "sync:shell_storage",
-          "Count": 1
+          "id": "thermal:energy_cell",
+          "Count": 1,
+          "tag": "{BlockEntityTag:{AmountIn:1000,AmountOut:1000,Energy:1000000,EnergyMax:1000000,EnergyRecv:1000,EnergySend:1000,RSControl:{RSMode:0b,RSThreshold:0b},Sides:[B;0B,0B,0B,0B,0B,1B],Xfer:{XferIn:1b,XferOut:1b}},Properties:{}}"
         },
         {
           "id": "sync:shell_constructor",
           "Count": 1
         },
         {
-          "id": "thermal:energy_cell",
-          "Count": 1,
-          "tag": "{BlockEntityTag:{AmountIn:1000,AmountOut:1000,Energy:1000000,EnergyMax:1000000,EnergyRecv:1000,EnergySend:1000,RSControl:{RSMode:0b,RSThreshold:0b},Sides:[B;0B,0B,0B,0B,0B,1B],Xfer:{XferIn:1b,XferOut:1b}},Properties:{}}"
+          "id": "sync:shell_storage",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:lever",
+          "Count": 1
+        },
+        {
+          "id": "cgm:shell",
+          "Count": 32
+        },
+        {
+          "id": "minecraft:oak_sapling",
+          "Count": 4
+        },
+        {
+          "id": "thermal:phytogro",
+          "Count": 64
         }
       ],
-      "rewardchoice": [],
+      "rewardchoice": [
+        {
+          "id": "pamhc2foodextended:strawberryjellysandwichitem",
+          "Count": 4
+        },
+        {
+          "id": "pamhc2foodextended:grapejellysandwichitem",
+          "Count": 4
+        },
+        {
+          "id": "pamhc2foodcore:basichamburgeritem",
+          "Count": 4
+        },
+        {
+          "id": "pamhc2foodcore:grilledcheeseitem",
+          "Count": 4
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -746,10 +693,10 @@
         "text": "Is it just me or does this planet have a lot of undead hostiles. The lack of any life forms baffle me as to how endless they feel.",
         "isTranslationKey": false
       },
-      "x": 127,
-      "y": 101,
+      "x": 185,
+      "y": 161,
       "icon": {
-        "id": "minecraft:zombie_spawn_egg",
+        "id": "minecraft:rotten_flesh",
         "Count": 1
       },
       "tasks": [
@@ -769,28 +716,28 @@
                 "id": "minecraft:rotten_flesh",
                 "Count": 1
               },
-              "required": 10
+              "required": 5
             },
             {
               "item": {
                 "id": "minecraft:bone",
                 "Count": 1
               },
-              "required": 10
+              "required": 5
             },
             {
               "item": {
                 "id": "minecraft:spider_eye",
                 "Count": 1
               },
-              "required": 5
+              "required": 3
             },
             {
               "item": {
                 "id": "minecraft:gunpowder",
                 "Count": 1
               },
-              "required": 16
+              "required": 3
             }
           ]
         },
@@ -805,14 +752,13 @@
               "item": {
                 "id": "minecraft:ender_pearl",
                 "Count": 1
-              },
-              "required": 2
+              }
             }
           ]
         }
       ],
       "prerequisites": [
-        "b910ad01-be2f-4928-b33d-6a38353b8b9f"
+        "89f755cb-748d-43d1-9430-0a3f3de8d907"
       ],
       "optionlinks": [],
       "reward": [
@@ -829,17 +775,7 @@
           "Count": 1
         }
       ],
-      "rewardchoice": [
-        {
-          "id": "cgm:shell",
-          "Count": 16
-        },
-        {
-          "id": "tconstruct:small_blade",
-          "Count": 1,
-          "tag": "{Material:\"tconstruct:bronze\"}"
-        }
-      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -849,11 +785,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "If you haven\u0027t noticed, water is hard to find on this dry planet. If you get desperate enough, you can mix a glass bottle with a dirt block to get some dirty water.",
+        "text": "If you haven\u0027t noticed, water is hard to find on this dry planet. If you get desperate enough, you can mix a glass bottle with a dirt block to get some dirty water. Make sure not to use up all your dirt though, you\u0027ll need it for growing trees and crops.",
         "isTranslationKey": false
       },
-      "x": 121,
-      "y": 71,
+      "x": 106,
+      "y": 67,
       "icon": {
         "id": "minecraft:potion",
         "Count": 1,
@@ -889,8 +825,124 @@
         },
         {
           "id": "minecraft:potion",
-          "Count": 1,
-          "tag": "{Potion:\"survive:purified_water\"}"
+          "Count": 2,
+          "tag": "{Potion:\"minecraft:water\"}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d4d8bba6-7b9e-417a-b543-90ffb032400b",
+      "name": {
+        "text": "Getting Your Hands Dirty",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "For your continued survival, you\u0027ll need to start farming crops and trees on a larger scale. Neither of those are able to take root in the dust of this planet. However, you can compost organic material in a barrel to make some more dirt for yourself.",
+        "isTranslationKey": false
+      },
+      "x": 82,
+      "y": 46,
+      "icon": {
+        "id": "exdeorum:oak_barrel",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Make a barrel with some planks and a slab, then drop some leaves or saplings into it to start composting it into dirt. Get 4 of them to start and you\u0027ll be farming in no time.",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:dirt",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pamhc2crops:riceseeditem",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "496abe96-0a4d-47e9-9e30-e87ea63d3888",
+      "name": {
+        "text": "Old Soul",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The harsh reality is that you\u0027re stuck on this planet. No amount of obsidian rectangles will let you escape. However, the situation means you can\u0027t get some resources (like soul sand) through normal methods.",
+        "isTranslationKey": false
+      },
+      "x": 108,
+      "y": 10,
+      "icon": {
+        "id": "minecraft:soul_sand",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Spores",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "To start, you\u0027ll have to sift some sand, probably a lot of sand. Eventually you\u0027ll find some mycelium spores. Plant the spores on a piece of dirt and you\u0027ll get mycelium.",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "exdeorum:mycelium_spores",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Witch Water Infusion",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "Placing some mycelium under a barrel full of water will slowly convert it into Witch Water. Put some sand in a barrel of Witch Water and it will turn into soul sand.",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:soul_sand",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d4d8bba6-7b9e-417a-b543-90ffb032400b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:soul_sand",
+          "Count": 4
         }
       ],
       "rewardchoice": [],
@@ -906,12 +958,12 @@
         "text": "Dirty water may help you in a pinch however long term survival will require you to purify it. Smelting your dirty water bottle in a furnace will provide you with a purified water bottle.",
         "isTranslationKey": false
       },
-      "x": 97,
-      "y": 92,
+      "x": 159,
+      "y": 67,
       "icon": {
         "id": "minecraft:potion",
         "Count": 1,
-        "tag": "{Potion:\"minecraft:water\"}"
+        "tag": "{Potion:\"survive:purified_water\"}"
       },
       "tasks": [
         {
@@ -921,7 +973,7 @@
               "item": {
                 "id": "minecraft:potion",
                 "Count": 1,
-                "tag": "{Potion:\"minecraft:water\"}"
+                "tag": "{Potion:\"survive:purified_water\"}"
               },
               "precision": "FUZZY"
             }
@@ -935,12 +987,54 @@
       "reward": [
         {
           "id": "minecraft:potion",
-          "Count": 1,
+          "Count": 4,
           "tag": "{Potion:\"survive:purified_water\"}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8859440a-9852-445c-b1d6-15edc20c368c",
+      "name": {
+        "text": "Mesh Upgrades",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "String mesh can be upgraded to flint mesh to gain higher yields. It can be further upgraded later when you get the resources. You can get flint from sifting gravel, which can be crushed from cobblestone.",
+        "isTranslationKey": false
+      },
+      "x": 197,
+      "y": 135,
+      "icon": {
+        "id": "exdeorum:flint_mesh",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "exdeorum:flint_mesh",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1db4c845-3db8-4e94-aa7d-ff88f75a45fd"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "exdeorum:mechanical_sieve",
+          "Count": 1
         },
         {
-          "id": "minecraft:glass_bottle",
-          "Count": 4
+          "id": "minecraft:hopper",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -956,8 +1050,8 @@
         "text": "Placing leaves into a crucible will melt them down into water!",
         "isTranslationKey": false
       },
-      "x": 216,
-      "y": 164,
+      "x": 195,
+      "y": 70,
       "icon": {
         "id": "minecraft:oak_leaves",
         "Count": 1
@@ -981,8 +1075,7 @@
         }
       ],
       "prerequisites": [
-        "1db4c845-3db8-4e94-aa7d-ff88f75a45fd",
-        "41cb1853-af1c-4cbd-b4ff-3d7781e6c90a"
+        "1db4c845-3db8-4e94-aa7d-ff88f75a45fd"
       ],
       "optionlinks": [],
       "reward": [
@@ -1013,12 +1106,11 @@
         "text": "Trading in ten bottles of purified water should allow me to create you something strong.",
         "isTranslationKey": false
       },
-      "x": 55,
-      "y": 91,
+      "x": 187,
+      "y": 39,
       "icon": {
-        "id": "minecraft:potion",
-        "Count": 1,
-        "tag": "{Potion:\"survive:purified_water\"}"
+        "id": "minecraft:snowball",
+        "Count": 1
       },
       "tasks": [
         {
@@ -1050,50 +1142,79 @@
       "commandrewards": []
     },
     {
-      "uuid": "db5a3dd3-fd42-4027-b9f3-72679b36d265",
+      "uuid": "0f7c28b0-3881-419c-9d4b-ca936ad109f3",
       "name": {
-        "text": "Even More Desperate",
+        "text": "Tool Tinkering",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Well zombie jerky on its own proably isn\u0027t enough. If you are in direenough straits almost anything looks edible",
+        "text": "A finely crafted weapon or tool isn\u0027t as easy as strapping some rocks to a stick. In fact, basic tools like that won\u0027t work for you at all. You\u0027ll have to tinker around a bit.",
         "isTranslationKey": false
       },
-      "x": 287,
-      "y": 14,
+      "x": 103,
+      "y": 134,
       "icon": {
-        "id": "exdeorum:cooked_silk_worm",
+        "id": "tconstruct:tinker_station",
         "Count": 1
       },
       "tasks": [
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Eating worms",
-            "isTranslationKey": false
+            "text": "Worktables",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Don\u0027t forget you can craft a frying pan out of bones. Don\u0027t ask me how that works. The silk worms come from hitting leaves with a crook. You can cook the wroms in a furnace, smoker, or frying pan.",
-            "isTranslationKey": false
+            "text": "First, make a part builder and a tinker station. The part builder lets you make parts by combining a pattern and a material. The tinker station lets you assemble parts into tools.",
+            "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "exdeorum:cooked_silk_worm",
+                "id": "tconstruct:part_builder",
                 "Count": 1
-              }
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "tconstruct:tinker_station",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Handles",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "Every tool needs a handle, a wood handle should do the trick. You can make one by putting some wood in the part builder with a pattern.",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:tool_handle",
+                "Count": 1,
+                "tag": "{Material:\"tconstruct:wood\"}"
+              },
+              "precision": "FUZZY"
             }
           ]
         }
       ],
       "prerequisites": [
-        "68e49d0e-4d69-421a-98f6-878939a5cbc4"
+        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "pamhc2crops:riceseeditem",
-          "Count": 1
+          "id": "tconstruct:pattern",
+          "Count": 4
         }
       ],
       "rewardchoice": [],
@@ -1106,11 +1227,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Well, that is a mess. Grab what you can from the wreck, and watch out for that detached engine. The core has been breached and the fuel is leaking.",
+        "text": "Well, that is a mess. Recover what you can from the ship\u0027s supplies, and watch out for that detached engine. The core has been breached and the fuel is leaking.\nThe replicator has taken some damage but looks just barely functional. Maybe it can provide some bottles and a canteen of water.",
         "isTranslationKey": false
       },
-      "x": 120,
-      "y": 14,
+      "x": 42,
+      "y": 99,
       "bigicon": true,
       "icon": {
         "id": "thermal:machine_centrifuge",
@@ -1120,23 +1241,30 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Tasks of this type do not have to be handed in, having them in one\u0027s inventory is enough. However, you MUST have all the items at once. The water skin is used to ",
+            "text": "If you are having issues surviving your first night, it may help you to make a trench around the ship. Use that dust from digging that to build a 2 block wall on the inside of the trench. That should keep you safe from everything but spiders. To deal with them, make a small cobblestone overhang when you can afford it.",
             "isTranslationKey": false
           },
           "items": [
             {
               "item": {
-                "id": "thermal:machine_centrifuge",
+                "id": "thermal:wrench",
+                "Count": 1,
+                "tag": "{}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "exdeorum:oak_sieve",
                 "Count": 1
               },
               "precision": "FUZZY"
             },
             {
               "item": {
-                "id": "thermal:machine_bottler",
+                "id": "exdeorum:string_mesh",
                 "Count": 1
-              },
-              "precision": "FUZZY"
+              }
             }
           ]
         }
@@ -1145,13 +1273,13 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "minecraft:potion",
-          "Count": 4,
-          "tag": "{Potion:\"survive:purified_water\"}"
+          "id": "survive:filled_canteen",
+          "Count": 2,
+          "tag": "{DrinksLeft:3,Potion:\"survive:purified_water\"}"
         },
         {
-          "id": "survive:canteen",
-          "Count": 1
+          "id": "minecraft:glass_bottle",
+          "Count": 4
         }
       ],
       "rewardchoice": [],
@@ -1164,11 +1292,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "As hot as it is here, it isn\u0027t nearly hot enough to cook food. For that, you will need a furnace. Sieve dirt for stones, use the stones to make cobblestone, from that comes a slab furnace",
+        "text": "As hot as it is here, it isn\u0027t nearly hot enough to cook food. For that, you will need a furnace. Sieve dirt for stones, use the stones to make cobblestone, from that comes a slab furnace. \nIf you want to sift faster, you can place sieves next to one another, allowing up to 25 sieves to be used at once. Alternatively, a compressed sieve takes up just one block and can sift compressed dust with a slight reduction in output.",
         "isTranslationKey": false
       },
-      "x": 216,
-      "y": 97,
+      "x": 118,
+      "y": 102,
       "icon": {
         "id": "slabmachines:furnace_slab",
         "Count": 1
@@ -1192,19 +1320,10 @@
         }
       ],
       "prerequisites": [
-        "b910ad01-be2f-4928-b33d-6a38353b8b9f"
+        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
       ],
       "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:hopper",
-          "Count": 1
-        },
-        {
-          "id": "exdeorum:mechanical_sieve",
-          "Count": 1
-        }
-      ],
+      "reward": [],
       "rewardchoice": [
         {
           "id": "minecraft:potion",
@@ -1213,11 +1332,11 @@
         },
         {
           "id": "pamhc2crops:cantaloupeseeditem",
-          "Count": 3
+          "Count": 2
         },
         {
           "id": "minecraft:iron_ore",
-          "Count": 8
+          "Count": 4
         }
       ],
       "commandrewards": []
@@ -1232,8 +1351,8 @@
         "text": "Thankfully this dust is chock full of metal shards. You shouldve noticed youve gathered chunks of metal when sifting. Combine them into an ore and smelt them in a furnace",
         "isTranslationKey": false
       },
-      "x": 175,
-      "y": 155,
+      "x": 200,
+      "y": 102,
       "icon": {
         "id": "minecraft:iron_ingot",
         "Count": 1
@@ -1321,122 +1440,38 @@
       "commandrewards": []
     },
     {
-      "uuid": "99089910-31d1-4e1c-8736-1c1790e912ee",
-      "name": {
-        "text": "Stocking Eyes",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Ok, so zombie jerky and silk worms are horrible for long term food, however youre alive! Well sort of... heres another recipe",
-        "isTranslationKey": false
-      },
-      "x": 287,
-      "y": 41,
-      "icon": {
-        "id": "pamhc2foodcore:stockitem",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:craft",
-          "description": {
-            "text": "Bad to the Bone",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "Place 1 bone and a pot in any crafting grid to make 3 stock, While the stock it self is edible you can also use it to make other stews.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "pamhc2foodcore:stockitem",
-                "Count": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:craft",
-          "description": {
-            "text": "Eye Can\u0027t Believe This!",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "With your stock you can combine it with a pot and spider eye for some spider eye soup.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "extra_food_items:spidereyesoup",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "32852a9b-1b0c-4954-99c3-92501611c7d7"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:spider_eye",
-          "Count": 4
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "6cd42c29-0afd-49d5-b8ca-9c3c50a63970",
       "name": {
         "text": "The Very Basics",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Sifting dust will help you get bonemeal. With 1 dust and a bottle of water I can provide you with some basic starting items.",
+        "text": "The fertilizer in your survival package won\u0027t last long. Place the mesh in the sieve and sift some dust to get bonemeal.",
         "isTranslationKey": false
       },
-      "x": 137,
-      "y": 47,
+      "x": 82,
+      "y": 102,
       "icon": {
-        "id": "minecraft:dirt",
+        "id": "exdeorum:oak_sieve",
         "Count": 1
       },
       "tasks": [
         {
           "type": "hardcorequesting:consume",
           "description": {
-            "text": "Creating Dirt",
+            "text": "Sifting for Bonemeal",
             "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Make sure you plant something!",
+            "text": "Make sure you plant something in the dirt right away!",
             "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "exdeorum:dust",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
                 "id": "minecraft:bone_meal",
                 "Count": 1
               }
-            },
-            {
-              "item": {
-                "id": "minecraft:potion",
-                "Count": 1,
-                "tag": "{Potion:\"survive:purified_water\"}"
-              },
-              "precision": "FUZZY"
             }
           ]
         }
@@ -1449,15 +1484,6 @@
         {
           "id": "minecraft:dirt",
           "Count": 1
-        },
-        {
-          "id": "minecraft:bone_meal",
-          "Count": 1
-        },
-        {
-          "id": "minecraft:potion",
-          "Count": 2,
-          "tag": "{Potion:\"survive:purified_water\"}"
         }
       ],
       "rewardchoice": [],
@@ -1473,8 +1499,8 @@
         "text": "You may need to move fluids, energy, and items. Lets set up some pipe work.",
         "isTranslationKey": false
       },
-      "x": 175,
-      "y": 187,
+      "x": 250,
+      "y": 82,
       "icon": {
         "id": "pipez:item_pipe",
         "Count": 1
@@ -1534,15 +1560,15 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "To survive out here, you will need some basic tools, a weapon, and some protection from attack.",
+        "text": "You\u0027ll need some tools to stay alive out here as well. In Tinkers Construct, bone tools are usually the best at the start, but you could make a different type if you\u0027d like. Wood and stone tools are generally ineffective.",
         "isTranslationKey": false
       },
-      "x": 185,
-      "y": 79,
+      "x": 139,
+      "y": 169,
       "icon": {
-        "id": "exdeorum:crook",
+        "id": "tconstruct:mattock",
         "Count": 1,
-        "tag": "{Damage:0}"
+        "tag": "{tic_materials:[\"tconstruct:bone\",\"tconstruct:wood#oak\",\"tconstruct:bone\"],tic_modifiers:[{level:2,name:\"tconstruct:pierce\"},{level:1,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:tilling\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.1f,\"tconstruct:durability\":1.25f,\"tconstruct:mining_speed\":1.1f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":4.125f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":125.0f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":3.8500001f},tic_volatile_data:{abilities:1,upgrades:3}}"
       },
       "tasks": [
         {
@@ -1551,20 +1577,16 @@
             "text": "Tools",
             "isTranslationKey": false
           },
+          "longDescription": {
+            "text": "You can make a mattock with the axe and adze heads, it will be an essential tool for farming early on. Eventually you may want a pickaxe and some other tools, but farming food is vital for your survival, and the mattock can help mine logs and dust as well.",
+            "isTranslationKey": true
+          },
           "items": [
             {
               "item": {
-                "id": "exdeorum:stone_hammer",
+                "id": "tconstruct:small_axe_head",
                 "Count": 1,
-                "tag": "{Damage:0}"
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "exdeorum:crook",
-                "Count": 1,
-                "tag": "{Damage:0}"
+                "tag": "{Material:\"tconstruct:bone\"}"
               },
               "precision": "FUZZY"
             },
@@ -1575,98 +1597,25 @@
                 "tag": "{Material:\"tconstruct:bone\"}"
               },
               "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "tconstruct:small_axe_head",
-                "Count": 1,
-                "tag": "{Material:\"tconstruct:bone\"}"
-              }
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Weapons",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "tconstruct:small_blade",
-                "Count": 1,
-                "tag": "{Material:\"tconstruct:bone\"}"
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Armor",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "Careful! Armor will effect your temperature. Metal armor tends to be hotter during the day and colder at night. Leather and wood armor will add a little heat no matter the time. The best armors can help you stay cool in the heat and warm in the cold.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "extra_food_items:wooden_helmet",
-                "Count": 1,
-                "tag": "{Damage:0}"
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "extra_food_items:wooden_chestplate",
-                "Count": 1,
-                "tag": "{Damage:0}"
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "extra_food_items:wooden_leggings",
-                "Count": 1,
-                "tag": "{Damage:0}"
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "extra_food_items:wooden_boots",
-                "Count": 1,
-                "tag": "{Damage:0,Insulation:[]}"
-              },
-              "precision": "FUZZY"
             }
           ]
         }
       ],
       "prerequisites": [
-        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
+        "0f7c28b0-3881-419c-9d4b-ca936ad109f3"
       ],
       "optionlinks": [],
-      "reward": [
-        {
-          "id": "bhc:heart_amulet",
-          "Count": 1
-        }
-      ],
+      "reward": [],
       "rewardchoice": [
-        {
-          "id": "bhc:red_heart_canister",
-          "Count": 1
-        },
         {
           "id": "tconstruct:small_axe_head",
           "Count": 1,
-          "tag": "{Material:\"tconstruct:bronze\"}"
+          "tag": "{Material:\"tconstruct:iron\"}"
+        },
+        {
+          "id": "tconstruct:tool_handle",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:rose_gold\"}"
         }
       ],
       "commandrewards": []
@@ -1674,30 +1623,23 @@
     {
       "uuid": "3f4bca77-f975-4406-9e7b-1cbe559b3068",
       "name": {
-        "text": "Important pt.4",
+        "text": "Keeping Cool",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Temperature",
+        "text": "Its highly recommended to craft string armor once you get enough string.",
         "isTranslationKey": false
       },
-      "x": 18,
-      "y": 97,
+      "x": 124,
+      "y": 196,
       "icon": {
-        "id": "hardcorequesting:hqm_invalid_item",
-        "Count": 1
+        "id": "extra_food_items:stringarmor_chestplate",
+        "Count": 1,
+        "tag": "{Damage:0}"
       },
       "tasks": [
         {
           "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Staying cool",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "Its highly recommended to craft string armor once you get enough string",
-            "isTranslationKey": false
-          },
           "items": [
             {
               "item": {
@@ -1734,7 +1676,9 @@
           ]
         }
       ],
-      "prerequisites": [],
+      "prerequisites": [
+        "804f4329-c6f5-4df8-915c-c590329cf26c"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -1755,8 +1699,8 @@
         "text": "Seems like this planet it\u0027s full of oil!\nWith the Gas Lift and some pressure, you can pump up Oil from the dust deeps.\nYou can use the oil to generate energy with the Compression Dynamo, but later you will need a Refinery to make plastic and most efficient fuels.",
         "isTranslationKey": false
       },
-      "x": 94,
-      "y": 188,
+      "x": 300,
+      "y": 82,
       "icon": {
         "id": "thermal:dynamo_compression",
         "Count": 1
@@ -1806,307 +1750,6 @@
         {
           "id": "pneumaticcraft:drill_pipe",
           "Count": 64
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "76cfa1f2-c3a7-4369-bc3c-2838db6384ef",
-      "name": {
-        "text": "Hungry hungry hippos",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Now that youve finally gotten a foot hold on this dusty planet, we still are in need of a food supply.",
-        "isTranslationKey": false
-      },
-      "x": 184,
-      "y": 117,
-      "icon": {
-        "id": "exdeorum:wooden_watering_can",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Watering can",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "The watering can will allow you to speed up crop growth without the use of bonemeal. However it will consume water.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "exdeorum:wooden_watering_can",
-                "Count": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Rice!",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "pamhc2crops:riceitem",
-                "Count": 1
-              },
-              "required": 10
-            },
-            {
-              "item": {
-                "id": "pamhc2crops:riceseeditem",
-                "Count": 1
-              },
-              "required": 10
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "A Seedy Place",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "exdeorum:grass_seeds",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:dirt",
-                "Count": 1
-              },
-              "required": 9
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "b910ad01-be2f-4928-b33d-6a38353b8b9f"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "pamhc2foodcore:toastitem",
-          "Count": 10
-        },
-        {
-          "id": "pamhc2trees:orange_sapling",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "pamhc2crops:cottonseeditem",
-          "Count": 1
-        },
-        {
-          "id": "pamhc2crops:coffeebeanseeditem",
-          "Count": 1
-        },
-        {
-          "id": "pamhc2crops:tealeafseeditem",
-          "Count": 1
-        },
-        {
-          "id": "minecraft:potion",
-          "Count": 2,
-          "tag": "{Potion:\"survive:purified_water\"}"
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "67994482-4981-4cfd-9ca6-afde4340fb62",
-      "name": {
-        "text": "Blending it up",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Before you\u0027re able to get a smeltery up and running you will need to get invar. ",
-        "isTranslationKey": false
-      },
-      "x": 251,
-      "y": 116,
-      "icon": {
-        "id": "create:millstone",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Milling",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "In order to start making beginner alloys youll need to \"create\" a mill",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:millstone",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "create:hand_crank",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "create:cogwheel",
-                "Count": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Metal dust",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "To get the Steel blend, you\u0027ll need the Mekanism Infuser. It\u0027s a pretty simples machine, and you\u0027ll need id later.",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "thermal:steel_dust",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "thermal:invar_dust",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "thermal:electrum_dust",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "mekanism:metallurgic_infuser",
-                "Count": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Better tools",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "extra_food_items:invarshears",
-                "Count": 1,
-                "tag": "{Damage:0}"
-              }
-            },
-            {
-              "item": {
-                "id": "mekanism:basic_fluid_tank",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "099d1358-0b11-49f0-aa78-43531cd739b7"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "tconstruct:tool_handle",
-          "Count": 1,
-          "tag": "{Material:\"tconstruct:bronze\"}"
-        },
-        {
-          "id": "tconstruct:battlesign",
-          "Count": 1,
-          "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:seared_stone\",\"tconstruct:seared_stone\"],tic_modifiers:[{level:1,name:\"tconstruct:searing\"},{level:1,name:\"tconstruct:fire_protection\"},{level:1,name:\"tconstruct:bonking\"},{level:1,name:\"tconstruct:knockback\"},{level:1,name:\"tconstruct:blocking\"}],tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":3.5f,\"tconstruct:attack_speed\":1.2f,\"tconstruct:block_amount\":50.0f,\"tconstruct:durability\":477.0f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:knockback_resistance\":0.1f,\"tconstruct:mining_speed\":6.5f},tic_volatile_data:{abilities:1,defense:3}}"
-        },
-        {
-          "id": "thermal:rf_coil",
-          "Count": 1
-        },
-        {
-          "id": "mekanism:enriched_carbon",
-          "Count": 2
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "d11bf9a7-a121-49f6-95e6-0081b559aaeb",
-      "name": {
-        "text": "Important pt.3",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "First night options",
-        "isTranslationKey": false
-      },
-      "x": 18,
-      "y": 70,
-      "icon": {
-        "id": "hardcorequesting:hqm_invalid_item",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Trenches and walls",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "You can play anyway you want however if you are having issues surviving your first night I suggest making a 2 block trench around your ship. Then use that dust to builda 2 block wall on the inside of the trench. Keeping you safe from everything besides spiders. To help deal with them make cobblestone walls and place on top of the wall.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "exdeorum:dust",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:potion",
-          "Count": 1,
-          "tag": "{Potion:\"survive:purified_water\"}"
         }
       ],
       "rewardchoice": [],

@@ -956,17 +956,17 @@
           {
             "id": "tconstruct:pickaxe",
             "Count": 1,
-            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:pierce\"}],tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":1.0f,\"tconstruct:attack_speed\":1.2f,\"tconstruct:durability\":60.0f,\"tconstruct:mining_speed\":2.0f},tic_volatile_data:{abilities:1,upgrades:3}}"
+            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:pierce\"}],tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":1.0f,\"tconstruct:attack_speed\":1.2f,\"tconstruct:durability\":60.0f},tic_volatile_data:{abilities:1,upgrades:3}}"
           },
           {
             "id": "tconstruct:hand_axe",
             "Count": 1,
-            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:stripping\"}],tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":6.0f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":60.0f,\"tconstruct:mining_speed\":2.0f},tic_volatile_data:{abilities:1,upgrades:3}}"
+            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:stripping\"}],tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":6.0f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":60.0f},tic_volatile_data:{abilities:1,upgrades:3}}"
           },
           {
             "id": "tconstruct:mattock",
             "Count": 1,
-            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:tilling\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.1f,\"tconstruct:durability\":1.25f,\"tconstruct:mining_speed\":1.1f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":1.6500001f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":75.0f,\"tconstruct:mining_speed\":2.2f},tic_volatile_data:{abilities:1,upgrades:3}}"
+            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:tilling\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.1f,\"tconstruct:durability\":1.25f,\"tconstruct:mining_speed\":1.1f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":1.6500001f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":75.0f,\"tconstruct:mining_speed\":1.1f},tic_volatile_data:{abilities:1,upgrades:3}}"
           }
         ]
       },
@@ -981,12 +981,12 @@
           {
             "id": "tconstruct:dagger",
             "Count": 1,
-            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:flint\",\"tconstruct:flint\"],tic_modifiers:[{level:2,name:\"tconstruct:jagged\"},{level:1,name:\"tconstruct:offhand_attack\"},{level:1,name:\"tconstruct:padded\"},{level:1,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":3.03875f,\"tconstruct:attack_speed\":2.0f,\"tconstruct:block_amount\":10.0f,\"tconstruct:durability\":54.1875f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":2.625f,\"tconstruct:use_item_speed\":1.0f},tic_volatile_data:{abilities:1,\"tconstruct:duel_wielding\":1b,upgrades:3}}"
+            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:flint\",\"tconstruct:flint\"],tic_modifiers:[{level:2,name:\"tconstruct:jagged\"},{level:1,name:\"tconstruct:offhand_attack\"},{level:1,name:\"tconstruct:padded\"},{level:1,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":2.86f,\"tconstruct:attack_speed\":2.0f,\"tconstruct:block_amount\":10.0f,\"tconstruct:durability\":54.1875f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":2.625f,\"tconstruct:use_item_speed\":1.0f},tic_volatile_data:{abilities:1,\"tconstruct:duel_wielding\":1b,upgrades:3}}"
           },
           {
             "id": "tconstruct:battlesign",
             "Count": 1,
-            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:copper\"],tic_modifiers:[{level:1,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:depth_protection\"},{level:1,name:\"tconstruct:bonking\"},{level:1,name:\"tconstruct:knockback\"},{level:1,name:\"tconstruct:blocking\"}],tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":2.0f,\"tconstruct:attack_speed\":1.2f,\"tconstruct:block_amount\":50.0f,\"tconstruct:durability\":294.0f,\"tconstruct:mining_speed\":2.0f},tic_volatile_data:{abilities:1,defense:3}}"
+            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:copper\"],tic_modifiers:[{level:1,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:depth_protection\"},{level:1,name:\"tconstruct:bonking\"},{level:1,name:\"tconstruct:knockback\"},{level:1,name:\"tconstruct:blocking\"}],tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":2.0f,\"tconstruct:attack_speed\":1.2f,\"tconstruct:block_amount\":50.0f,\"tconstruct:durability\":294.0f},tic_volatile_data:{abilities:1,defense:3}}"
           }
         ]
       }

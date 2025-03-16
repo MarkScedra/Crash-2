@@ -1,0 +1,192 @@
+{
+  "name": "Create",
+  "quests": [
+    {
+      "uuid": "67994482-4981-4cfd-9ca6-afde4340fb62",
+      "name": {
+        "text": "Blending it up",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Until you get a smeltery up and running, you will need to get invar. If you don\u0027t mind some manual labor, there\u0027s a good solution available.",
+        "isTranslationKey": false
+      },
+      "x": 60,
+      "y": 58,
+      "icon": {
+        "id": "create:millstone",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Milling",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "In order to start making beginner alloys youll need to \"create\" a mill",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:millstone",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "create:hand_crank",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "create:cogwheel",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Metal dust",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "To get the Steel blend, you\u0027ll need the Mekanism Infuser. It\u0027s a pretty simples machine, and you\u0027ll need id later.",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "thermal:steel_dust",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "thermal:invar_dust",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "thermal:electrum_dust",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanism:metallurgic_infuser",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Better tools",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "extra_food_items:invarshears",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            },
+            {
+              "item": {
+                "id": "mekanism:basic_fluid_tank",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "099d1358-0b11-49f0-aa78-43531cd739b7"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:tool_handle",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:bronze\"}"
+        },
+        {
+          "id": "tconstruct:battlesign",
+          "Count": 1,
+          "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:seared_stone\",\"tconstruct:seared_stone\"],tic_modifiers:[{level:1,name:\"tconstruct:searing\"},{level:1,name:\"tconstruct:fire_protection\"},{level:1,name:\"tconstruct:bonking\"},{level:1,name:\"tconstruct:knockback\"},{level:1,name:\"tconstruct:blocking\"}],tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":3.5f,\"tconstruct:attack_speed\":1.2f,\"tconstruct:block_amount\":50.0f,\"tconstruct:durability\":477.0f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:knockback_resistance\":0.1f,\"tconstruct:mining_speed\":6.5f},tic_volatile_data:{abilities:1,defense:3}}"
+        },
+        {
+          "id": "thermal:rf_coil",
+          "Count": 1
+        },
+        {
+          "id": "mekanism:enriched_carbon",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "256dccbf-c539-4b55-9102-d14e06b3a74f",
+      "name": {
+        "text": "Spout",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Obtaining Purified water",
+        "isTranslationKey": false
+      },
+      "x": 104,
+      "y": 58,
+      "icon": {
+        "id": "create:spout",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Purfied water bottles",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "You can use a spout from create to automate the process of getting purified water.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:spout",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "15ad672b-7b9c-4115-a4b3-403c70654a40",
+        "67994482-4981-4cfd-9ca6-afde4340fb62"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "survive:purified_water_bucket",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}
