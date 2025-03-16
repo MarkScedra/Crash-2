@@ -22,7 +22,8 @@ ServerEvents.recipes(event => {
             "minecraft:netherite_helmet",
             "minecraft:netherite_chestplate",
             "minecraft:netherite_leggings",
-            "create:netherite_diving_boots"
+            "create:netherite_diving_boots",
+            "exdeorum:porcelain_bucket"
         ]
      });    
 });

@@ -651,7 +651,7 @@
         {
           "id": "mekanism:basic_fluid_tank",
           "Count": 1,
-          "tag": "{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:8000,FluidName:\"pneumaticcraft:plastic\"}}],Items:[],editMode:0,owner:[I;-826375014,1581600191,-1318216195,-1820762510],securityMode:0}}"
+          "tag": "{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:16000,FluidName:\"industrialforegoing:latex\"}}],Items:[],editMode:0,owner:[I;-826375014,1581600191,-1318216195,-1820762510],securityMode:0}}"
         },
         {
           "id": "thermal:invar_ingot",

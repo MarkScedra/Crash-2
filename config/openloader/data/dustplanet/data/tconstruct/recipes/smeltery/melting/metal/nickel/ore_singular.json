@@ -46,7 +46,7 @@
         },
         "rate": "metal",
         "result": {
-          "amount": 180,
+          "amount": 90,
           "tag": "forge:molten_nickel"
         },
         "temperature": 950,
@@ -63,7 +63,7 @@
         "type": "tconstruct:ore_melting",
         "byproducts": [
           {
-            "amount": 180,
+            "amount": 90,
             "tag": "forge:molten_iron"
           }
         ],
@@ -83,7 +83,7 @@
         },
         "rate": "metal",
         "result": {
-          "amount": 180,
+          "amount": 90,
           "tag": "forge:molten_nickel"
         },
         "temperature": 950,

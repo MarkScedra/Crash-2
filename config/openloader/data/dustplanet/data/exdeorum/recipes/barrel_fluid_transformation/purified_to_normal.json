@@ -1,0 +1,13 @@
+{
+    "type":"exdeorum:barrel_fluid_transformation",
+    "base_fluid":"survive:purified_water",
+    "byproducts":[
+],
+    "catalyst":
+        {
+        "block":"exdeorum:dust"
+        },
+    "duration":20,
+    "result_color":2374509,
+    "result_fluid":"minecraft:water"
+}

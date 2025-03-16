@@ -55,7 +55,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "minecraft:brick",
+          "id": "minecraft:magma_cream",
           "Count": 64
         }
       ],
@@ -135,12 +135,12 @@
       ],
       "rewardchoice": [
         {
-          "id": "minecraft:clay",
+          "id": "minecraft:polished_basalt",
           "Count": 4
         },
         {
-          "id": "minecraft:bricks",
-          "Count": 4
+          "id": "minecraft:magma_cream",
+          "Count": 16
         }
       ],
       "commandrewards": []

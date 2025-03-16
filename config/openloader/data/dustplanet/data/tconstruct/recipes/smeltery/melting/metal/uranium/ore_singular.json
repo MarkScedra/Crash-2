@@ -26,7 +26,7 @@
         "type": "tconstruct:ore_melting",
         "byproducts": [
           {
-            "amount": 180,
+            "amount": 90,
             "tag": "forge:molten_lead"
           }
         ],
@@ -46,7 +46,7 @@
         },
         "rate": "metal",
         "result": {
-          "amount": 180,
+          "amount": 90,
           "tag": "forge:molten_uranium"
         },
         "temperature": 830,
@@ -63,7 +63,7 @@
         "type": "tconstruct:ore_melting",
         "byproducts": [
           {
-            "amount": 180,
+            "amount": 90,
             "tag": "forge:molten_copper"
           }
         ],
@@ -83,7 +83,7 @@
         },
         "rate": "metal",
         "result": {
-          "amount": 180,
+          "amount": 90,
           "tag": "forge:molten_uranium"
         },
         "temperature": 830,

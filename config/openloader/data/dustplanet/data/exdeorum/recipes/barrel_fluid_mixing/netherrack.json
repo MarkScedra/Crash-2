@@ -1,1 +1,1 @@
-{"type":"exdeorum:barrel_fluid_mixing","additive_fluid":"minecraft:lava","base_fluid":"exdeorum:witch_water","base_fluid_amount":1000,"consumes_additive":true,"result":"minecraft:netherrack"}
+{"type":"exdeorum:barrel_fluid_mixing","additive_fluid":"minecraft:lava","base_fluid":"exdeorum:witch_water","base_fluid_amount":1000,"consumes_additive":false,"result":"minecraft:netherrack"}

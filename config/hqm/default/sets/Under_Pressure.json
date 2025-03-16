@@ -176,12 +176,20 @@
           "Count": 1
         },
         {
-          "id": "thermal:energy_duct",
+          "id": "pipez:energy_pipe",
           "Count": 6
         },
         {
-          "id": "minecraft:redstone",
-          "Count": 16
+          "id": "pipez:advanced_upgrade",
+          "Count": 2
+        },
+        {
+          "id": "thermal:rf_coil_storage_augment",
+          "Count": 1
+        },
+        {
+          "id": "thermal:upgrade_augment_3",
+          "Count": 1
         }
       ],
       "rewardchoice": [],

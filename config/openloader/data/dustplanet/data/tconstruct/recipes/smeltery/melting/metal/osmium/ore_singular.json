@@ -2,7 +2,7 @@
   "type": "tconstruct:ore_melting",
   "byproducts": [
     {
-      "amount": 180,
+      "amount": 90,
       "tag": "forge:molten_iron"
     }
   ],
@@ -33,7 +33,7 @@
   },
   "rate": "metal",
   "result": {
-    "amount": 180,
+    "amount": 90,
     "tag": "forge:molten_osmium"
   },
   "temperature": 975,
