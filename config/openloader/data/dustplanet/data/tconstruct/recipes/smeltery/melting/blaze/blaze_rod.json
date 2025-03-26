@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:rods/blaze"
+  },
+  "result": {
+    "amount": 50,
+    "fluid": "tconstruct:blazing_blood"
+  },
+  "temperature": 1000,
+  "time": 15
+}
