@@ -1,0 +1,18 @@
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "tag": "forge:gems/diamond"
+    },
+    "top": {
+      "item": "ae2:engineering_processor_press"
+    },
+    "bottom": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "item": "ae2:printed_engineering_processor"
+  }
+}
