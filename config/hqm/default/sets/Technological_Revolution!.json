@@ -141,90 +141,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "f18850ad-ddc5-4d3c-8c9c-b3aa091addbb",
-      "name": {
-        "text": "Industrial Foregoing Liquids",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "So many liquids. so many icky, icky liquids.",
-        "isTranslationKey": false
-      },
-      "x": 98,
-      "y": 138,
-      "icon": {
-        "id": "industrialforegoing:pink_slime_bucket",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:consume_qds",
-          "items": [
-            {
-              "fluid": {
-                "fluid": "industrialforegoing:meat",
-                "volume": {
-                  "n": 1,
-                  "d": 1
-                }
-              },
-              "required": 10000
-            },
-            {
-              "fluid": {
-                "fluid": "industrialforegoing:pink_slime",
-                "volume": {
-                  "n": 1,
-                  "d": 1
-                }
-              },
-              "required": 10000
-            },
-            {
-              "fluid": {
-                "fluid": "industrialforegoing:sludge",
-                "volume": {
-                  "n": 1,
-                  "d": 1
-                }
-              },
-              "required": 10000
-            },
-            {
-              "fluid": {
-                "fluid": "industrialforegoing:sewage",
-                "volume": {
-                  "n": 1,
-                  "d": 1
-                }
-              },
-              "required": 10000
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "d41c9753-3fe3-475c-adbc-77160c347593"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "mekanism:ultimate_control_circuit",
-          "Count": 2
-        },
-        {
-          "id": "tconstruct:queens_slime_ingot",
-          "Count": 2
-        },
-        {
-          "id": "thermal:obsidian_glass",
-          "Count": 16
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "be7af2e5-6165-45b2-b21c-8da41319c7e2",
       "name": {
         "text": "Thermal Melting",
@@ -327,6 +243,90 @@
         {
           "id": "mekanism:ultimate_energy_cube",
           "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f18850ad-ddc5-4d3c-8c9c-b3aa091addbb",
+      "name": {
+        "text": "Industrial Foregoing Liquids",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "So many liquids. so many icky, icky liquids.",
+        "isTranslationKey": false
+      },
+      "x": 98,
+      "y": 138,
+      "icon": {
+        "id": "industrialforegoing:pink_slime_bucket",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:consume_qds",
+          "items": [
+            {
+              "fluid": {
+                "fluid": "industrialforegoing:meat",
+                "volume": {
+                  "n": 1,
+                  "d": 1
+                }
+              },
+              "required": 10000
+            },
+            {
+              "fluid": {
+                "fluid": "industrialforegoing:pink_slime",
+                "volume": {
+                  "n": 1,
+                  "d": 1
+                }
+              },
+              "required": 10000
+            },
+            {
+              "fluid": {
+                "fluid": "industrialforegoing:sludge",
+                "volume": {
+                  "n": 1,
+                  "d": 1
+                }
+              },
+              "required": 10000
+            },
+            {
+              "fluid": {
+                "fluid": "industrialforegoing:sewage",
+                "volume": {
+                  "n": 1,
+                  "d": 1
+                }
+              },
+              "required": 10000
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d41c9753-3fe3-475c-adbc-77160c347593"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "mekanism:ultimate_control_circuit",
+          "Count": 2
+        },
+        {
+          "id": "tconstruct:queens_slime_ingot",
+          "Count": 2
+        },
+        {
+          "id": "thermal:obsidian_glass",
+          "Count": 16
         }
       ],
       "commandrewards": []

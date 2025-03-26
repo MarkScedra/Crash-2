@@ -92,8 +92,8 @@
     "registry_name": "OFF",
     "mod_name": true
   },
-  "gravestone": {
-    "grave": true
+  "corpse": {
+    "corpse": true
   },
   "cookingforblockheads": {
     "fridge": true,

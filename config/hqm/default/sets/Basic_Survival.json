@@ -8,7 +8,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "In order to get water more consistently you will need to use the Centrifugal Separator you will get a little bit of water while supplying it with power and saplings or leaves. Please be careful and don\u0027t use up all of your saplings!",
+        "text": "Another way to get water is to drop some saplings or leaves into the Centrifugal Separator. It will give you a bit of water, about 1/10th of a bucket. Remember, you can power your machines with the flux capacitor from your emergency supply chest. MAKE SURE YOU DO NOT USE UP ALL OF YOUR SAPLINGS.",
         "isTranslationKey": false
       },
       "x": 139,
@@ -161,8 +161,8 @@
         "text": "In case case of crash landing, you were equipped with a basic survival package:\n- 16 Shotgun shells\n- Saplings\n- Fertilizer\n- Dried nutrient blocks\nNote: Choose this path if you want a challenge. Don\u0027t expect to stay alive. Completing this quest disables the easy route quest.",
         "isTranslationKey": false
       },
-      "x": 16,
-      "y": 129,
+      "x": 15,
+      "y": 132,
       "icon": {
         "id": "minecraft:skeleton_skull",
         "Count": 1
@@ -260,7 +260,7 @@
         "text": "With a furnace up, you can now take your next step. Look by the port engine, the one not currently on fire. Apparently the water reclamation leaked a little and has turned some of the dust to clay. Dig it up and make a crucible. Stick a torch under that and not only can you melt cobble to lava but you can smelt ore dust to ingots, if you provide it with a faucet and a casting table or basin.",
         "isTranslationKey": false
       },
-      "x": 158,
+      "x": 148,
       "y": 102,
       "icon": {
         "id": "exdeorum:unfired_porcelain_crucible",
@@ -334,11 +334,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Now that you are stable and able to survive somewhat comfortably, Its time to start planning on your future.\nYou can melt some scraps found on the cities to make some plastic sheets.",
+        "text": "Now that you are stable and able to live somewhat comfortably, it\u0027s time to look beyond immediate survival and start planning for your future. For true industrialization, you will need plastic and circuit bords. To start off, you can melt plastic scraps from the cities into plastic sheets.",
         "isTranslationKey": false
       },
-      "x": 250,
-      "y": 132,
+      "x": 249,
+      "y": 133,
       "icon": {
         "id": "industrialforegoing:plastic",
         "Count": 1
@@ -367,23 +367,18 @@
         }
       ],
       "prerequisites": [
-        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3"
+        "3ffa13cb-b198-4e83-bab7-676d08834311"
       ],
       "optionlinks": [],
-      "reward": [
+      "reward": [],
+      "rewardchoice": [
         {
           "id": "minecraft:iron_ore",
-          "Count": 16
-        }
-      ],
-      "rewardchoice": [
+          "Count": 8
+        },
         {
           "id": "minecraft:redstone",
           "Count": 16
-        },
-        {
-          "id": "thermal:rubberwood_sapling",
-          "Count": 1
         }
       ],
       "commandrewards": []
@@ -436,7 +431,12 @@
         "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "minecraft:andesite",
+          "Count": 8
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -450,8 +450,8 @@
         "text": "Finally sustainable power!",
         "isTranslationKey": false
       },
-      "x": 300,
-      "y": 132,
+      "x": 298,
+      "y": 133,
       "icon": {
         "id": "industrialforegoing:mycelial_ender",
         "Count": 1
@@ -605,8 +605,8 @@
         "text": "In case case of crash landing, you were equipped with a deluxe survival package:\n- Supplies for a sync shell\n- 32 Shotgun shells\n- Saplings\n- Fertilizer\n- Choice of sandwich\nNote: Choose this for an easier experience. Completing this quest disables the hard route quest.",
         "isTranslationKey": false
       },
-      "x": 16,
-      "y": 76,
+      "x": 15,
+      "y": 72,
       "icon": {
         "id": "thermal:pbj_sandwich",
         "Count": 1
@@ -660,7 +660,7 @@
         },
         {
           "id": "thermal:phytogro",
-          "Count": 64
+          "Count": 4
         }
       ],
       "rewardchoice": [
@@ -880,6 +880,53 @@
       "commandrewards": []
     },
     {
+      "uuid": "3ffa13cb-b198-4e83-bab7-676d08834311",
+      "name": {
+        "text": "Pitiful Power",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "You\u0027ll need more power eventually, but making any kind of advanced machinery is difficult and often requires circuit boards. However, you can set up a basic source of power with the same fuel as a furnace.",
+        "isTranslationKey": false
+      },
+      "x": 218,
+      "y": 102,
+      "icon": {
+        "id": "industrialforegoing:pitiful_generator",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "A pitiful generator can be powered with furnace fuel, charcoal or coal blocks are a very effective power source. It\u0027s slow, and you should upgrade to something better as soon as possible, but it will do for now.",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "industrialforegoing:pitiful_generator",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "thermal:rubberwood_sapling",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "496abe96-0a4d-47e9-9e30-e87ea63d3888",
       "name": {
         "text": "Old Soul",
@@ -955,7 +1002,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Dirty water may help you in a pinch however long term survival will require you to purify it. Smelting your dirty water bottle in a furnace will provide you with a purified water bottle.",
+        "text": "Dirty water may help you in a pinch, but for long term survival, you\u0027ll need to purify it. Fire should work nicely. Just drop the dirty water bottle into a furnace, apply some heat, and you\u0027ll get some clean, drinkable water.",
         "isTranslationKey": false
       },
       "x": 159,
@@ -1047,7 +1094,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Placing leaves into a crucible will melt them down into water!",
+        "text": "Your new crucible can turn leaves into small amounts of water. It works like your Centrifugal Separator, but you only need a torch to power it. It\u0027s slow, but it makes investing in some shears early a good idea.",
         "isTranslationKey": false
       },
       "x": 195,
@@ -1079,10 +1126,6 @@
       ],
       "optionlinks": [],
       "reward": [
-        {
-          "id": "minecraft:bucket",
-          "Count": 1
-        },
         {
           "id": "minecraft:potion",
           "Count": 1,
@@ -1295,7 +1338,7 @@
         "text": "As hot as it is here, it isn\u0027t nearly hot enough to cook food. For that, you will need a furnace. Sieve dirt for stones, use the stones to make cobblestone, from that comes a slab furnace. \nIf you want to sift faster, you can place sieves next to one another, allowing up to 25 sieves to be used at once. Alternatively, a compressed sieve takes up just one block and can sift compressed dust with a slight reduction in output.",
         "isTranslationKey": false
       },
-      "x": 118,
+      "x": 115,
       "y": 102,
       "icon": {
         "id": "slabmachines:furnace_slab",
@@ -1348,10 +1391,10 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Thankfully this dust is chock full of metal shards. You shouldve noticed youve gathered chunks of metal when sifting. Combine them into an ore and smelt them in a furnace",
+        "text": "What this planet lacks in water, it makes up for in metals. If you spend some time sifting the dust, you can make serious progress towards some infrastructure. ",
         "isTranslationKey": false
       },
-      "x": 200,
+      "x": 182,
       "y": 102,
       "icon": {
         "id": "minecraft:iron_ingot",
@@ -1427,11 +1470,6 @@
           "Count": 1
         },
         {
-          "id": "ad_astra:tier_1_rover",
-          "Count": 1,
-          "tag": "{}"
-        },
-        {
           "id": "mekanism:basic_energy_cube",
           "Count": 1,
           "tag": "{mekData:{EnergyContainers:[{Container:0b,stored:\"4000000\"}]}}"
@@ -1496,11 +1534,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "You may need to move fluids, energy, and items. Lets set up some pipe work.",
+        "text": "For further industrialization, you\u0027ll need to move items, fluids, and energy. Time to set up the plumbing.",
         "isTranslationKey": false
       },
-      "x": 250,
-      "y": 82,
+      "x": 248,
+      "y": 72,
       "icon": {
         "id": "pipez:item_pipe",
         "Count": 1
@@ -1531,7 +1569,7 @@
         }
       ],
       "prerequisites": [
-        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3"
+        "3ffa13cb-b198-4e83-bab7-676d08834311"
       ],
       "optionlinks": [],
       "reward": [
@@ -1568,7 +1606,7 @@
       "icon": {
         "id": "tconstruct:mattock",
         "Count": 1,
-        "tag": "{tic_materials:[\"tconstruct:bone\",\"tconstruct:wood#oak\",\"tconstruct:bone\"],tic_modifiers:[{level:2,name:\"tconstruct:pierce\"},{level:1,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:tilling\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.1f,\"tconstruct:durability\":1.25f,\"tconstruct:mining_speed\":1.1f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":4.125f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":125.0f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":3.8500001f},tic_volatile_data:{abilities:1,upgrades:3}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:bone\",\"tconstruct:wood#oak\",\"tconstruct:bone\"],tic_modifiers:[{level:2,name:\"tconstruct:pierce\"},{level:1,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:tilling\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.1f,\"tconstruct:durability\":1.25f,\"tconstruct:mining_speed\":1.1f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":4.125f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":125.0f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":3.8500001f},tic_volatile_data:{abilities:1,upgrades:3}}"
       },
       "tasks": [
         {
@@ -1699,8 +1737,8 @@
         "text": "Seems like this planet it\u0027s full of oil!\nWith the Gas Lift and some pressure, you can pump up Oil from the dust deeps.\nYou can use the oil to generate energy with the Compression Dynamo, but later you will need a Refinery to make plastic and most efficient fuels.",
         "isTranslationKey": false
       },
-      "x": 300,
-      "y": 82,
+      "x": 298,
+      "y": 72,
       "icon": {
         "id": "thermal:dynamo_compression",
         "Count": 1

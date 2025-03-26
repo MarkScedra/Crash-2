@@ -1,10 +1,14 @@
-Hello and welcome to the Crash Landing remake! 
+Hello and welcome, I am IMPA, or to be more precise, Intelligent Multi-Purpose Assistant. I am here to aid and guide you in surviving on this hot, dusty planet. The good news is that you seem to have survied the crash landing fine. The bad news is that the shuttle most definitely did not. You are stuck here for the forseeable future. Speaking of which, you might want to get started on setting up camp. Gather your supplies from the wreck, and then see about finding some water. It is mighty dry out here.
 
-We've done our best to make this pack as faithful to the original as possible!
+Lead Developers:
+  MarkSDR
+  Nagasakii
 
-Developers
-MarkSDR
-Nagasakii
-Mei-Nanita
-Lobo_um_louco
-Kilometers
+Contributers:
+  Mei-Nanita
+  Lobo_um_louco
+  Kilometers
+  Pawjwp
+
+Original Developer:
+  Iskandar
