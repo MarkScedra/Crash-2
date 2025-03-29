@@ -1,0 +1,86 @@
+# Config version is auto-generated
+# DO NOT CHANGE
+configVersion = 2
+
+[stackables]
+	# Simple toggle for the mod! Set to false to disable.
+	modEnabled = true
+	# Whether to allow potions to stack.
+	potions = true
+	# Maximum stack size for potions.
+	potionCount = 16
+	# Whether to allow splash potions to stack.
+	splashPotions = true
+	# Maximum stack size for splash potions.
+	splashPotionCount = 16
+	# The delay/cooldown to add to throwing splash potions in game ticks.
+	splashPotionDelay = 0
+	# Whether to allow soups to stack.
+	soups = true
+	# Maximum stack size for soups.
+	soupCount = 16
+	# Whether to allow enchanted books to stack.
+	enchantedBooks = true
+	# Maximum stack size for enchanted books.
+	enchantedBookCount = 16
+	# Whether to allow full buckets to stack.
+	buckets = true
+	# Maximum stack size for full buckets.
+	bucketCount = 16
+	# Whether to allow boats to stack.
+	boats = true
+	# Maximum stack size for boats.
+	boatCount = 64
+	# Whether to allow minecarts to stack.
+	minecarts = true
+	# Maximum stack size for minecarts.
+	minecartCount = 64
+	# Whether to allow beds to stack.
+	beds = true
+	# Maximum stack size for beds.
+	bedCount = 64
+	# Whether to allow music discs to stack.
+	discs = true
+	# Maximum stack size for music discs.
+	discCount = 16
+	# Whether to allow instruments (i.e. goat horns) to stack.
+	instruments = true
+	# Maximum stack size for instruments (i.e. goat horns).
+	instrumentCount = 16
+	# Whether to allow banner patterns to stack.
+	patterns = true
+	# Maximum stack size for banner patterns.
+	patternCount = 16
+	# Whether to allow horse equipments (i.e. saddles and armor) to stack.
+	horseEquipments = true
+	# Maximum stack size for horse equipment (i.e. saddles and armor).
+	horseEquipmentCount = 16
+	# Whether to allow cakes to stack.
+	cakes = true
+	# Maximum stack size for cakes.
+	cakeCount = 16
+	# Whether to allow totems to stack.
+	totems = true
+	# Maximum stack size for totems.
+	totemCount = 16
+	# Whether to allow decorated pots to stack.
+	decoratedPots = true
+	# Maximum stack size for decorated pots.
+	decoratedPotCount = 64
+	# Maximum stack size for empty buckets.
+	emptyBucketCount = 16
+	# Maximum stack size for armor stands.
+	armorStandCount = 16
+	# Maximum stack size for banners.
+	bannerCount = 16
+	# Maximum stack size for signs.
+	signCount = 16
+	# Maximum stack size for throwables (i.e. snowballs and chicken eggs).
+	throwableCount = 16
+	# Maximum stack size for ender pearls.
+	enderPearlCount = 16
+	# Maximum stack size for drinkables (i.e. honey bottles and milk buckets).
+	drinkableCount = 16
+	# Maximum stack size for signed books.
+	signedBookCount = 16
+
