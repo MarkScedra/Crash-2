@@ -4,7 +4,7 @@ def toId:
     ascii_downcase;
 
 def mapText(id):
-    if .isTranslationKey == false then {"text":(id), "isTranslationKey":true} else empty end;
+    if . != null then {"text":(id), "isTranslationKey":true} else empty end;
 
 ("hqm."+(.name|toId)) as $set |
 .description |= mapText($set+".description") |
