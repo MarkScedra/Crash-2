@@ -4,11 +4,11 @@
     {
       "uuid": "bd94913e-de45-4d72-918e-3f65424e6038",
       "name": {
-        "text": "Ocelot",
+        "text": "hqm.creating_life.ocelot.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "For those who prefer felines over canines. Will keep creepers away.",
+        "text": "hqm.creating_life.ocelot.description",
         "isTranslationKey": true
       },
       "x": 94,
@@ -26,7 +26,7 @@
         {
           "type": "hardcorequesting:consume_qds",
           "longDescription": {
-            "text": "Will need to be tamed upon spawning. I recommend spawning in an inclosed room as ocelots run away if given a chance. Not responsible for cats sitting on chests.",
+            "text": "hqm.creating_life.ocelot.task.0.long_description",
             "isTranslationKey": true
           },
           "items": [
@@ -68,11 +68,11 @@
     {
       "uuid": "55f6de4b-466a-4539-996d-0aea6dd6dcfc",
       "name": {
-        "text": "Wolf",
+        "text": "hqm.creating_life.wolf.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "Companionship and protection on a dangerous planet.\n\nAnd for protection of your Wolf, you can use wolf armor! And you can enchant it!",
+        "text": "hqm.creating_life.wolf.description",
         "isTranslationKey": true
       },
       "x": 67,
@@ -136,11 +136,11 @@
     {
       "uuid": "a50f0511-f4fd-46e8-bf12-7eed5b96034b",
       "name": {
-        "text": "Cow",
+        "text": "hqm.creating_life.cow.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "Steak, leather, and milk. What more could you want?",
+        "text": "hqm.creating_life.cow.description",
         "isTranslationKey": true
       },
       "x": 27,
@@ -158,7 +158,7 @@
         {
           "type": "hardcorequesting:consume_qds",
           "longDescription": {
-            "text": "Ancient spores can be used to turn a cow into a mooshroom.",
+            "text": "hqm.creating_life.cow.task.0.long_description",
             "isTranslationKey": true
           },
           "items": [
@@ -200,12 +200,12 @@
     {
       "uuid": "95ace70c-5119-4b11-bfe0-b420a54041a3",
       "name": {
-        "text": "Villager",
+        "text": "hqm.creating_life.villager.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "Dumb as rocks, but could be useful for trading and perhaps other reasons.",
-        "isTranslationKey": false
+        "text": "hqm.creating_life.villager.description",
+        "isTranslationKey": true
       },
       "x": 40,
       "y": 73,
@@ -222,11 +222,11 @@
         {
           "type": "hardcorequesting:consume_qds",
           "description": {
-            "text": "Huh? Eh.",
+            "text": "hqm.creating_life.villager.task.0.description",
             "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Will need a secure place to live, somewhere safe from zombies.",
+            "text": "hqm.creating_life.villager.task.0.long_description",
             "isTranslationKey": true
           },
           "items": [
@@ -266,11 +266,11 @@
     {
       "uuid": "fd4a2bc1-d03d-4c12-8054-7ecd345199a7",
       "name": {
-        "text": "Bee",
+        "text": "hqm.creating_life.bee.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "Do you want it, honey?",
+        "text": "hqm.creating_life.bee.description",
         "isTranslationKey": true
       },
       "x": 81,
@@ -288,7 +288,7 @@
         {
           "type": "hardcorequesting:consume_qds",
           "longDescription": {
-            "text": "You will need flowers for the bees to pollinate and a beehive for they to make honey!",
+            "text": "hqm.creating_life.bee.task.0.long_description",
             "isTranslationKey": true
           },
           "items": [
@@ -346,11 +346,11 @@
     {
       "uuid": "96288548-cdd7-480e-a9b5-e332af60bd4c",
       "name": {
-        "text": "Pig",
+        "text": "hqm.creating_life.pig.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "Where would the world be without bacon?",
+        "text": "hqm.creating_life.pig.description",
         "isTranslationKey": true
       },
       "x": 81,
@@ -404,11 +404,11 @@
     {
       "uuid": "bdc629a6-0d10-4b8d-b7c8-991e61be3607",
       "name": {
-        "text": "Gold Armor",
+        "text": "hqm.creating_life.gold_armor.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "Shiny shiny!",
+        "text": "hqm.creating_life.gold_armor.description",
         "isTranslationKey": true
       },
       "x": 140,
@@ -453,11 +453,11 @@
     {
       "uuid": "62dc1b20-09f0-46c5-96a7-6565442f1916",
       "name": {
-        "text": "Fishes and Squids",
+        "text": "hqm.creating_life.fishes_and_squids.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "In my mind squids are fish, ok? Don\u0027t judge me.",
+        "text": "hqm.creating_life.fishes_and_squids.description",
         "isTranslationKey": true
       },
       "x": 67,
@@ -475,7 +475,7 @@
         {
           "type": "hardcorequesting:consume_qds",
           "longDescription": {
-            "text": "Obviously, you\u0027ll need plenty of water for these creatures.",
+            "text": "hqm.creating_life.fishes_and_squids.task.0.long_description",
             "isTranslationKey": true
           },
           "items": [
@@ -545,11 +545,11 @@
     {
       "uuid": "ae61c85d-2154-435e-91cc-78218ffe1dd6",
       "name": {
-        "text": "1 Up!",
+        "text": "hqm.creating_life.1_up.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "You only have one life. You die and that is that. Or is it? With a bit of work and some effort you can give yourself a second chance if the worst happens. Or even a third or fourth...  ",
+        "text": "hqm.creating_life.1_up.description",
         "isTranslationKey": true
       },
       "x": 108,
@@ -562,11 +562,11 @@
         {
           "type": "hardcorequesting:craft",
           "description": {
-            "text": "Shell Construction",
+            "text": "hqm.creating_life.1_up.task.0.description",
             "isTranslationKey": true
           },
           "longDescription": {
-            "text": "A Shell Constructor is your first step to life after death. Once built, it will need power to function. It will also need a sample of your DNA, right click with an empty hand will do the trick. Be careful though, this will hurt a little.",
+            "text": "hqm.creating_life.1_up.task.0.long_description",
             "isTranslationKey": true
           },
           "items": [
@@ -581,11 +581,11 @@
         {
           "type": "hardcorequesting:craft",
           "description": {
-            "text": "Shell Storage",
+            "text": "hqm.creating_life.1_up.task.1.description",
             "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Once you have created a new Shell you need some place to store it for future use. While you can leave it in the Constructor until you die, that leaves you vulnerable until the Constructor builds you a new Shell. Shell Storage is a better solution. Simply supply it with a redstone signal of some sort, a lever works, and it is ready to use. Walk in and you can Sync to any available Shells. Note, if a Shell Storage loses its redstone signal the Shell it is storing will be lost, along with its inventory. ",
+            "text": "hqm.creating_life.1_up.task.1.long_description",
             "isTranslationKey": true
           },
           "items": [
@@ -619,12 +619,12 @@
     {
       "uuid": "9bd86335-0ad9-4d2d-8989-d258dd0cbc30",
       "name": {
-        "text": "Lonely?",
+        "text": "hqm.creating_life.lonely.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "You may have noticed a complete lack of native life on this planet, outside of the hostile monsters. Luckily I have a solution. If provided some mob essence and the correct ingredients I can create the animals you want. These quests are repeatable.",
-        "isTranslationKey": false
+        "text": "hqm.creating_life.lonely.description",
+        "isTranslationKey": true
       },
       "x": 67,
       "y": 18,
@@ -641,7 +641,7 @@
         {
           "type": "hardcorequesting:consume_qds",
           "description": {
-            "text": "Chicken or the Egg?",
+            "text": "hqm.creating_life.lonely.task.0.description",
             "isTranslationKey": true
           },
           "items": [
@@ -681,11 +681,11 @@
     {
       "uuid": "15afcb0c-d316-42a7-a45b-d229da161b82",
       "name": {
-        "text": "Alternative Horses (?)",
+        "text": "hqm.creating_life.alternative_horses.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "Choose your starter!\n(except that you\u0027ve already choose the horse)",
+        "text": "hqm.creating_life.alternative_horses.description",
         "isTranslationKey": true
       },
       "x": 26,
@@ -762,11 +762,11 @@
     {
       "uuid": "e79fc7f6-fbfd-4931-89e4-e6583593b81e",
       "name": {
-        "text": "Water creatures!",
+        "text": "hqm.creating_life.water_creatures.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "For you that preffers the water type (excludings fishes)\n",
+        "text": "hqm.creating_life.water_creatures.description",
         "isTranslationKey": true
       },
       "x": 95,
@@ -784,7 +784,7 @@
         {
           "type": "hardcorequesting:consume_qds",
           "longDescription": {
-            "text": "Obviously, you\u0027ll need plenty of water for these creatures.",
+            "text": "hqm.creating_life.water_creatures.task.0.long_description",
             "isTranslationKey": true
           },
           "items": [
@@ -847,11 +847,11 @@
     {
       "uuid": "c6241fa3-71d7-4e9d-9e44-54d301f5d89a",
       "name": {
-        "text": "Horse",
+        "text": "hqm.creating_life.horse.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "Primitive transport. Useful, I guess.",
+        "text": "hqm.creating_life.horse.description",
         "isTranslationKey": true
       },
       "x": 108,
@@ -869,7 +869,7 @@
         {
           "type": "hardcorequesting:consume_qds",
           "longDescription": {
-            "text": "Needs a bit of leather for the saddle. Will still need to be tamed after spawning.",
+            "text": "hqm.creating_life.horse.task.0.long_description",
             "isTranslationKey": true
           },
           "items": [
@@ -923,11 +923,11 @@
     {
       "uuid": "5c566700-4420-4510-9e02-f122a32e5ade",
       "name": {
-        "text": "Fox",
+        "text": "hqm.creating_life.fox.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "For those that are distinct enough to not want a dog or a cat.",
+        "text": "hqm.creating_life.fox.description",
         "isTranslationKey": true
       },
       "x": 53,
@@ -983,11 +983,11 @@
     {
       "uuid": "93190f9f-d50f-4f4c-8d4a-b53c44d9c73d",
       "name": {
-        "text": "Rabbit",
+        "text": "hqm.creating_life.rabbit.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "Will run. Sometimes gives you luck!\n",
+        "text": "hqm.creating_life.rabbit.description",
         "isTranslationKey": true
       },
       "x": 108,
@@ -1043,11 +1043,11 @@
     {
       "uuid": "d054a73c-57cb-442a-8c18-9b8c068f076b",
       "name": {
-        "text": "Leather Armor",
+        "text": "hqm.creating_life.leather_armor.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "For your horse, of course.",
+        "text": "hqm.creating_life.leather_armor.description",
         "isTranslationKey": true
       },
       "x": 140,
@@ -1092,12 +1092,12 @@
     {
       "uuid": "b36c1e45-681d-47e3-aee4-fa1b3d58a34b",
       "name": {
-        "text": "Sheep",
-        "isTranslationKey": false
+        "text": "hqm.creating_life.sheep.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Wool and, if you are desperate for food, mutton.",
-        "isTranslationKey": false
+        "text": "hqm.creating_life.sheep.description",
+        "isTranslationKey": true
       },
       "x": 54,
       "y": 49,
@@ -1114,7 +1114,7 @@
         {
           "type": "hardcorequesting:consume_qds",
           "longDescription": {
-            "text": "Any color of wool will work. Be sure to give the sheep some grass so that its wool will grow back.",
+            "text": "hqm.creating_life.sheep.task.0.long_description",
             "isTranslationKey": true
           },
           "items": [
@@ -1156,11 +1156,11 @@
     {
       "uuid": "5dbb7f17-0daa-41ce-a6c9-32dd182e40c9",
       "name": {
-        "text": "Diamond Armor",
+        "text": "hqm.creating_life.diamond_armor.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "Bling for your horse. Excessive, maybe?",
+        "text": "hqm.creating_life.diamond_armor.description",
         "isTranslationKey": true
       },
       "x": 140,
@@ -1205,11 +1205,11 @@
     {
       "uuid": "51e14ea5-e542-48ef-a694-56da9358a442",
       "name": {
-        "text": "Iron Armor",
+        "text": "hqm.creating_life.iron_armor.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "Iron horse!",
+        "text": "hqm.creating_life.iron_armor.description",
         "isTranslationKey": true
       },
       "x": 140,
@@ -1254,11 +1254,11 @@
     {
       "uuid": "e7c0f586-ef15-48ce-af2c-4084b15a40f1",
       "name": {
-        "text": "Parrot",
+        "text": "hqm.creating_life.parrot.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "Cool guys. They dance.",
+        "text": "hqm.creating_life.parrot.description",
         "isTranslationKey": true
       },
       "x": 39,

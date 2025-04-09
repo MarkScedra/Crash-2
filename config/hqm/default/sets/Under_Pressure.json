@@ -4,12 +4,12 @@
     {
       "uuid": "0426c2a9-95cc-49a7-a6c6-742dad08b167",
       "name": {
-        "text": "Tools of the trade",
-        "isTranslationKey": false
+        "text": "hqm.under_pressure.tools_of_the_trade.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Pnematiccraft has alot of useful tools and gadgets. While these quests serve as a rough guide. I recommend checking out the pneumaticcraft wiki.\nOh, and using the charger, you now can keep your minigun working!",
-        "isTranslationKey": false
+        "text": "hqm.under_pressure.tools_of_the_trade.description",
+        "isTranslationKey": true
       },
       "x": 105,
       "y": 183,
@@ -21,12 +21,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Charging",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.tools_of_the_trade.task.0.description",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "A lot of Pneumaticcraft gadgets require charging with compressed air before they can be used. Do realize the charging station balances air pressure between the item being charged and the rest of the system. If the tool has more bars of pressure than the rest of the air pressure network it will actually discharge. ",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.tools_of_the_trade.task.0.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -40,12 +40,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Pneumatic Wrench",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.tools_of_the_trade.task.1.description",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Allows the rotation of placed Pneumaticcraft blocks as well as a few other useful functions. Must be charged in a charging station.",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.tools_of_the_trade.task.1.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -60,12 +60,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "GPS Tool",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.tools_of_the_trade.task.2.description",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Right click on a block to set the GPS tool to those coordinates. Right click in the air to modify set coodinates. DO NOT right click in the air BEFORE setting the GPS Tool to any coordinates, the game WILL crash. The GPS Tool is used to set a location for several other gadgets. Does not need charging.",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.tools_of_the_trade.task.2.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -79,12 +79,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Air Cannon",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.tools_of_the_trade.task.3.description",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "The Air Cannon will fire an item to a specific set of coordinates. Placing a GPS Tool with the proper location will lock the cannon on target, the GPS Tool can then be removed. By default a redstone signal, from a lever for instance, will cause the Cannon to fire. It could be useful for long range item transport or, with the proper upgrade, as a weapon.",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.tools_of_the_trade.task.3.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -120,12 +120,12 @@
     {
       "uuid": "8fc9c1ac-631c-4c2c-aabc-bb7eeb415c76",
       "name": {
-        "text": "Even more pressure",
-        "isTranslationKey": false
+        "text": "hqm.under_pressure.even_more_pressure.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "You may have noticed some machines require even more pressure than an air compressor provides. Well heres the answer.",
-        "isTranslationKey": false
+        "text": "hqm.under_pressure.even_more_pressure.description",
+        "isTranslationKey": true
       },
       "x": 143,
       "y": 160,
@@ -137,8 +137,8 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Advanced Compressor",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.even_more_pressure.task.0.description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -152,8 +152,8 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Advanced Pressure Tube",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.even_more_pressure.task.1.description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -198,12 +198,12 @@
     {
       "uuid": "9b956bee-4f0e-4a17-8e06-d895c78c171c",
       "name": {
-        "text": "Upgrades",
-        "isTranslationKey": false
+        "text": "hqm.under_pressure.upgrades.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Alot of pneumaticcraft machines can have upgrades installed.",
-        "isTranslationKey": false
+        "text": "hqm.under_pressure.upgrades.description",
+        "isTranslationKey": true
       },
       "x": 187,
       "y": 131,
@@ -264,12 +264,12 @@
     {
       "uuid": "ff99b94a-a12d-4b8f-9ea2-22dc262d4de1",
       "name": {
-        "text": "Refining Oil",
-        "isTranslationKey": false
+        "text": "hqm.under_pressure.refining_oil.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Now that you can pump all of the rich oil, it\u0027s time to refine it to make plastic and fuel for your rover and generator.\n\nInstructions:\nPut the 4 refinery outputs one above the other and besides the refinery controler. The resistive heater stays right aside the controller, and it need power to work (at least 100rf/t). ",
-        "isTranslationKey": false
+        "text": "hqm.under_pressure.refining_oil.description",
+        "isTranslationKey": true
       },
       "x": 232,
       "y": 21,
@@ -363,12 +363,12 @@
     {
       "uuid": "0d52820c-7a62-4947-b742-2253063f2b13",
       "name": {
-        "text": "Etching",
-        "isTranslationKey": false
+        "text": "hqm.under_pressure.etching.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Now that you have an empty PCB you need to make an etching tank",
-        "isTranslationKey": false
+        "text": "hqm.under_pressure.etching.description",
+        "isTranslationKey": true
       },
       "x": 106,
       "y": 131,
@@ -380,8 +380,8 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Etching tank",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.etching.task.0.description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -395,8 +395,8 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Etching fluid",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.etching.task.1.description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -410,8 +410,8 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Unassembled",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.etching.task.2.description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -425,8 +425,8 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Printed pcb",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.etching.task.3.description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -458,12 +458,12 @@
     {
       "uuid": "6643e8c9-2e0b-4520-830c-1086a04489c4",
       "name": {
-        "text": "Blueprint for success",
-        "isTranslationKey": false
+        "text": "hqm.under_pressure.blueprint_for_success.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The next step to make pcbs will have you making a blueprint.",
-        "isTranslationKey": false
+        "text": "hqm.under_pressure.blueprint_for_success.description",
+        "isTranslationKey": true
       },
       "x": 141,
       "y": 102,
@@ -522,12 +522,12 @@
     {
       "uuid": "7ddff832-1aee-4299-bb6e-570e437fc74a",
       "name": {
-        "text": "Assembling Circuit Boards",
-        "isTranslationKey": false
+        "text": "hqm.under_pressure.assembling_circuit_boards.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Making a pcb by hand is laborius task, not to mention time consuming. ",
-        "isTranslationKey": false
+        "text": "hqm.under_pressure.assembling_circuit_boards.description",
+        "isTranslationKey": true
       },
       "x": 187,
       "y": 21,
@@ -539,12 +539,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Assembly line",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.assembling_circuit_boards.task.0.description",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Layout the machines in a square. The two io units at the top left and right. The laser goes on the bottom left and to the right. Place a chest on the north side of either io unit.",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.assembling_circuit_boards.task.0.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -604,12 +604,12 @@
     {
       "uuid": "3e4732d9-29f9-493b-83fb-96af85b5390d",
       "name": {
-        "text": "Air chamber",
-        "isTranslationKey": false
+        "text": "hqm.under_pressure.air_chamber.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "So, now that we are generating air, what should you make? You can check JEI for the recipies.",
-        "isTranslationKey": false
+        "text": "hqm.under_pressure.air_chamber.description",
+        "isTranslationKey": true
       },
       "x": 106,
       "y": 76,
@@ -621,12 +621,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Building it up",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.air_chamber.task.0.description",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Youll start with a 3x3 pressure chamber. You will need 25 pressure chamber blocks in total. Pressure walls or windows will work. You will alos need a pressure chamber valve. Simply build a 3x3 cube leaving the center block open. The pressure chamber valve MUST connect to the air block in the center.",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.air_chamber.task.0.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -652,12 +652,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Hard work pays off",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.air_chamber.task.1.description",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "To use your pressure chamber, Break one of the center blocks and toss whatever you want to proccess into the middle and replace the block. You will lose some air doing this however later on you can stop this.",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.air_chamber.task.1.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -706,12 +706,12 @@
     {
       "uuid": "f240d7c3-3352-4648-9fd2-d545cb85aef8",
       "name": {
-        "text": "Exposure",
-        "isTranslationKey": false
+        "text": "hqm.under_pressure.exposure.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "No wwe have gotten this far, we can get started on the foundation of all technological progression. The PCB. To start, you simply need to toss a compressed iron and place a green plastic in the pressure chamber.",
-        "isTranslationKey": false
+        "text": "hqm.under_pressure.exposure.description",
+        "isTranslationKey": true
       },
       "x": 106,
       "y": 102,
@@ -723,8 +723,8 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Step 1",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.exposure.task.0.description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -738,12 +738,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Step 2",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.exposure.task.1.description",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Next up, toss the empty PCB into a UV light box. Then you simply have to wait. While you can pull the PCB out before it fully processes, there is a chance it will fail the last step, the etching. If you don\u0027t like the long wait, you may wish to install a few speed upgrades in the light box.",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.exposure.task.1.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -780,12 +780,12 @@
     {
       "uuid": "794f0a0c-359a-442f-87a2-217b2aeae130",
       "name": {
-        "text": "Heating up",
-        "isTranslationKey": false
+        "text": "hqm.under_pressure.heating_up.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Now that you have compressed Iron you can start building your air chamber",
-        "isTranslationKey": false
+        "text": "hqm.under_pressure.heating_up.description",
+        "isTranslationKey": true
       },
       "x": 106,
       "y": 48,
@@ -797,8 +797,8 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Pressure Tube",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.heating_up.task.0.description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -812,12 +812,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Air compression",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.heating_up.task.1.description",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Compressed air is dangerous! Becareful not to overload the compressor with fuel otherwise you risk an explosion",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.heating_up.task.1.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -854,12 +854,12 @@
     {
       "uuid": "d7f59dff-62b2-426b-a5eb-a27f6bd4a4cb",
       "name": {
-        "text": "Exploding Iron",
-        "isTranslationKey": false
+        "text": "hqm.under_pressure.exploding_iron.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Now that youve stablized your self and created a foot hold on this planet its time to start working on the technology needed to survive.",
-        "isTranslationKey": false
+        "text": "hqm.under_pressure.exploding_iron.description",
+        "isTranslationKey": true
       },
       "x": 106,
       "y": 21,
@@ -871,12 +871,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Step 1",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.exploding_iron.task.0.description",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Gather your iron ingots",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.exploding_iron.task.0.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -891,12 +891,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Step 2",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.exploding_iron.task.1.description",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Next youll need some TNT. You should have some by now, You can get sand by using the hammer on cobble stone, turning it into gravel, hitting it again will turn it into sand.",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.exploding_iron.task.1.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -910,12 +910,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Step 3",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.exploding_iron.task.2.description",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "If I was you I would move away from your base before setting this up. You will need to dig a hole, throw your iron ingots into it, and ignite your tnt ontop of it. When the dust settles you should have some compressed iron. However due to the explosion some iron seems to have been destroyed.",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.exploding_iron.task.2.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -943,12 +943,12 @@
     {
       "uuid": "e8919b5b-fd58-4907-bcde-3d9e39bba7b7",
       "name": {
-        "text": "Measuring Pressure",
-        "isTranslationKey": false
+        "text": "hqm.under_pressure.measuring_pressure.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "A pressure gauge will help messure the amount of pressure inside of your air chamber. It will also emit a redstone single double of what it detects.",
-        "isTranslationKey": false
+        "text": "hqm.under_pressure.measuring_pressure.description",
+        "isTranslationKey": true
       },
       "x": 71,
       "y": 48,
@@ -960,8 +960,8 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Air Gauge",
-            "isTranslationKey": false
+            "text": "hqm.under_pressure.measuring_pressure.task.0.description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -984,12 +984,12 @@
     {
       "uuid": "c86b6b2b-d725-4e92-8635-06b915d4f234",
       "name": {
-        "text": "Losing Air",
-        "isTranslationKey": false
+        "text": "hqm.under_pressure.losing_air.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Having to break a block every time you want to put in or take out an item in the pressure chamber wastes air pressure.",
-        "isTranslationKey": false
+        "text": "hqm.under_pressure.losing_air.description",
+        "isTranslationKey": true
       },
       "x": 71,
       "y": 76,
@@ -1034,7 +1034,7 @@
   ],
   "reputationBar": [],
   "description": {
-    "text": "Pneumaticcraft is responsible for most of the technology on your ship. Guess its time for you to learn how to use it.",
-    "isTranslationKey": false
+    "text": "hqm.under_pressure.description",
+    "isTranslationKey": true
   }
 }

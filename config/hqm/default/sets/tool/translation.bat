@@ -5,7 +5,7 @@ PUSHD ..
 jq -s -f .\tool\hqm_gen_translation_keys.jq %FILES% > .\tool\en_us.json
 FOR %%i IN (%FILES%) DO (
     jq -f .\tool\hqm_replace_translation_keys.jq %%i > .\tool\%%i
-    REM COPY /Y .\tool\%%i %%i > NUL
+    COPY /Y .\tool\%%i %%i > NUL
     DEL .\tool\%%i
 )
 POPD
