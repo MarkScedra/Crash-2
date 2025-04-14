@@ -4,12 +4,12 @@
     {
       "uuid": "799cc1e8-bdff-4470-b5e1-b983ebfd6624",
       "name": {
-        "text": "Sapping the Saplings",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.sapping_the_saplings.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "In order to get water more consistently you will need to use the Centrifugal Separator you will get a little bit of water while supplying it with power and saplings. Please be careful and dont use up all of your saplings!",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.sapping_the_saplings.description",
+        "isTranslationKey": true
       },
       "x": 106,
       "y": 48,
@@ -21,8 +21,8 @@
         {
           "type": "hardcorequesting:consume_qds",
           "longDescription": {
-            "text": "You MUST use the QDS to hand in this task. Click select task, place the QDS, and right click it with the quest book. Placing the QDS next to the Centrifugal Separator with the output set to the appropriate side will work. ",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.sapping_the_saplings.task.0.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -55,12 +55,12 @@
     {
       "uuid": "68e49d0e-4d69-421a-98f6-878939a5cbc4",
       "name": {
-        "text": "Desperate Times...",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.desperate_times.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "You may have noticed the lack of food on this planet. Well, I have a temporary solution. You might not like it but given the only alternative is starving...",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.desperate_times.description",
+        "isTranslationKey": true
       },
       "x": 261,
       "y": 14,
@@ -72,12 +72,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Salt",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.desperate_times.task.0.description",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Salt can be obtained by sifting dust",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.desperate_times.task.0.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -92,12 +92,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Rotten Flesh",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.desperate_times.task.1.description",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Kill a few zombies to get some rotten flesh",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.desperate_times.task.1.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -112,12 +112,12 @@
         {
           "type": "hardcorequesting:craft",
           "description": {
-            "text": "Desperate Measures",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.desperate_times.task.2.description",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Combining 2 salt and 1 rotten flesh in any order in a crafting grid will make  1 zombie jerky",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.desperate_times.task.2.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -145,12 +145,12 @@
     {
       "uuid": "477e01c0-8641-4b6b-970f-7374b04f6a68",
       "name": {
-        "text": "The Hard Route ",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.the_hard_route.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Choose this path if you want a challenge. Expect to die alot. Note: Choosing this path will disable the easy route quest.",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.the_hard_route.description",
+        "isTranslationKey": true
       },
       "x": 171,
       "y": 54,
@@ -162,8 +162,8 @@
         {
           "type": "hardcorequesting:consume",
           "description": {
-            "text": "Grab some dust!",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.the_hard_route.task.0.description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -206,12 +206,12 @@
     {
       "uuid": "256dccbf-c539-4b55-9102-d14e06b3a74f",
       "name": {
-        "text": "Important pt.2",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.important_pt_2.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Obtaining Purified water",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.important_pt_2.description",
+        "isTranslationKey": true
       },
       "x": 18,
       "y": 42,
@@ -223,12 +223,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Purfied water bottles",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.important_pt_2.task.0.description",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "You can use a spout from create to automate the process of getting purified water.",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.important_pt_2.task.0.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -254,12 +254,12 @@
     {
       "uuid": "1db4c845-3db8-4e94-aa7d-ff88f75a45fd",
       "name": {
-        "text": "Hotter than a furance",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.hotter_than_a_furance.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "After setting up a furnace you can begin setting up for lava smelting!\n\nYou can craft a Porcelain Bucket, but i need to know that it can be buggy with the purified water.",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.hotter_than_a_furance.description",
+        "isTranslationKey": true
       },
       "x": 216,
       "y": 131,
@@ -271,8 +271,8 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Warming up",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.hotter_than_a_furance.task.0.description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -327,12 +327,12 @@
     {
       "uuid": "a06fbc3a-5b54-4b9a-8f91-6dd3cdd5181e",
       "name": {
-        "text": "End of an era",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.end_of_an_era.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Now that you are stable and able to survive somewhat comfortably, Its time to start planning on your future.\nYou can melt some scraps found on the cities to make some plastic sheets.",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.end_of_an_era.description",
+        "isTranslationKey": true
       },
       "x": 127,
       "y": 166,
@@ -344,8 +344,8 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Next tasks",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.end_of_an_era.task.0.description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -388,12 +388,12 @@
     {
       "uuid": "32852a9b-1b0c-4954-99c3-92501611c7d7",
       "name": {
-        "text": "Cooking Utensils",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.cooking_utensils.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Thankfully you wont be cooking from a furnace forever. Youll need to craft a few kitchen utensils for better food recipes.",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.cooking_utensils.description",
+        "isTranslationKey": true
       },
       "x": 261,
       "y": 41,
@@ -405,8 +405,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Make sure to vary your diet as eating to much of one item will make it give you less nutrition.",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.cooking_utensils.task.0.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -446,12 +446,12 @@
     {
       "uuid": "233f486d-f99b-4c35-babf-cbd631ee64a8",
       "name": {
-        "text": "Important information",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.important_information.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Regarding the sync shells",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.important_information.description",
+        "isTranslationKey": true
       },
       "x": 18,
       "y": 14,
@@ -463,12 +463,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Sync constructor",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.important_information.task.0.description",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "The shell constructor has been updated. \n\nIn order for you to properly use it you must first create a clone with the shell constructor and then use the shell storage to store your original body. \n\nMake sure your INVENTORY IS EMPTY otherwise you wont have your items.",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.important_information.task.0.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -482,12 +482,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Shell Storage",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.important_information.task.1.description",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "When using the shell storage make sure your inventory is empty! Otherwise you wont have your items untill you respawn.",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.important_information.task.1.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -513,12 +513,12 @@
     {
       "uuid": "39db6c50-b595-40f5-a952-3e4619c31764",
       "name": {
-        "text": "Power Underwhelming",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.power_underwhelming.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Finally sustainable power!",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.power_underwhelming.description",
+        "isTranslationKey": true
       },
       "x": 127,
       "y": 136,
@@ -530,8 +530,8 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Ender power!",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.power_underwhelming.task.0.description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -565,12 +565,12 @@
     {
       "uuid": "3c8b89b6-0ec3-4376-9e84-41cf0345e55d",
       "name": {
-        "text": "Killing time",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.killing_time.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Congrats on slaying those monsters",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.killing_time.description",
+        "isTranslationKey": true
       },
       "x": 59,
       "y": 16,
@@ -582,7 +582,7 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Dirty Deeds",
+            "text": "hqm.basic_survival.killing_time.task.0.description",
             "isTranslationKey": true
           },
           "items": [
@@ -598,7 +598,7 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Done Dirt Cheap",
+            "text": "hqm.basic_survival.killing_time.task.1.description",
             "isTranslationKey": true
           },
           "items": [
@@ -668,12 +668,12 @@
     {
       "uuid": "7ee731c2-da61-4aab-a5fa-864fc4b62277",
       "name": {
-        "text": "The Easy Route",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.the_easy_route.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "For an easier experience, this is the way. Note: Choosing this path disables the hard route quest.",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.the_easy_route.description",
+        "isTranslationKey": true
       },
       "x": 184,
       "y": 32,
@@ -685,8 +685,8 @@
         {
           "type": "hardcorequesting:consume",
           "description": {
-            "text": "Grab some dust!",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.the_easy_route.task.0.description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -739,12 +739,12 @@
     {
       "uuid": "0bdfc96b-6b5e-4f8f-932f-bda70b2114d7",
       "name": {
-        "text": "Monster Mash",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.monster_mash.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Is it just me or does this planet have a lot of undead hostiles. The lack of any life forms baffle me as to how endless they feel.",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.monster_mash.description",
+        "isTranslationKey": true
       },
       "x": 127,
       "y": 101,
@@ -756,11 +756,11 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Holding out for a hero...",
+            "text": "hqm.basic_survival.monster_mash.task.0.description",
             "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Because of some hqm limitations, you will have to get the mob drops!",
+            "text": "hqm.basic_survival.monster_mash.task.0.long_description",
             "isTranslationKey": true
           },
           "items": [
@@ -797,7 +797,7 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "...till the end of the night",
+            "text": "hqm.basic_survival.monster_mash.task.1.description",
             "isTranslationKey": true
           },
           "items": [
@@ -845,12 +845,12 @@
     {
       "uuid": "41cb1853-af1c-4cbd-b4ff-3d7781e6c90a",
       "name": {
-        "text": "Dirt to water!",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.dirt_to_water.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "If you havent noticed water is hard to find on this dry planet. If you get desperate enough you can mix your canteen with a dirt block to get some dirty water.",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.dirt_to_water.description",
+        "isTranslationKey": true
       },
       "x": 121,
       "y": 71,
@@ -863,7 +863,7 @@
         {
           "type": "hardcorequesting:consume",
           "description": {
-            "text": "Dirty dirt",
+            "text": "hqm.basic_survival.dirt_to_water.task.0.description",
             "isTranslationKey": true
           },
           "items": [
@@ -899,12 +899,12 @@
     {
       "uuid": "15ad672b-7b9c-4115-a4b3-403c70654a40",
       "name": {
-        "text": "Purifiying water",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.purifiying_water.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Dirty water may help you in a pinch however long term survival will require you to purify it. Smelting your dirty water bottle in a furnace will provide you with a purified water bottle.",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.purifiying_water.description",
+        "isTranslationKey": true
       },
       "x": 97,
       "y": 92,
@@ -949,12 +949,12 @@
     {
       "uuid": "77e20e8d-ef39-4fa7-a124-af08260c09b9",
       "name": {
-        "text": "Smelting leaves",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.smelting_leaves.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Placing leaves into a crucible will melt them down into water!",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.smelting_leaves.description",
+        "isTranslationKey": true
       },
       "x": 216,
       "y": 164,
@@ -966,8 +966,8 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Singular bucket o water",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.smelting_leaves.task.0.description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1006,12 +1006,12 @@
     {
       "uuid": "3f740b4d-65a3-42b9-85ea-bd8a54c1a3ea",
       "name": {
-        "text": "Ice Ice Baby",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.ice_ice_baby.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Trading in ten bottles of purified water should allow me to create you something strong.",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.ice_ice_baby.description",
+        "isTranslationKey": true
       },
       "x": 55,
       "y": 91,
@@ -1052,12 +1052,12 @@
     {
       "uuid": "db5a3dd3-fd42-4027-b9f3-72679b36d265",
       "name": {
-        "text": "Even More Desperate",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.even_more_desperate.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Well zombie jerky on its own proably isn\u0027t enough. If you are in direenough straits almost anything looks edible",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.even_more_desperate.description",
+        "isTranslationKey": true
       },
       "x": 287,
       "y": 14,
@@ -1069,12 +1069,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Eating worms",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.even_more_desperate.task.0.description",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Don\u0027t forget you can craft a frying pan out of bones. Don\u0027t ask me how that works. The silk worms come from hitting leaves with a crook. You can cook the wroms in a furnace, smoker, or frying pan.",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.even_more_desperate.task.0.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1102,12 +1102,12 @@
     {
       "uuid": "feb164b4-e0bf-48e0-aaec-b8bb1118c3b8",
       "name": {
-        "text": "Gathering Supplies",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.gathering_supplies.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Well, that is a mess. Grab what you can from the wreck, and watch out for that detached engine. The core has been breached and the fuel is leaking.",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.gathering_supplies.description",
+        "isTranslationKey": true
       },
       "x": 120,
       "y": 14,
@@ -1120,8 +1120,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Tasks of this type do not have to be handed in, having them in one\u0027s inventory is enough. However, you MUST have all the items at once. The water skin is used to ",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.gathering_supplies.task.0.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1160,12 +1160,12 @@
     {
       "uuid": "099d1358-0b11-49f0-aa78-43531cd739b7",
       "name": {
-        "text": "Firing it up!",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.firing_it_up.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "As hot as it is here, it isn\u0027t nearly hot enough to cook food. For that, you will need a furnace. Sieve dirt for stones, use the stones to make cobblestone, from that comes a slab furnace",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.firing_it_up.description",
+        "isTranslationKey": true
       },
       "x": 216,
       "y": 97,
@@ -1177,8 +1177,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "With eight slabs you can craft a slab furnace! All the functionality of a full furnace with lower costs.",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.firing_it_up.task.0.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1225,12 +1225,12 @@
     {
       "uuid": "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3",
       "name": {
-        "text": "Metal",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.metal.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Thankfully this dust is chock full of metal shards. You shouldve noticed youve gathered chunks of metal when sifting. Combine them into an ore and smelt them in a furnace",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.metal.description",
+        "isTranslationKey": true
       },
       "x": 175,
       "y": 155,
@@ -1323,12 +1323,12 @@
     {
       "uuid": "99089910-31d1-4e1c-8736-1c1790e912ee",
       "name": {
-        "text": "Stocking Eyes",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.stocking_eyes.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Ok, so zombie jerky and silk worms are horrible for long term food, however youre alive! Well sort of... heres another recipe",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.stocking_eyes.description",
+        "isTranslationKey": true
       },
       "x": 287,
       "y": 41,
@@ -1340,12 +1340,12 @@
         {
           "type": "hardcorequesting:craft",
           "description": {
-            "text": "Bad to the Bone",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.stocking_eyes.task.0.description",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Place 1 bone and a pot in any crafting grid to make 3 stock, While the stock it self is edible you can also use it to make other stews.",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.stocking_eyes.task.0.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1359,12 +1359,12 @@
         {
           "type": "hardcorequesting:craft",
           "description": {
-            "text": "Eye Can\u0027t Believe This!",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.stocking_eyes.task.1.description",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "With your stock you can combine it with a pot and spider eye for some spider eye soup.",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.stocking_eyes.task.1.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1393,12 +1393,12 @@
     {
       "uuid": "6cd42c29-0afd-49d5-b8ca-9c3c50a63970",
       "name": {
-        "text": "The Very Basics",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.the_very_basics.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Sifting dust will help you get bonemeal. With 1 dust and a bottle of water I can provide you with some basic starting items.",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.the_very_basics.description",
+        "isTranslationKey": true
       },
       "x": 137,
       "y": 47,
@@ -1410,11 +1410,11 @@
         {
           "type": "hardcorequesting:consume",
           "description": {
-            "text": "Creating Dirt",
+            "text": "hqm.basic_survival.the_very_basics.task.0.description",
             "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Make sure you plant something!",
+            "text": "hqm.basic_survival.the_very_basics.task.0.long_description",
             "isTranslationKey": true
           },
           "items": [
@@ -1466,12 +1466,12 @@
     {
       "uuid": "336ad751-3c3d-457d-b85c-e6d0bbe7b125",
       "name": {
-        "text": "Smoovin things around",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.smoovin_things_around.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "You may need to move fluids, energy, and items. Lets set up some pipe work.",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.smoovin_things_around.description",
+        "isTranslationKey": true
       },
       "x": 175,
       "y": 187,
@@ -1530,12 +1530,12 @@
     {
       "uuid": "b910ad01-be2f-4928-b33d-6a38353b8b9f",
       "name": {
-        "text": "Tools of the Trade",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.tools_of_the_trade.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "To survive out here, you will need some basic tools, a weapon, and some protection from attack.",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.tools_of_the_trade.description",
+        "isTranslationKey": true
       },
       "x": 185,
       "y": 79,
@@ -1548,8 +1548,8 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Tools",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.tools_of_the_trade.task.0.description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1588,8 +1588,8 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Weapons",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.tools_of_the_trade.task.1.description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1605,12 +1605,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Armor",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.tools_of_the_trade.task.2.description",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Careful! Armor will effect your temperature. Metal armor tends to be hotter during the day and colder at night. Leather and wood armor will add a little heat no matter the time. The best armors can help you stay cool in the heat and warm in the cold.",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.tools_of_the_trade.task.2.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1674,12 +1674,12 @@
     {
       "uuid": "3f4bca77-f975-4406-9e7b-1cbe559b3068",
       "name": {
-        "text": "Important pt.4",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.important_pt_4.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Temperature",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.important_pt_4.description",
+        "isTranslationKey": true
       },
       "x": 18,
       "y": 97,
@@ -1691,12 +1691,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Staying cool",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.important_pt_4.task.0.description",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Its highly recommended to craft string armor once you get enough string",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.important_pt_4.task.0.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1748,12 +1748,12 @@
     {
       "uuid": "d870404e-3382-4dc8-91ea-4db728f38060",
       "name": {
-        "text": "Oil from the deep dust",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.oil_from_the_deep_dust.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Seems like this planet it\u0027s full of oil!\nWith the Gas Lift and some pressure, you can pump up Oil from the dust deeps.\nYou can use the oil to generate energy with the Compression Dynamo, but later you will need a Refinery to make plastic and most efficient fuels.",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.oil_from_the_deep_dust.description",
+        "isTranslationKey": true
       },
       "x": 94,
       "y": 188,
@@ -1814,12 +1814,12 @@
     {
       "uuid": "76cfa1f2-c3a7-4369-bc3c-2838db6384ef",
       "name": {
-        "text": "Hungry hungry hippos",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.hungry_hungry_hippos.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Now that youve finally gotten a foot hold on this dusty planet, we still are in need of a food supply.",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.hungry_hungry_hippos.description",
+        "isTranslationKey": true
       },
       "x": 184,
       "y": 117,
@@ -1831,12 +1831,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Watering can",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.hungry_hungry_hippos.task.0.description",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "The watering can will allow you to speed up crop growth without the use of bonemeal. However it will consume water.",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.hungry_hungry_hippos.task.0.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1850,8 +1850,8 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Rice!",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.hungry_hungry_hippos.task.1.description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1873,8 +1873,8 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "A Seedy Place",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.hungry_hungry_hippos.task.2.description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1931,12 +1931,12 @@
     {
       "uuid": "67994482-4981-4cfd-9ca6-afde4340fb62",
       "name": {
-        "text": "Blending it up",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.blending_it_up.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Before you\u0027re able to get a smeltery up and running you will need to get invar. ",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.blending_it_up.description",
+        "isTranslationKey": true
       },
       "x": 251,
       "y": 116,
@@ -1948,12 +1948,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Milling",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.blending_it_up.task.0.description",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "In order to start making beginner alloys youll need to \"create\" a mill",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.blending_it_up.task.0.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1979,11 +1979,11 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Metal dust",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.blending_it_up.task.1.description",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "To get the Steel blend, you\u0027ll need the Mekanism Infuser. It\u0027s a pretty simples machine, and you\u0027ll need id later.",
+            "text": "hqm.basic_survival.blending_it_up.task.1.long_description",
             "isTranslationKey": true
           },
           "items": [
@@ -2016,8 +2016,8 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Better tools",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.blending_it_up.task.2.description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -2066,12 +2066,12 @@
     {
       "uuid": "d11bf9a7-a121-49f6-95e6-0081b559aaeb",
       "name": {
-        "text": "Important pt.3",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.important_pt_3.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "First night options",
-        "isTranslationKey": false
+        "text": "hqm.basic_survival.important_pt_3.description",
+        "isTranslationKey": true
       },
       "x": 18,
       "y": 70,
@@ -2083,12 +2083,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Trenches and walls",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.important_pt_3.task.0.description",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "You can play anyway you want however if you are having issues surviving your first night I suggest making a 2 block trench around your ship. Then use that dust to builda 2 block wall on the inside of the trench. Keeping you safe from everything besides spiders. To help deal with them make cobblestone walls and place on top of the wall.",
-            "isTranslationKey": false
+            "text": "hqm.basic_survival.important_pt_3.task.0.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {

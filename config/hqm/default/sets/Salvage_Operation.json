@@ -4,12 +4,12 @@
     {
       "uuid": "c477a1a1-782a-4fe8-9566-97dc4f9cff31",
       "name": {
-        "text": "Triple Play",
-        "isTranslationKey": false
+        "text": "hqm.salvage_operation.triple_play.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "An upgrade to the smeltery, it will double the number of ingots you get from ores and TRIPLE the amount you get from ore dust. Also, unlike the smeltery, it will also melt cobble into seared stone, allowing you to make as many more seared and scorched bricks as you need.",
-        "isTranslationKey": false
+        "text": "hqm.salvage_operation.triple_play.description",
+        "isTranslationKey": true
       },
       "x": 65,
       "y": 88,
@@ -21,7 +21,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "We are working on the tripling Scorched recipes, dont worry!",
+            "text": "hqm.salvage_operation.triple_play.task.0.long_description",
             "isTranslationKey": true
           },
           "items": [
@@ -65,12 +65,12 @@
     {
       "uuid": "059da201-0f0d-47ee-9bf0-416b63d26600",
       "name": {
-        "text": "Ore Multiplication",
-        "isTranslationKey": false
+        "text": "hqm.salvage_operation.ore_multiplication.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "You are going to need lots of iron to advance up the tech tree. A smeltery will help you get a good start by almost doubling the ingots you get out of ore. There is a small city around the shuttle. Perhaps a factory there contains the bricks we need?",
-        "isTranslationKey": false
+        "text": "hqm.salvage_operation.ore_multiplication.description",
+        "isTranslationKey": true
       },
       "x": 65,
       "y": 56,
@@ -82,12 +82,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Old School",
+            "text": "hqm.salvage_operation.ore_multiplication.task.0.description",
             "isTranslationKey": true
           },
           "longDescription": {
-            "text": "We are working on the cities, so for now, you can craft the bricks with grouth!",
-            "isTranslationKey": false
+            "text": "hqm.salvage_operation.ore_multiplication.task.0.long_description",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -148,12 +148,12 @@
     {
       "uuid": "7cd36511-ac8a-4a2a-89e6-9fa29cb33173",
       "name": {
-        "text": "Bigger Power",
-        "isTranslationKey": false
+        "text": "hqm.salvage_operation.bigger_power.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Need even more power? There is a solution to that. If you pipe water into a reactor it will output steam. That steam then can be used to turn a turbine, generating massive amounts of power. Of course, this isn\u0027t easy to set up. Even discounting having to hunt down the components, you will need a staggering amount of water to keep things running smoothly. Generating that water will take a significant amount of time and effort to set up, but it just might be worth it if you need power in vast amounts.",
-        "isTranslationKey": false
+        "text": "hqm.salvage_operation.bigger_power.description",
+        "isTranslationKey": true
       },
       "x": 65,
       "y": 152,
@@ -165,11 +165,11 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Turbine",
+            "text": "hqm.salvage_operation.bigger_power.task.0.description",
             "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Much like the reactor controller, the turbine controller cannot be fabricated from scratch but can be made by repairing any you find in the cities. ",
+            "text": "hqm.salvage_operation.bigger_power.task.0.long_description",
             "isTranslationKey": true
           },
           "items": [
@@ -251,12 +251,12 @@
     {
       "uuid": "cdac0984-204e-4fbc-b2cd-cea990ae0367",
       "name": {
-        "text": "Suitable Preparations",
-        "isTranslationKey": false
+        "text": "hqm.salvage_operation.suitable_preparations.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "You may have noticed that you can\u0027t craft everything you need to survive. Perhaps the city ruins scattered around contain the resources you need. One thing is certain, you\u0027ll need to prepare before venturing far from the shuttle.",
-        "isTranslationKey": false
+        "text": "hqm.salvage_operation.suitable_preparations.description",
+        "isTranslationKey": true
       },
       "x": 65,
       "y": 23,
@@ -269,7 +269,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "A melee weapon of some sort would be a wise idea and perhaps some armor as well. Also, make sure you fill that tank with water as much as you can before leaving and make sure you bring enough food and food variety as well. (Note: There\u0027s a city by the East of the shuttle. More risk breings greater reward)",
+            "text": "hqm.salvage_operation.suitable_preparations.task.0.long_description",
             "isTranslationKey": true
           },
           "items": [
@@ -354,12 +354,12 @@
     {
       "uuid": "26c1c152-15c4-476c-a27b-6f6caff2eff0",
       "name": {
-        "text": "Big Power",
-        "isTranslationKey": false
+        "text": "hqm.salvage_operation.big_power.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "As you build your technological infrastructure you will probably find that you need more power than you can easily generate. Luckily, there is a solution. Of course, you\u0027ll have to go hunting for the core components first.",
-        "isTranslationKey": false
+        "text": "hqm.salvage_operation.big_power.description",
+        "isTranslationKey": true
       },
       "x": 65,
       "y": 120,
@@ -371,7 +371,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The reactor controller needs parts we cannot fabricate with the technology we have available, so we can\u0027t build them from scratch. Luckily, the broken controllers you can find in the cities can be repaired out of available resources. Of course, first you have to find one. Power plants seem to be somewhat rare and a lot of them have suffered reactor meltdowns over the years. Still, they do exist if you are willing to explore far enough. ",
+            "text": "hqm.salvage_operation.big_power.task.0.long_description",
             "isTranslationKey": true
           },
           "items": [
