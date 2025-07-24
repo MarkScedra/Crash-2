@@ -1,0 +1,13 @@
+name = "Tinkers Tool Leveling 2"
+filename = "tleveling-0.2.5-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Tt9OkMjz/versions/acwgwrBv/tleveling-0.2.5-1.20.1.jar"
+hash-format = "sha512"
+hash = "4d1dede8a2e2a9b0be548f3e57ef798e8624c47f5faac2f2db828b84c8b05d04658a7bf5da84632e4c947a4c61484c2e3c0d2f4ff9c6ba9ac6128f3a4cd464d2"
+
+[update]
+[update.modrinth]
+mod-id = "Tt9OkMjz"
+version = "acwgwrBv"

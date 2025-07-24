@@ -1,0 +1,13 @@
+name = "Thermal Dynamics"
+filename = "thermal_dynamics-1.20.1-11.0.1.23.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/t8bmWGI2/versions/KaJ5ADIU/thermal_dynamics-1.20.1-11.0.1.23.jar"
+hash-format = "sha512"
+hash = "c670bd8ca004342561b40eefa9f7b35232c6fa725c5d4b23eafc3ba5dd9980f71debad1bb02f1d551a6d42011ab693d62796402d0630542a8a68455105d3224c"
+
+[update]
+[update.modrinth]
+mod-id = "t8bmWGI2"
+version = "KaJ5ADIU"

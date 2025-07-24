@@ -1,0 +1,13 @@
+name = "Create Deco"
+filename = "createdeco-2.0.3-1.20.1-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sMvUb4Rb/versions/e9gaSRMd/createdeco-2.0.3-1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "50b7e9bb7b09d720160b2491528f2ab751ad2299541be75cc6941e6b6c3d2d40faff5c5fa07a1bea9e3f43b73146ef6e0fdf6a106e65246b9767dd81053766bf"
+
+[update]
+[update.modrinth]
+mod-id = "sMvUb4Rb"
+version = "e9gaSRMd"

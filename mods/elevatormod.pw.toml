@@ -1,0 +1,13 @@
+name = "ElevatorMod"
+filename = "elevatorid-1.20.1-1.9.1-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hi2dSXTu/versions/nWSTr4AA/elevatorid-1.20.1-1.9.1-forge.jar"
+hash-format = "sha512"
+hash = "66e4381574f8b53360ccbc30f3c794ec48085f885ae9ab18970c7e75b7330286535f8ba446bf51c87f7ec271f8256433f492356e2d6f9ca978e1acdbc0806374"
+
+[update]
+[update.modrinth]
+mod-id = "hi2dSXTu"
+version = "nWSTr4AA"

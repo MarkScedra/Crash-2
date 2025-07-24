@@ -1,0 +1,13 @@
+name = "Odyssey Claims"
+filename = "cadmus-forge-1.20.1-1.0.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "af2422495a8e5e271f4b2b729c0eb1e85b5bda49"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5263334
+project-id = 845832

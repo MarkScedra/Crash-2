@@ -1,4 +1,6 @@
 *.gz
+*.mrpack
+*.zip
 /.example_assets
 /.example_data
 /.vscode

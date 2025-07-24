@@ -1,0 +1,13 @@
+name = "AI Improvements"
+filename = "AI-Improvements-1.20-0.5.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DSVgwcji/versions/eJihmpNQ/AI-Improvements-1.20-0.5.2.jar"
+hash-format = "sha512"
+hash = "eb932308aceb30f5157e967f1bd4b57eb1a1b2093886cbfaef6524b780337b8b0e2bd41c5103694c3a275827ceb7d63e7c55637a7a46f8e21f0a6770346b757d"
+
+[update]
+[update.modrinth]
+mod-id = "DSVgwcji"
+version = "eJihmpNQ"

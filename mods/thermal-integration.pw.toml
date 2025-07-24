@@ -1,0 +1,13 @@
+name = "Thermal Integration"
+filename = "thermal_integration-1.20.1-11.0.1.27.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Ro7yiyD4/versions/hFWGuy24/thermal_integration-1.20.1-11.0.1.27.jar"
+hash-format = "sha512"
+hash = "955d6820b0e73f860e6aab805c2e169e3a17c3b5939d48b656740a62758418340d08d34e815de5f3d4d6f9bfa49b4047b8abdd3b3f153adeb5e9037ea32164f0"
+
+[update]
+[update.modrinth]
+mod-id = "Ro7yiyD4"
+version = "hFWGuy24"

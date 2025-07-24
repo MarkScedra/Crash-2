@@ -1,0 +1,13 @@
+name = "KubeJS Thermal"
+filename = "kubejs-thermal-2001.1.10-build.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/taN3HInZ/versions/9VgQJ20P/kubejs-thermal-2001.1.10-build.2.jar"
+hash-format = "sha512"
+hash = "3a880704bfbdc3991d013615404738dd6ddfc89b91ccbf90a5ee6f340e26ea45c3e699d8c9836edd318145c8f0740fce63a9b5fe5165f2e58bcf113d9136d4e2"
+
+[update]
+[update.modrinth]
+mod-id = "taN3HInZ"
+version = "9VgQJ20P"

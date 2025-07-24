@@ -1,0 +1,13 @@
+name = "Chunk Loaders"
+filename = "chunkloaders-1.2.8a-forge-mc1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/t1VgucWo/versions/5RSR78ic/chunkloaders-1.2.8a-forge-mc1.20.1.jar"
+hash-format = "sha512"
+hash = "97156c4e0e0997618ec7e9b00b3e2a69a17434e2655f547f2cdf71bfa2aa6afb13beefce44b5c53fb33de46a877846ce904b22958f0e33f2269d2bb97635a651"
+
+[update]
+[update.modrinth]
+mod-id = "t1VgucWo"
+version = "5RSR78ic"

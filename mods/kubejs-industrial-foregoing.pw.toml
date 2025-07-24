@@ -1,0 +1,13 @@
+name = "KubeJS Industrial Foregoing"
+filename = "kjsindustrialforegoing-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4a2c5e7d00d41502b57dd6f06f0d6bb794307088"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5636455
+project-id = 890485

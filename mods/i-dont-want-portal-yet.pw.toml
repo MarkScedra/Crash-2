@@ -1,0 +1,13 @@
+name = "I dont want portal yet"
+filename = "idontwantportalyet-1.20-1.9.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "30b93c2a4050e2871a9e44ad4fc805079346c457"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5136149
+project-id = 858977

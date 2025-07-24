@@ -1,0 +1,13 @@
+name = "Tag Tooltips"
+filename = "tagtooltips-forge-1.20.1-1.1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/2MgfuPip/versions/OFBFNuzP/tagtooltips-forge-1.20.1-1.1.0.jar"
+hash-format = "sha512"
+hash = "e3b86a689404c329169766cb81a4f8705aa8c86a4acb92d1106e10779e473c346a59fe0ee277ecb06c23753181e195e395e6a759fca58b25ecdc5b6d3051448b"
+
+[update]
+[update.modrinth]
+mod-id = "2MgfuPip"
+version = "OFBFNuzP"

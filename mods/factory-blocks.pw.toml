@@ -1,0 +1,13 @@
+name = "Factory Blocks"
+filename = "factory_blocks-forge-1.4.0+mc1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ht0eTMEs/versions/R3EQLbo9/factory_blocks-forge-1.4.0%2Bmc1.20.1.jar"
+hash-format = "sha512"
+hash = "6bf6c91a21c751c908ac6fe1179cf36906ebaf2fbfaea6b9a49356f1a5f7d27c5e5034b1dd216ea5e0e1edfe8bd4e0deb623fbb5961d6e38600ffb1646f8a8de"
+
+[update]
+[update.modrinth]
+mod-id = "ht0eTMEs"
+version = "R3EQLbo9"

@@ -1,0 +1,13 @@
+name = "Experimental Settings Disabler"
+filename = "experimentalsettingsdisabler-1.20.1-3.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Dafp0il6/versions/ILMogVwI/experimentalsettingsdisabler-1.20.1-3.0.jar"
+hash-format = "sha512"
+hash = "bf6f47aa17ae5ea29f3c4a76978da5ccd184ae72ecc00ffdaeef17c669abd6fdbfa1fea3b697b571419f1f02606ed85d0b30ce9e7944df6332263cd4032bfa5a"
+
+[update]
+[update.modrinth]
+mod-id = "Dafp0il6"
+version = "ILMogVwI"

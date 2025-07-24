@@ -1,0 +1,13 @@
+name = "Pehkui"
+filename = "Pehkui-3.8.2+1.20.1-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/t5W7Jfwy/versions/SQpqSgAE/Pehkui-3.8.2%2B1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "e4660f0b5af6bfe2902ab39a6fbfa911856e0567bffc47842b482731da373afa4424b9e7cf47c61a0c2107445520475053709a6671d9eb4b7f4b55597729af3f"
+
+[update]
+[update.modrinth]
+mod-id = "t5W7Jfwy"
+version = "SQpqSgAE"
