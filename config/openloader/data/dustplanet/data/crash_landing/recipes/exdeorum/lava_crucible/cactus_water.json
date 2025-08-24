@@ -1,1 +1,1 @@
-{"type":"exdeorum:lava_crucible","fluid":{"amount":200,"fluid":"survive:purified_water"},"ingredient":{"item":"minecraft:cactus"}}
+{"type":"exdeorum:lava_crucible","fluid":{"amount":250,"fluid":"minecraft:water","nbt": "{Purity:3}"},"ingredient":{"item":"minecraft:cactus"}}
