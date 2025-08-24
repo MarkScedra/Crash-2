@@ -1,0 +1,6 @@
+
+[Container]
+	#Defineds drinks will be influenced by purity
+	#Format: ["examplemod:example_item_1", "examplemod:example_item_2"]
+	Containers = ["collectorsreap:pomegranate_black_tea", "collectorsreap:lime_green_tea", "create:builders_tea"]
+

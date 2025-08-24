@@ -1,0 +1,85 @@
+
+[General]
+	#How much faster is hydration depletion relative to hunger (1 means they will deplete at the same speed)
+	thirstDepletionModifier = 1.2
+	#Whether hydration depletion in peaceful mode
+	thirstDepletionInPeace = false
+	#How much is hydration depletion in nether faster than overworld
+	#Range: 1.0 ~ 5.0
+	netherThirstDeletionModifier = 3.0
+	#How much faster is hydration depletion when players with fire resistance(Range 0 to 100, 0 means not to depletion,100 means depletion like normal)
+	#Range: 0 ~ 100
+	fireResistanceDehydration = 50
+	#Whether thirst depletes when player is nausea
+	depletesWhenNausea = true
+	#Whether players won't be able to sprint if their thirst bar is 3 droplets or less
+	moveSlowWhenThirsty = true
+	#Whether players can drink rain water
+	DrinkRainWater = true
+	#Whether foods labeled as drinks will restore hunger
+	enableDrinksNutrition = true
+
+["Drinking Mechanics"]
+	#Stack size for water bottles
+	waterBottleStacksize = 64
+	#Whether the player can't regenerate as fast when hydration isn't full (like hunger)
+	dehydrationHaltsHealthRegen = true
+	#Whether hydration depletes when the player's health is regenerating (like hunger)
+	healthRegenDepletesHydration = true
+	#Whether dehydration from regenerating health (if enabled above) should take into account temperature and humidity
+	healthRegenDehydrationIsBiomeDependent = true
+	#Whether players can drink by shift-right-clicking water with an empty hand. Attention: it needs to be enable on both server and client sides
+	canDrinkByHand = false
+	#How much the player is hydrated when drinking by hand
+	handDrinkingHydration = 3
+	#How much the player thirst is quenched when drinking by hand
+	handDrinkingQuenched = 2
+	#Whether extra hydration will convert to quenched
+	ExtraHydrationConvertToQuenched = true
+
+[World]
+	#Y level above which water has 1 more level of purification by default (i.e Mountains)
+	mountainsY = 100
+	#Y level below which water has 1 more level of purification by default (i.e Caves) (for aquatic biomes, this number will be decreased by 32)
+	cavesY = 48
+	#How many levels of purification does running water have compared to still water
+	runningWaterPurificationAmount = 1
+
+["Purity-related Effects"]
+	#Purity for drinks that normally have purity but for whatever reason don't have a value set
+	defaultPurity = 2
+	#Whether player should gain hydration even if they recieved a purity-related debuff
+	quenchThirstWhenDebuffed = true
+	#% of getting poisoned after drinking dirty water
+	dirtyPoisonPercentage = 30
+	#% of getting sick (hunger and nausea) after drinking dirty water
+	dirtyNauseaPercentage = 100
+	#% of getting poisoned after drinking slightly dirty water
+	slightlyDirtyPoisonPercentage = 10
+	#% of getting sick (hunger and nausea) after drinking slightly dirty water
+	slightlyDirtyNauseaPercentage = 50
+	#% of getting poisoned after drinking acceptable water
+	acceptablePoisonPercentage = 0
+	#% of getting sick (hunger and nausea) after drinking acceptable water
+	acceptableNauseaPercentage = 5
+	#% of getting poisoned after drinking purified water
+	purifiedPoisonPercentage = 0
+	#% of getting sick (hunger and nausea) after drinking purified water
+	purifiedNauseaPercentage = 0
+
+["Purification levels"]
+	#How many levels of purification are added after boiling in a kettle
+	kettlePurificationLevels = 2
+
+["Fermentation levels"]
+	#Purification level below which fermented liquids will grow bacteria and get less purified
+	fermentationMoldingThreshold = 3
+	#Decrement of purification levels if water isn't purified enough when fermenting
+	fermentationMoldingHarshness = 2
+
+["Create compatibility"]
+	#Purification levels gained by filtering water through a Sand Filter
+	sandFilterFiltrationAmount = 1
+	#Millibuckets of water filtered per game tick with a Sand Filter
+	sandFilterMbPerTick = 10
+
