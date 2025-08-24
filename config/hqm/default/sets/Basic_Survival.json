@@ -8,7 +8,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Another way to get water is to drop some saplings or leaves into the Centrifugal Separator. It will give you a bit of water, about 1/10th of a bucket. Remember, you can power your machines with the flux capacitor from your emergency supply chest.",
+        "text": "Another way to get water is to drop some saplings or leaves into the Centrifugal Separator. It will give you a bit of water. Remember, you can power your machines with the flux capacitor from your emergency supply chest.",
         "isTranslationKey": false
       },
       "x": 142,
@@ -28,9 +28,11 @@
           "items": [
             {
               "item": {
-                "id": "survive:purified_water_bucket",
-                "Count": 1
-              }
+                "id": "minecraft:water_bucket",
+                "Count": 1,
+                "tag": "{}"
+              },
+              "precision": "FUZZY"
             }
           ]
         }
@@ -43,7 +45,7 @@
         {
           "id": "minecraft:potion",
           "Count": 2,
-          "tag": "{Potion:\"survive:purified_water\"}"
+          "tag": "{Potion:\"minecraft:water\"}"
         }
       ],
       "rewardchoice": [],
@@ -709,7 +711,7 @@
               "item": {
                 "id": "minecraft:potion",
                 "Count": 1,
-                "tag": "{Potion:\"minecraft:water\"}"
+                "tag": "{Potion:\"minecraft:water\",Purity:0}"
               },
               "precision": "FUZZY"
             }
@@ -728,7 +730,7 @@
         {
           "id": "minecraft:potion",
           "Count": 2,
-          "tag": "{Potion:\"minecraft:water\"}"
+          "tag": "{Potion:\"minecraft:water\",Purity:0}"
         }
       ],
       "rewardchoice": [],
@@ -1026,7 +1028,7 @@
       "icon": {
         "id": "minecraft:potion",
         "Count": 1,
-        "tag": "{Potion:\"survive:purified_water\"}"
+        "tag": "{Potion:\"minecraft:water\",Purity:2}"
       },
       "trigger": "ANTI_TRIGGER",
       "tasks": [
@@ -1041,7 +1043,7 @@
               "item": {
                 "id": "minecraft:potion",
                 "Count": 1,
-                "tag": "{Potion:\"survive:purified_water\"}"
+                "tag": "{Potion:\"minecraft:water\",Purity:2}"
               }
             }
           ]
@@ -1055,7 +1057,7 @@
         {
           "id": "minecraft:potion",
           "Count": 4,
-          "tag": "{Potion:\"survive:purified_water\"}"
+          "tag": "{Potion:\"minecraft:water\",Purity:2}"
         },
         {
           "id": "minecraft:packed_ice",
@@ -1206,10 +1208,10 @@
           "items": [
             {
               "item": {
-                "id": "survive:purified_water_bucket",
-                "Count": 1
-              },
-              "precision": "FUZZY"
+                "id": "minecraft:water_bucket",
+                "Count": 1,
+                "tag": "{}"
+              }
             }
           ]
         }
@@ -1223,7 +1225,7 @@
         {
           "id": "minecraft:potion",
           "Count": 1,
-          "tag": "{Potion:\"survive:purified_water\"}"
+          "tag": "{Potion:\"minecraft:water\",Purity:3}"
         },
         {
           "id": "minecraft:oak_sapling",
@@ -1365,11 +1367,6 @@
       "prerequisites": [],
       "optionlinks": [],
       "reward": [
-        {
-          "id": "survive:filled_canteen",
-          "Count": 2,
-          "tag": "{DrinksLeft:3,Potion:\"survive:purified_water\"}"
-        },
         {
           "id": "minecraft:glass_bottle",
           "Count": 4
