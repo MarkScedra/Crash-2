@@ -1,3 +1,0 @@
-// Compost colors for unionlib. You may add your own colors, change existing ones, or remove colors that aren't needed.
-golden_ring, #ffd34e
-iron_emerald_necklace, #bfcdc2
