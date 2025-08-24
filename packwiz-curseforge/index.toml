@@ -11642,6 +11642,11 @@ hash = "60cda35a6c7edc3600ad5378376434bb33f396846a6eba87e86ad84f644e1cd2"
 metafile = true
 
 [[files]]
+file = "mods/cold-sweat.pw.toml"
+hash = "4e098333d94e4c8abf775b573bdf7e29bc770efa2811ead9699ac747e4cc4095"
+metafile = true
+
+[[files]]
 file = "mods/collective.pw.toml"
 hash = "d9b27856833ee813920767a5d50ba05ae674de2f6f64aebc95dc6b0cd5ce650c"
 metafile = true
@@ -11694,6 +11699,11 @@ metafile = true
 [[files]]
 file = "mods/crash-assistant.pw.toml"
 hash = "dbaef26470a0da30476bac3a8508955ada8243c175bee2b874c96dd8f0edaaa8"
+metafile = true
+
+[[files]]
+file = "mods/create-cold-sweat.pw.toml"
+hash = "7098400051468ec5929da7b0778a77ec6cc12c842d9bb9e8760cf6f9c71627fc"
 metafile = true
 
 [[files]]
@@ -12197,11 +12207,6 @@ hash = "0742a100f0954a555b64d2b56040fd69df033af60c9157b8f3296a79c2bd3209"
 metafile = true
 
 [[files]]
-file = "mods/survive.pw.toml"
-hash = "cf4c5505d89ad8879dfa060958f46b4743bd52e60214d59ea7ec967999f227a9"
-metafile = true
-
-[[files]]
 file = "mods/sync-fabric-rereported.pw.toml"
 hash = "467b62c5b57c187dfd0ef70fc09528729c023c149fc4cc10aaac7e8b73c556ae"
 metafile = true
@@ -12242,6 +12247,16 @@ hash = "a225ab0dc801161a9bff1be4b6ec9f055964742894ba629d1b3c792e9a65e262"
 metafile = true
 
 [[files]]
+file = "mods/thirst-was-no-more.pw.toml"
+hash = "502a0de41a6b1787623f77acd0071be730a072b8d42a6a737b19ae6e64ace695"
+metafile = true
+
+[[files]]
+file = "mods/thirst-was-taken.pw.toml"
+hash = "435e86380f442b28ab298cb300fa0f51d1772e854252c31726b17ccb1ec5041e"
+metafile = true
+
+[[files]]
 file = "mods/time-control.pw.toml"
 hash = "dc488e9f23dcaa8199a6d3b8f603552bc1874526d3e5561ae56be00fbdc065c9"
 metafile = true
@@ -12264,11 +12279,6 @@ metafile = true
 [[files]]
 file = "mods/torchmaster.pw.toml"
 hash = "e516821a80a51a8f862274e9724ea42362f8722764b2c31bbb4debbeb606e14d"
-metafile = true
-
-[[files]]
-file = "mods/unionlib.pw.toml"
-hash = "21b161c4076ec1dbbcc392cfd43119ba19b11c9486def2df86202e4dcb6db92d"
 metafile = true
 
 [[files]]
