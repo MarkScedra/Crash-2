@@ -1,0 +1,13 @@
+name = "Thirst Was Taken"
+filename = "ThirstWasTaken-1.20.1-1.4.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/iUheEnjm/versions/v0d2UK5F/ThirstWasTaken-1.20.1-1.4.0.jar"
+hash-format = "sha512"
+hash = "682e4f44253ad670af2b29b0cf35be79c24de131489fe09b53364990521ce84e4ffa9aa4b9225f69e642920f8a237cc314c45a9161fd75e9016f2b72f4994113"
+
+[update]
+[update.modrinth]
+mod-id = "iUheEnjm"
+version = "v0d2UK5F"
