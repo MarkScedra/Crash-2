@@ -3,7 +3,7 @@
 	#─────────────────────────────────────────────────────────────────────────
 	# This setting doesn't do anything. Change the difficulty using the in-game menu
 	# ⌄ 
-	Difficulty = "normal"
+	Difficulty = "custom"
 	#─────────────────────────────────────────────────────────────────────────
 	# The current version of Cold Sweat. This is used by the auto-updater
 	# ⌄ 
@@ -28,7 +28,7 @@
 	# Rate at which the player's body temperature changes (default: 1.0 (100%))
 	# ⌄ 
 	#Range: 0.0 ~ Infinity
-	"Rate Multiplier" = 1.0
+	"Rate Multiplier" = 4.0
 	#─────────────────────────────────────────────────────────────────────────
 	# Damage dealt to the player when they are too hot or too cold
 	# ⌄ 

@@ -53,6 +53,7 @@
 	# • *units: The units of the temperature ("f", "c", or "mc"). Defaults to Minecraft units (mc))
 	# ⌄ 
 	"Biome Temperatures" = [
+	    ["minecraft:desert", 75, 105, "F"],
 	    ["minecraft:soul_sand_valley", 53, 53, "F"],
 	    ["minecraft:old_growth_birch_forest", 58, 72, "F"],
 	    ["minecraft:river", 60, 70, "F"],
@@ -64,7 +65,6 @@
 	    ["minecraft:snowy_taiga", 19, 48, "F"],
 	    ["minecraft:old_growth_pine_taiga", 48, 62, "F"],
 	    ["minecraft:old_growth_spruce_taiga", 48, 62, "F"],
-	    ["minecraft:desert", 48, 115, "F"],
 	    ["minecraft:stony_shore", 50, 64, "F"],
 	    ["minecraft:snowy_beach", 38, 52, "F"],
 	    ["minecraft:snowy_slopes", 24, 38, "F"],

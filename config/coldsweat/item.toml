@@ -28,15 +28,13 @@
 	#─────────────────────────────────//v
 	Icebox = [
 	    ["minecraft:snowball", 10],
-	    ["minecraft:clay_ball", 37],
 	    ["minecraft:snow_block", 100],
 	    ["minecraft:ice", 250],
-	    ["minecraft:clay", 333],
 	    ["minecraft:powder_snow_bucket", 100],
 	    ["minecraft:packed_ice", 1000]
 	]
 	#─────────────────────────────────//v
-	# (Negative values indicate cold fuel
+	# Negative values indicate cold fuel
 	Hearth = [
 	    ["#minecraft:planks", 10],
 	    ["#minecraft:coals", 37],
@@ -45,10 +43,8 @@
 	    ["minecraft:magma_block", 333],
 	    ["minecraft:lava_bucket", 1000],
 	    ["minecraft:snowball", -10],
-	    ["minecraft:clay_ball", -37],
 	    ["minecraft:snow_block", -100],
 	    ["minecraft:ice", -250],
-	    ["minecraft:clay", -333],
 	    ["minecraft:powder_snow_bucket", -100],
 	    ["minecraft:packed_ice", -1000]
 	]

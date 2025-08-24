@@ -155,7 +155,7 @@
 	#─────────────────────────────────────────────────────────────────────────
 	# The position (offset) of the config button on the screen
 	# ⌄ 
-	"Config Button Position" = [0, 0]
+	"Config Button Position" = [0, 2]
 	#─────────────────────────────────────────────────────────────────────────
 	# Warns the player about a bug that clears armor insulation when in creative mode
 	# ⌄ 
