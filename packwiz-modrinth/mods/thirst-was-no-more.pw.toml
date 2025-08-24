@@ -1,0 +1,13 @@
+name = "Thirst Was No More"
+filename = "thirst_nomore-1.0.3-TWT.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ksxmsByx/versions/v5eY6Ngk/thirst_nomore-1.0.3-TWT.jar"
+hash-format = "sha512"
+hash = "22df156d89aebf7969bda5300df43f372d3dd4244a46ae64c96121a1fc8f9bccaa2f7ce0a3ba00823035dc1af3dce0ad6e4bb20d32e4217b64e7a8ae97f8311e"
+
+[update]
+[update.modrinth]
+mod-id = "ksxmsByx"
+version = "v5eY6Ngk"
