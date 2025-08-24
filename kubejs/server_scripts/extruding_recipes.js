@@ -40,9 +40,7 @@ ServerEvents.recipes(event => {
 
   // Define extruding recipes
   extrude('minecraft:cobblestone', 'minecraft:water', true);
-  extrude('minecraft:cobblestone', 'survive:purified_water', true);
   extrude('minecraft:stone', 'minecraft:water', true, 'minecraft:magma_block');
-  extrude('minecraft:stone', 'survive:purified_water', true, 'minecraft:magma_block');
   extrude('minecraft:basalt', 'minecraft:blue_ice', false, 'minecraft:soul_soil');
   extrude('minecraft:blackstone', 'minecraft:blue_ice', false);
   extrude('minecraft:cobbled_deepslate', 'minecraft:packed_ice', false);

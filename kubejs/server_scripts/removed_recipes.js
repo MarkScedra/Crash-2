@@ -76,8 +76,6 @@ ServerEvents.recipes(event => {
                 "minecraft:netherite_chestplate",
                 "minecraft:netherite_helmet",
                 "minecraft:netherite_leggings",
-                "survive:charcoal_filter",
-                "survive:charcoal_filter",
                 "tconstruct:grout",
                 "tconstruct:nether_grout",
                 "torchmaster:megatorch"
