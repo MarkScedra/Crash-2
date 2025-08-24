@@ -21,7 +21,7 @@
 
 ["Drinking Mechanics"]
 	#Stack size for water bottles
-	waterBottleStacksize = 64
+	waterBottleStacksize = 16
 	#Whether the player can't regenerate as fast when hydration isn't full (like hunger)
 	dehydrationHaltsHealthRegen = true
 	#Whether hydration depletes when the player's health is regenerating (like hunger)

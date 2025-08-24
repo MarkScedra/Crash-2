@@ -79,8 +79,7 @@
 	"Chameleon Spawn Biomes" = [
 	    ["minecraft:bamboo_jungle", 80],
 	    ["minecraft:jungle", 80],
-	    ["minecraft:sparse_jungle", 35],
-	    ["minecraft:desert", 1]
+	    ["minecraft:sparse_jungle", 35]
 	]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines the biomes that Chameleons can spawn in
