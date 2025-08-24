@@ -1,0 +1,4 @@
+// Compost colors for thirst. You may add your own colors, change existing ones, or remove colors that aren't needed.
+clay_bowl, #7f87a4
+terracotta_bowl, #874333
+terracotta_water_bowl, #725780

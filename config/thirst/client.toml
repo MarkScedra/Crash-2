@@ -1,0 +1,15 @@
+
+["Purity tooltip"]
+	#If the purity tooltip should be shown only when the player is pressing the shift key
+	onlyShowPurityWhenShifting = false
+
+["Thirst Bar"]
+	#How many pixels should the thirst bar be shifted vertically from its original position
+	thirstBarYOffset = 0
+	#How many pixels should the thirst bar be shifted horizontally from its original position
+	thirstBarXOffset = 0
+
+["Client Drink Mechanics"]
+	#Whether players needs two hands available to drink water from source
+	DrinkBothHandNeeded = true
+

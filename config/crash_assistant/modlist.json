@@ -134,6 +134,11 @@
     "modId": "cofh_core",
     "version": "11.0.2"
   },
+  "ColdSweat-2.4-b04b.jar": {
+    "jarName": "ColdSweat-2.4-b04b.jar",
+    "modId": "cold_sweat",
+    "version": "2.4-b04b"
+  },
   "collective-1.20.1-8.3.jar": {
     "jarName": "collective-1.20.1-8.3.jar",
     "modId": "collective",
@@ -201,6 +206,11 @@
     "jarName": "create-1.20.1-6.0.6.jar",
     "modId": "create",
     "version": "6.0.6"
+  },
+  "create_cold_sweat-1.0.2.jar": {
+    "jarName": "create_cold_sweat-1.0.2.jar",
+    "modId": "create_cold_sweat",
+    "version": "1.0.2"
   },
   "create_mecanical_extruder-1.20.1-1.6.10-6.0.6.jar": {
     "jarName": "create_mecanical_extruder-1.20.1-1.6.10-6.0.6.jar",
@@ -729,6 +739,16 @@
     "jarName": "thermal_integration-1.20.1-11.0.1.27.jar",
     "modId": "thermal_integration",
     "version": "11.0.1"
+  },
+  "thirst_nomore-1.0.3-TWT.jar": {
+    "jarName": "thirst_nomore-1.0.3-TWT.jar",
+    "modId": "thirst_nomore",
+    "version": "1.0.3"
+  },
+  "ThirstWasTaken-1.20.1-1.4.0.jar": {
+    "jarName": "ThirstWasTaken-1.20.1-1.4.0.jar",
+    "modId": "thirst",
+    "version": "1.20.1-1.4.0"
   },
   "timecontrol-1.20.1-1.6.0.jar": {
     "jarName": "timecontrol-1.20.1-1.6.0.jar",
