@@ -95,8 +95,12 @@ ItemEvents.tooltip(event => {
         "kubejs:bug_broth"
     ].forEach(tool => {
         event.addAdvanced(tool, (item, advanced, text) => {
-            text.add(1, Text.red([Text.of("Mostly").italic(true), Text.of(" safe to eat.")]));});
+            text.add(1, Text.red([Text.of("Mostly").italic(true), Text.of(" safe to eat.")]));
+        });
     });
+    event.addAdvanced('kubejs:zombie_jerky', (item, advanced, text) => { text.add(2, Text.darkgreen("Has a chance to deal slight damage upon eating."));});
+    event.addAdvanced('kubejs:monster_mash', (item, advanced, text) => { text.add(2, Text.darkgreen("Has a small chance to deal slight damage upon eating."));});
+    event.addAdvanced('kubejs:bug_broth', (item, advanced, text) => { text.add(2, Text.darkgreen("Has a very small chance to deal slight damage upon eating."));});
 
     // Power generation
     event.addAdvanced("industrialforegoing:pitiful_generator", (item, advanced, text) => { text.add(1, Text.gray("A cheap but inefficient power generator."));});
