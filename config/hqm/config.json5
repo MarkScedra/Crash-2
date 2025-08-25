@@ -57,7 +57,7 @@
 	// Enable this to cause the player to be granted a gift on spawning into the world
 	"SPAWN_BOOK": true,
 	// Loose the quest book when you die, if set to false it will stay in your inventory
-	"LOSE_QUEST_BOOK": false,
+	"LOSE_QUEST_BOOK": true,
 	// Allow every single player in a party to claim the reward for a quest. Setting this to false will give the party one set of rewards to share.
 	"MULTI_REWARD": true,
 	// Allow teams, currently extremely buggy!
