@@ -1370,6 +1370,11 @@
         {
           "id": "minecraft:glass_bottle",
           "Count": 4
+        },
+        {
+          "id": "minecraft:potion",
+          "Count": 6,
+          "tag": "{Potion:\"minecraft:water\",Purity:3}"
         }
       ],
       "rewardchoice": [],

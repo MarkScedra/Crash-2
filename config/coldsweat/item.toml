@@ -129,7 +129,11 @@
 	    ["cold_sweat:chameleon_scale_helmet", 10, 0.0085, "adaptive"],
 	    ["cold_sweat:chameleon_scale_chestplate", 14, 0.0085, "adaptive"],
 	    ["cold_sweat:chameleon_scale_leggings", 12, 0.0085, "adaptive"],
-	    ["cold_sweat:chameleon_scale_boots", 10, 0.0085, "adaptive"]
+	    ["cold_sweat:chameleon_scale_boots", 10, 0.0085, "adaptive"],
+	    ["kubejs:string_helmet", 0, 10],
+	    ["kubejs:string_chestplate", 0, 14],
+	    ["kubejs:string_leggings", 0, 12],
+	    ["kubejs:string_boots", 0, 10]
 	]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines the items that provide insulation when worn in a curio slot
