@@ -1,0 +1,20 @@
+{
+    "result": {
+        "item": "nfm:castle_netting",
+        "count": 16
+    },
+    "pattern": [
+        "SSS",
+        "SMS",
+        "SSS"
+    ],
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "M": {
+            "item": "exdeorum:string_mesh"
+        },
+        "S": {
+            "item": "minecraft:string"
+        }
+    }
+}

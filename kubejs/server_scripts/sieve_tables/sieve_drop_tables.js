@@ -62,24 +62,24 @@ ServerEvents.recipes(event => {
             exdeorum:gold_ore_chunk	4.5	18	21.6	25.2	28.8	32.4
             exdeorum:tuff_pebble	18	21.6	25.2	28.8	32.4	36
             exdeorum:osmium_ore_chunk	3	12	14.4	16.8	19.2	21.6
-            exdeorum:zinc_ore_chunk	0	2.5	10	12	14	16
             exdeorum:granite_pebble	10	12	14	16	18	20
             exdeorum:diorite_pebble	10	12	14	16	18	20
             exdeorum:andesite_pebble	10	12	14	16	18	20
+            exdeorum:zinc_ore_chunk	0	2.5	10	12	14	16
+            minecraft:redstone	2	8	9.6	11.2	12.8	14.4
             exdeorum:lead_ore_chunk	0	2.3	9	10.8	12.6	14.4
             minecraft:lapis_lazuli	1.9	7.5	9	10.5	12	13.5
             exdeorum:silver_ore_chunk	0	1.9	7.5	9	10.5	12
             exdeorum:copper_ore_chunk	1.3	5	6	7	8	9
             exdeorum:tin_ore_chunk	1.3	5	6	7	8	9
-            minecraft:redstone	0	1	4	4.8	5.6	6.4
             minecraft:amethyst_shard	0	1	4	4.8	5.6	6.4
             exdeorum:nickel_ore_chunk	0	0.9	3.5	4.2	4.9	5.6
-            minecraft:diamond	0	0.8	3	3.6	4.2	4.8
-            exdeorum:uranium_ore_chunk	0	0	0	0.8	3	3.6
             minecraft:coal	2.5	3	3.5	4	4.5	5
+            minecraft:diamond	0	0.8	3	3.6	4.2	4.8
             ae2:certus_quartz_crystal	0.6	2.5	3	3.5	4	4.5
             thermal:apatite	0.6	2.5	3	3.5	4	4.5
             thermal:cinnabar	0.5	2	2.4	2.8	3.2	3.6
+            exdeorum:uranium_ore_chunk	0	0	0	0.8	3	3.6
             ae2:charged_certus_quartz_crystal	0	0.1	0.5	0.6	0.7	0.8
         `
     );
@@ -90,19 +90,19 @@ ServerEvents.recipes(event => {
         `
             exdeorum:iron_ore_chunk	7.5	30	36	42	48	54
             minecraft:coal	20	24	28	32	36	40
-            exdeorum:copper_ore_chunk	5	20	24	28	32	36
             minecraft:flint	18	21.6	25.2	28.8	32.4	36
+            exdeorum:copper_ore_chunk	5	20	24	28	32	36
             exdeorum:osmium_ore_chunk	4	16	19.2	22.4	25.6	28.8
             exdeorum:deepslate_pebble	10	12	14	16	18	20
-            exdeorum:zinc_ore_chunk	0	2	8	9.6	11.2	12.8
             exdeorum:stone_pebble	7	8.4	9.8	11.2	12.6	14
+            exdeorum:zinc_ore_chunk	0	2	8	9.6	11.2	12.8
             exdeorum:tin_ore_chunk	1.7	6.7	8	9.3	10.7	12
             exdeorum:nickel_ore_chunk	0	1.5	6	7.2	8.4	9.6
             exdeorum:gold_ore_chunk	1.4	5.5	6.6	7.7	8.8	9.9
+            minecraft:redstone	1.3	5	6	7	8	9
             minecraft:lapis_lazuli	1.1	4.5	5.4	6.3	7.2	8.1
             exdeorum:lead_ore_chunk	0	0.9	3.5	4.2	4.9	5.6
             exdeorum:silver_ore_chunk	0	0.8	3	3.6	4.2	4.8
-            minecraft:redstone	0	0.6	2.5	3	3.5	4
             ae2:certus_quartz_crystal	0.6	2.5	3	3.5	4	4.5
             minecraft:emerald	0	0.5	2	2.4	2.8	3.2
             minecraft:diamond	0	0.4	1.5	1.8	2.1	2.4
@@ -119,17 +119,17 @@ ServerEvents.recipes(event => {
             exdeorum:osmium_ore_chunk	3	12	14.4	16.8	19.2	21.6
             exdeorum:copper_ore_chunk	2.5	10	12	14	16	18
             ae2:certus_quartz_crystal	2	8	9.6	11.2	12.8	14.4
-            exdeorum:zinc_ore_chunk	0	1.5	6	7.2	8.4	9.6
             exdeorum:gold_ore_chunk	1.4	5.5	6.6	7.7	8.8	9.9
+            exdeorum:zinc_ore_chunk	0	1.5	6	7.2	8.4	9.6
             exdeorum:tin_ore_chunk	1.3	5	6	7	8	9
             exdeorum:nickel_ore_chunk	0	1	4	4.8	5.6	6.4
             exdeorum:lead_ore_chunk	0	0.8	3	3.6	4.2	4.8
             ae2:charged_certus_quartz_crystal	0	0.8	3	3.6	4.2	4.8
-            exdeorum:silver_ore_chunk	0	0.5	2	2.4	2.8	3.2
             thermal:sulfur	2	2.4	2.8	3.2	3.6	4
             thermal:niter	2	2.4	2.8	3.2	3.6	4
+            exdeorum:silver_ore_chunk	0	0.5	2	2.4	2.8	3.2
+            minecraft:redstone	0.5	2	2.4	2.8	3.2	3.6
             minecraft:lapis_lazuli	0.4	1.5	1.8	2.1	2.4	2.7
-            minecraft:redstone	0	0.3	1	1.2	1.4	1.6
             exdeorum:uranium_ore_chunk	0	0	0	0.3	1	1.2
             minecraft:diamond	0	0.1	0.5	0.6	0.7	0.8
         `
@@ -142,17 +142,17 @@ ServerEvents.recipes(event => {
             exdeorum:iron_ore_chunk	6.3	25	30	35	40	45
             exdeorum:gold_ore_chunk	6.3	25	30	35	40	45
             exdeorum:copper_ore_chunk	5	20	24	28	32	36
+            minecraft:redstone	3	12	14.4	16.8	19.2	21.6
             exdeorum:osmium_ore_chunk	1.5	6	7.2	8.4	9.6	10.8
-            minecraft:redstone	0	1.5	6	7.2	8.4	9.6
             ae2:certus_quartz_crystal	1	4	4.8	5.6	6.4	7.2
             exdeorum:zinc_ore_chunk	0	0.8	3	3.6	4.2	4.8
             exdeorum:tin_ore_chunk	0.6	2.5	3	3.5	4	4.5
             exdeorum:nickel_ore_chunk	0	0.5	2	2.4	2.8	3.2
             exdeorum:lead_ore_chunk	0	0.4	1.5	1.8	2.1	2.4
             ae2:charged_certus_quartz_crystal	0	0.4	1.5	1.8	2.1	2.4
-            exdeorum:silver_ore_chunk	0	0.3	1	1.2	1.4	1.6
             thermal:sulfur	1	1.2	1.4	1.6	1.8	2
             thermal:niter	1	1.2	1.4	1.6	1.8	2
+            exdeorum:silver_ore_chunk	0	0.3	1	1.2	1.4	1.6
             exdeorum:uranium_ore_chunk	0	0	0	0.1	0.5	0.6
         `
     );
@@ -162,13 +162,13 @@ ServerEvents.recipes(event => {
         'exdeorum:compressed_dust',
         `
             minecraft:bone_meal	18	21.6	25.2	28.8	32.4	36
-            mekanism:salt	18	21.6	25.2	28.8	32.4	36
+            exdeorum:stone_pebble	15	18	21	24	27	30
             exdeorum:iron_ore_chunk	3.8	15	18	21	24	27
+            mekanism:salt	12	14.4	16.8	19.2	21.6	24
+            minecraft:redstone	3	12	14.4	16.8	19.2	21.6
             minecraft:gunpowder	2.3	9	10.8	12.6	14.4	16.2
-            minecraft:redstone	0	2	8	9.6	11.2	12.8
             exdeorum:copper_ore_chunk	1.8	7	8.4	9.8	11.2	12.6
             ae2:certus_quartz_dust	1.8	7	8.4	9.8	11.2	12.6
-            exdeorum:stone_pebble	15	18	21	24	27	30
             exdeorum:osmium_ore_chunk	1	4	4.8	5.6	6.4	7.2
             exdeorum:zinc_ore_chunk	0	1	4	4.8	5.6	6.4
             minecraft:glowstone_dust	0.9	3.5	4.2	4.9	5.6	6.3
@@ -182,8 +182,8 @@ ServerEvents.recipes(event => {
             ae2:sky_dust	0	0	0	0.4	1.5	1.8
             thermal:sulfur	0.5	0.6	0.7	0.8	0.9	1
             thermal:niter	0.5	0.6	0.7	0.8	0.9	1
-            exdeorum:uranium_ore_chunk	0	0	0	0.1	0.5	0.6
             minecraft:diamond	0	0.1	0.5	0.6	0.7	0.8
+            exdeorum:uranium_ore_chunk	0	0	0	0.1	0.5	0.6
         `
     );
 
