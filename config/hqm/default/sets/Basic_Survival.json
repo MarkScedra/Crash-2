@@ -624,7 +624,7 @@
                 "id": "minecraft:spider_eye",
                 "Count": 1
               },
-              "required": 3
+              "required": 1
             },
             {
               "item": {
