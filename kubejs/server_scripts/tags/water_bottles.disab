@@ -1,8 +1,0 @@
-ServerEvents.tags('item', event => {
-    event.add('forge:water_bottles',
-        Item.of('minecraft:potion', '{Potion:"minecraft:water",Purity:3}'),
-        Item.of('minecraft:potion', '{Potion:"minecraft:water",Purity:2}'),
-        Item.of('minecraft:potion', '{Potion:"minecraft:water",Purity:1}'),
-        Item.of('minecraft:potion', '{Potion:"minecraft:water",Purity:0}')
-    )
-})
