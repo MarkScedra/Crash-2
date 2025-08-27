@@ -35,5 +35,5 @@ ServerEvents.recipes(event => {
     event.recipes.thermal.centrifuge([
         Item.of('minecraft:sand').withChance(0.25),
         Fluid.of('minecraft:water', 250, {Purity: 0})
-    ], 'minecraft:cactus').energy(2000)
+    ], 'minecraft:dirt').energy(2000)
 })

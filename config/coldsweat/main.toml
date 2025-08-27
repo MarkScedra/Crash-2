@@ -80,7 +80,7 @@
 		# The speed at which the player acclimates to hot or cold environments
 		# ⌄ 
 		#Range: 0.0 ~ Infinity
-		"Acclimation Speed" = 0 # 5.0E-4
+		"Acclimation Speed" = 0
 		#─────────────────────────────────────────────────────────────────────────
 		# The offset to the player's minimum habitable temperature when they acclimate to cold (first value) or hot (second value) environments
 		# ⌄ 
