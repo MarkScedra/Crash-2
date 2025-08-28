@@ -119,6 +119,11 @@
     "modId": "chunkloaders",
     "version": "1.2.8a"
   },
+  "citresewn-1.20.1-5.jar": {
+    "jarName": "citresewn-1.20.1-5.jar",
+    "modId": "citresewn",
+    "version": "1.20.1-5"
+  },
   "cloth-config-11.1.136-forge.jar": {
     "jarName": "cloth-config-11.1.136-forge.jar",
     "modId": "cloth_config",
