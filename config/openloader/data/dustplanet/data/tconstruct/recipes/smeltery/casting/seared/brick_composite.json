@@ -1,13 +1,1 @@
-{
-  "type": "tconstruct:casting_table",
-  "cast": {
-    "item": "minecraft:stone_button"
-  },
-  "cast_consumed": true,
-  "cooling_time": 57,
-  "fluid": {
-    "amount": 125,
-    "tag": "tconstruct:seared_stone"
-  },
-  "result": "tconstruct:seared_brick"
-}
+{}
