@@ -6,11 +6,7 @@
       "tag": "forge:ingots/copper"
     },
     {
-      "ingredient": [
-        {
-          "item": "minecraft:golden_apple"
-        }
-      ]
+      "item": "minecraft:golden_apple"
     },
     {
       "tag": "forge:ingots/copper"
