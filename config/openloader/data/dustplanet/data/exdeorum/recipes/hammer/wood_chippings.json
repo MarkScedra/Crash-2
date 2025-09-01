@@ -1,1 +1,1 @@
-{"type":"exdeorum:hammer","ingredient":{"tag":"minecraft:logs"},"result":"exdeorum:wood_chippings","result_amount":{"type":"minecraft:trapezoid","max":6.0,"min":3.0}}
+{"type":"exdeorum:hammer","ingredient":{"tag":"minecraft:logs"},"result":"exdeorum:wood_chippings","result_amount":{"type":"minecraft:uniform","max":6.0,"min":3.0}}
