@@ -2,6 +2,7 @@
 setlocal
 
 rem === SETTINGS ===
+for %%I in ("%~dp0..") do set "ROOT=%%~fI"
 set "PACK_FOLDER=packwiz-modrinth"
 set "BOOTSTRAP_JAR=packwiz-installer-bootstrap.jar"
 set "BOOTSTRAP_URL=https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar"
