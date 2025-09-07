@@ -1,6 +1,6 @@
 name = "Forge CIT"
 filename = "citresewn-1.20.1-5.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
