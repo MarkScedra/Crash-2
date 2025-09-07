@@ -9,8 +9,14 @@ ServerEvents.recipes(event => {
     event.recipes.thermal.centrifuge([
         Item.of('minecraft:stick').withChance(0.1),
         Item.of('mekanism:bio_fuel').withChance(0.1),
-        Fluid.of('minecraft:water', 50, {Purity: 2})
+        Fluid.of('minecraft:water', 25, {Purity: 2})
     ], '#minecraft:leaves').energy(1000)
+
+    event.recipes.thermal.centrifuge([
+        Item.of('minecraft:stick').withChance(0.1),
+        Item.of('mekanism:bio_fuel').withChance(0.1),
+        Fluid.of('minecraft:water', 10, {Purity: 2})
+    ], '#immersive_weathering:leaf_piles').energy(1000)
 
     event.recipes.thermal.centrifuge([
         Item.of('mekanism:bio_fuel').withChance(0.15),
