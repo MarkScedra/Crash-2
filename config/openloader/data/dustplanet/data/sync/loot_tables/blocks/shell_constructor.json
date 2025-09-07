@@ -7,7 +7,16 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "sync:shell_constructor"
+          "name": "sync:shell_constructor",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "sync:shell_constructor",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
         }
       ],
       "conditions": [
