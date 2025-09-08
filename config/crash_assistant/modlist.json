@@ -124,11 +124,6 @@
     "modId": "citresewn",
     "version": "1.20.1-5"
   },
-  "cloth-config-11.1.136-forge.jar": {
-    "jarName": "cloth-config-11.1.136-forge.jar",
-    "modId": "cloth_config",
-    "version": "11.1.136"
-  },
   "CodeChickenLib-1.20.1-4.4.0.516-universal.jar": {
     "jarName": "CodeChickenLib-1.20.1-4.4.0.516-universal.jar",
     "modId": "codechickenlib",
@@ -158,14 +153,6 @@
     "jarName": "configured-forge-1.20.1-2.2.3.jar",
     "modId": "configured",
     "version": "2.2.3"
-  },
-  "Connector-1.0.0-beta.46+1.20.1.jar": {
-    "jarName": "Connector-1.0.0-beta.46+1.20.1.jar"
-  },
-  "ConnectorExtras-1.11.2+1.20.1-rea.jar": {
-    "jarName": "ConnectorExtras-1.11.2+1.20.1-rea.jar",
-    "modId": "connectorextras",
-    "version": "1.11.2+1.20.1"
   },
   "Controlling-forge-1.20.1-12.0.2.jar": {
     "jarName": "Controlling-forge-1.20.1-12.0.2.jar",
@@ -296,16 +283,6 @@
     "jarName": "experimentalsettingsdisabler-1.20.1-3.0.jar",
     "modId": "experimentalsettingsdisabler",
     "version": "3.0"
-  },
-  "fabric-api-0.92.2+1.11.12+1.20.1.jar": {
-    "jarName": "fabric-api-0.92.2+1.11.12+1.20.1.jar",
-    "modId": "fabric_api",
-    "version": "0.92.2+1.11.12+1.20.1"
-  },
-  "fabric-api-0.92.6+1.20.1.jar": {
-    "jarName": "fabric-api-0.92.6+1.20.1.jar",
-    "modId": "fabric-api",
-    "version": "0.92.6+1.20.1"
   },
   "factory_blocks-forge-1.4.0+mc1.20.1.jar": {
     "jarName": "factory_blocks-forge-1.4.0+mc1.20.1.jar",
@@ -690,10 +667,10 @@
     "modId": "supermartijn642corelib",
     "version": "1.1.18"
   },
-  "sync-mc1.20.1-5.3.jar": {
-    "jarName": "sync-mc1.20.1-5.3.jar",
+  "Sync-0.1.8.jar": {
+    "jarName": "Sync-0.1.8.jar",
     "modId": "sync",
-    "version": "5.3"
+    "version": "0.1.8"
   },
   "tagtooltips-forge-1.20.1-1.1.0.jar": {
     "jarName": "tagtooltips-forge-1.20.1-1.1.0.jar",
