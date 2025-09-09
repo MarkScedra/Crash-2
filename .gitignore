@@ -6,7 +6,7 @@
 /.vscode
 /config/cubes_without_borders.json
 /config/fabric
-/config/jei
+/config/jei/world
 /config/modernfix-mixins.properties
 /config/oculus.properties
 /config/worldedit
@@ -31,6 +31,7 @@ servers.dat_old
 supportercache.json
 usercache.json
 usernamecache.json
+win_event*.txt
 
 # Packwiz ignores
 /mods
@@ -40,8 +41,8 @@ packwiz.json
 packwiz-installer.jar
 packwiz-installer-bootstrap.jar
 
-packwiz-scripts/tools/forge-1.20.1-47.4.0-installer.jar
-packwiz-scripts/forge-1.20.1-47.4.0-installer.jar.log
+packwiz-scripts/tools/forge-*-installer.jar
+packwiz-scripts/forge-*-installer.jar.log
 
 /packwiz-builds
 
