@@ -12,6 +12,6 @@ saves\Original world, will reset when pack updates\region\r.-1.0.mca
 saves\Original world, will reset when pack updates\region\r.-1.-1.mca
 
 # Exclusion
--config\jei
+-config\jei\world
 -config\worldedit
 -config\cubes_without_borders.json
