@@ -34,10 +34,8 @@ ServerEvents.recipes(event => {
         'minecraft:pink_tulip': 0.01,
         'minecraft:oxeye_daisy': 0.01,
         'minecraft:lily_of_the_valley': 0.01,
-        'pamhc2trees:coconutitem': 0.01,
         'minecraft:flowering_azalea': 0.01,
         'minecraft:azalea': 0.01,
-        'pamhc2crops:cauliflowerseeditem': 0.01,
     };
 
     const mesh = {
