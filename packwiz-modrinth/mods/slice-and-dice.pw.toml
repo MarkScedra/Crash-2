@@ -1,0 +1,13 @@
+name = "Create Slice & Dice"
+filename = "sliceanddice-forge-3.4.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/GmjmRQ0A/versions/zRXLDIwB/sliceanddice-forge-3.4.1.jar"
+hash-format = "sha512"
+hash = "d8c48242b971d958c3ff280b620ad4f06f95ca05cebf2000e3642be46c155982a4de3bde986e145061b92627e559a846b96a3a54bf636d36890d087d22466663"
+
+[update]
+[update.modrinth]
+mod-id = "GmjmRQ0A"
+version = "zRXLDIwB"
