@@ -1,0 +1,13 @@
+name = "Create Slice & Dice"
+filename = "sliceanddice-forge-3.4.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "836411d9c265b17dbb4acc7a59d99aa5ac52ec59"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6715725
+project-id = 659674
