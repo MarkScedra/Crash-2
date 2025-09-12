@@ -63,6 +63,7 @@ ServerEvents.tags('item', event => {
 
 
 
+    // Removed until player unlocks spawn eggs
     event.add('crash_landing:animal_sourced',
         '#forge:cooked_beef',
         '#forge:cooked_chicken',
@@ -131,6 +132,7 @@ ServerEvents.tags('item', event => {
         // 'moredelight:toast_with_egg',
     )
 
+    // Removed because fish don't exist in the desert
     event.add('crash_landing:fish_sourced',
         '#forge:cooked_fishes',
         '#forge:raw_fishes',
@@ -153,3 +155,44 @@ ServerEvents.tags('item', event => {
         'farmersdelight:grilled_salmon',
     )
 });
+
+/*
+    .setRenderItemName(false)           // defaults to false
+    .setHideTooltip(true)               // defaults to true
+    .setCanPickedUp(false)              // defaults to false
+    .setCanBeEquipped(false)            // defaults to false
+    .setCanBeStoredInInventory(false)   // defaults to false
+    .setCanAttack(false)                // defaults to false
+    .setHideInJEI(true)                 // defaults to true
+    .setCanBePlaced(false)              // defaults to false
+    .setCanItemBeLeftClicked(false)     // defaults to false
+    .setCanItemBeRightClicked(false)    // defaults to false
+    .setCanInteractWithBlock(true)      // defaults to true
+    .setCanBeStoredInContainers(false)  // defaults to false
+*/
+
+AStages.addRestrictionForTag('crash_landing:animal_sourced', 'animals', 'crash_landing:animal_sourced')
+    // hides from JEI but is not restricted in any other way
+    .setRenderItemName(true)
+    .setHideTooltip(false)
+    .setCanPickedUp(true)
+    .setCanBeEquipped(true)
+    .setCanBeStoredInInventory(true)
+    .setCanAttack(true)
+    .setCanBePlaced(true)
+    .setCanItemBeLeftClicked(true)
+    .setCanItemBeRightClicked(true)
+    .setCanBeStoredInContainers(true)
+
+AStages.addRestrictionForTag('crash_landing:fish_sourced', 'fish', 'crash_landing:fish_sourced')
+    // hides from JEI but is not restricted in any other way
+    .setRenderItemName(true)
+    .setHideTooltip(false)
+    .setCanPickedUp(true)
+    .setCanBeEquipped(true)
+    .setCanBeStoredInInventory(true)
+    .setCanAttack(true)
+    .setCanBePlaced(true)
+    .setCanItemBeLeftClicked(true)
+    .setCanItemBeRightClicked(true)
+    .setCanBeStoredInContainers(true)
