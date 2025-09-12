@@ -1,0 +1,120 @@
+
+[modules]
+	#Building blocks to improve decoration
+	building = true
+	#Adds tools for automation and redstone interaction
+	utility = true
+	#Contains tweaks to vanilla features
+	tweaks = true
+	#Includes new tools to reduce dependency on debug features
+	tools = true
+	#Expands interactions available to the cauldron and adds new variants
+	cauldrons = true
+
+[building]
+	#Enables colored books: basically colored versions of the vanilla book to decorate shelves
+	bookshelf = true
+	#Enables rope: can be climbed like ladders and extended with additional rope
+	rope = true
+	#Makes iron bars climbable if a rope is below them, requires block override on minecraft:iron_bars.
+	climbableBars = true
+	#Enables glass doors and trapdoors: basically doors, but made of glass. Not sure what you would expect.
+	glassDoor = true
+	#Enables mulch: a craftable falling block which supports plants such as flowers
+	mulch = true
+	#Enables stone paths: a carpet like decorative block for making decorative paths
+	path = true
+	#Enables additional flowers from breaking double flowers with shears.
+	flowers = true
+	#Enables enlightened bushes: bushes with lights.
+	enlightenedBush = true
+
+[utility]
+	#Enables the trapped book: will emit redstone power when placed in a bookshelf. Requires bookshelf.
+	redstoneBook = true
+	#Enables the torch lever: basically a lever which looks like a torch
+	torchLever = true
+	#Enables carpeted trapdoors: a trapdoor which appears to be a carpet when closed
+	carpetedTrapdoor = true
+	#Enables the collector: extracts items from inventories or the world similar to a hopper, but can face in all 6 directions and cannot place items in inventories
+	collector = true
+	#Enables pipes: a more economical hopper that only outputs items, does not pull from inventories. Both cheaper and better for performance.
+	pipe = true
+
+[cauldron]
+	#Allows filling glass bottles with milk from a cow. Note moving milk from bucket to bottles requires milk cauldrons
+	milkBottles = true
+	#If true, improves vanilla water cauldrons by including boiling particles, requires a block substitution on water cauldrons. More functionality coming to this option later.
+	replaceWaterCauldron = true
+
+	[cauldron.vanilla]
+		#Allows concrete to be made a cauldron filled with water
+		concrete = true
+		#Lets you clean sticky pistons in the cauldron
+		cleanStickyPiston = true
+		#Lets you wet sponges in the cauldron
+		wetSponge = true
+		#Lets you wash various wool created items in a water filled cauldron to turn it white
+		washWool = true
+
+	[cauldron.contents]
+		#Allows the cauldron to be filled with milk
+		milk = true
+		#Allows the cauldron to be filled with honey
+		honey = true
+		#Allows the cauldron to be filled with soups, including mushroom, potato, rabbit, suspicious, and beetroot
+		soup = true
+
+	[cauldron.dyes]
+		#Allows cauldrons to be filled with dyes and dye items using cauldrons
+		enable = true
+		#Adds extra dyed bottle recipes to craft green and brown
+		extraBottleRecipes = true
+
+	[cauldron.potions]
+		#Allows cauldrons to be filled with potions
+		enable = true
+		#Allows brewing glass bottles into splash and lingering bottles in a brewing stand
+		brewBottles = true
+		#Allows cauldrons to tip arrows with potions
+		tipArrows = true
+		#Allows cauldrons to perform brewing recipes
+		brewing = true
+
+[tools]
+	#Enables the redstone charger: a quick pulse created with a flint and steel like item
+	redstoneCharger = true
+	#Enables the charged arrow: places a redstone pulse where it lands
+	chargedArrow = true
+	#Enables locks and keys: an item allowing you to lock a tile entity to only open for a special named item
+	lock = true
+	#Enables the north compass: a cheaper compass that always points north. Intended to either allow packs to replace the compass or as an alternative for F3 navigation
+	northCompass = true
+	#Enables the barometer: a tool to measure the player's height in world.
+	barometer = true
+	#Enables the photometer: a tool to measure light in world. Can be pointed at a block to measure the light level of that block.
+	photometer = true
+	#Enables the dimension compass: a compass which points towards the place you entered a dimension.
+	#When used on a lodestone, works across dimensions taking nether coordinates into account
+	dimensionCompass = true
+
+	[tools.enchantments]
+		#If true, shields can now be enchanted with enchantments such as protection, fire aspect, knockback, and thorns. This requires replacing these enchantments.
+		moreShield = true
+		#If true, shields can be enchanted in an enchantment table. Does not support modded shields as it requires a registry substitution
+		shieldTable = true
+		#If true, axes will be able to be enchanted with weapon enchants such as looting, fire aspect, and knockback
+		axeWeapon = true
+		#If true, axes can receive available weapon enchantments at the enchantment table
+		axeTable = true
+
+[tweaks]
+	#Replace carpet blocks, allowing them to fit to stairs below them. Requires a registry sub on all vanilla carpet blocks.
+	fittedCarpets = true
+	#Replace hopper blocks, allowing them to be waterlogged. Requires a registry sub on hoppers
+	waterlogHoppers = true
+	#If true, tints the color of the lectern book based on the color of the contained item
+	tintLecternBook = true
+	#Adds stackable recipes to some vanilla or Inspriations items that require unstackable items to craft
+	unstackableRecipeAlts = true
+

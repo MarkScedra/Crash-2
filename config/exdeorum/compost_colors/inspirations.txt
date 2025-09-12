@@ -1,0 +1,25 @@
+// Compost colors for inspirations. You may add your own colors, change existing ones, or remove colors that aren't needed.
+barometer, #ffffff
+cactus_seeds, #646569
+charged_arrow, #ddac9d
+colored_book, #ffffff
+cyan_flower, #4ac2b4
+dimension_compass, #ffb632
+glass_door, #ffffff
+heartbeet, #ffcdcd
+key, #ffffff
+lock, #e3e3e3
+milk_bottle, #ffffff
+north_compass, #8e4847
+paeonia, #b9c3d0
+photometer, #be9b94
+potato_soup, #a7894b
+redstone_book, #826136
+redstone_charger, #e68650
+rope, #ffffff
+rose, #c53d12
+soul_torch_lever, #a0a17d
+sugar_cane_seeds, #838073
+syringa, #ffffff
+torch_lever, #c99e58
+vine, #ffffff
