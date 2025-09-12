@@ -44,6 +44,11 @@
     "modId": "architectury",
     "version": "9.2.14"
   },
+  "astages-1.4.0-1.20.1-all.jar": {
+    "jarName": "astages-1.4.0-1.20.1-all.jar",
+    "modId": "astages",
+    "version": "1.4.0-1.20.1"
+  },
   "athena-forge-1.20.1-3.1.2.jar": {
     "jarName": "athena-forge-1.20.1-3.1.2.jar",
     "modId": "athena",
@@ -128,6 +133,11 @@
     "jarName": "citresewn-1.20.1-5.jar",
     "modId": "citresewn",
     "version": "1.20.1-5"
+  },
+  "cloth-config-11.1.136-forge.jar": {
+    "jarName": "cloth-config-11.1.136-forge.jar",
+    "modId": "cloth_config",
+    "version": "11.1.136"
   },
   "CodeChickenLib-1.20.1-4.4.0.516-universal.jar": {
     "jarName": "CodeChickenLib-1.20.1-4.4.0.516-universal.jar",
@@ -229,6 +239,11 @@
     "modId": "crust",
     "version": "3.6.13"
   },
+  "culturaldelights-0.16.5.jar": {
+    "jarName": "culturaldelights-0.16.5.jar",
+    "modId": "culturaldelights",
+    "version": "0.16.5"
+  },
   "curios-forge-5.14.1+1.20.1.jar": {
     "jarName": "curios-forge-5.14.1+1.20.1.jar",
     "modId": "curios",
@@ -238,6 +253,11 @@
     "jarName": "cwb-forge-3.0.0+mc1.20.jar",
     "modId": "cubes_without_borders",
     "version": "3.0.0+mc1.20"
+  },
+  "diet-forge-2.1.1+1.20.1.jar": {
+    "jarName": "diet-forge-2.1.1+1.20.1.jar",
+    "modId": "diet",
+    "version": "2.1.1+1.20.1"
   },
   "dummmmmmy-1.20-2.0.9.jar": {
     "jarName": "dummmmmmy-1.20-2.0.9.jar",
@@ -394,6 +414,11 @@
     "modId": "insanelib",
     "version": "1.21.1"
   },
+  "Inspirations-1.20.1-1.5.0.6.jar": {
+    "jarName": "Inspirations-1.20.1-1.5.0.6.jar",
+    "modId": "inspirations",
+    "version": "1.5.0.6"
+  },
   "Jade-1.20.1-Forge-11.13.2.jar": {
     "jarName": "Jade-1.20.1-Forge-11.13.2.jar",
     "modId": "jade",
@@ -491,6 +516,16 @@
     "jarName": "moonlight-1.20-2.16.13-forge.jar",
     "modId": "moonlight",
     "version": "1.20-2.16.13"
+  },
+  "moredelight-25.07.28-1.20-forge.jar": {
+    "jarName": "moredelight-25.07.28-1.20-forge.jar",
+    "modId": "moredelight",
+    "version": "25.07.28-1.20-forge"
+  },
+  "moredelight-25.07.28-1.20-forge.jar": {
+    "jarName": "moredelight-25.07.28-1.20-forge.jar",
+    "modId": "moredelight",
+    "version": "25.07.28-1.20-forge"
   },
   "MouseTweaks-forge-mc1.20.1-2.25.1.jar": {
     "jarName": "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
@@ -621,6 +656,11 @@
     "jarName": "simplylight-1.20.1-1.4.6-build.50.jar",
     "modId": "simplylight",
     "version": "1.20.1-1.4.6-build.50"
+  },
+  "sliceanddice-forge-3.4.1.jar": {
+    "jarName": "sliceanddice-forge-3.4.1.jar",
+    "modId": "sliceanddice",
+    "version": "3.4.1"
   },
   "sophisticatedbackpacks-1.20.1-3.24.9.1391.jar": {
     "jarName": "sophisticatedbackpacks-1.20.1-3.24.9.1391.jar",
