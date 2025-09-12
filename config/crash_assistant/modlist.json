@@ -512,26 +512,6 @@
     "modId": "openloader",
     "version": "19.0.4"
   },
-  "pamhc2crops-1.20-1.0.3.jar": {
-    "jarName": "pamhc2crops-1.20-1.0.3.jar",
-    "modId": "pamhc2crops",
-    "version": "1.0.3"
-  },
-  "pamhc2foodcore-1.20.4-1.0.5.jar": {
-    "jarName": "pamhc2foodcore-1.20.4-1.0.5.jar",
-    "modId": "pamhc2foodcore",
-    "version": "1.0.5"
-  },
-  "pamhc2foodextended-1.20.4-1.0.1.jar": {
-    "jarName": "pamhc2foodextended-1.20.4-1.0.1.jar",
-    "modId": "pamhc2foodextended",
-    "version": "1.0.1"
-  },
-  "pamhc2trees-1.20-1.0.2.jar": {
-    "jarName": "pamhc2trees-1.20-1.0.2.jar",
-    "modId": "pamhc2trees",
-    "version": "1.0.2"
-  },
   "Patchouli-1.20.1-84.1-FORGE.jar": {
     "jarName": "Patchouli-1.20.1-84.1-FORGE.jar",
     "modId": "patchouli",
