@@ -37,3 +37,27 @@ ServerEvents.recipes(event => {
         event.remove({ id: id });
     });
 });
+
+
+
+ServerEvents.tags('item', event => {
+    event.remove('forge:egg', 'vegandelight:applesauce')
+    event.remove('forge:eggs', 'vegandelight:applesauce')
+
+    event.remove('forge:raw_chicken', 'vegandelight:tofu_slices')
+    event.remove('forge:raw_mutton', 'vegandelight:tofu_slices')
+    event.remove('forge:cooked_chicken', 'vegandelight:cooked_tofu_slices')
+    event.remove('forge:cooked_mutton', 'vegandelight:cooked_tofu_slices')
+    event.remove('forge:raw_pork', 'vegandelight:smoked_tofu_slices')
+    event.remove('forge:cooked_pork', 'vegandelight:cooked_smoked_tofu_slices')
+    event.remove('forge:raw_beef', 'vegandelight:minced_tofu')
+    event.remove('forge:cooked_beef', 'vegandelight:tofu_patty')
+    event.remove('forge:raw_fishes/cod', 'vegandelight:tofish')
+    event.remove('forge:raw_fishes', 'vegandelight:tofish')
+    event.remove('forge:cooked_fishes/cod', 'vegandelight:cooked_tofish')
+    event.remove('forge:cooked_fishes', 'vegandelight:cooked_tofish')
+    event.remove('forge:raw_fishes/salmon', 'vegandelight:smoked_tofish')
+    event.remove('forge:raw_fishes', 'vegandelight:smoked_tofish')
+    event.remove('forge:cooked_fishes/salmon', 'vegandelight:cooked_smoked_tofish')
+    event.remove('forge:cooked_fishes', 'vegandelight:cooked_smoked_tofish')
+});
