@@ -24,6 +24,11 @@
     "modId": "almostunified",
     "version": "1.20.1-0.10.0"
   },
+  "appleskin-forge-mc1.20.1-2.5.1.jar": {
+    "jarName": "appleskin-forge-mc1.20.1-2.5.1.jar",
+    "modId": "appleskin",
+    "version": "2.5.1+mc1.20.1"
+  },
   "Applied-Mekanistics-1.4.2.jar": {
     "jarName": "Applied-Mekanistics-1.4.2.jar",
     "modId": "appmek",

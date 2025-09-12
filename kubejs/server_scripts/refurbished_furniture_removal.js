@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
     // removes all recipes of the following types
     [
-        'refurbished_furniture:freezing',
+        'refurbished_furniture:freezer_solidifying',
     ].forEach(type => {
         event.remove({ type: type });
     });
