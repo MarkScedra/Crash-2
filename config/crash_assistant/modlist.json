@@ -747,6 +747,11 @@
     "modId": "torchmaster",
     "version": "20.1.9"
   },
+  "vegandelight-1.4.jar": {
+    "jarName": "vegandelight-1.4.jar",
+    "modId": "vegandelight",
+    "version": "1.4"
+  },
   "worldedit-mod-7.2.15.jar": {
     "jarName": "worldedit-mod-7.2.15.jar",
     "modId": "worldedit",
