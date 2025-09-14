@@ -124,6 +124,11 @@
     "modId": "citresewn",
     "version": "1.20.1-5"
   },
+  "cloth-config-11.1.136-forge.jar": {
+    "jarName": "cloth-config-11.1.136-forge.jar",
+    "modId": "cloth_config",
+    "version": "11.1.136"
+  },
   "CodeChickenLib-1.20.1-4.4.0.516-universal.jar": {
     "jarName": "CodeChickenLib-1.20.1-4.4.0.516-universal.jar",
     "modId": "codechickenlib",
@@ -288,11 +293,6 @@
     "jarName": "factory_blocks-forge-1.4.0+mc1.20.1.jar",
     "modId": "factory_blocks",
     "version": "1.4.0+mc1.20.1"
-  },
-  "FarmersDelight-1.20.1-1.2.9.jar": {
-    "jarName": "FarmersDelight-1.20.1-1.2.9.jar",
-    "modId": "farmersdelight",
-    "version": "1.20.1-1.2.9"
   },
   "FastLeafDecay-32.jar": {
     "jarName": "FastLeafDecay-32.jar",
