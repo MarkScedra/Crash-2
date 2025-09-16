@@ -1,7 +1,0 @@
-ServerEvents.tags('item', event => {
-    event.add('forge:canteens',
-        'thirstcanteen:dragon_bottle',
-        'thirstcanteen:military_bottle',
-        'thirstcanteen:leather_canteen'
-    )
-})

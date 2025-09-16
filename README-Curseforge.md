@@ -1,41 +1,30 @@
-<div align="center">
-
 _A hardcore survival modpack inspired by [Crash Landing](https://www.curseforge.com/minecraft/modpacks/crash-landing) by Iskandar._
 
-![The Ship](https://cdn.modrinth.com/data/Y5UhUxAD/images/b3ecdfeb9a605862827233fbeb64703e35d1fca2.png)
-
 [![Available on Modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg)](https://modrinth.com/modpack/desolate-planet) [![Available on Curseforge](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/curseforge_vector.svg)](https://www.curseforge.com/minecraft/modpacks/desolate-planet)
-
-</div>
-
-______________________________________________________________________
 
 You have survived a crash landing on Planet T4L0S, an uncharted planet in the Varkin system. Preliminary scans indicate an arid environment with pockets of elevated radiation, high mineral content, and subterranean hydrocarbon reservoirs.
 
 You will need to brave the blazing heat, find sources of food and water, scour the planet for resources, build up technology, and search for a way to escape the planet.
 
-Desolate Planet is a challenging, quest-based modpack where you must struggle for survival on a dust planet with limited resources. The map is set to hardcore, you must use the [Sync](https://modrinth.com/mod/sync-fabric-rereported/) mod to build yourself more lives.
+Desolate Planet is a challenging, quest-based modpack where you must struggle for survival on a dust planet with limited resources. The map is set to hardcore, you must use the [Sync](https://www.curseforge.com/minecraft/mc-mods/sync-fabric-rereported) mod to build yourself more lives.
 
-![The Nuclear Plant](https://cdn.modrinth.com/data/Y5UhUxAD/images/26717b9d9ab7cacc1e0d6605fc0bc932e9be0d32.webp)
-
-______________________________________________________________________
+![The Nuclear Plant](https://media.forgecdn.net/attachments/1294/505/1-copy-webp.webp)
 
 **This pack is still under development.** This version will still have bugs, and feedback is welcome.
 
 Reach us directly on the Discord server: [https://discord.gg/4en3SpWtJg](https://discord.gg/4en3SpWtJg)
 
 Or through the Subreddit: [https://www.reddit.com/r/CrashLanding2Modpack](https://www.reddit.com/r/CrashLanding2Modpack)
-______________________________________________________________________
 
 ## FAQ
 
 ### Q: How do I install the modpack?
 
-A: Download the Modrinth or Curseforge app, search for the name of the pack, and click install. Make sure you are using 6-8 GB of RAM in the modpack or launcher’s settings.
+A: Download the Curseforge or Modrinth app, search for the name of the pack, and click install. Make sure you are using 6-8 GB of RAM in the modpack or launcher’s settings.
 
 ### Q: How can I play multiplayer? Do you have a server pack?
 
-A: If you _aren't_ experienced in server hosting, download the [Essential](https://modrinth.com/mod/essential) mod. Many players have had positive experiences with how easy it is to use. If you _are_ experienced in server hosting, you can download the server pack, included in most modpack releases (go to the versions page, select the newest one, and scroll all the way down past the mod list).
+A: If you _aren't_ experienced in server hosting, download the [Essential](https://www.curseforge.com/minecraft/mc-mods/essential-mod) mod. Many players have had positive experiences with how easy it is to use. If you _are_ experienced in server hosting, you can download the server pack, included in most modpack releases (go to the versions page, select the newest one, and scroll all the way down past the mod list).
 
 ### Q: Why does my game/world gets stuck while loading in?
 
@@ -43,8 +32,7 @@ A: Make sure you have allocated at least 6 GB of RAM to the modpack. I usually r
 
 ### Q: How can I disabled hardcore?
 
-A: I strongly recommend learning to use the sync shells for extra lives, it’s what the game was balanced around. If you select the easy route, you’ll start with enough power for 3 shells. Follow the steps in the Sync quest for a detailed guide.
-However, if you’ve tried that and still want to disable hardcore, you can edit the hardcore setting in `config/globalgamerules-common.toml`. On a server, the steps are slightly different. Download [this file](https://cdn.modrinth.com/data/Y5UhUxAD/versions/YopX3hzh/Non-Hardcore_Server_Files.zip) and replace the files on the server with the files in that zip. I recommend backing up the target files before replacing them.
+A: I strongly recommend learning to use the sync shells for extra lives, it’s what the game was balanced around. If you select the easy route, you’ll start with enough power for 3 shells. Follow the steps in the Sync quest for a detailed guide. However, if you’ve tried that and still want to disable hardcore, you can edit the hardcore setting in `config/globalgamerules-common.toml`. On a server, the steps are slightly different. Download [this file](https://cdn.modrinth.com/data/Y5UhUxAD/versions/YopX3hzh/Non-Hardcore_Server_Files.zip) and replace the files on the server with the files in that zip. I recommend backing up the target files before replacing them.
 
 ### Q: How do I get seared bricks/grout for a smeltery?
 
@@ -65,14 +53,12 @@ A: Absolutely!
 *   For simpler submissions like textures, models, buildings, or other small files, you can send those to us and we can do the implementation work for you (if approved).
 *   For anything more complicated like full game mechanics, complex scripts, or large-scale config adjustments, you can submit a [pull request](https://github.com/MarkScedra/Crash-2/pulls) on Github. See our [Contributing Guide](https://github.com/MarkScedra/Crash-2?tab=contributing-ov-file) for information about setting up the modpack dev environment on your computer.
 
-______________________________________________________________________
-
 ## Credits
 
 Developed by:
 
-*   [MarkSDR](https://modrinth.com/user/MarkSDR) (Original lead developer)
-*   [Pawjwp](https://modrinth.com/user/pawjwp) (Current lead developer)
+*   [MarkSDR](https://www.curseforge.com/members/marksdr/projects) (Original lead developer)
+*   [Pawjwp](https://www.curseforge.com/members/pawjwp/projects) (Current lead developer)
 *   Nagasakii (Early development work and initial quests)
 
 Other contributers:
@@ -88,4 +74,4 @@ Original pack developer:
 
 *   [Iskandar](https://x.com/iskan_dar)
 
-![The Wasteland](https://cdn.modrinth.com/data/Y5UhUxAD/images/469e0228d64aa83a156b8817a1a5cc74ee8bdf6a.png)
+![The Wasteland](https://media.forgecdn.net/attachments/1294/512/469e0228d64aa83a156b8817a1a5cc74ee8bdf6a-png.png)

@@ -3,26 +3,19 @@
   "allow_crystal": false,
   "inputs": [
     {
-      "ingredient": [
-        {
-          "item": "minecraft:cornflower"
-        },
-        {
-          "item": "minecraft:blue_orchid"
-        }
-      ]
-    },
-    {
-      "item": "minecraft:rabbit_foot"
-    },
-    {
-      "item": "minecraft:golden_carrot"
+      "item": "minecraft:golden_apple"
     },
     {
       "tag": "forge:gems/diamond"
     },
     {
-      "item": "minecraft:name_tag"
+      "item": "minecraft:golden_carrot"
+    },
+    {
+      "tag": "forge:storage_blocks/lapis"
+    },
+    {
+      "tag": "forge:storage_blocks/lapis"
     }
   ],
   "level": 1,

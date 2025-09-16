@@ -1,11 +1,25 @@
 [
-    {
-      "mob": ["minecraft:witch", "thermal:blitz"],
-      "result": "deny"
-    },
-    {
-      "mob": "minecraft:warden",
-      "mincount": 10,
-      "result": "deny"
-    }
+  {
+    "mob": [
+      "minecraft:witch",
+      "thermal:blitz"
+    ],
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:warden",
+    "mincount": 5,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:slime",
+    "slime": true,
+    "maxlight": 7,
+    "result": "default"
+  },
+  {
+    "mob": "minecraft:slime",
+    "slime": true,
+    "result": "deny"
+  }
 ]

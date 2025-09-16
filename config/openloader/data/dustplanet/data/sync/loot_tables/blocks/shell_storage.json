@@ -7,7 +7,16 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "sync:shell_storage"
+          "name": "sync:shell_storage",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "sync:shell_storage",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
         }
       ],
       "conditions": [

@@ -12,6 +12,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'minecraft:sticky_piston' });
 
     [
+        'create:crafting/kinetics/super_glue',
         'create:crafting/kinetics/sticker',
         'create:crafting/kinetics/sticky_mechanical_piston',
         'createaddition:crafting/large_connector_electrum',

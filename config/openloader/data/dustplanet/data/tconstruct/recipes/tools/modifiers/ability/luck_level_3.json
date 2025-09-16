@@ -3,19 +3,19 @@
   "allow_crystal": false,
   "inputs": [
     {
-      "tag": "forge:ingots/rose_gold"
-    },
-    {
-      "item": "minecraft:rabbit_foot"
-    },
-    {
-      "tag": "forge:ingots/rose_gold"
+      "item": "minecraft:name_tag"
     },
     {
       "tag": "forge:gems/diamond"
     },
     {
-      "item": "minecraft:name_tag"
+      "tag": "forge:storage_blocks/rose_gold"
+    },
+    {
+      "tag": "forge:storage_blocks/lapis"
+    },
+    {
+      "tag": "forge:storage_blocks/lapis"
     }
   ],
   "level": 3,

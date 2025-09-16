@@ -229,7 +229,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "You can find meteorites or an AE2 supercomputer building by exploring the desert.",
+            "text": "You can find meteorites or an AE2 supercomputer building by exploring the desert. You can make a meteorite compass to help locate them.",
             "isTranslationKey": false
           },
           "items": [
