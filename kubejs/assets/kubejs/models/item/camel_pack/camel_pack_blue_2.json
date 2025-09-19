@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "kubejs:item/camel_pack",
+    "layer1": "kubejs:item/camel_pack/camel_pack_overlay_blue_2"
+  }
+}
