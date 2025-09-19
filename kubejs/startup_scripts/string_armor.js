@@ -1,6 +1,6 @@
 ItemEvents.armorTierRegistry(event => {
     event.add('string', tier => {
-        tier.durabilityMultiplier = 20 // Each slot will be multiplied with [13, 15, 16, 11]
+        tier.durabilityMultiplier = 8 // Each slot will be multiplied with [13, 15, 16, 11]
         tier.slotProtections = [1, 2, 2, 1] // Slot indicies are [FEET, LEGS, BODY, HEAD]
         tier.enchantmentValue = 5
         tier.equipSound = 'minecraft:item.armor.equip_generic'
