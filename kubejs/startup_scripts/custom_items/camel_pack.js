@@ -95,6 +95,127 @@ StartupEvents.registry('item', (event) => {
                     }
                 })
         )
+        // durability bar based on tank amount
+        .barWidth(function (stack) {
+            var amount = 0
+            if (stack && stack.nbt && stack.nbt.contains('Fluid')) {
+                amount = stack.nbt.get('Fluid').getInt('Amount')
+            }
+
+            if (amount <= 0) return 14 // hide bar if empty
+            // if (amount >= capacity) return 14 // hide bar if full
+            return Math.round((amount / capacity) * 13)
+        })
+        .barColor(function (stack) {
+            // read fluid NBT
+            var fluidType = null
+            if (stack && stack.nbt && stack.nbt.contains('Fluid')) {
+                var fluidTag = stack.nbt.get('Fluid')
+                fluidType = fluidTag.getString('FluidName')
+            }
+
+            // switch color based on fluid type
+            switch (fluidType) {
+                // blue
+                case 'minecraft:water': return Color.BLUE
+                case 'mekanism:heavy_water': return Color.BLUE
+
+                // orange
+                case 'minecraft:lava': return Color.ORANGE_DYE
+                case 'thermal:syrup': return Color.ORANGE_DYE
+                case 'thermal:sap': return Color.ORANGE_DYE
+                case 'thermal:light_oil': return Color.ORANGE_DYE
+                case 'tconstruct:magma': return Color.ORANGE_DYE
+                case 'tconstruct:ichor': return Color.ORANGE_DYE
+                case 'tconstruct:blazing_blood': return Color.ORANGE_DYE
+                case 'pneumaticcraft:diesel': return Color.ORANGE_DYE
+                case 'create:tea': return Color.ORANGE_DYE
+
+                // white
+                case 'minecraft:milk': return Color.WHITE
+                case 'thermal:latex': return Color.WHITE
+                case 'tconstruct:venom': return Color.WHITE
+                case 'tconstruct:powdered_snow': return Color.WHITE
+                case 'pneumaticcraft:yeast_culture': return Color.WHITE
+                case 'pneumaticcraft:plastic': return Color.WHITE
+                case 'pneumaticcraft:ethanol': return Color.WHITE
+                case 'industrialforegoing:latex': return Color.WHITE
+                case 'industrialforegoing:ether_gas': return Color.WHITE
+                case 'biggerreactors:steam': return Color.WHITE
+                case 'ad_astra:oxygen': return Color.WHITE
+
+                // lime
+                case 'tconstruct:earth_slime': return Color.GREEN
+                case 'sophisticatedcore:xp_still': return Color.LIME_DYE
+                case 'pneumaticcraft:memory_essence': return Color.LIME_DYE
+                case 'pneumaticcraft:etching_acid': return Color.GREEN
+                case 'mob_grinding_utils:fluid_xp': return Color.LIME_DYE
+                case 'industrialforegoing:essence': return Color.LIME_DYE
+                case 'enderio:xp_juice': return Color.LIME_DYE
+                case 'cofh_core:experience': return Color.LIME_DYE
+                case 'biggerreactors:liquid_uranium': return Color.GREEN
+
+                // purple
+                case 'tconstruct:ender_slime': return Color.PURPLE_DYE
+                case 'industrialforegoing:sludge': return Color.PURPLE_DYE
+                case 'industrialforegoing:pink_slime': return Color.PINK_DYE
+                case 'industrialforegoing:biofuel': return Color.PURPLE_DYE
+                case 'exdeorum:witch_water': return Color.PURPLE_DYE
+
+                // brown
+                case 'thermal:tree_oil': return Color.BROWN_DYE
+                case 'tconstruct:rabbit_stew': return Color.BROWN_DYE
+                case 'tconstruct:mushroom_stew': return Color.BROWN_DYE
+                case 'tconstruct:meat_soup': return Color.BROWN_DYE
+                case 'tconstruct:liquid_soul': return Color.BROWN_DYE
+                case 'industrialforegoing:sewage': return Color.BROWN_DYE
+                case 'industrialforegoing:meat': return Color.BROWN_DYE
+                case 'create:chocolate': return Color.BROWN_DYE
+
+                // yellow/gold
+                case 'thermal:resin': return Color.GOLD
+                case 'thermal:refined_fuel': return Color.GOLD
+                case 'thermal:glowstone': return Color.GOLD
+                case 'tconstruct:honey': return Color.GOLD
+                case 'pneumaticcraft:vegetable_oil': return Color.GOLD
+                case 'pneumaticcraft:lubricant': return Color.GOLD
+                case 'pneumaticcraft:lpg': return Color.GOLD
+                case 'pneumaticcraft:gasoline': return Color.GOLD
+                case 'pneumaticcraft:biodiesel': return Color.GOLD
+                case 'mekanism:chlorine': return Color.GOLD
+                case 'mekanism:brine': return Color.GOLD
+                case 'createaddition:bioethanol': return Color.GOLD
+                case 'create:honey': return Color.GOLD
+                case 'cofh_core:honey': return Color.GOLD
+
+                // red
+                case 'thermal:redstone': return Color.DARK_RED
+                case 'thermal:heavy_oil': return Color.RED
+                case 'tconstruct:beetroot_soup': return Color.DARK_RED
+                case 'ad_astra:fuel': return Color.RED
+
+                // teal/dark aqua
+                case 'thermal:ender': return Color.DARK_AQUA
+                case 'tconstruct:molten_ender': return Color.DARK_AQUA
+
+                // cyan/aqua
+                case 'tconstruct:sky_slime': return Color.AQUA
+                case 'pneumaticcraft:kerosene': return Color.AQUA
+                case 'ad_astra:hydrogen': return Color.AQUA
+                case 'ad_astra:cryo_fuel': return Color.AQUA
+
+                // black/gray (default)
+                case 'thermal:crude_oil': return Color.GRAY
+                case 'thermal:creosote': return Color.GRAY
+                case 'tconstruct:seared_stone': return Color.GRAY
+                case 'tconstruct:scorched_stone': return Color.GRAY
+                case 'pneumaticcraft:oil': return Color.GRAY
+                case 'biggerreactors:liquid_obsidian': return Color.GRAY
+                case 'ad_astra:oil': return Color.GRAY
+
+                default: return Color.GRAY
+            }
+        })
 })
 
 
