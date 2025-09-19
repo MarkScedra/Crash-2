@@ -145,20 +145,16 @@ StartupEvents.registry('item', (event) => {
                 case 'ad_astra:oxygen': return Color.WHITE
 
                 // lime
-                case 'tconstruct:earth_slime': return Color.GREEN
                 case 'sophisticatedcore:xp_still': return Color.LIME_DYE
                 case 'pneumaticcraft:memory_essence': return Color.LIME_DYE
-                case 'pneumaticcraft:etching_acid': return Color.GREEN
                 case 'mob_grinding_utils:fluid_xp': return Color.LIME_DYE
                 case 'industrialforegoing:essence': return Color.LIME_DYE
                 case 'enderio:xp_juice': return Color.LIME_DYE
                 case 'cofh_core:experience': return Color.LIME_DYE
-                case 'biggerreactors:liquid_uranium': return Color.GREEN
 
                 // purple
                 case 'tconstruct:ender_slime': return Color.PURPLE_DYE
                 case 'industrialforegoing:sludge': return Color.PURPLE_DYE
-                case 'industrialforegoing:pink_slime': return Color.PINK_DYE
                 case 'industrialforegoing:biofuel': return Color.PURPLE_DYE
                 case 'exdeorum:witch_water': return Color.PURPLE_DYE
 
@@ -203,6 +199,14 @@ StartupEvents.registry('item', (event) => {
                 case 'pneumaticcraft:kerosene': return Color.AQUA
                 case 'ad_astra:hydrogen': return Color.AQUA
                 case 'ad_astra:cryo_fuel': return Color.AQUA
+
+                // green
+                case 'tconstruct:earth_slime': return Color.GREEN
+                case 'pneumaticcraft:etching_acid': return Color.GREEN
+                case 'biggerreactors:liquid_uranium': return Color.GREEN
+
+                // pink
+                case 'industrialforegoing:pink_slime': return Color.PINK_DYE
 
                 // black/gray (default)
                 case 'thermal:crude_oil': return Color.GRAY
@@ -282,21 +286,21 @@ ItemEvents.modelProperties((e) => {
                 case 'biggerreactors:steam': return 0.03
                 case 'ad_astra:oxygen': return 0.03
 
-                // 0.04: experience
-                case 'tconstruct:earth_slime': return 0.04
+                // 0.04: lime
+                case 'tconstruct:earth_slime': return 0.04 // change to green
                 case 'sophisticatedcore:xp_still': return 0.04
                 case 'pneumaticcraft:memory_essence': return 0.04
-                case 'pneumaticcraft:etching_acid': return 0.04
+                case 'pneumaticcraft:etching_acid': return 0.04 // change to green
                 case 'mob_grinding_utils:fluid_xp': return 0.04
                 case 'industrialforegoing:essence': return 0.04
                 case 'enderio:xp_juice': return 0.04
                 case 'cofh_core:experience': return 0.04
-                case 'biggerreactors:liquid_uranium': return 0.04
+                case 'biggerreactors:liquid_uranium': return 0.04 // change to green
 
                 // 0.05: purple
                 case 'tconstruct:ender_slime': return 0.05
                 case 'industrialforegoing:sludge': return 0.05
-                case 'industrialforegoing:pink_slime': return 0.05
+                case 'industrialforegoing:pink_slime': return 0.05 // change to pink
                 case 'industrialforegoing:biofuel': return 0.05
                 case 'exdeorum:witch_water': return 0.05
 
