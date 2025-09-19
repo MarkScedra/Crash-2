@@ -59,6 +59,36 @@ StartupEvents.registry('item', (event) => {
                             data.putInt(cdKey, 20)
                             break
 
+                        case 'minecraft:milk':
+                            // if thirst is greater than 18, do not drink
+                            if (thirstCap && thirstCap.getThirst() > 18) break
+
+                            // decrease fluid by 100
+                            fluidTag.putInt('Amount', amount - 100)
+
+                            // increase thirst by 1, quenchness by 2
+                            thirstCap.drink(player, 1, 2)
+
+                            // increase food by 1, saturation by 1
+                            var food = player.getFoodData()
+                            food.setFoodLevel(Math.min(food.getFoodLevel() + 1, 20))
+                            food.setSaturation(Math.min(food.getSaturationLevel() + 1.0, food.getFoodLevel() * 1.0))
+
+                            // set 20 tick cooldown
+                            data.putInt(cdKey, 20)
+                            break
+
+                        case 'minecraft:lava':
+                            // decrease fluid by 100
+                            fluidTag.putInt('Amount', amount - 100)
+
+                            // deal 2 fire damage, light player on fire for 2 seconds
+                            player.attack(player.level.damageSources().onFire(), 2.0)
+                            player.setSecondsOnFire(2)
+
+                            // set 20 tick cooldown
+                            data.putInt(cdKey, 20)
+                            break
 
                         default:
                             break
