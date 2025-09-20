@@ -257,6 +257,11 @@
     "modId": "dummmmmmy",
     "version": "1.20-2.0.8"
   },
+  "e4mc_minecraft-forge-5.4.1.jar": {
+    "jarName": "e4mc_minecraft-forge-5.4.1.jar",
+    "modId": "e4mc_minecraft",
+    "version": "5.4.1"
+  },
   "elevatorid-1.20.1-1.9.1-forge.jar": {
     "jarName": "elevatorid-1.20.1-1.9.1-forge.jar",
     "modId": "elevatorid",
