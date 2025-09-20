@@ -33,9 +33,14 @@ ______________________________________________________________________
 
 A: Download the Modrinth or Curseforge app, search for the name of the pack, and click install. Make sure you are using 6-8 GB of RAM in the modpack or launcher’s settings.
 
-### Q: How can I play multiplayer? Do you have a server pack?
+### Q: How can I play multiplayer?
 
-A: If you _aren't_ experienced in server hosting, download the [Essential](https://modrinth.com/mod/essential) mod. Many players have had positive experiences with how easy it is to use. If you _are_ experienced in server hosting, you can download the server pack, included in most modpack releases (go to the versions page, select the newest one, and scroll all the way down past the mod list).
+A: The [e4mc](https://modrinth.com/mod/e4mc) mod is installed. To play multiplayer, simply open your world to LAN and it will print an address in chat that other players can join with.
+
+### Q: How do I set up a server? Do you have a server pack?
+
+A: If you _aren't_ experienced with server hosting, see the answer above. If you _are_ experienced with server hosting, server packs are available with most releases. On Modrinth, go to the [latest version](https://modrinth.com/modpack/desolate-planet/version/latest) and scroll all the way to the bottom, past the mod list.
+Once downloaded, unzip the file and run it locally via the `run.bat` (Windows) or `run.sh` (Linux/Mac) files. If you use a server hosting provider, upload _all_ the contents of the server pack to your host and find instructions for how to set up a Forge server on that host. These instructions are different for each server host, so find instructions specific to the one you are using.
 
 ### Q: Why does my game/world gets stuck while loading in?
 
