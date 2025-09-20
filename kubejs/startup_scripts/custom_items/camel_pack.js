@@ -5,6 +5,10 @@ const capacity = 4000
 
 StartupEvents.registry('item', (event) => {
 
+    event.create('filter')
+        .displayName('Water Filter')
+        .maxDamage(16)
+
     event.create('camel_pack')
         .displayName('Camel Pack')
         .maxStackSize(1)
