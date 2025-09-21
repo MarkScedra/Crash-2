@@ -1,0 +1,117 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "kubejs:item/camel_pack_worn",
+		"particle": "kubejs:item/camel_pack_worn"
+	},
+	"elements": [
+		{
+			"name": "Camel Pack",
+			"from": [0, 0, 0],
+			"to": [6, 9, 2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 4.5, 1]},
+			"faces": {
+				"north": {"uv": [2, 2, 8, 11], "texture": "#1"},
+				"east": {"uv": [0, 2, 2, 11], "texture": "#1"},
+				"south": {"uv": [10, 2, 16, 11], "texture": "#1"},
+				"west": {"uv": [8, 2, 10, 11], "texture": "#1"},
+				"up": {"uv": [8, 2, 2, 0], "texture": "#1"},
+				"down": {"uv": [14, 0, 8, 2], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Cap",
+			"from": [2, 9, 0],
+			"to": [4, 10, 2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 9.5, 1]},
+			"faces": {
+				"north": {"uv": [2, 13, 4, 14], "texture": "#1"},
+				"east": {"uv": [0, 13, 2, 14], "texture": "#1"},
+				"south": {"uv": [6, 13, 8, 14], "texture": "#1"},
+				"west": {"uv": [4, 13, 6, 14], "texture": "#1"},
+				"up": {"uv": [4, 13, 2, 11], "texture": "#1"},
+				"down": {"uv": [6, 11, 4, 13], "texture": "#1"}
+			}
+		}
+	],
+	"overrides": [
+		{ "predicate": { "fluid": 0.01, "stored": 0.10000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_blue_1" },
+		{ "predicate": { "fluid": 0.01, "stored": 0.30000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_blue_2" },
+		{ "predicate": { "fluid": 0.01, "stored": 0.50000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_blue_3" },
+		{ "predicate": { "fluid": 0.01, "stored": 0.70000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_blue_4" },
+		{ "predicate": { "fluid": 0.01, "stored": 0.90000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_blue_5" },
+
+		{ "predicate": { "fluid": 0.02, "stored": 0.10000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_orange_1" },
+		{ "predicate": { "fluid": 0.02, "stored": 0.30000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_orange_2" },
+		{ "predicate": { "fluid": 0.02, "stored": 0.50000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_orange_3" },
+		{ "predicate": { "fluid": 0.02, "stored": 0.70000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_orange_4" },
+		{ "predicate": { "fluid": 0.02, "stored": 0.90000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_orange_5" },
+
+		{ "predicate": { "fluid": 0.03, "stored": 0.10000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_white_1" },
+		{ "predicate": { "fluid": 0.03, "stored": 0.30000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_white_2" },
+		{ "predicate": { "fluid": 0.03, "stored": 0.50000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_white_3" },
+		{ "predicate": { "fluid": 0.03, "stored": 0.70000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_white_4" },
+		{ "predicate": { "fluid": 0.03, "stored": 0.90000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_white_5" },
+
+		{ "predicate": { "fluid": 0.04, "stored": 0.10000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_lime_1" },
+		{ "predicate": { "fluid": 0.04, "stored": 0.30000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_lime_2" },
+		{ "predicate": { "fluid": 0.04, "stored": 0.50000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_lime_3" },
+		{ "predicate": { "fluid": 0.04, "stored": 0.70000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_lime_4" },
+		{ "predicate": { "fluid": 0.04, "stored": 0.90000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_lime_5" },
+
+		{ "predicate": { "fluid": 0.05, "stored": 0.10000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_purple_1" },
+		{ "predicate": { "fluid": 0.05, "stored": 0.30000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_purple_2" },
+		{ "predicate": { "fluid": 0.05, "stored": 0.50000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_purple_3" },
+		{ "predicate": { "fluid": 0.05, "stored": 0.70000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_purple_4" },
+		{ "predicate": { "fluid": 0.05, "stored": 0.90000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_purple_5" },
+
+		{ "predicate": { "fluid": 0.06, "stored": 0.10000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_brown_1" },
+		{ "predicate": { "fluid": 0.06, "stored": 0.30000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_brown_2" },
+		{ "predicate": { "fluid": 0.06, "stored": 0.50000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_brown_3" },
+		{ "predicate": { "fluid": 0.06, "stored": 0.70000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_brown_4" },
+		{ "predicate": { "fluid": 0.06, "stored": 0.90000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_brown_5" },
+
+		{ "predicate": { "fluid": 0.07, "stored": 0.10000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_yellow_1" },
+		{ "predicate": { "fluid": 0.07, "stored": 0.30000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_yellow_2" },
+		{ "predicate": { "fluid": 0.07, "stored": 0.50000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_yellow_3" },
+		{ "predicate": { "fluid": 0.07, "stored": 0.70000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_yellow_4" },
+		{ "predicate": { "fluid": 0.07, "stored": 0.90000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_yellow_5" },
+
+		{ "predicate": { "fluid": 0.08, "stored": 0.10000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_red_1" },
+		{ "predicate": { "fluid": 0.08, "stored": 0.30000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_red_2" },
+		{ "predicate": { "fluid": 0.08, "stored": 0.50000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_red_3" },
+		{ "predicate": { "fluid": 0.08, "stored": 0.70000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_red_4" },
+		{ "predicate": { "fluid": 0.08, "stored": 0.90000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_red_5" },
+
+		{ "predicate": { "fluid": 0.09, "stored": 0.10000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_teal_1" },
+		{ "predicate": { "fluid": 0.09, "stored": 0.30000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_teal_2" },
+		{ "predicate": { "fluid": 0.09, "stored": 0.50000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_teal_3" },
+		{ "predicate": { "fluid": 0.09, "stored": 0.70000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_teal_4" },
+		{ "predicate": { "fluid": 0.09, "stored": 0.90000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_teal_5" },
+
+		{ "predicate": { "fluid": 0.10, "stored": 0.10000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_cyan_1" },
+		{ "predicate": { "fluid": 0.10, "stored": 0.30000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_cyan_2" },
+		{ "predicate": { "fluid": 0.10, "stored": 0.50000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_cyan_3" },
+		{ "predicate": { "fluid": 0.10, "stored": 0.70000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_cyan_4" },
+		{ "predicate": { "fluid": 0.10, "stored": 0.90000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_cyan_5" },
+
+		{ "predicate": { "fluid": 0.11, "stored": 0.10000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_green_1" },
+		{ "predicate": { "fluid": 0.11, "stored": 0.30000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_green_2" },
+		{ "predicate": { "fluid": 0.11, "stored": 0.50000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_green_3" },
+		{ "predicate": { "fluid": 0.11, "stored": 0.70000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_green_4" },
+		{ "predicate": { "fluid": 0.11, "stored": 0.90000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_green_5" },
+
+		{ "predicate": { "fluid": 0.12, "stored": 0.10000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_pink_1" },
+		{ "predicate": { "fluid": 0.12, "stored": 0.30000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_pink_2" },
+		{ "predicate": { "fluid": 0.12, "stored": 0.50000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_pink_3" },
+		{ "predicate": { "fluid": 0.12, "stored": 0.70000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_pink_4" },
+		{ "predicate": { "fluid": 0.12, "stored": 0.90000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_pink_5" },
+
+		{ "predicate": { "fluid": 0.99, "stored": 0.10000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_black_1" },
+		{ "predicate": { "fluid": 0.99, "stored": 0.30000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_black_2" },
+		{ "predicate": { "fluid": 0.99, "stored": 0.50000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_black_3" },
+		{ "predicate": { "fluid": 0.99, "stored": 0.70000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_black_4" },
+		{ "predicate": { "fluid": 0.99, "stored": 0.90000 }, "model": "kubejs:item/camel_pack_worn/camel_pack_worn_black_5" }
+	]
+}
