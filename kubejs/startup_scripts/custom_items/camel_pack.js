@@ -16,6 +16,7 @@ StartupEvents.registry('item', (event) => {
             CapabilityBuilder.FLUID.itemStack(capacity)
         )
         .tag('curios:belt')
+        .tag('curios:back')
         .attachCapability(
             CuriosCapabilities.CURIOS.itemStack()
                 .curioTick(function (stack, slotContext) {
