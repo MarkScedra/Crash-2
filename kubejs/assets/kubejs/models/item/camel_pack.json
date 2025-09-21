@@ -64,6 +64,18 @@
     { "predicate": { "fluid": 0.10, "stored": 0.70000 }, "model": "kubejs:item/camel_pack/camel_pack_cyan_4" },
     { "predicate": { "fluid": 0.10, "stored": 0.90000 }, "model": "kubejs:item/camel_pack/camel_pack_cyan_5" },
 
+    { "predicate": { "fluid": 0.11, "stored": 0.10000 }, "model": "kubejs:item/camel_pack/camel_pack_green_1" },
+    { "predicate": { "fluid": 0.11, "stored": 0.30000 }, "model": "kubejs:item/camel_pack/camel_pack_green_2" },
+    { "predicate": { "fluid": 0.11, "stored": 0.50000 }, "model": "kubejs:item/camel_pack/camel_pack_green_3" },
+    { "predicate": { "fluid": 0.11, "stored": 0.70000 }, "model": "kubejs:item/camel_pack/camel_pack_green_4" },
+    { "predicate": { "fluid": 0.11, "stored": 0.90000 }, "model": "kubejs:item/camel_pack/camel_pack_green_5" },
+
+    { "predicate": { "fluid": 0.12, "stored": 0.10000 }, "model": "kubejs:item/camel_pack/camel_pack_pink_1" },
+    { "predicate": { "fluid": 0.12, "stored": 0.30000 }, "model": "kubejs:item/camel_pack/camel_pack_pink_2" },
+    { "predicate": { "fluid": 0.12, "stored": 0.50000 }, "model": "kubejs:item/camel_pack/camel_pack_pink_3" },
+    { "predicate": { "fluid": 0.12, "stored": 0.70000 }, "model": "kubejs:item/camel_pack/camel_pack_pink_4" },
+    { "predicate": { "fluid": 0.12, "stored": 0.90000 }, "model": "kubejs:item/camel_pack/camel_pack_pink_5" },
+
     { "predicate": { "fluid": 0.99, "stored": 0.10000 }, "model": "kubejs:item/camel_pack/camel_pack_black_1" },
     { "predicate": { "fluid": 0.99, "stored": 0.30000 }, "model": "kubejs:item/camel_pack/camel_pack_black_2" },
     { "predicate": { "fluid": 0.99, "stored": 0.50000 }, "model": "kubejs:item/camel_pack/camel_pack_black_3" },
