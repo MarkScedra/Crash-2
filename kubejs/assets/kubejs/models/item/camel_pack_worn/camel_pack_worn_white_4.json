@@ -1,0 +1,53 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "kubejs:item/camel_pack_worn",
+		"2": "kubejs:item/camel_pack/camel_pack_overlay_white_5",
+		"particle": "kubejs:item/camel_pack_worn"
+	},
+	"elements": [
+		{
+			"name": "Camel Pack",
+			"from": [0, 0, 0],
+			"to": [6, 9, 2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 4.5, 1]},
+			"faces": {
+				"north": {"uv": [2, 2, 8, 11], "texture": "#1"},
+				"east": {"uv": [0, 2, 2, 11], "texture": "#1"},
+				"south": {"uv": [10, 2, 16, 11], "texture": "#1"},
+				"west": {"uv": [8, 2, 10, 11], "texture": "#1"},
+				"up": {"uv": [8, 2, 2, 0], "texture": "#1"},
+				"down": {"uv": [14, 0, 8, 2], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Cap",
+			"from": [2, 9, 0],
+			"to": [4, 10, 2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 9.5, 1]},
+			"faces": {
+				"north": {"uv": [2, 13, 4, 14], "texture": "#1"},
+				"east": {"uv": [0, 13, 2, 14], "texture": "#1"},
+				"south": {"uv": [6, 13, 8, 14], "texture": "#1"},
+				"west": {"uv": [4, 13, 6, 14], "texture": "#1"},
+				"up": {"uv": [4, 13, 2, 11], "texture": "#1"},
+				"down": {"uv": [6, 11, 4, 13], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Tank",
+			"from": [2, 2, -0.25],
+			"to": [4, 6, 0.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 2, 0.25]},
+			"faces": {
+				"north": {"uv": [7, 8, 9, 12], "texture": "#2"},
+				"east": {"uv": [7, 8, 8, 12], "texture": "#2"},
+				"south": {"uv": [7, 8, 9, 12], "texture": "#2"},
+				"west": {"uv": [8, 8, 9, 12], "texture": "#2"},
+				"up": {"uv": [7, 7, 9, 9], "texture": "#2"},
+				"down": {"uv": [9, 11, 7, 12], "texture": "#2"}
+			}
+		}
+	]
+}
