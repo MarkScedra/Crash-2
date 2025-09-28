@@ -3,13 +3,13 @@ if (Platform.isClientEnvironment()) {
     // transformation definitions
     global.camelPackTransforms = {
       STANDING: {
-        rotate:    { x: 180, y: 180, z: 0 },      // flip upright + face toward the back
-        translate: { x: 0.0, y: -5/16, z: 2.5/16 }, // 5px down, 2.5px off the back
+        rotate:    { x: 180, y: 0, z: 0 },      // flip upright + face toward the back
+        translate: { x: 0.0, y: -6/16, z: -3/16 }, // 6px down, 3px off the back
         scale:     { x: 1.0, y: 1.0, z: 1.0 }
       },
       SNEAKING: {
-        rotate:    { x: 210, y: 180, z: 0 },
-        translate: { x: 0.0, y: -5.25/16, z: 2.1/16 }, // tweak separately if you want a different crouch pose
+        rotate:    { x: 210, y: 0, z: 0 },
+        translate: { x: 0.0, y: -6.25/16, z: -2.6/16 },
         scale:     { x: 1.0, y: 1.0, z: 1.0 }
       }
     }
