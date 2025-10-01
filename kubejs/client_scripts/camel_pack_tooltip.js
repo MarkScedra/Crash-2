@@ -1,21 +1,24 @@
 ItemEvents.tooltip(function (e) {
-  e.addAdvanced('kubejs:camel_pack', function (item, advanced, text) {
-    var capacity = 4000
-    var fluidType = null
-    var amount = 0
+	e.addAdvanced('kubejs:camel_pack', function (item, advanced, text) {
 
-    if (item && item.nbt && item.nbt.contains('Fluid')) {
-      var fluid = item.nbt.get('Fluid')
-      fluidType = fluid.getString('FluidName')
-      amount = fluid.getInt('Amount')
-    }
+		var capacity = 4000
+		var fluidType = null
+		var amount = 0
 
-    if (!fluidType) {
-      text.add(1, Text.gray('Empty'))
-      return
-    }
+		if (item && item.nbt && item.nbt.contains('Fluid')) {
+			var fluid = item.nbt.get('Fluid')
+			fluidType = fluid.getString('FluidName')
+			amount = fluid.getInt('Amount')
+		}
 
-    text.add(1, Text.gray('Fluid: ' + String(fluidType.substring(fluidType.indexOf(':') + 1)).replace(/_/g, ' ').replace(/\b\w/g, function (c) { return c.toUpperCase() })))
-    text.add(2, Text.gray('Amount: ' + amount + ' / ' + capacity + ' mB'))
-  })
+		if (!fluidType) {
+			text.add(1, Text.white('Empty'))
+			text.add(2, Text.gray('A wearable tank for keeping you hydrated.'))
+			return
+		}
+
+		text.add(1, Text.white('Fluid: ' + String(fluidType.substring(fluidType.indexOf(':') + 1)).replace(/_/g, ' ').replace(/\b\w/g, function (c) { return c.toUpperCase() })))
+		text.add(2, Text.white('Amount: ' + amount + ' / ' + capacity + ' mB'))
+		text.add(3, Text.gray('A wearable tank for keeping you hydrated.'))
+	})
 })
