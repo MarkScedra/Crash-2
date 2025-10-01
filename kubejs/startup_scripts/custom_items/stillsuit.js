@@ -1,8 +1,50 @@
+// const ThirstCapabilities = Java.loadClass('dev.ghen.thirst.foundation.common.capability.ModCapabilities')
+// const CuriosCapabilities = Java.loadClass('com.prunoideae.powerfuljs.capabilities.forge.mods.curios.CapabilitiesCurios')
+
 StartupEvents.registry('item', function (event) {
     event.create('stillsuit')
         .displayName('Stillsuit')
         .maxStackSize(1)
         .tag('curios:back')
+        .attachCapability(
+            CuriosCapabilities.CURIOS.itemStack()
+                .curioTick(function (stack, slotContext) {
+                    // run on server for player
+                    var entity = slotContext.entity()
+                    if (!entity || entity.level.isClientSide() || !entity.isPlayer()) return
+                    var player = entity
+
+                    // thirst cap
+                    var thirstCap = player.getCapability(ThirstCapabilities.PLAYER_THIRST, null).orElse(null)
+                    if (!thirstCap) return
+
+                    // get persistent player data
+                    var playerData = player.persistentData
+
+                    // factor to modify thirst exhaustion rate by
+                    var thirstMultiplier = 0.5
+
+                    // Get previous exhaustion value
+                    var lastExhaustion = playerData.contains('ThirstAccumulatorLastExhaustion')
+                        ? playerData.getFloat('ThirstAccumulatorLastExhaustion')
+                        : thirstCap.getExhaustion()
+                    // Get current exhaustion value
+                    var currentExhaustionLevel = thirstCap.getExhaustion()
+
+                    // Change in exhaustion this tick
+                    var delta = currentExhaustionLevel - lastExhaustion
+
+                    // If delta is positive, set exhaustion to scaled value
+                    if (delta > 0) {
+                        var scaled = lastExhaustion + (delta * thirstMultiplier)
+                        thirstCap.setExhaustion(scaled)
+                        currentExhaustionLevel = scaled
+                    }
+
+                    // Set last exhaustion value to current exhaustion for next tick
+                    playerData.putFloat('ThirstAccumulatorLastExhaustion', currentExhaustionLevel)
+                })
+        )
 })
 
 ItemEvents.armorTierRegistry(event => {
