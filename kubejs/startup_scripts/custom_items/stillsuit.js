@@ -1,3 +1,10 @@
+StartupEvents.registry('item', function (event) {
+    event.create('stillsuit')
+        .displayName('Stillsuit')
+        .maxStackSize(1)
+        .tag('curios:back')
+})
+
 ItemEvents.armorTierRegistry(event => {
     event.add('stillsuit', tier => {
         tier.durabilityMultiplier = 15 // Each slot will be multiplied with [13, 15, 16, 11]
