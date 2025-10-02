@@ -1,13 +1,13 @@
 name = "Sophisticated Core"
-filename = "sophisticatedcore-1.20.1-1.2.78.1059.jar"
+filename = "sophisticatedcore-1.20.1-1.2.101.1213.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/nmoqTijg/versions/TuvFVdx3/sophisticatedcore-1.20.1-1.2.78.1059.jar"
+url = "https://cdn.modrinth.com/data/nmoqTijg/versions/mysRx249/sophisticatedcore-1.20.1-1.2.101.1213.jar"
 hash-format = "sha512"
-hash = "f3bdb15fe7f3cddd902883223acb34f267bf2298863b2416c5f304d491a80dbaec190aa06fbd9c1a55b6bc9def3e87d3b0d861ee7b8945042df4b12e6d166b0a"
+hash = "93e1819fe547fdb61938723f9d3382b16022aadfece795a0d1338b573b78f35fcbe03c7278eaace2627782d75f52ec055b1e57895250bffda6511438b482a08f"
 
 [update]
 [update.modrinth]
 mod-id = "nmoqTijg"
-version = "TuvFVdx3"
+version = "mysRx249"

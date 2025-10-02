@@ -1,13 +1,13 @@
 name = "Crust"
-filename = "crust-1.20.1-3.6.12.jar"
+filename = "crust-1.20.1-3.6.13.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/ctPaIxnk/versions/EbdM3H0T/crust-1.20.1-3.6.12.jar"
+url = "https://cdn.modrinth.com/data/ctPaIxnk/versions/uNB6X6ce/crust-1.20.1-3.6.13.jar"
 hash-format = "sha512"
-hash = "d5b57ef93b7065c53a6b5a46ee9a1aa68102071a306ccc4040ffda41b15ff0eb309eb115d2cf0779099ca1ac6db01fca913da6502d186aedd0b7778bb85dfb3d"
+hash = "0f2a5587b03c06a570d9b6c7404cf5d6b6bbd255737a295486defffdec590a2390cd521e2e1a8cd31fd99603d313acb1428c80c3e1992e56b5646cda5b656b36"
 
 [update]
 [update.modrinth]
 mod-id = "ctPaIxnk"
-version = "EbdM3H0T"
+version = "uNB6X6ce"

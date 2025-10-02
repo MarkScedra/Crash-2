@@ -1,13 +1,13 @@
 name = "Puzzles Lib"
-filename = "PuzzlesLib-v8.1.32-1.20.1-Forge.jar"
+filename = "PuzzlesLib-v8.1.33-1.20.1-Forge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/QAGBst4M/versions/YFZdsqXl/PuzzlesLib-v8.1.32-1.20.1-Forge.jar"
+url = "https://cdn.modrinth.com/data/QAGBst4M/versions/mIyVGf3d/PuzzlesLib-v8.1.33-1.20.1-Forge.jar"
 hash-format = "sha512"
-hash = "f6420b4884583727ee66d7410ce5ad3ce2a5fd9aed49700ea4bba1fd944a4b63d2d3f15a3d0d64afa2ec1aa261f8ef52b6277712c7d19e6dd31ff9d9360f05ae"
+hash = "4e0a6243f70a7f99bb631940bfeca49f31b13ec34f338d994fe129f0445e738ffd925e5c440f4e6bf822f9013bb8c2156de6dfcd62741d85c3ca3e8221d86a19"
 
 [update]
 [update.modrinth]
 mod-id = "QAGBst4M"
-version = "YFZdsqXl"
+version = "mIyVGf3d"
