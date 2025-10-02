@@ -168,5 +168,9 @@
 	# Enables the animated soul spring lamp model
 	# Disable this if there are visual errors like missing textures
 	# ⌄ 
-	"Animated Soul Spring Lamp" = true
+	"Animated Soulspring Lamp" = true
+	#─────────────────────────────────────────────────────────────────────────
+	# Uses custom player arm posing when holding a soulspring lamp
+	# ⌄ 
+	"Pose Soulspring Lamp" = true
 

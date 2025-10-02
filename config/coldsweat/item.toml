@@ -23,7 +23,8 @@
 	    ["#minecraft:logs_that_burn", 37],
 	    ["minecraft:coal_block", 333],
 	    ["minecraft:magma_block", 333],
-	    ["minecraft:lava_bucket", 1000]
+	    ["minecraft:lava_bucket", 1000],
+	    ["minecraft:dried_kelp_block", 92]
 	]
 	#─────────────────────────────────//v
 	Icebox = [
@@ -46,7 +47,8 @@
 	    ["minecraft:snow_block", -100],
 	    ["minecraft:ice", -250],
 	    ["minecraft:powder_snow_bucket", -100],
-	    ["minecraft:packed_ice", -1000]
+	    ["minecraft:packed_ice", -1000],
+	    ["minecraft:dried_kelp_block", 92]
 	]
 
 ["Hearth Extras"]
@@ -216,6 +218,11 @@
 	"Drying Items" = [
 	    ["minecraft:sponge", "minecraft:wet_sponge"]
 	]
+	#─────────────────────────────────────────────────────────────────────────
+	# Defines how many times a waterskin can be used before becoming empty
+	# ⌄ 
+	#Range: > 1
+	"Waterskin Uses" = 1
 
 [Misc]
 	#─────────────────────────────────────────────────────────────────────────//v
@@ -229,7 +236,7 @@
 	# • *nbt: The NBT data the item must have to apply to the entity.
 	# • *max_effect: The maximum temperature effect the item can apply to the entity.
 	# ⌄ 
-	"Carried Item Temperatures" = []
+	"Item Temperatures" = []
 
 ["Item Functions"]
 	#─────────────────────────────────────────────────────────────────────────
