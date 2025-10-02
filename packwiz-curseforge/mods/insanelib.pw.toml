@@ -1,6 +1,7 @@
 name = "InsaneLib"
 filename = "insanelib-1.21.1.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"

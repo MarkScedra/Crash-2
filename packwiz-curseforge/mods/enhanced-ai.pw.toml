@@ -1,6 +1,7 @@
 name = "Enhanced AI"
 filename = "enhancedai-2.6.4.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"
