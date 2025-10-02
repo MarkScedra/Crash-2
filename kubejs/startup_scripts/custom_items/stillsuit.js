@@ -5,7 +5,7 @@ StartupEvents.registry('item', function (event) {
     event.create('stillsuit')
         .displayName('Stillsuit')
         .maxStackSize(1)
-        .tag('curios:back')
+        .tag('curios:insulation')
         .attachCapability(
             CuriosCapabilities.CURIOS.itemStack()
                 .curioTick(function (stack, slotContext) {
