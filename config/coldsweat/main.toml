@@ -28,7 +28,7 @@
 	# Rate at which the player's body temperature changes (default: 1.0 (100%))
 	# ⌄ 
 	#Range: 0.0 ~ Infinity
-	"Rate Multiplier" = 2.0
+	"Rate Multiplier" = 1.0
 	#─────────────────────────────────────────────────────────────────────────
 	# Damage dealt to the player when they are too hot or too cold
 	# ⌄ 
