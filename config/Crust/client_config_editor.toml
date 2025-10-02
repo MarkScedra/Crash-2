@@ -38,6 +38,6 @@
 
   # The position offset for the config editor button from the anchor position, in GUI pixels. Negative values move the
   #   button toward the top/left, positive move it toward the bottom/right.
-  # <Integer> Range: Any Value, Default: -51
+  # <Integer> Range: Any Value, Default: -44
   pause_menu_button.offset.vertical = -45
   pause_menu_button.offset.horizontal = -4
