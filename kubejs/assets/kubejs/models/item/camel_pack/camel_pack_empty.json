@@ -16,13 +16,13 @@
 			}
 		},
 		"fixed": {
-			"parent": "kubejs:item/camel_pack_held",
+			"parent": "minecraft:item/generated",
 			"textures": {
 				"layer0": "kubejs:item/camel_pack"
 			}
 		},
 		"ground": {
-			"parent": "kubejs:item/camel_pack_held",
+			"parent": "minecraft:item/generated",
 			"textures": {
 				"layer0": "kubejs:item/camel_pack"
 			}
