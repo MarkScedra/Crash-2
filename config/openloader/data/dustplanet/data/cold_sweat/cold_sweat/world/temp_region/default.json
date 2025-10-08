@@ -1,0 +1,85 @@
+{
+  "dimensions":
+  [
+    "#forge:overworld_like"
+  ],
+  "regions": [
+    {
+      "bottom": {
+        "anchor": "world_top",
+        "depth": 1,
+        "temperature": {
+          "value": -10.926,
+          "strength": 0.005
+        }
+      }
+    },
+    {
+      "type": "linear",
+      "top": {
+        "anchor": "world_top",
+        "depth": 0,
+        "temperature": {
+          "value": -10.926,
+          "strength": 0.005
+        }
+      },
+      "bottom": {
+        "anchor": "ground_level",
+        "depth": 0,
+        "temperature": {
+          "strength": 0
+        }
+      }
+    },
+    {
+      "type": "linear",
+      "top": {
+        "anchor": "ground_level",
+        "depth": -1,
+        "temperature": {
+          "strength": 0
+        }
+      },
+      "bottom": {
+        "anchor": "ground_level",
+        "depth": -20,
+        "temperature": 0.955555
+      }
+    },
+    {
+      "type": "logarithmic",
+      "top": {
+        "anchor": "ground_level",
+        "depth": -21,
+        "temperature": 0.955555
+      },
+      "bottom": {
+        "anchor": "world_bottom",
+        "depth": 1,
+        "temperature": 1.288888
+      }
+    },
+    {
+      "type": "linear",
+      "top": {
+        "anchor": "world_bottom",
+        "depth": 0,
+        "temperature": 1.288888
+      },
+      "bottom": {
+        "anchor": "world_bottom",
+        "depth": -319,
+        "temperature": -10.926
+      }
+    },
+    {
+      "type": "constant",
+      "top": {
+        "anchor": "world_bottom",
+        "depth": -320,
+        "temperature": -10.926
+      }
+    }
+  ]
+}
