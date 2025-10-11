@@ -53,8 +53,8 @@
 	# • *units: The units of the temperature ("f", "c", or "mc"). Defaults to Minecraft units (mc))
 	# ⌄ 
 	"Biome Temperatures" = [
-	    ["minecraft:desert", 75, 105, "F"],
-	    ["minecraft:corrupted_desert", 75, 105, "F"],
+	    ["minecraft:desert", 75, 109, "F"],
+	    ["minecraft:corrupted_desert", 75, 109, "F"],
 	    ["minecraft:soul_sand_valley", 53, 53, "F"],
 	    ["minecraft:old_growth_birch_forest", 58, 72, "F"],
 	    ["minecraft:river", 60, 70, "F"],
@@ -148,11 +148,6 @@
 
 [Misc]
 	#─────────────────────────────────────────────────────────────────────────
-	# A temperature offset applied when the sky is overcast
-	# └── Format: [offset, *units]
-	# ⌄ 
-	"Overcast Temperature Offset" = [-0.35, "mc"]
-	#─────────────────────────────────────────────────────────────────────────
 	# List of blocks that will allow the player to sleep on them, regardless of the "Prevent Sleep When in Danger" setting
 	# Use this list if the player is not getting the temperature effect from sleeping on particular blocks
 	# ⌄ 
@@ -166,6 +161,11 @@
 	# Does not affect the block's temperature
 	# ⌄ 
 	"Cold Soul Fire" = true
+	#─────────────────────────────────────────────────────────────────────────
+	# A temperature offset applied when in complete shade or when the sky is overcast
+	# └── Format: [offset, *units]
+	# ⌄ 
+	"Shade Temperature Offset" = [-0.2, "mc"]
 
 #"Thermal sources" are blocks that have a smokestack and give frigidness/warmth, like the hearth, boiler, and iceobx
 ["Thermal Sources"]
