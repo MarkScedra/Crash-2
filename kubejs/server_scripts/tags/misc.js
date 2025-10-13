@@ -7,4 +7,11 @@ ServerEvents.tags('item', event => {
         'biggerreactors:reactor_terminal',
         'kubejs:crashed_reactor_controller'
     )
+
+    event.add('crash_landing:experience_buckets',
+        'pneumaticcraft:memory_essence_bucket',
+        'industrialforegoing:essence_bucket',
+        'enderio:xp_juice_bucket',
+        'mob_grinding_utils:fluid_xp_bucket'
+    )
 });
