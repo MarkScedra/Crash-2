@@ -80,6 +80,7 @@ ServerEvents.recipes(event => {
             thermal:apatite	0.6	2.5	3	3.5	4	4.5
             thermal:cinnabar	0.5	2	2.4	2.8	3.2	3.6
             exdeorum:uranium_ore_chunk	0	0	0	0.8	3	3.6
+            exdeorum:calcite_pebble	2	2.4	2.8	3.2	3.6	4
             ae2:charged_certus_quartz_crystal	0	0.1	0.5	0.6	0.7	0.8
         `
     );
@@ -118,6 +119,7 @@ ServerEvents.recipes(event => {
             exdeorum:iron_ore_chunk	6.3	25	30	35	40	45
             exdeorum:osmium_ore_chunk	3	12	14.4	16.8	19.2	21.6
             exdeorum:copper_ore_chunk	2.5	10	12	14	16	18
+            exdeorum:calcite_pebble	8	9.6	11.2	12.8	14.4	16
             ae2:certus_quartz_crystal	2	8	9.6	11.2	12.8	14.4
             exdeorum:gold_ore_chunk	1.4	5.5	6.6	7.7	8.8	9.9
             exdeorum:zinc_ore_chunk	0	1.5	6	7.2	8.4	9.6
