@@ -53,8 +53,8 @@
 	# • *units: The units of the temperature ("f", "c", or "mc"). Defaults to Minecraft units (mc))
 	# ⌄ 
 	"Biome Temperatures" = [
-	    ["minecraft:desert", 75, 109, "F"],
-	    ["minecraft:corrupted_desert", 75, 109, "F"],
+	    ["minecraft:desert", 75, 105, "F"],
+	    ["minecraft:corrupted_desert", 75, 105, "F"],
 	    ["minecraft:soul_sand_valley", 53, 53, "F"],
 	    ["minecraft:old_growth_birch_forest", 58, 72, "F"],
 	    ["minecraft:river", 60, 70, "F"],
@@ -183,7 +183,7 @@
 	# List of additional blocks that thermal sources spread through
 	# Use this list if thermal sources are spreading through particular blocks that they shouldn't
 	# ⌄ 
-	"Thermal Source Spread Blacklist" = ["minecraft:water"]
+	"Thermal Source Spread Blacklist" = ["minecraft:water", "#minecraft:doors", "#minecraft:trapdoors"]
 
 	["Thermal Sources".Hearth]
 		#─────────────────────────────────────────────────────────────────────────
