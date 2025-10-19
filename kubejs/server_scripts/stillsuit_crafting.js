@@ -41,4 +41,17 @@ ServerEvents.recipes(event => {
             W: 'kubejs:camel_pack'
         }
     ).id('kubejs:stillsuit');
+
+    event.shaped(
+        Item.of('kubejs:leather_insulation', 1),
+        [
+            'LSL',
+            'LLL',
+            'LLL'
+        ],
+        {
+            L: '#forge:leather',
+            S: '#forge:string'
+        }
+    ).id('kubejs:stillsuit');
 });
