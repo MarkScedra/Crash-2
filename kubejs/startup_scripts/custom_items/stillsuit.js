@@ -2,6 +2,12 @@
 // const CuriosCapabilities = Java.loadClass('com.prunoideae.powerfuljs.capabilities.forge.mods.curios.CapabilitiesCurios')
 
 StartupEvents.registry('item', function (event) {
+    event.create('insulated_hydraulic_fabric')
+        .displayName('Insulated Hydraulic Fabric')
+
+    event.create('filtration_pocket')
+        .displayName('Filtration Pocket')
+
     event.create('stillsuit')
         .displayName('Stillsuit')
         .maxStackSize(1)
@@ -47,6 +53,7 @@ StartupEvents.registry('item', function (event) {
         )
 })
 
+/*
 ItemEvents.armorTierRegistry(event => {
     event.add('stillsuit', tier => {
         tier.durabilityMultiplier = 15 // Each slot will be multiplied with [13, 15, 16, 11]
@@ -58,7 +65,6 @@ ItemEvents.armorTierRegistry(event => {
         tier.knockbackResistance = 0.0
     })
 });
-/*
 StartupEvents.registry("item", (event) => {
     event
         .create("stillsuit_helmet", "helmet")
