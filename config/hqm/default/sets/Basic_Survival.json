@@ -2,56 +2,6 @@
   "name": "Basic Survival",
   "quests": [
     {
-      "uuid": "799cc1e8-bdff-4470-b5e1-b983ebfd6624",
-      "name": {
-        "text": "Sapping the Saplings",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Another way to get water is to drop some saplings or leaves into the Centrifugal Separator. It will give you a bit of water. Remember, you can power your machines with the flux capacitor from your emergency supply chest.",
-        "isTranslationKey": false
-      },
-      "x": 142,
-      "y": 75,
-      "icon": {
-        "id": "minecraft:birch_sapling",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "Make sure you don\u0027t use up all of your saplings, the only way to get more is from leaves or sifting dirt.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:water_bucket",
-                "Count": 1,
-                "tag": "{}"
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:potion",
-          "Count": 2,
-          "tag": "{Potion:\"minecraft:water\"}"
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "89f755cb-748d-43d1-9430-0a3f3de8d907",
       "name": {
         "text": "Live to Fight Another Day",
@@ -113,6 +63,56 @@
           "Count": 32
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "799cc1e8-bdff-4470-b5e1-b983ebfd6624",
+      "name": {
+        "text": "Sapping the Saplings",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Another way to get water is to drop some saplings or leaves into the Centrifugal Separator. It will give you a bit of water. Remember, you can power your machines with the flux capacitor from your emergency supply chest.",
+        "isTranslationKey": false
+      },
+      "x": 142,
+      "y": 75,
+      "icon": {
+        "id": "minecraft:oak_sapling",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Make sure you don\u0027t use up all of your saplings, the only way to get more is from leaves or sifting dirt.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:water_bucket",
+                "Count": 1,
+                "tag": "{}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:potion",
+          "Count": 2,
+          "tag": "{Potion:\"minecraft:water\",Purity:2}"
+        }
+      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -188,6 +188,61 @@
       ],
       "optionlinks": [],
       "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b447d7bd-febd-458b-b0aa-43c1957e7d9e",
+      "name": {
+        "text": "Clean Bill of Health",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Purifying using with fire can provide a lot of clean water, but it works slowly. For a faster and more portable method, you can craft water filters.",
+        "isTranslationKey": false
+      },
+      "x": 190,
+      "y": 48,
+      "icon": {
+        "id": "minecraft:potion",
+        "Count": 1,
+        "tag": "{Potion:\"minecraft:water\",Purity:3}"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Water filters can be crafted with water bottles or buckets to purify them by one level.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:filter",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "15ad672b-7b9c-4115-a4b3-403c70654a40"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:potion",
+          "Count": 2,
+          "tag": "{Potion:\"minecraft:water\",Purity:3}"
+        },
+        {
+          "id": "minecraft:packed_ice",
+          "Count": 2
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -391,6 +446,27 @@
       "commandrewards": []
     },
     {
+      "uuid": "f720dbac-4e76-49a7-9f57-4800d558e3ca",
+      "name": {
+        "text": "Stillsuit Trigger",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 238,
+      "y": 129,
+      "trigger": "QUEST_TRIGGER",
+      "prerequisites": [
+        "0862574f-2caf-43d7-b79c-99ca3a5fe67c"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "6acadfe6-4853-4cf1-af89-d44bc0f42ce1",
       "name": {
         "text": "Cut and Paste",
@@ -449,6 +525,53 @@
           "Count": 1
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5f020d6d-64a9-4119-807f-f9619fb4ceac",
+      "name": {
+        "text": "Heat Shield",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Desert clothing is useful for protection, but it\u0027s bulky and doesn\u0027t allow you to wear armor with it. One alternative is to put a thin layer of insulating material between you and your armor. This isn\u0027t usually as effective, but it allows for more protection from attack.",
+        "isTranslationKey": false
+      },
+      "x": 190,
+      "y": 156,
+      "icon": {
+        "id": "kubejs:leather_insulation",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Insulation items can be placed in the curios Insulation slot, and provide smaller amounts of protection from the heat, but allowing armor to be worn at the same time.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:leather_insulation",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3f4bca77-f975-4406-9e7b-1cbe559b3068"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:leather",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -625,8 +748,7 @@
               "item": {
                 "id": "minecraft:spider_eye",
                 "Count": 1
-              },
-              "required": 1
+              }
             },
             {
               "item": {
@@ -692,7 +814,7 @@
       "icon": {
         "id": "minecraft:potion",
         "Count": 1,
-        "tag": "{Potion:\"minecraft:water\"}"
+        "tag": "{Potion:\"minecraft:water\",Purity:0}"
       },
       "trigger": "ANTI_TRIGGER",
       "tasks": [
@@ -832,6 +954,59 @@
         {
           "id": "pamhc2crops:riceseeditem",
           "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0862574f-2caf-43d7-b79c-99ca3a5fe67c",
+      "name": {
+        "text": "The Last Straw",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Desert survivors have long made use of portable water reservoirs for hydration. The most useful of which include a built in straw that connects to the wearer\u0027s mouth, allowing them to drink whenever they would like.",
+        "isTranslationKey": false
+      },
+      "x": 223,
+      "y": 48,
+      "icon": {
+        "id": "kubejs:camel_pack",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Camel packs can be filled with liquid to passively provide hydration. The attached tank can be filled from most tank blocks, or by crafting together with bottles and buckets. The filter helps to automatically purify most water, but when crafting, you must use bottles with a purity of Acceptable or Purified.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:camel_pack",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b447d7bd-febd-458b-b0aa-43c1957e7d9e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:leather",
+          "Count": 8
+        },
+        {
+          "id": "minecraft:potion",
+          "Count": 8,
+          "tag": "{Potion:\"minecraft:water\",Purity:3}"
         }
       ],
       "rewardchoice": [],
@@ -1056,12 +1231,8 @@
       "reward": [
         {
           "id": "minecraft:potion",
-          "Count": 4,
+          "Count": 2,
           "tag": "{Potion:\"minecraft:water\",Purity:2}"
-        },
-        {
-          "id": "minecraft:packed_ice",
-          "Count": 2
         }
       ],
       "rewardchoice": [],
@@ -1078,7 +1249,7 @@
         "isTranslationKey": false
       },
       "x": 14,
-      "y": 164,
+      "y": 165,
       "trigger": "QUEST_TRIGGER",
       "prerequisites": [
         "477e01c0-8641-4b6b-970f-7374b04f6a68"
@@ -1182,6 +1353,54 @@
       "commandrewards": []
     },
     {
+      "uuid": "24dbbe58-7306-4f70-8034-6aa3f7ca548f",
+      "name": {
+        "text": "Swimming in Strange Water",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The sun\u0027s scorching heat is often only bearable from within shelter. However, there are tales of survivors that can spend weeks on end in deathly heat using special suits. These stillsuits encase someone completely, recapturing lost water and using it to both regulate temperature and for drinking.",
+        "isTranslationKey": false
+      },
+      "x": 222,
+      "y": 156,
+      "icon": {
+        "id": "kubejs:stillsuit",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "The stillsuit provides more protection from the elements than any other type of insulation, and halves the wearer\u0027s water consumption rate.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:stillsuit",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5f020d6d-64a9-4119-807f-f9619fb4ceac",
+        "f720dbac-4e76-49a7-9f57-4800d558e3ca"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "thermal:cured_rubber",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "77e20e8d-ef39-4fa7-a124-af08260c09b9",
       "name": {
         "text": "Smelting leaves",
@@ -1202,7 +1421,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Put a crucible above a heat source and right-click to place leaves inside for melting into purified water.",
+            "text": "Put a crucible above a heat source and right-click it with leaves to melt them into water.",
             "isTranslationKey": false
           },
           "items": [
@@ -1825,54 +2044,54 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "String armor can help you stay cool in the blazing heat, especially if you go anywhere near that reactor leak.",
+        "text": "Desert planet inhabitants have developed effective clothes that can help you stay cool in the blazing heat. These clothes provide insulation from outside temperatures but can also allow enough airflow to let off body heat when it\u0027s cooler than you are. They also provide high coverage, protecting you from the sun\u0027s rays.",
         "isTranslationKey": false
       },
       "x": 158,
       "y": 156,
       "icon": {
-        "id": "kubejs:string_chestplate",
+        "id": "kubejs:desert_tunic",
         "Count": 1,
-        "tag": "{Damage:0}"
+        "tag": "{Damage:0,insulation:[]}"
       },
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "You can mix string armor with other types of armor to have a balance of damage protection and heat protection.",
+            "text": "Desert Armor provides excellent heat protection properties. It is mostly made from leather and string. Leather can be gained by cooking rotten flesh and string can be gained from silkworm-infested leaves. ",
             "isTranslationKey": false
           },
           "items": [
             {
               "item": {
-                "id": "kubejs:string_helmet",
+                "id": "kubejs:desert_cap",
                 "Count": 1,
-                "tag": "{Damage:0}"
+                "tag": "{Damage:0,insulation:[]}"
               },
               "precision": "FUZZY"
             },
             {
               "item": {
-                "id": "kubejs:string_chestplate",
+                "id": "kubejs:desert_tunic",
                 "Count": 1,
-                "tag": "{Damage:0}"
+                "tag": "{Damage:0,insulation:[]}"
               },
               "precision": "FUZZY"
             },
             {
               "item": {
-                "id": "kubejs:string_leggings",
+                "id": "kubejs:desert_pants",
                 "Count": 1,
-                "tag": "{Damage:0}"
+                "tag": "{Damage:0,insulation:[]}"
               },
               "precision": "FUZZY"
             },
             {
               "item": {
-                "id": "kubejs:string_boots",
+                "id": "kubejs:desert_shoes",
                 "Count": 1,
-                "tag": "{Damage:0}"
+                "tag": "{Damage:0,insulation:[]}"
               },
               "precision": "FUZZY"
             }
@@ -1883,13 +2102,17 @@
         "6f4c9614-c79e-4016-b153-290df8016c8b"
       ],
       "optionlinks": [],
-      "reward": [
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:rotten_flesh",
+          "Count": 4
+        },
         {
           "id": "minecraft:string",
           "Count": 16
         }
       ],
-      "rewardchoice": [],
       "commandrewards": []
     }
   ],

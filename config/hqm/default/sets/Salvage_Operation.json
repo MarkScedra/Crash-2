@@ -950,8 +950,8 @@
         },
         {
           "id": "minecraft:potion",
-          "Count": 2,
-          "tag": "{Potion:\"survive:purified_water\"}"
+          "Count": 4,
+          "tag": "{Potion:\"minecraft:water\",Purity:3}"
         }
       ],
       "rewardchoice": [
