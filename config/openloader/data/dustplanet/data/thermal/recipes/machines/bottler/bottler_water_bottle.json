@@ -6,14 +6,15 @@
     },
     {
       "fluid": "minecraft:water",
-      "amount": 1000
+      "amount": 250
     }
   ],
   "result": [
     {
       "item": "minecraft:potion",
       "nbt": {
-        "Potion": "minecraft:water"
+        "Potion": "minecraft:water",
+        "Purity": 2
       }
     }
   ]
