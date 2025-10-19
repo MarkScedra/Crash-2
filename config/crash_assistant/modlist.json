@@ -164,14 +164,6 @@
     "modId": "configured",
     "version": "2.2.3"
   },
-  "Connector-1.0.0-beta.46+1.20.1.jar": {
-    "jarName": "Connector-1.0.0-beta.46+1.20.1.jar"
-  },
-  "ConnectorExtras-1.11.2+1.20.1-rea.jar": {
-    "jarName": "ConnectorExtras-1.11.2+1.20.1-rea.jar",
-    "modId": "connectorextras",
-    "version": "1.11.2+1.20.1"
-  },
   "Controlling-forge-1.20.1-12.0.2.jar": {
     "jarName": "Controlling-forge-1.20.1-12.0.2.jar",
     "modId": "controlling",
@@ -306,16 +298,6 @@
     "jarName": "experimentalsettingsdisabler-1.20.1-3.0.jar",
     "modId": "experimentalsettingsdisabler",
     "version": "3.0"
-  },
-  "fabric-api-0.92.2+1.11.12+1.20.1.jar": {
-    "jarName": "fabric-api-0.92.2+1.11.12+1.20.1.jar",
-    "modId": "fabric_api",
-    "version": "0.92.2+1.11.12+1.20.1"
-  },
-  "fabric-api-0.92.6+1.20.1.jar": {
-    "jarName": "fabric-api-0.92.6+1.20.1.jar",
-    "modId": "fabric-api",
-    "version": "0.92.6+1.20.1"
   },
   "factory_blocks-forge-1.4.0+mc1.20.1.jar": {
     "jarName": "factory_blocks-forge-1.4.0+mc1.20.1.jar",
@@ -700,15 +682,10 @@
     "modId": "supermartijn642corelib",
     "version": "1.1.18"
   },
-  "Survive-1.20.1-9.0.6.jar": {
-    "jarName": "Survive-1.20.1-9.0.6.jar",
-    "modId": "survive",
-    "version": "1.20.1-9.0.6"
-  },
-  "sync-mc1.20.1-5.3.jar": {
-    "jarName": "sync-mc1.20.1-5.3.jar",
+  "Sync-0.1.8.jar": {
+    "jarName": "Sync-0.1.8.jar",
     "modId": "sync",
-    "version": "5.3"
+    "version": "0.1.8"
   },
   "tagtooltips-forge-1.20.1-1.1.0.jar": {
     "jarName": "tagtooltips-forge-1.20.1-1.1.0.jar",
@@ -769,11 +746,6 @@
     "jarName": "torchmaster-20.1.9.jar",
     "modId": "torchmaster",
     "version": "20.1.9"
-  },
-  "UnionLib-1.20.1-10.2.7-Forge.jar": {
-    "jarName": "UnionLib-1.20.1-10.2.7-Forge.jar",
-    "modId": "unionlib",
-    "version": "10.2.7"
   },
   "worldedit-mod-7.2.15.jar": {
     "jarName": "worldedit-mod-7.2.15.jar",
