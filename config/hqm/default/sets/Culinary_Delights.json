@@ -627,7 +627,7 @@
         {
           "id": "minecraft:potion",
           "Count": 3,
-          "tag": "{Potion:\"survive:purified_water\"}"
+          "tag": "{Potion:\"minecraft:water\",Purity:3}"
         }
       ],
       "commandrewards": []
