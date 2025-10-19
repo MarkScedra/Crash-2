@@ -14,4 +14,10 @@ ServerEvents.tags('item', event => {
         'enderio:xp_juice_bucket',
         'mob_grinding_utils:fluid_xp_bucket'
     )
+
+    event.add('crash_landing:fluid_conduits',
+        'enderio:fluid_conduit',
+        'enderio:pressurized_fluid_conduit',
+        'enderio:ender_fluid_conduit'
+    )
 });
