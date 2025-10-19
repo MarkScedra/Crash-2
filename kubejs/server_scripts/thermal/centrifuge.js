@@ -39,7 +39,7 @@ ServerEvents.recipes(event => {
     ], 'minecraft:cactus').energy(2000)
 
     event.recipes.thermal.centrifuge([
-        Item.of('minecraft:sand').withChance(0.25),
+        Item.of('immersive_weathering:sand_layer_block').withChance(0.75),
         Fluid.of('minecraft:water', 250, {Purity: 0})
     ], 'minecraft:dirt').energy(2000)
 })

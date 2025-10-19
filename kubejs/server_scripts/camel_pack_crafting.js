@@ -126,16 +126,16 @@ ServerEvents.recipes(event => {
 
     // Recipe definitions
     camelPackFillRecipe('minecraft:water_bucket', 'minecraft:water', 1000, 'minecraft:bucket');
-    camelPackFillRecipe('minecraft:lava_bucket', 'minecraft:lava', 1000, 'minecraft:bucket');
-    camelPackFillRecipe('minecraft:milk_bucket', 'minecraft:milk', 1000, 'minecraft:bucket');
-    camelPackFillRecipe('create:chocolate_bucket', 'create:chocolate', 1000, 'minecraft:bucket');
-    camelPackFillRecipe('create:honey_bucket', 'create:honey', 1000, 'minecraft:bucket');
-    camelPackFillRecipe('#crash_landing:experience_buckets', 'industrialforegoing:essence', 1000, 'minecraft:bucket');
+    // camelPackFillRecipe('minecraft:lava_bucket', 'minecraft:lava', 1000, 'minecraft:bucket');
+    // camelPackFillRecipe('minecraft:milk_bucket', 'minecraft:milk', 1000, 'minecraft:bucket');
+    // camelPackFillRecipe('create:chocolate_bucket', 'create:chocolate', 1000, 'minecraft:bucket');
+    // camelPackFillRecipe('create:honey_bucket', 'create:honey', 1000, 'minecraft:bucket');
+    // camelPackFillRecipe('#crash_landing:experience_buckets', 'industrialforegoing:essence', 1000, 'minecraft:bucket');
 
     camelPackFillRecipe(Item.of('minecraft:potion', '{Potion:"minecraft:water"}').weakNBT(), 'minecraft:water', 250, 'minecraft:glass_bottle');
 
-    camelPackFillRecipe('minecraft:experience_bottle', 'industrialforegoing:essence', 250, 'minecraft:glass_bottle');
-    camelPackFillRecipe('minecraft:honey_bottle', 'create:honey', 250, 'minecraft:glass_bottle');
-    camelPackFillRecipe('minecraft:honey_block', 'create:honey', 1000, '');
-    camelPackFillRecipe('create:bar_of_chocolate', 'create:chocolate', 250, '');
+    // camelPackFillRecipe('minecraft:experience_bottle', 'industrialforegoing:essence', 250, 'minecraft:glass_bottle');
+    // camelPackFillRecipe('minecraft:honey_bottle', 'create:honey', 250, 'minecraft:glass_bottle');
+    // camelPackFillRecipe('minecraft:honey_block', 'create:honey', 1000, '');
+    // camelPackFillRecipe('create:bar_of_chocolate', 'create:chocolate', 250, '');
 });
