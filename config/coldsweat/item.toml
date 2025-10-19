@@ -139,7 +139,11 @@
 	    ["kubejs:snow_hat", 7, 0],
 	    ["kubejs:snow_coat", 12, 0],
 	    ["kubejs:snow_pants", 10, 0],
-	    ["kubejs:snow_boots", 6, 0]
+	    ["kubejs:snow_boots", 6, 0],
+	    ["thermal:hazmat_helmet", 10, 10],
+	    ["thermal:hazmat_chestplate", 14, 14],
+	    ["thermal:hazmat_leggings", 12, 12],
+	    ["thermal:hazmat_boots", 10, 10]
 	]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines the items that provide insulation when worn in a curio slot

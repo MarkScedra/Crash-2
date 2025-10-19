@@ -53,5 +53,5 @@ ServerEvents.recipes(event => {
             L: '#forge:leather',
             S: '#forge:string'
         }
-    ).id('kubejs:stillsuit');
+    ).id('kubejs:leather_insulation');
 });
