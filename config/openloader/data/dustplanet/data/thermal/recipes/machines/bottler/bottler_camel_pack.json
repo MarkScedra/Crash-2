@@ -1,0 +1,23 @@
+{
+  "type": "thermal:bottler",
+  "ingredients": [
+    {
+      "item": "kubejs:camel_pack"
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 4000
+    }
+  ],
+  "result": [
+    {
+      "item": "kubejs:camel_pack",
+      "nbt": {
+        "Fluid": {
+          "Amount": 4000,
+          "FluidName": "minecraft:water"
+        }
+      }
+    }
+  ]
+}
