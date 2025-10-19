@@ -1,4 +1,5 @@
 ServerEvents.recipes(event => {
+    // Filter recipes
     event.shaped(
         Item.of('kubejs:filter', 1),
         [
@@ -12,6 +13,54 @@ ServerEvents.recipes(event => {
             P: 'minecraft:paper'
         }
     ).id('kubejs:filter');
+
+    const waterPurifyRecipe = (input_item) => {
+        const input_id = input_item.itemIds[0];
+
+        event.recipes.kubejs
+            .shapeless(
+                Item.of(input_id, input_id === 'minecraft:potion' ? '{Potion:"minecraft:water",Purity:3}' : '{Purity:3}'),
+                [
+                    'kubejs:filter',
+                    input_item
+                ]
+            )
+            .damageIngredient(Ingredient.of('kubejs:filter'), 1)
+            .modifyResult((grid, result) => {
+                const container_input = grid.find(Ingredient.of(input_id));
+                const filter_input = grid.find(Ingredient.of('kubejs:filter'));
+                if (!container_input || !filter_input) return;
+
+                // Get NBT of input container
+                const inputNBT = container_input.nbt || new CompoundTag();
+                // If potion data is present, ensure it is the same as the inserted fluid
+                if (inputNBT.Potion && inputNBT.Potion !== 'minecraft:water') return;
+
+                let current_purity = 2;
+                if (inputNBT && inputNBT.Purity !== undefined) {
+                    current_purity = inputNBT.Purity;
+                }
+
+                // Reject if purity is not between 0 and 2 (3 is valid but does not need further purification)
+                if (current_purity < 0 || current_purity >= 3) return;
+                
+                const container_output = Item.of(input_id, container_input.nbt ? container_input.nbt.copy() : new CompoundTag());
+                container_output.nbt.putInt('Purity', Math.min(current_purity + 1, 3));
+                return container_output;
+            })
+            .id(`kubejs:filter_purification/${input_id.split(':').pop()}`);
+    };
+
+    // Recipe definitions
+    waterPurifyRecipe(Item.of('minecraft:potion', '{Potion:"minecraft:water"}').weakNBT());
+    waterPurifyRecipe(Item.of('minecraft:water_bucket').weakNBT());
+    waterPurifyRecipe(Item.of('thirst:terracotta_water_bowl').weakNBT());
+
+
+
+
+
+    // Camel pack
     event.shaped(
         Item.of('kubejs:camel_pack', 1),
         [
@@ -54,7 +103,7 @@ ServerEvents.recipes(event => {
                 }
 
                 // Get NBT of input container
-                const nbtTag = fluid_container_input.nbt || {};
+                const nbtTag = fluid_container_input.nbt || new CompoundTag();
                 // If purity is present, ensure it is 2 or above
                 if (nbtTag.Purity && nbtTag.Purity < 2) return;
                 // If potion data is present, ensure it is the same as the inserted fluid
