@@ -299,6 +299,11 @@
     "modId": "factory_blocks",
     "version": "1.4.0+mc1.20.1"
   },
+  "FarmersDelight-1.20.1-1.2.9.jar": {
+    "jarName": "FarmersDelight-1.20.1-1.2.9.jar",
+    "modId": "farmersdelight",
+    "version": "1.20.1-1.2.9"
+  },
   "FastLeafDecay-32.jar": {
     "jarName": "FastLeafDecay-32.jar",
     "modId": "fastleafdecay",
