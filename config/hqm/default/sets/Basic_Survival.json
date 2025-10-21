@@ -11,7 +11,7 @@
         "text": "The night is dark and full of terrors. Your chances of survival are low, but you can improve them with some sort of weapon to defend yourself.",
         "isTranslationKey": false
       },
-      "x": 62,
+      "x": 94,
       "y": 156,
       "icon": {
         "id": "tconstruct:sword",
@@ -75,7 +75,7 @@
         "text": "Another way to get water is to drop some saplings or leaves into the Centrifugal Separator. It will give you a bit of water. Remember, you can power your machines with the flux capacitor from your emergency supply chest.",
         "isTranslationKey": false
       },
-      "x": 142,
+      "x": 174,
       "y": 75,
       "icon": {
         "id": "minecraft:oak_sapling",
@@ -125,7 +125,7 @@
         "text": "Silk worms can be found in tree leaves, and under certain conditions, they will spread through a tree, spinning cocoons of usable silk.",
         "isTranslationKey": false
       },
-      "x": 126,
+      "x": 158,
       "y": 156,
       "icon": {
         "id": "exdeorum:silk_worm",
@@ -201,7 +201,7 @@
         "text": "Purifying using with fire can provide a lot of clean water, but it works slowly. For a faster and more portable method, you can craft water filters.",
         "isTranslationKey": false
       },
-      "x": 190,
+      "x": 222,
       "y": 48,
       "icon": {
         "id": "minecraft:potion",
@@ -256,7 +256,7 @@
         "text": "In case of crash landing, you were equipped with a basic survival package:\n- Saplings\n- Fertilizer\n- Dried nutrient bricks\nNote: Choose this path if you want a challenge. Don\u0027t expect to live. Completing this quest disables the easy route quest.",
         "isTranslationKey": false
       },
-      "x": 14,
+      "x": 78,
       "y": 129,
       "icon": {
         "id": "minecraft:skeleton_skull",
@@ -405,7 +405,7 @@
         "text": "Breaking leaves will give saplings, but the chance is small. By knocking them down with a crook, you can triple your chance of finding saplings. Perhaps you can find something else useful in the leaves as well.",
         "isTranslationKey": false
       },
-      "x": 110,
+      "x": 142,
       "y": 129,
       "icon": {
         "id": "exdeorum:crook",
@@ -455,8 +455,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 238,
-      "y": 129,
+      "x": 318,
+      "y": 102,
       "trigger": "QUEST_TRIGGER",
       "prerequisites": [
         "0862574f-2caf-43d7-b79c-99ca3a5fe67c"
@@ -476,7 +476,7 @@
         "text": "If you need to glue something in a pinch, you don\u0027t need to find slime to do it. It turns out mixing water and flour makes a great adhesive.",
         "isTranslationKey": false
       },
-      "x": 78,
+      "x": 110,
       "y": 75,
       "icon": {
         "id": "kubejs:paste",
@@ -537,7 +537,7 @@
         "text": "Desert clothing is useful for protection, but it\u0027s bulky and doesn\u0027t allow you to wear armor with it. One alternative is to put a thin layer of insulating material between you and your armor. This isn\u0027t usually as effective, but it allows for more protection from attack.",
         "isTranslationKey": false
       },
-      "x": 190,
+      "x": 222,
       "y": 156,
       "icon": {
         "id": "kubejs:leather_insulation",
@@ -584,7 +584,7 @@
         "text": "Hammers can be used to crush stone into finer and finer pieces. Cobblestone can be crushed into gravel, gravel into sand, and sand into dust, though T4L0S has a lot of readily available dust on the surface already.",
         "isTranslationKey": false
       },
-      "x": 142,
+      "x": 174,
       "y": 129,
       "icon": {
         "id": "exdeorum:stone_hammer",
@@ -638,7 +638,7 @@
         "text": "In case of crash landing, you were equipped with a deluxe survival package:\n- Sync Shell Constructor\n- Spare Power Cell\n- 32 Extra Shotgun Shells\n- Saplings\n- Fertilizer\n- Choice of Sandwich\nNote: Choose this for an easier experience. Completing this quest disables the hard route quest.",
         "isTranslationKey": false
       },
-      "x": 14,
+      "x": 78,
       "y": 75,
       "icon": {
         "id": "pamhc2foodcore:grilledcheeseitem",
@@ -711,7 +711,7 @@
         "text": "The \"life\" on T4L0S seems to mostly be made up of the animated bodies of its former inhabitants, all of which appear hostile. The optimal survival strategy is to avoid confrontation, but some of them leave behind useful items when killed.",
         "isTranslationKey": false
       },
-      "x": 78,
+      "x": 110,
       "y": 183,
       "icon": {
         "id": "minecraft:rotten_flesh",
@@ -809,7 +809,7 @@
         "text": "Water is scarce on this planet. If you get desperate enough, you can squeeze the liquid out of some dirt for some very dirty water. Make sure not to use up all your dirt though, you\u0027ll need it for growing trees and crops.",
         "isTranslationKey": false
       },
-      "x": 126,
+      "x": 158,
       "y": 48,
       "icon": {
         "id": "minecraft:potion",
@@ -868,7 +868,7 @@
         "text": "Sometimes, paste just won\u0027t do. Maybe you\u0027re just sick of the smell, or maybe you need the special properties of earthslime or skyslime for advanced tinkering.",
         "isTranslationKey": false
       },
-      "x": 62,
+      "x": 94,
       "y": 48,
       "icon": {
         "id": "minecraft:slime_ball",
@@ -921,7 +921,7 @@
         "text": "For your continued survival, you\u0027ll need to start farming crops and trees on a larger scale. Neither of those are able to take root in the dust of this planet. However, you can compost organic material in a barrel to make some more dirt for yourself.",
         "isTranslationKey": false
       },
-      "x": 110,
+      "x": 142,
       "y": 75,
       "icon": {
         "id": "minecraft:dirt",
@@ -969,7 +969,7 @@
         "text": "Desert survivors have long made use of portable water reservoirs for hydration. The most useful of which include a built in straw that connects to the wearer\u0027s mouth, allowing them to drink whenever they would like.",
         "isTranslationKey": false
       },
-      "x": 223,
+      "x": 254,
       "y": 48,
       "icon": {
         "id": "kubejs:camel_pack",
@@ -1022,7 +1022,7 @@
         "text": "This world doesn\u0027t have any lava lakes or dragons, so you\u0027ll have to get some materials in other ways. A barrel full of lava can be turned into netherrack or end stone using redstone or glowstone respectively.",
         "isTranslationKey": false
       },
-      "x": 94,
+      "x": 126,
       "y": 48,
       "icon": {
         "id": "minecraft:netherrack",
@@ -1128,7 +1128,7 @@
         "text": "The harsh reality is that you\u0027re stuck on this planet. No amount of obsidian rectangles will let you escape. However, the situation means you can\u0027t get some resources (like soul sand) through normal methods.",
         "isTranslationKey": false
       },
-      "x": 110,
+      "x": 142,
       "y": 21,
       "icon": {
         "id": "minecraft:soul_sand",
@@ -1198,7 +1198,7 @@
         "text": "Dirty water may help you in a pinch, but for long term survival, you\u0027ll need to purify it.",
         "isTranslationKey": false
       },
-      "x": 158,
+      "x": 190,
       "y": 48,
       "icon": {
         "id": "minecraft:potion",
@@ -1248,8 +1248,8 @@
         "text": "Trigger quest to control quests unlocked by the hard route",
         "isTranslationKey": false
       },
-      "x": 14,
-      "y": 165,
+      "x": 78,
+      "y": 183,
       "trigger": "QUEST_TRIGGER",
       "prerequisites": [
         "477e01c0-8641-4b6b-970f-7374b04f6a68"
@@ -1269,7 +1269,7 @@
         "text": "String mesh can be upgraded to flint mesh to gain higher yields. It can be further upgraded later when you get the resources. Each mesh tier is better than the last.",
         "isTranslationKey": false
       },
-      "x": 174,
+      "x": 206,
       "y": 129,
       "icon": {
         "id": "exdeorum:flint_mesh",
@@ -1317,7 +1317,7 @@
         "text": "Finding a food source is urgent, but crops grow slowly. The fertilizer in your survival package won\u0027t last very long, so investing in another way to speed up crop growth is a good idea.",
         "isTranslationKey": false
       },
-      "x": 110,
+      "x": 142,
       "y": 183,
       "icon": {
         "id": "exdeorum:wooden_watering_can",
@@ -1362,7 +1362,7 @@
         "text": "The sun\u0027s scorching heat is often only bearable from within shelter. However, there are tales of survivors that can spend weeks on end in deathly heat using special suits. These stillsuits encase someone completely, recapturing lost water and using it to both regulate temperature and for drinking.",
         "isTranslationKey": false
       },
-      "x": 222,
+      "x": 254,
       "y": 156,
       "icon": {
         "id": "kubejs:stillsuit",
@@ -1410,7 +1410,7 @@
         "text": "Your new crucible can turn leaves into small amounts of water. It works like your Centrifugal Separator, but you only need a torch to power it. It\u0027s slow, but it makes investing in some shears early a good idea.",
         "isTranslationKey": false
       },
-      "x": 174,
+      "x": 206,
       "y": 75,
       "icon": {
         "id": "minecraft:oak_leaves",
@@ -1464,7 +1464,7 @@
         "text": "A finely crafted weapon or tool isn\u0027t as easy as strapping some rocks to a stick. In fact, basic tools like that won\u0027t work for you at all. You\u0027ll have to tinker around a bit.",
         "isTranslationKey": false
       },
-      "x": 78,
+      "x": 110,
       "y": 129,
       "icon": {
         "id": "tconstruct:tinker_station",
@@ -1544,9 +1544,8 @@
         "text": "Emergency Survival Checklist:\n\n1. Perform self-diagnostics and administer emergency first aid to treat any injuries.\n2. Assess the environment for potential threats, resources, and shelter. Exercise caution around the detached reactor, containment has breached and high-temperature fuel is leaking.\n3. Ration available food and water. The water reclamation system is damaged and leaking, you will have to find an alternate source of drinking water.\n4. Recover supplies from the ship\u0027s emergency survival equipment storage, located in the black box above ship\u0027s power. Available supplies include:\n  a. Multipurpose wrench\n  b. Basic particulate sieve\n  c. Emergency firearm\n  d. Emergency battery pack\n  e. Portable assembly unit\n  f. MAT input interface\n5. Refer back to the MAT unit when complete. The replicator should be able to provide some bottles and some water. It has taken damage but appears to just barely be functional.\n6. Proceed to the next available survival task. Consult your MAT unit regularly for recommended tasks and adaptive advice for your continued survival.",
         "isTranslationKey": false
       },
-      "x": 59,
-      "y": 99,
-      "bigicon": true,
+      "x": 62,
+      "y": 102,
       "icon": {
         "id": "hardcorequesting:quest_book",
         "Count": 1
@@ -1866,7 +1865,7 @@
         "text": "Ichor and enderslime are more advanced kinds of slime with even more special properties in tinkering.",
         "isTranslationKey": false
       },
-      "x": 78,
+      "x": 110,
       "y": 21,
       "icon": {
         "id": "tconstruct:ichor_slime_ball",
@@ -1983,7 +1982,7 @@
         "text": "You\u0027ll need some tools to stay alive out here as well. Bone tools are likelythe best starting material, but you can make a different type if you\u0027d like. Wood and stone tools are generally ineffective.",
         "isTranslationKey": false
       },
-      "x": 94,
+      "x": 126,
       "y": 156,
       "icon": {
         "id": "tconstruct:mattock",
@@ -2047,7 +2046,7 @@
         "text": "Desert planet inhabitants have developed effective clothes that can help you stay cool in the blazing heat. These clothes provide insulation from outside temperatures but can also allow enough airflow to let off body heat when it\u0027s cooler than you are. They also provide high coverage, protecting you from the sun\u0027s rays.",
         "isTranslationKey": false
       },
-      "x": 158,
+      "x": 190,
       "y": 156,
       "icon": {
         "id": "kubejs:desert_tunic",
