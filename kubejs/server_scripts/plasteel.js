@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
       item: 'kubejs:light_plasteel_block'
     },
     pressure: 1.5
-  }).id('crash_landing:light_plasteel_block');
+  }).id('desolate_planet:light_plasteel_block');
   
   event.custom({
     type: 'pneumaticcraft:thermo_plant',
@@ -33,7 +33,7 @@ ServerEvents.recipes(event => {
       item: 'kubejs:dark_plasteel_block'
     },
     pressure: 1.5
-  }).id('crash_landing:dark_plasteel_block');
+  }).id('desolate_planet:dark_plasteel_block');
 
   event.replaceInput(
     {

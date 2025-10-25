@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
         '#forge:flour',
         '#forge:water'
     ]
-    ).id('crash_landing:dough_base_shapeless');
+    ).id('desolate_planet:dough_base_shapeless');
 
     event.shapeless(
         Item.of('kubejs:paste', 3), [
@@ -44,21 +44,21 @@ ServerEvents.recipes(event => {
         '#forge:water',
         '#forge:water'
     ]
-    ).id('crash_landing:paste_base_shapeless');
+    ).id('desolate_planet:paste_base_shapeless');
 
     event.shapeless(
         Item.of('create:dough', 2), [
         '#forge:paste',
         '#forge:flour'
     ]
-    ).id('crash_landing:dough_from_paste_shapeless');
+    ).id('desolate_planet:dough_from_paste_shapeless');
 
     event.shapeless(
         Item.of('kubejs:paste', 2), [
         '#forge:dough',
         '#forge:water'
     ]
-    ).id('crash_landing:paste_from_dough_shapeless');
+    ).id('desolate_planet:paste_from_dough_shapeless');
 
     event.custom({
         type: 'create:splashing',
@@ -72,7 +72,7 @@ ServerEvents.recipes(event => {
                 item: 'create:dough'
             }
         ]
-    }).id('crash_landing:dough_splashing');
+    }).id('desolate_planet:dough_splashing');
 
     event.custom({
         type: 'create:mixing',
@@ -95,7 +95,7 @@ ServerEvents.recipes(event => {
                 count: 3
             }
         ]
-    }).id('crash_landing:dough_base_mixing');
+    }).id('desolate_planet:dough_base_mixing');
 
     event.custom({
         type: 'create:mixing',
@@ -115,7 +115,7 @@ ServerEvents.recipes(event => {
                 count: 3
             }
         ]
-    }).id('crash_landing:paste_base_mixing');
+    }).id('desolate_planet:paste_base_mixing');
 
     event.custom({
         type: 'create:mixing',
@@ -135,5 +135,5 @@ ServerEvents.recipes(event => {
                 count: 2
             }
         ]
-    }).id('crash_landing:paste_from_dough_mixing');
+    }).id('desolate_planet:paste_from_dough_mixing');
 });

@@ -37,7 +37,7 @@
     "forge:dough",
     "forge:wither_bones",
     "forge:salt",
-    "crash_landing:machine_frame"
+    "desolate_planet:machine_frame"
   ],
   "materials": [
     "aeternium",
@@ -94,7 +94,7 @@
   ],
   "priorityOverrides": {},
   "customTags": {
-    "crash_landing:machine_frame": [
+    "desolate_planet:machine_frame": [
       "thermal:machine_frame",
       "industrialforegoing:machine_frame_pity",
       "mekanism:steel_casing",
@@ -172,7 +172,7 @@
       "forge:flour/flour",
       "forge:dusts/flour"
     ],
-    "crash_landing:machine_frame": [
+    "desolate_planet:machine_frame": [
       "industrialforegoing:machine_frame/pity"
     ]
   },

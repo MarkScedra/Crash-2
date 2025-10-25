@@ -96,7 +96,7 @@ ServerEvents.recipes(event => {
             '#': '#ad_astra:steel_plates',
             F: 'ad_astra:fan',
             G: 'ad_astra:gas_tank',
-            M: '#crash_landing:machine_frame',
+            M: '#desolate_planet:machine_frame',
             S: '#forge:storage_blocks/signalum',
             '|': 'mekanism:electrolytic_core'
         }
@@ -115,7 +115,7 @@ ServerEvents.recipes(event => {
             B: '#ad_astra:ostrum_blocks',
             D: '#forge:gears/diamond',
             E: 'ad_astra:etrionic_capacitor',
-            M: '#crash_landing:machine_frame'
+            M: '#desolate_planet:machine_frame'
         }
     );
 
@@ -146,7 +146,7 @@ ServerEvents.recipes(event => {
         {
             '#': '#ad_astra:steel_plates',
             '|': 'ad_astra:steel_rod',
-            M: '#crash_landing:machine_frame'
+            M: '#desolate_planet:machine_frame'
         }
     );
 

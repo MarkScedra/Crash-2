@@ -64,7 +64,7 @@ ServerEvents.tags('item', event => {
 
 
     // Removed until player unlocks spawn eggs
-    event.add('crash_landing:animal_sourced',
+    event.add('desolate_planet:animal_sourced',
         '#forge:cooked_beef',
         '#forge:cooked_chicken',
         '#forge:cooked_mutton',
@@ -133,7 +133,7 @@ ServerEvents.tags('item', event => {
     )
 
     // Removed because fish don't exist in the desert
-    event.add('crash_landing:fish_sourced',
+    event.add('desolate_planet:fish_sourced',
         '#forge:cooked_fishes',
         '#forge:raw_fishes',
         'culturaldelights:cooked_calamari',
@@ -171,7 +171,7 @@ ServerEvents.tags('item', event => {
     .setCanBeStoredInContainers(false)  // defaults to false
 */
 
-AStages.addRestrictionForTag('crash_landing:animal_sourced', 'animals', 'crash_landing:animal_sourced')
+AStages.addRestrictionForTag('desolate_planet:animal_sourced', 'animals', 'desolate_planet:animal_sourced')
     // hides from JEI but is not restricted in any other way
     .setRenderItemName(true)
     .setHideTooltip(false)
@@ -184,7 +184,7 @@ AStages.addRestrictionForTag('crash_landing:animal_sourced', 'animals', 'crash_l
     .setCanItemBeRightClicked(true)
     .setCanBeStoredInContainers(true)
 
-AStages.addRestrictionForTag('crash_landing:fish_sourced', 'fish', 'crash_landing:fish_sourced')
+AStages.addRestrictionForTag('desolate_planet:fish_sourced', 'fish', 'desolate_planet:fish_sourced')
     // hides from JEI but is not restricted in any other way
     .setRenderItemName(true)
     .setHideTooltip(false)
