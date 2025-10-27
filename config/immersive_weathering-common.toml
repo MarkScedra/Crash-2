@@ -28,7 +28,7 @@
 	#Range: 0.0 ~ 1.0
 	immune_chance = 0.4
 	needs_air = false
-	enabled = true
+	enabled = false
 
 [icicle]
 	react_to_vibrations = true
@@ -93,8 +93,8 @@
 [rusting]
 	rusting = false
 	#Range: 1 ~ 8
-	rusting_influence_radius = 4
+	rusting_influence_radius = 0
 	#Range: 0.0 ~ 1.0
-	rusting_rate = 0.06
-	rust_streaking = true
+	rusting_rate = 0.0
+	rust_streaking = false
 
