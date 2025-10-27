@@ -36,9 +36,25 @@ ServerEvents.recipes(event => {
     ].forEach(id => {
         event.remove({ id: id });
     });
+
+    // Specific recipe changes
+    
+
+    event.remove({ id: 'culturaldelights:cooking/raw_pasta' });
+    event.remove({ id: 'farmersdelight:pie_crust' });
+    event.shaped(
+        Item.of('farmersdelight:pie_crust', 1),
+        [
+            'SMS',
+            'www'
+        ],
+        {
+            M: '#forge:milk',
+            S: '#forge:sugar',
+            w: 'minecraft:wheat'
+        }
+    ).id('desolate_planet:pie_crust');
 });
-
-
 
 ServerEvents.tags('item', event => {
     event.remove('forge:egg', 'vegandelight:applesauce')
