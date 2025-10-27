@@ -3,11 +3,14 @@
     "minecraft",
     "kubejs",
     "crafttweaker",
+    "farmersdelight",
     "create",
     "thermal",
     "immersiveengineering",
     "pneumaticcraft",
-    "mekanism"
+    "mekanism",
+    "createdeco",
+    "createaddition"
   ],
   "stoneStrata": [
     "stone",
@@ -108,6 +111,21 @@
     ],
     "forge:flour": [
       "enderio:flour"
+    ],
+    "forge:plates": [
+      "createdeco:andesite_sheet",
+      "createdeco:zinc_sheet",
+      "createdeco:netherite_sheet"
+    ],
+    "forge:plates/andesite": [
+      "createdeco:andesite_sheet"
+    ],
+    "forge:plates/zinc": [
+      "createaddition:zinc_sheet",
+      "createdeco:zinc_sheet"
+    ],
+    "forge:plates/netherite": [
+      "createdeco:netherite_sheet"
     ]
   },
   "tagOwnerships": {
