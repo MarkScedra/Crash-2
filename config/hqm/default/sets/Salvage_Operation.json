@@ -289,6 +289,59 @@
       "commandrewards": []
     },
     {
+      "uuid": "2b994684-1263-4b2b-8567-57b696c8680a",
+      "name": {
+        "text": "Meltdown",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The ruins on this planet seem to contain remnants of all sorts of interesting technology. Some of this tech seems suitable for nuclear power generation.",
+        "isTranslationKey": false
+      },
+      "x": 190,
+      "y": 48,
+      "icon": {
+        "id": "kubejs:crashed_reactor_frame",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "You can find the nuclear plant building by exploring the desert.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:crashed_reactor_controller",
+                "Count": 1
+              },
+              "precision": "TAG_FUZZY"
+            },
+            {
+              "item": {
+                "id": "kubejs:crashed_reactor_frame",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "cdac0984-204e-4fbc-b2cd-cea990ae0367"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "biggerreactors:graphite_ingot",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "7cd36511-ac8a-4a2a-89e6-9fa29cb33173",
       "name": {
         "text": "Running on Fumes",
@@ -370,59 +423,6 @@
         {
           "id": "thermal:electrum_block",
           "Count": 8
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "2b994684-1263-4b2b-8567-57b696c8680a",
-      "name": {
-        "text": "Meltdown",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "The ruins on this planet seem to contain remnants of all sorts of interesting technology. Some of this tech seems suitable for nuclear power generation.",
-        "isTranslationKey": false
-      },
-      "x": 190,
-      "y": 48,
-      "icon": {
-        "id": "kubejs:crashed_reactor_frame",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "You can find the nuclear plant building by exploring the desert.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "kubejs:crashed_reactor_controller",
-                "Count": 1
-              },
-              "precision": "TAG_FUZZY"
-            },
-            {
-              "item": {
-                "id": "kubejs:crashed_reactor_frame",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "cdac0984-204e-4fbc-b2cd-cea990ae0367"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "biggerreactors:graphite_ingot",
-          "Count": 16
         }
       ],
       "rewardchoice": [],
@@ -930,12 +930,10 @@
             },
             {
               "item": {
-                "id": "minecraft:potion",
-                "Count": 1,
-                "tag": "{Potion:\"minecraft:water\"}"
+                "id": "kubejs:camel_pack",
+                "Count": 1
               },
-              "required": 8,
-              "precision": "FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }
