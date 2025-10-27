@@ -26,6 +26,7 @@ ServerEvents.recipes(event => {
                 ]
             )
             .damageIngredient(Ingredient.of('kubejs:filter'), 1)
+            .replaceIngredient(input_item, 'minecraft:air')
             .modifyResult((grid, result) => {
                 const container_input = grid.find(Ingredient.of(input_id));
                 const filter_input = grid.find(Ingredient.of('kubejs:filter'));
