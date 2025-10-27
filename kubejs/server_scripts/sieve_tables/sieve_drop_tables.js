@@ -58,7 +58,7 @@ ServerEvents.recipes(event => {
         'exdeorum:crushed_deepslate',
         'exdeorum:compressed_crushed_deepslate',
         `
-            exdeorum:iron_ore_chunk	7.5	30	36	42	48	54
+            exdeorum:iron_ore_chunk	30	36	42	48	54	60
             exdeorum:gold_ore_chunk	4.5	18	21.6	25.2	28.8	32.4
             exdeorum:tuff_pebble	18	21.6	25.2	28.8	32.4	36
             exdeorum:osmium_ore_chunk	3	12	14.4	16.8	19.2	21.6
@@ -89,7 +89,7 @@ ServerEvents.recipes(event => {
         'minecraft:gravel',
         'exdeorum:compressed_gravel',
         `
-            exdeorum:iron_ore_chunk	7.5	30	36	42	48	54
+            exdeorum:iron_ore_chunk	30	36	42	48	54	60
             minecraft:coal	20	24	28	32	36	40
             minecraft:flint	18	21.6	25.2	28.8	32.4	36
             exdeorum:copper_ore_chunk	5	20	24	28	32	36
@@ -116,7 +116,7 @@ ServerEvents.recipes(event => {
         'minecraft:sand',
         'exdeorum:compressed_sand',
         `
-            exdeorum:iron_ore_chunk	6.3	25	30	35	40	45
+            exdeorum:iron_ore_chunk	25	30	35	40	45	50
             exdeorum:osmium_ore_chunk	3	12	14.4	16.8	19.2	21.6
             exdeorum:copper_ore_chunk	2.5	10	12	14	16	18
             exdeorum:calcite_pebble	8	9.6	11.2	12.8	14.4	16
@@ -141,7 +141,7 @@ ServerEvents.recipes(event => {
         'minecraft:red_sand',
         'exdeorum:compressed_red_sand',
         `
-            exdeorum:iron_ore_chunk	6.3	25	30	35	40	45
+            exdeorum:iron_ore_chunk	25	30	35	40	45	50
             exdeorum:gold_ore_chunk	6.3	25	30	35	40	45
             exdeorum:copper_ore_chunk	5	20	24	28	32	36
             minecraft:redstone	3	12	14.4	16.8	19.2	21.6
@@ -165,7 +165,7 @@ ServerEvents.recipes(event => {
         `
             minecraft:bone_meal	18	21.6	25.2	28.8	32.4	36
             exdeorum:stone_pebble	15	18	21	24	27	30
-            exdeorum:iron_ore_chunk	3.8	15	18	21	24	27
+            exdeorum:iron_ore_chunk	15	18	21	24	27	30
             mekanism:salt	12	14.4	16.8	19.2	21.6	24
             minecraft:redstone	3	12	14.4	16.8	19.2	21.6
             minecraft:gunpowder	2.3	9	10.8	12.6	14.4	16.2
