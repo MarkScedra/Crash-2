@@ -15,10 +15,12 @@ ServerEvents.recipes(event => {
         'create:crafting/kinetics/super_glue',
         'create:crafting/kinetics/sticker',
         'create:crafting/kinetics/sticky_mechanical_piston',
+        'create:crafting/logistics/package_frogport',
         'createaddition:crafting/large_connector_electrum',
         'createaddition:crafting/large_connector_gold',
         'createaddition:crafting/small_connector_copper',
         'pneumaticcraft:pressure_chamber/capacitor', // not working, using datapack instead
+        'sophisticatedstorage:packing_tape',
         'tconstruct:common/slime/sticky_piston',
         'tconstruct:tables/book_substitute'
     ].forEach(recipeid => {
