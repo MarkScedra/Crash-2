@@ -2,6 +2,375 @@
   "name": "Culinary Delights",
   "quests": [
     {
+      "uuid": "3d88a1d7-2d53-4346-88ec-bd4120f93878",
+      "name": {
+        "text": "Pearl Jam",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The ender pearl is a fascinating material with interesting properties. It seems like it could be turned into viable food source if neutralized with some gunpowder.",
+        "isTranslationKey": false
+      },
+      "x": 126,
+      "y": 138,
+      "icon": {
+        "id": "kubejs:enderios",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Enderios are made by mixing together ender pearl dust, flour, and gunpowder in a mixing bowl.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:enderios",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "99089910-31d1-4e1c-8736-1c1790e912ee"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "cgm:shell",
+          "Count": 16
+        },
+        {
+          "id": "thermal:ender_grenade",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "68e49d0e-4d69-421a-98f6-878939a5cbc4",
+      "name": {
+        "text": "Desperate Times...",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "T4L0S seems to entirely lack plant life, which does not leave much to eat once your rations run out. As a temporary solution, you may have to sustain yourself with the flesh scavenged from the undead that emerge at night.",
+        "isTranslationKey": false
+      },
+      "x": 126,
+      "y": 30,
+      "icon": {
+        "id": "kubejs:zombie_jerky",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Salt",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "The dust on T4L0S has a high salt concentration. Salt can be used to cure and preserve food, rendering it safe for consumption. Sift some dust to collect salt.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "mekanism:salt",
+                "Count": 1
+              },
+              "precision": "TAG_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Rotten Flesh",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "The zombies that hunt at night seem to burn up every morning, leaving their flesh behind. If you\u0027re careful, you could collect some of it, but watch out for any creatures that didn\u0027t burn up.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:rotten_flesh",
+                "Count": 1
+              },
+              "required": 2
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:craft",
+          "description": {
+            "text": "...Desperate Measures",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Combining a piece of rotten flesh with some salt will make something edible. It is not a strong source of nutrition, but it is far less poisonous than normal rotten flesh and should be suitable until better food can be found.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:zombie_jerky",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:rotten_flesh",
+          "Count": 4
+        },
+        {
+          "id": "mekanism:salt",
+          "Count": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d7150e2a-3614-4a26-b1b6-ddff205497b7",
+      "name": {
+        "text": "Water Under the Bridge",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Finding a food source is urgent, but crops grow slowly. The fertilizer in your survival package won\u0027t last very long, so investing in another way to speed up crop growth is a good idea.",
+        "isTranslationKey": false
+      },
+      "x": 158,
+      "y": 120,
+      "icon": {
+        "id": "exdeorum:wooden_watering_can",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:consume",
+          "items": [
+            {
+              "item": {
+                "id": "exdeorum:wooden_watering_can",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a7651d6d-28ec-40fc-9b58-7072169c2c04"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "exdeorum:wooden_watering_can",
+          "Count": 1,
+          "tag": "{Fluid:{Amount:300,FluidName:\"minecraft:water\"}}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cb601279-bcf8-4bab-acbd-83d08c6e9c40",
+      "name": {
+        "text": "It Was a Graveyard Smash",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie jerky is a poor long-term food source. However, you don\u0027t have many options at the moment. To add a bit of variety to your diet, you can craft some food out of other mob drops.",
+        "isTranslationKey": false
+      },
+      "x": 126,
+      "y": 66,
+      "icon": {
+        "id": "kubejs:monster_mash",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Monster mash is made by mixing together rotten flesh, bones, and salt in a mixing bowl.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:monster_mash",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "68e49d0e-4d69-421a-98f6-878939a5cbc4",
+        "32852a9b-1b0c-4954-99c3-92501611c7d7"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "cgm:shell",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:bone_meal",
+          "Count": 24
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7d445709-f8f3-49e8-8128-0a9208390e5f",
+      "name": {
+        "text": "Meal Ticket",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Beans and rice are an incredibly simple and nutritious dish that can sustain you for a long time.",
+        "isTranslationKey": false
+      },
+      "x": 190,
+      "y": 102,
+      "icon": {
+        "id": "pamhc2foodextended:beansandriceitem",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Beans and rice can be made from (unsurprisingly) beans and rice, cooked together in a pot.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pamhc2foodextended:beansandriceitem",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a7651d6d-28ec-40fc-9b58-7072169c2c04",
+        "c1372eac-159b-420f-84bd-b1e4b0e86127"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pamhc2crops:soybeanseeditem",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "pamhc2crops:cottonseeditem",
+          "Count": 1
+        },
+        {
+          "id": "pamhc2crops:peanutseeditem",
+          "Count": 1
+        },
+        {
+          "id": "pamhc2crops:tomatoseeditem",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a7651d6d-28ec-40fc-9b58-7072169c2c04",
+      "name": {
+        "text": "Pot Luck",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Simple cooking tools can only get you so far. For certain recipes, you\u0027ll need to cook your food in some pots and pans.",
+        "isTranslationKey": false
+      },
+      "x": 158,
+      "y": 84,
+      "icon": {
+        "id": "pamhc2foodcore:potitem",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "The cooking tools below are made from copper ingots, and will allow you to cook a broad spectrum of foods.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pamhc2foodcore:potitem",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pamhc2foodcore:saucepanitem",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pamhc2foodcore:skilletitem",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pamhc2foodcore:cuttingboarditem",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "32852a9b-1b0c-4954-99c3-92501611c7d7"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pamhc2foodcore:cookingoilitem",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "99089910-31d1-4e1c-8736-1c1790e912ee",
       "name": {
         "text": "Bugging Out",
@@ -156,204 +525,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "3d88a1d7-2d53-4346-88ec-bd4120f93878",
-      "name": {
-        "text": "Pearl Jam",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "The ender pearl is a fascinating material with interesting properties. It seems like it could be turned into viable food source if neutralized with some gunpowder.",
-        "isTranslationKey": false
-      },
-      "x": 126,
-      "y": 138,
-      "icon": {
-        "id": "kubejs:enderios",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "Enderios are made by mixing together ender pearl dust, flour, and gunpowder in a mixing bowl.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "kubejs:enderios",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "99089910-31d1-4e1c-8736-1c1790e912ee"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "cgm:shell",
-          "Count": 16
-        },
-        {
-          "id": "thermal:ender_grenade",
-          "Count": 8
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "68e49d0e-4d69-421a-98f6-878939a5cbc4",
-      "name": {
-        "text": "Desperate Times...",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "T4L0S seems to entirely lack plant life, which does not leave much to eat once your rations run out. As a temporary solution, you may have to sustain yourself with the flesh scavenged from the undead that emerge at night.",
-        "isTranslationKey": false
-      },
-      "x": 126,
-      "y": 30,
-      "icon": {
-        "id": "kubejs:zombie_jerky",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Salt",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "The dust on T4L0S has a high salt concentration. Salt can be used to cure and preserve food, rendering it safe for consumption. Sift some dust to collect salt.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "mekanism:salt",
-                "Count": 1
-              },
-              "precision": "TAG_FUZZY"
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Rotten Flesh",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "The zombies that hunt at night seem to burn up every morning, leaving their flesh behind. If you\u0027re careful, you could collect some of it, but watch out for any creatures that didn\u0027t burn up.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:rotten_flesh",
-                "Count": 1
-              },
-              "required": 2
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:craft",
-          "description": {
-            "text": "...Desperate Measures",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "Combining a piece of rotten flesh with some salt will make something edible. It is not a strong source of nutrition, but it is far less poisonous than normal rotten flesh and should be suitable until better food can be found.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "kubejs:zombie_jerky",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "minecraft:rotten_flesh",
-          "Count": 4
-        },
-        {
-          "id": "mekanism:salt",
-          "Count": 8
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "cb601279-bcf8-4bab-acbd-83d08c6e9c40",
-      "name": {
-        "text": "It Was a Graveyard Smash",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Zombie jerky is a poor long-term food source. However, you don\u0027t have many options at the moment. To add a bit of variety to your diet, you can craft some food out of other mob drops.",
-        "isTranslationKey": false
-      },
-      "x": 126,
-      "y": 66,
-      "icon": {
-        "id": "kubejs:monster_mash",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "Monster mash is made by mixing together rotten flesh, bones, and salt in a mixing bowl.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "kubejs:monster_mash",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "68e49d0e-4d69-421a-98f6-878939a5cbc4",
-        "32852a9b-1b0c-4954-99c3-92501611c7d7"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "cgm:shell",
-          "Count": 16
-        },
-        {
-          "id": "minecraft:bone_meal",
-          "Count": 24
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "c1372eac-159b-420f-84bd-b1e4b0e86127",
       "name": {
         "text": "Taking a Crack At It",
@@ -411,8 +582,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 158,
-      "y": 12,
+      "x": 222,
+      "y": 48,
       "icon": {
         "id": "create:wheat_flour",
         "Count": 1
@@ -427,132 +598,6 @@
       ],
       "optionlinks": [],
       "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "7d445709-f8f3-49e8-8128-0a9208390e5f",
-      "name": {
-        "text": "Meal Ticket",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Beans and rice are an incredibly simple and nutritious dish that can sustain you for a long time.",
-        "isTranslationKey": false
-      },
-      "x": 190,
-      "y": 102,
-      "icon": {
-        "id": "pamhc2foodextended:beansandriceitem",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "Beans and rice can be made from (unsurprisingly) beans and rice, cooked together in a pot.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "pamhc2foodextended:beansandriceitem",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a7651d6d-28ec-40fc-9b58-7072169c2c04",
-        "c1372eac-159b-420f-84bd-b1e4b0e86127"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "pamhc2crops:soybeanseeditem",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "pamhc2crops:cottonseeditem",
-          "Count": 1
-        },
-        {
-          "id": "pamhc2crops:peanutseeditem",
-          "Count": 1
-        },
-        {
-          "id": "pamhc2crops:tomatoseeditem",
-          "Count": 1
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "a7651d6d-28ec-40fc-9b58-7072169c2c04",
-      "name": {
-        "text": "Pot Luck",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Simple cooking tools can only get you so far. For certain recipes, you\u0027ll need to cook your food in some pots and pans.",
-        "isTranslationKey": false
-      },
-      "x": 158,
-      "y": 84,
-      "icon": {
-        "id": "pamhc2foodcore:potitem",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "The cooking tools below are made from copper ingots, and will allow you to cook a broad spectrum of foods.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "pamhc2foodcore:potitem",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "pamhc2foodcore:saucepanitem",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "pamhc2foodcore:skilletitem",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "pamhc2foodcore:cuttingboarditem",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "32852a9b-1b0c-4954-99c3-92501611c7d7"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "pamhc2foodcore:cookingoilitem",
-          "Count": 8
-        }
-      ],
       "rewardchoice": [],
       "commandrewards": []
     },
