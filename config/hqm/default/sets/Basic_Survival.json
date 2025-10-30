@@ -11,7 +11,7 @@
         "text": "Another way to get water is to drop some saplings or leaves into the Centrifugal Separator. It will give you a bit of water. Remember, you can power your machines with the flux capacitor from your emergency supply chest.",
         "isTranslationKey": false
       },
-      "x": 174,
+      "x": 78,
       "y": 75,
       "icon": {
         "id": "minecraft:oak_sapling",
@@ -45,7 +45,7 @@
         {
           "id": "minecraft:potion",
           "Count": 2,
-          "tag": "{Potion:\"minecraft:water\",Purity:2}"
+          "tag": "{Potion:\"minecraft:water\",Purity:3}"
         }
       ],
       "rewardchoice": [],
@@ -125,8 +125,8 @@
         "text": "Silk worms can be found in tree leaves, and under certain conditions, they will spread through a tree, spinning cocoons of usable silk.",
         "isTranslationKey": false
       },
-      "x": 158,
-      "y": 156,
+      "x": 142,
+      "y": 129,
       "icon": {
         "id": "exdeorum:silk_worm",
         "Count": 1
@@ -201,8 +201,8 @@
         "text": "Purifying using with fire can provide a lot of clean water, but it works slowly. For a faster and more portable method, you can craft water filters.",
         "isTranslationKey": false
       },
-      "x": 222,
-      "y": 48,
+      "x": 206,
+      "y": 75,
       "icon": {
         "id": "minecraft:potion",
         "Count": 1,
@@ -253,11 +253,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "In case of crash landing, you were equipped with a basic survival package:\n- Saplings\n- Fertilizer\n- Dried nutrient bricks\nNote: Choose this path if you want a challenge. Don\u0027t expect to live. Completing this quest disables the easy route quest.",
+        "text": "In case of crash landing, you were equipped with a basic survival package:\n- Saplings\n- Fertilizer\n- Water Bottles\n- Dried Nutrient Bricks\nNote: Choose this path if you want a challenge. Don\u0027t expect to live. Completing this quest disables the easy route quest.",
         "isTranslationKey": false
       },
-      "x": 78,
-      "y": 129,
+      "x": 46,
+      "y": 130,
       "icon": {
         "id": "minecraft:skeleton_skull",
         "Count": 1
@@ -294,6 +294,11 @@
         {
           "id": "kubejs:nutrient_brick",
           "Count": 4
+        },
+        {
+          "id": "minecraft:potion",
+          "Count": 4,
+          "tag": "{Potion:\"minecraft:water\",Purity:3}"
         }
       ],
       "rewardchoice": [],
@@ -336,7 +341,7 @@
         "text": "With a furnace up, you can now take your next step. Check the port engine, where the water reclamation system has leaked and turned some of the dust to clay. Dig that up, make a crucible, and place it above a torch or some lava. In the crucible, not only can you melt cobblestone into lava, but you can melt down ore and ore chunks into molten metal. All you need is a casting table to cast the molten metal into ingots. If you ever need more clay, it can be made from water and dust in a barrel.",
         "isTranslationKey": false
       },
-      "x": 158,
+      "x": 127,
       "y": 102,
       "icon": {
         "id": "exdeorum:porcelain_crucible",
@@ -354,6 +359,12 @@
             {
               "item": {
                 "id": "exdeorum:porcelain_crucible",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "exdeorum:porcelain_bucket",
                 "Count": 1
               }
             }
@@ -405,7 +416,7 @@
         "text": "Breaking leaves will give saplings, but the chance is small. By knocking them down with a crook, you can triple your chance of finding saplings. Perhaps you can find something else useful in the leaves as well.",
         "isTranslationKey": false
       },
-      "x": 142,
+      "x": 110,
       "y": 129,
       "icon": {
         "id": "exdeorum:crook",
@@ -455,7 +466,7 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 318,
+      "x": 359,
       "y": 102,
       "trigger": "QUEST_TRIGGER",
       "prerequisites": [
@@ -464,67 +475,6 @@
       "optionlinks": [],
       "reward": [],
       "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "6acadfe6-4853-4cf1-af89-d44bc0f42ce1",
-      "name": {
-        "text": "Cut and Paste",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "If you need to glue something in a pinch, you don\u0027t need to find slime to do it. It turns out mixing water and flour makes a great adhesive.",
-        "isTranslationKey": false
-      },
-      "x": 110,
-      "y": 75,
-      "icon": {
-        "id": "kubejs:paste",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "Craft some water and flour together to make paste, a sticky substance that can be used in many recipes instead of slimeballs.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "kubejs:paste",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970",
-        "2a312464-2f8f-41b6-aff3-a31d475396a8"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:wheat_seeds",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "pamhc2crops:barleyseeditem",
-          "Count": 1
-        },
-        {
-          "id": "pamhc2crops:oatsseeditem",
-          "Count": 1
-        },
-        {
-          "id": "pamhc2crops:ryeseeditem",
-          "Count": 1
-        }
-      ],
       "commandrewards": []
     },
     {
@@ -537,8 +487,8 @@
         "text": "Desert clothing is useful for protection, but it\u0027s bulky and doesn\u0027t allow you to wear armor with it. One alternative is to put a thin layer of insulating material between you and your armor. This isn\u0027t usually as effective, but it allows for more protection from attack.",
         "isTranslationKey": false
       },
-      "x": 222,
-      "y": 156,
+      "x": 206,
+      "y": 129,
       "icon": {
         "id": "kubejs:leather_insulation",
         "Count": 1
@@ -575,6 +525,67 @@
       "commandrewards": []
     },
     {
+      "uuid": "6acadfe6-4853-4cf1-af89-d44bc0f42ce1",
+      "name": {
+        "text": "Cut and Paste",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "If you need to glue something in a pinch, you don\u0027t need to find slime to do it. It turns out mixing water and flour makes a great adhesive.",
+        "isTranslationKey": false
+      },
+      "x": 94,
+      "y": 48,
+      "icon": {
+        "id": "kubejs:paste",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Craft some water and flour together to make paste, a sticky substance that can be used in many recipes instead of slimeballs.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:paste",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d4d8bba6-7b9e-417a-b543-90ffb032400b",
+        "2a312464-2f8f-41b6-aff3-a31d475396a8"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pamhc2crops:riceseeditem",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "pamhc2crops:barleyseeditem",
+          "Count": 1
+        },
+        {
+          "id": "pamhc2crops:oatsseeditem",
+          "Count": 1
+        },
+        {
+          "id": "pamhc2crops:ryeseeditem",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "485801ed-15cb-43f9-ac50-1e31cf9c97a0",
       "name": {
         "text": "Hammer Time",
@@ -584,10 +595,10 @@
         "text": "Hammers can be used to crush stone into finer and finer pieces. Cobblestone can be crushed into gravel, gravel into sand, and sand into dust, though T4L0S has a lot of readily available dust on the surface already.",
         "isTranslationKey": false
       },
-      "x": 174,
-      "y": 129,
+      "x": 158,
+      "y": 102,
       "icon": {
-        "id": "exdeorum:stone_hammer",
+        "id": "exdeorum:wooden_hammer",
         "Count": 1,
         "tag": "{Damage:0}"
       },
@@ -616,7 +627,7 @@
         }
       ],
       "prerequisites": [
-        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
+        "1db4c845-3db8-4e94-aa7d-ff88f75a45fd"
       ],
       "optionlinks": [],
       "reward": [
@@ -635,10 +646,10 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "In case of crash landing, you were equipped with a deluxe survival package:\n- Sync Shell Constructor\n- Spare Power Cell\n- 32 Extra Shotgun Shells\n- Saplings\n- Fertilizer\n- Choice of Sandwich\nNote: Choose this for an easier experience. Completing this quest disables the hard route quest.",
+        "text": "In case of crash landing, you were equipped with a deluxe survival package:\n- Sync Shell Constructor\n- Spare Power Cell\n- Extra Shotgun Shells\n- Saplings\n- Fertilizer\n- Water Bottles\n- Choice of Sandwich\nNote: Choose this for an easier experience. Completing this quest disables the hard route quest.",
         "isTranslationKey": false
       },
-      "x": 78,
+      "x": 46,
       "y": 75,
       "icon": {
         "id": "pamhc2foodcore:grilledcheeseitem",
@@ -679,6 +690,11 @@
         {
           "id": "thermal:phytogro",
           "Count": 16
+        },
+        {
+          "id": "minecraft:potion",
+          "Count": 8,
+          "tag": "{Potion:\"minecraft:water\",Purity:3}"
         }
       ],
       "rewardchoice": [
@@ -809,8 +825,8 @@
         "text": "Water is scarce on this planet. If you get desperate enough, you can squeeze the liquid out of some dirt for some very dirty water. Make sure not to use up all your dirt though, you\u0027ll need it for growing trees and crops.",
         "isTranslationKey": false
       },
-      "x": 158,
-      "y": 48,
+      "x": 142,
+      "y": 75,
       "icon": {
         "id": "minecraft:potion",
         "Count": 1,
@@ -859,59 +875,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "ab277ce2-86d3-4935-b7bc-499307cd7b5c",
-      "name": {
-        "text": "Sticky Situation",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Sometimes, paste just won\u0027t do. Maybe you\u0027re just sick of the smell, or maybe you need the special properties of earthslime or skyslime for advanced tinkering.",
-        "isTranslationKey": false
-      },
-      "x": 94,
-      "y": 48,
-      "icon": {
-        "id": "minecraft:slime_ball",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "The best way to get special types of slimes is through sifting. Earthslime and skyslime can be found sifting podzol.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:slime_ball",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "tconstruct:sky_slime_ball",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "6acadfe6-4853-4cf1-af89-d44bc0f42ce1"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "tconstruct:tinkers_gadgetry",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "d4d8bba6-7b9e-417a-b543-90ffb032400b",
       "name": {
         "text": "Bottom of the Barrel",
@@ -921,7 +884,7 @@
         "text": "For your continued survival, you\u0027ll need to start farming crops and trees on a larger scale. Neither of those are able to take root in the dust of this planet. However, you can compost organic material in a barrel to make some more dirt for yourself.",
         "isTranslationKey": false
       },
-      "x": 142,
+      "x": 110,
       "y": 75,
       "icon": {
         "id": "minecraft:dirt",
@@ -952,7 +915,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "pamhc2crops:riceseeditem",
+          "id": "minecraft:wheat_seeds",
           "Count": 1
         }
       ],
@@ -969,8 +932,8 @@
         "text": "Desert survivors have long made use of portable water reservoirs for hydration. The most useful of which include a built in straw that connects to the wearer\u0027s mouth, allowing them to drink whenever they would like.",
         "isTranslationKey": false
       },
-      "x": 254,
-      "y": 48,
+      "x": 238,
+      "y": 75,
       "icon": {
         "id": "kubejs:camel_pack",
         "Count": 1
@@ -1022,8 +985,8 @@
         "text": "This world doesn\u0027t have any lava lakes or dragons, so you\u0027ll have to get some materials in other ways. A barrel full of lava can be turned into netherrack or end stone using redstone or glowstone respectively.",
         "isTranslationKey": false
       },
-      "x": 126,
-      "y": 48,
+      "x": 110,
+      "y": 21,
       "icon": {
         "id": "minecraft:netherrack",
         "Count": 1
@@ -1079,7 +1042,7 @@
         "text": "You\u0027ll need more power eventually, but making any kind of advanced machinery is difficult and often requires circuit boards. However, you can set up a basic source of power with the same fuel as a furnace.",
         "isTranslationKey": false
       },
-      "x": 222,
+      "x": 254,
       "y": 102,
       "icon": {
         "id": "industrialforegoing:pitiful_generator",
@@ -1128,8 +1091,8 @@
         "text": "The harsh reality is that you\u0027re stuck on this planet. No amount of obsidian rectangles will let you escape. However, the situation means you can\u0027t get some resources (like soul sand) through normal methods.",
         "isTranslationKey": false
       },
-      "x": 142,
-      "y": 21,
+      "x": 126,
+      "y": 48,
       "icon": {
         "id": "minecraft:soul_sand",
         "Count": 1
@@ -1198,8 +1161,8 @@
         "text": "Dirty water may help you in a pinch, but for long term survival, you\u0027ll need to purify it.",
         "isTranslationKey": false
       },
-      "x": 190,
-      "y": 48,
+      "x": 174,
+      "y": 75,
       "icon": {
         "id": "minecraft:potion",
         "Count": 1,
@@ -1269,8 +1232,8 @@
         "text": "String mesh can be upgraded to flint mesh to gain higher yields. It can be further upgraded later when you get the resources. Each mesh tier is better than the last.",
         "isTranslationKey": false
       },
-      "x": 206,
-      "y": 129,
+      "x": 190,
+      "y": 102,
       "icon": {
         "id": "exdeorum:flint_mesh",
         "Count": 1
@@ -1294,7 +1257,6 @@
         }
       ],
       "prerequisites": [
-        "1db4c845-3db8-4e94-aa7d-ff88f75a45fd",
         "485801ed-15cb-43f9-ac50-1e31cf9c97a0"
       ],
       "optionlinks": [],
@@ -1302,51 +1264,6 @@
         {
           "id": "minecraft:hopper",
           "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "d7150e2a-3614-4a26-b1b6-ddff205497b7",
-      "name": {
-        "text": "Water Under the Bridge",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Finding a food source is urgent, but crops grow slowly. The fertilizer in your survival package won\u0027t last very long, so investing in another way to speed up crop growth is a good idea.",
-        "isTranslationKey": false
-      },
-      "x": 142,
-      "y": 183,
-      "icon": {
-        "id": "exdeorum:wooden_watering_can",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:consume",
-          "items": [
-            {
-              "item": {
-                "id": "exdeorum:wooden_watering_can",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "804f4329-c6f5-4df8-915c-c590329cf26c"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "exdeorum:wooden_watering_can",
-          "Count": 1,
-          "tag": "{Fluid:{Amount:300,FluidName:\"minecraft:water\"}}"
         }
       ],
       "rewardchoice": [],
@@ -1362,8 +1279,8 @@
         "text": "The sun\u0027s scorching heat is often only bearable from within shelter. However, there are tales of survivors that can spend weeks on end in deathly heat using special suits. These stillsuits encase someone completely, recapturing lost water and using it to both regulate temperature and for drinking.",
         "isTranslationKey": false
       },
-      "x": 254,
-      "y": 156,
+      "x": 238,
+      "y": 129,
       "icon": {
         "id": "kubejs:stillsuit",
         "Count": 1
@@ -1401,61 +1318,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "77e20e8d-ef39-4fa7-a124-af08260c09b9",
-      "name": {
-        "text": "Smelting leaves",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Your new crucible can turn leaves into small amounts of water. It works like your Centrifugal Separator, but you only need a torch to power it. It\u0027s slow, but it makes investing in some shears early a good idea.",
-        "isTranslationKey": false
-      },
-      "x": 206,
-      "y": 75,
-      "icon": {
-        "id": "minecraft:oak_leaves",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "Put a crucible above a heat source and right-click it with leaves to melt them into water.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:water_bucket",
-                "Count": 1,
-                "tag": "{}"
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "1db4c845-3db8-4e94-aa7d-ff88f75a45fd",
-        "799cc1e8-bdff-4470-b5e1-b983ebfd6624"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:potion",
-          "Count": 1,
-          "tag": "{Potion:\"minecraft:water\",Purity:3}"
-        },
-        {
-          "id": "minecraft:oak_sapling",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "0f7c28b0-3881-419c-9d4b-ca936ad109f3",
       "name": {
         "text": "Tinker\u0027s Tools",
@@ -1465,7 +1327,7 @@
         "text": "A finely crafted weapon or tool isn\u0027t as easy as strapping some rocks to a stick. In fact, basic tools like that won\u0027t work for you at all. You\u0027ll have to tinker around a bit.",
         "isTranslationKey": false
       },
-      "x": 110,
+      "x": 78,
       "y": 129,
       "icon": {
         "id": "tconstruct:tinker_station",
@@ -1545,7 +1407,7 @@
         "text": "Emergency Survival Checklist:\n\n1. Perform self-diagnostics and administer emergency first aid to treat any injuries.\n2. Assess the environment for potential threats, resources, and shelter. Exercise caution around the detached reactor, containment has breached and high-temperature fuel is leaking.\n3. Ration available food and water. The water reclamation system is damaged and leaking, you will have to find an alternate source of drinking water.\n4. Recover supplies from the ship\u0027s emergency survival equipment storage, located in the black box above ship\u0027s power. Available supplies include:\n  a. Multipurpose wrench\n  b. Basic particulate sieve\n  c. Emergency firearm\n  d. Emergency battery pack\n  e. Portable assembly unit\n  f. MAT input interface\n5. Refer back to the MAT unit when complete. The replicator should be able to provide some bottles and some water. It has taken damage but appears to just barely be functional.\n6. Proceed to the next available survival task. Consult your MAT unit regularly for recommended tasks and adaptive advice for your continued survival.",
         "isTranslationKey": false
       },
-      "x": 62,
+      "x": 30,
       "y": 102,
       "icon": {
         "id": "hardcorequesting:quest_book",
@@ -1609,7 +1471,7 @@
         "text": "Sometimes, one life just isn\u0027t enough. In those cases, you can use Shell Storage to keep extra shells around. When you die, you will be sent to a random shell.",
         "isTranslationKey": false
       },
-      "x": 286,
+      "x": 318,
       "y": 102,
       "icon": {
         "id": "sync:shell_storage",
@@ -1671,8 +1533,8 @@
         "text": "Trigger quest to control quests unlocked by the easy route",
         "isTranslationKey": false
       },
-      "x": 238,
-      "y": 75,
+      "x": 158,
+      "y": -23,
       "trigger": "QUEST_TRIGGER",
       "prerequisites": [
         "7ee731c2-da61-4aab-a5fa-864fc4b62277"
@@ -1692,7 +1554,7 @@
         "text": "Despite the planet\u0027s high temperature, it isn\u0027t nearly hot enough cook food or melt metals. For that, you will need a furnace.",
         "isTranslationKey": false
       },
-      "x": 126,
+      "x": 94,
       "y": 102,
       "icon": {
         "id": "minecraft:furnace",
@@ -1744,7 +1606,7 @@
         "text": "What T4L0S lacks in water, it makes up for in metals. If you spend some time sifting the dust, you should be able to get enough metal to set up some infrastructure.",
         "isTranslationKey": false
       },
-      "x": 190,
+      "x": 222,
       "y": 102,
       "icon": {
         "id": "minecraft:iron_ingot",
@@ -1790,7 +1652,7 @@
         }
       ],
       "prerequisites": [
-        "1db4c845-3db8-4e94-aa7d-ff88f75a45fd"
+        "8859440a-9852-445c-b1d6-15edc20c368c"
       ],
       "optionlinks": [],
       "reward": [
@@ -1812,7 +1674,7 @@
         "text": "This planet is full of hazards and hostiles. You will eventually need to venture out of the confines of your ship, but that poses a lot of risks. However, with a bit of effort, you may be able to give yourself a second chance if the worst happens. A Shell Constructor is the key to life after (first) death. Once you make one, you will need to provide energy and a blood sample and it will build you a new body.",
         "isTranslationKey": false
       },
-      "x": 254,
+      "x": 286,
       "y": 102,
       "icon": {
         "id": "sync:sync_core",
@@ -1857,72 +1719,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "b187f443-9637-4183-b582-af661a4070e0",
-      "name": {
-        "text": "Exotic Tastes",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Ichor and enderslime are more advanced kinds of slime with even more special properties in tinkering.",
-        "isTranslationKey": false
-      },
-      "x": 110,
-      "y": 21,
-      "icon": {
-        "id": "tconstruct:ichor_slime_ball",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "To get the more exotic types of slime, you\u0027ll need to sift with their respective materials. Ichor can be found sifting crushed netherrack, and enderslime can be found sifting crushed end stone.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "tconstruct:ichor_slime_ball",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "tconstruct:ender_slime_ball",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "c5d70928-cc40-46b5-bfb0-3f3b800a84ea",
-        "ab277ce2-86d3-4935-b7bc-499307cd7b5c"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "tconstruct:earth_slime_crystal",
-          "Count": 4
-        },
-        {
-          "id": "tconstruct:sky_slime_crystal",
-          "Count": 4
-        },
-        {
-          "id": "tconstruct:ichor_slime_crystal",
-          "Count": 4
-        },
-        {
-          "id": "tconstruct:ender_slime_crystal",
-          "Count": 4
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "6cd42c29-0afd-49d5-b8ca-9c3c50a63970",
       "name": {
         "text": "Back to Basics",
@@ -1932,13 +1728,14 @@
         "text": "The fertilizer in your survival package will not last long. Place the mesh in the sieve and sift some dust to get bonemeal.",
         "isTranslationKey": false
       },
-      "x": 94,
+      "x": 62,
       "y": 102,
       "icon": {
         "id": "exdeorum:oak_sieve",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
+      "parentrequirement": 1,
       "tasks": [
         {
           "type": "hardcorequesting:consume",
@@ -1961,7 +1758,8 @@
         }
       ],
       "prerequisites": [
-        "feb164b4-e0bf-48e0-aaec-b8bb1118c3b8"
+        "7ee731c2-da61-4aab-a5fa-864fc4b62277",
+        "477e01c0-8641-4b6b-970f-7374b04f6a68"
       ],
       "optionlinks": [],
       "reward": [
@@ -2047,8 +1845,8 @@
         "text": "Desert planet inhabitants have developed effective clothes that can help you stay cool in the blazing heat. These clothes provide insulation from outside temperatures but can also allow enough airflow to let off body heat when it\u0027s cooler than you are. They also provide high coverage, protecting you from the sun\u0027s rays.",
         "isTranslationKey": false
       },
-      "x": 190,
-      "y": 156,
+      "x": 174,
+      "y": 129,
       "icon": {
         "id": "kubejs:desert_tunic",
         "Count": 1,
