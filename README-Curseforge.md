@@ -34,7 +34,7 @@ A: If you _aren't_ experienced with server hosting, see the answer above. If you
 
 A: Make sure you have allocated at least 6 GB of RAM to the modpack. I usually recommend 8 GB if your computer has enough.
 
-### Q: How can I disabled hardcore?
+### Q: How can I disable hardcore?
 
 A: I strongly recommend learning to use the sync shells for extra lives, it’s what the game was balanced around. If you select the easy route, you’ll start with enough power for 3 shells. Follow the steps in the Sync quest for a detailed guide. However, if you’ve tried that and still want to disable hardcore, you can edit the hardcore setting in `config/globalgamerules-common.toml`. On a server, the steps are slightly different. Download [this file](https://cdn.modrinth.com/data/Y5UhUxAD/versions/YopX3hzh/Non-Hardcore_Server_Files.zip) and replace the files on the server with the files in that zip. I recommend backing up the target files before replacing them.
 
@@ -57,21 +57,26 @@ A: Absolutely!
 *   For simpler submissions like textures, models, buildings, or other small files, you can send those to us and we can do the implementation work for you (if approved).
 *   For anything more complicated like full game mechanics, complex scripts, or large-scale config adjustments, you can submit a [pull request](https://github.com/MarkScedra/Crash-2/pulls) on Github. See our [Contributing Guide](https://github.com/MarkScedra/Crash-2?tab=contributing-ov-file) for information about setting up the modpack dev environment on your computer.
 
+### Q: Do you have a roadmap/list of planned updates?
+
+A: Yes, the most up to date roadmap is in [our discord](https://discord.gg/nP9jaNze8e). I have many plans for the future of this modpack and the roadmap details the next 6-8 major updates. Feel free to let me know what you think and what you think the future of this modpack should include.
+
 ## Credits
 
 Developed by:
 
-*   [MarkSDR](https://www.curseforge.com/members/marksdr/projects) (Original lead developer)
 *   [Pawjwp](https://www.curseforge.com/members/pawjwp/projects) (Current lead developer)
+*   [MarkSDR](https://www.curseforge.com/members/marksdr/projects) (Original lead developer)
+*   [ULSTICK](https://linktr.ee/ULSTICK) (Structures and other immersive content)
 *   Nagasakii (Early development work and initial quests)
 
 Other contributers:
 
+*   [QinlingP](https://www.curseforge.com/members/qinlingp/projects) (Packwiz setup and preset seed mod)
+*   herobrian903 (Create quest line prototyping)
 *   [Kilometers](https://modrinth.com/user/kilometersperhour) (Early development work)
-*   [ULSTICK](https://linktr.ee/ULSTICK) (Structure work)
-*   herobrian903 (Create quest line assistance)
 *   Mei-Nanita (Early recipe work)
-*   Pand1024 (Early github setup)
+*   Pand1024 (Early github maintenance)
 *   Lobo\_um\_louco (Early structure work)
 
 Original pack developer:
