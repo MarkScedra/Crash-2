@@ -35,7 +35,7 @@ A: Download the Modrinth or Curseforge app, search for the name of the pack, and
 
 ### Q: How can I play multiplayer?
 
-A: The [e4mc](https://modrinth.com/mod/e4mc) mod is installed. To play multiplayer, simply open your world to LAN and it will print an address in chat that other players can join with.
+A: The [e4mc](https://modrinth.com/mod/e4mc) mod is installed. To play multiplayer, simply open your world to LAN, and it will print an address in chat that other players can join with.
 
 ### Q: How do I set up a server? Do you have a server pack?
 
@@ -57,7 +57,7 @@ A: There is a Tinker’s Construct smeltery building in the cities, containing c
 
 ### Q: What is the best power source?
 
-A: The quests include 3 recommended energy sources. The first is the _Pitiful Generator_, which is powered by burnable fuel and very slow. Once you get oil refining set up, you can use the _Compression Dynamo_ to burn various types of oils. Finally, you can get a _Nuclear Reactor_ in the end-game, which is a highly effective generation method. The quests will guide you through these three recommended methods, but other generators can be build along the way.
+A: The quests include 3 recommended energy sources. The first is the _Pitiful Generator_, which is powered by burnable fuel and very slow. Once you get oil refining set up, you can use the _Compression Dynamo_ to burn various types of oils. Finally, you can get a _Nuclear Reactor_ in the end-game, which is a highly effective generation method. The quests will guide you through these three recommended methods, but other generators can be built along the way.
 
 ### Q: Will updating to a new version break my world?
 
@@ -68,11 +68,11 @@ A: Generally no, you won’t have any issues. Only major releases break anything
 A: Absolutely!
 *   For simple suggestions, create an [issue](https://github.com/MarkScedra/Crash-2/issues) or let us know on the [Discord](https://discord.gg/4en3SpWtJg).
 *   For simpler submissions like textures, models, buildings, or other small files, you can send those to us and we can do the implementation work for you (if approved).
-*   For anything more complicated like full game mechanics, complex scripts, or large-scale config adjustments, you can submit a [pull request](https://github.com/MarkScedra/Crash-2/pulls) on Github. See our [Contributing Guide](https://github.com/MarkScedra/Crash-2?tab=contributing-ov-file) for information about setting up the modpack dev environment on your computer.
+*   For anything more complicated like full game mechanics, complex scripts, or large-scale config adjustments, you can submit a [pull request](https://github.com/MarkScedra/Crash-2/pulls) on GitHub. See our [Contributing Guide](https://github.com/MarkScedra/Crash-2?tab=contributing-ov-file) for information about setting up the modpack dev environment on your computer.
 
 ### Q: Do you have a roadmap/list of planned updates?
 
-A: Yes, the most up to date roadmap is in [our discord](https://discord.gg/nP9jaNze8e). I have many plans for the future of this modpack and the roadmap details the next 6-8 major updates. Feel free to let me know what you think and what you think the future of this modpack should include.
+A: Yes, the most up-to-date roadmap is in [our discord](https://discord.gg/nP9jaNze8e). I have many plans for the future of this modpack and the roadmap details the next 6-8 major updates. Feel free to let me know what you think and what you think the future of this modpack should include.
 
 ______________________________________________________________________
 
