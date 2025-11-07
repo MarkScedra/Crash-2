@@ -6,12 +6,10 @@
     }
   ],
   "placement": {
-    "type": "minecraft:concentric_rings",
-    "distance": 9,
-    "spread": 4,
-    "count": 64,
-    "preferred_biomes": "#crash_landing:has_city",
-    "salt": 1269475,
+    "type": "minecraft:random_spread",
+    "spacing": 64,
+    "separation": 24,
+    "salt": 80,
     "frequency": 1
   }
 }
