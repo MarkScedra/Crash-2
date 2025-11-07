@@ -4,7 +4,8 @@
 /config/hqm/** -text
 /config/pneumaticcraft/** -text
 
-config/crash_assistant/crash_assistant_localization_overrides/** text eol=lf
+config/crash_assistant/crash_assistant_localization_overrides/**.json text eol=lf
+config/crash_assistant/modlist.json text eol=lf
 config/ad_astra-client.jsonc text eol=lf
 config/ad_astra.jsonc text eol=lf
 config/ae2/client.json text eol=lf
