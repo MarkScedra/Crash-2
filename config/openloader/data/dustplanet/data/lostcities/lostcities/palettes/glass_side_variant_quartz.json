@@ -1,9 +1,0 @@
-{
-  "palette": [
-    {
-      "char": "@",
-      "block": "factory_blocks:grinder",
-      "damaged": "immersive_weathering:exposed_iron_bars"
-    }
-  ]
-}
