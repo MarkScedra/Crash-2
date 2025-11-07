@@ -21,12 +21,12 @@ modifyFoodEatingSpeed = true
 #adds text to GUI describing health and hunger status
 addGuiText = true
 #Strikes for having low hp
-lowHealthStrikes = true
+lowHealthStrikes = false
 #Strikes for having low hp start at this health level
 #Range: 0.05000000074505806 ~ 1.0
 healthLevel = 0.25
 #Strikes for having low hunger
-lowHungerStrikes = true
+lowHungerStrikes = false
 #Strikes for having low hunger start at this hunger level
 #Range: 1 ~ 20
 hungerLevel = 5
