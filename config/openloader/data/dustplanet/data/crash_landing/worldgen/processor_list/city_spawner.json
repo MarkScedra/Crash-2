@@ -1,0 +1,53 @@
+[
+  {
+    "processor_type": "minecraft:rule",
+    "rules": [
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:spawner",
+          "probability": 0.5
+        },
+        "output_state": {
+          "Name": "minecraft:spawner"
+        },
+        "block_entity_modifier": {
+          "type": "minecraft:append_static",
+          "data": {
+            "SpawnData": {
+              "entity": {
+                "id": "minecraft:blaze"
+              }
+            }
+          }
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:spawner"
+        },
+        "output_state": {
+          "Name": "minecraft:spawner"
+        },
+        "block_entity_modifier": {
+          "type": "minecraft:append_static",
+          "data": {
+            "SpawnData": {
+              "entity": {
+                "id": "minecraft:zombified_piglin",
+                "AngerTime": 2147483647
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+]

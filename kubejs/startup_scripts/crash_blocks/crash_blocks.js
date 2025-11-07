@@ -1,113 +1,134 @@
 StartupEvents.registry("block", (event) => {
-  event.create("crashed_applied_controller") // Create a new block with ID "kubejs:example_block"
-    .displayName("Crashed Computer Controller") // Set a custom name
-    .mapColor("heavy_metal") // Set a material (affects the sounds and some properties)
-    .soundType("copper")
-    .hardness(1.0) // Set hardness (affects mining time)
-    .resistance(1.0) // Set resistance (to explosions, etc)
+
+  // Applied Blocks
+  event.create('crashed_applied_controller') // Create a new block with ID "kubejs:example_block"
+    .displayName('Crashed Computer Controller') // Set a custom name
+    .mapColor('heavy_metal') // Set a material (affects the sounds and some properties)
+    .soundType('metal')
+    .hardness(4.0) // Set hardness (affects mining time)
+    .resistance(6.0) // Set resistance (to explosions, etc)
     .requiresTool(true) // Requires a tool or it won't drop (see tags below)
-    .tagBlock("mineable/pickaxe") // or a pickaxe
+    .tagBlock('mineable/pickaxe') // or a pickaxe
     .tagBlock('minecraft:needs_iron_tool') // the tool tier must be at least iron
     .textureAll('kubejs:block/ae2_controller_crash')
-})
 
-StartupEvents.registry("block", (event) => {
-  event.create("crashed_reactor_controller") // Create a new block with ID "kubejs:example_block"
-    .displayName("Crashed Reactor Controller") // Set a custom name
-    .mapColor("heavy_metal") // Set a material (affects the sounds and some properties)
+  event.create('crashed_me_drive')
+    .displayName('Crashed ME Drive')
+    .mapColor('heavy_metal')
+    .soundType('metal')
+    .hardness(4.0)
+    .resistance(6.0)
+	.property(BlockProperties.FACING)
+    .defaultState(state => state.setValue(BlockProperties.FACING, Direction.NORTH))
+    .placementState(state => state.setValue(BlockProperties.FACING, state.horizontalDirection.opposite))
+    .requiresTool(true)
+    .tagBlock('mineable/pickaxe')
+    .tagBlock('minecraft:needs_iron_tool')
+
+  event.create('crashed_crafting_unit')
+    .displayName('Crashed Crafting Unit')
+    .mapColor('heavy_metal')
+    .soundType('metal')
+    .hardness(4.0)
+    .resistance(6.0)
+    .requiresTool(true)
+    .tagBlock('mineable/pickaxe')
+    .tagBlock('minecraft:needs_iron_tool')
+
+  event.create('crashed_me_interface')
+    .displayName('Crashed ME Interface')
+    .mapColor('heavy_metal')
+    .soundType('metal')
+    .hardness(4.0)
+    .resistance(6.0)
+    .requiresTool(true)
+    .tagBlock('mineable/pickaxe')
+    .tagBlock('minecraft:needs_iron_tool')
+
+  // Bigger Reactor Blocks
+  event.create("crashed_reactor_controller")
+    .displayName("Crashed Reactor Controller")
+    .mapColor("heavy_metal")
     .soundType("copper")
-    .hardness(1.0) // Set hardness (affects mining time)
-    .resistance(1.0) // Set resistance (to explosions, etc)
-    .requiresTool(true) // Requires a tool or it won't drop (see tags below)
-    .tagBlock("mineable/pickaxe") // or a pickaxe
-    .tagBlock('minecraft:needs_iron_tool') // the tool tier must be at least iron
+    .hardness(1.0)
+    .resistance(1.0)
+    .requiresTool(true)
+    .tagBlock('mineable/pickaxe')
+    .tagBlock('minecraft:needs_iron_tool')
     .textureAll('kubejs:block/reactor_controller_crash')
-})
 
-StartupEvents.registry("block", (event) => {
-  event.create("crashed_turbine_controller") // Create a new block with ID "kubejs:example_block"
-    .displayName("Crashed Turbine Controller") // Set a custom name
-    .mapColor("heavy_metal") // Set a material (affects the sounds and some properties)
+  event.create("crashed_turbine_controller")
+    .displayName("Crashed Turbine Controller")
+    .mapColor("heavy_metal")
     .soundType("copper")
-    .hardness(1.0) // Set hardness (affects mining time)
-    .resistance(1.0) // Set resistance (to explosions, etc)
-    .requiresTool(true) // Requires a tool or it won't drop (see tags below)
-    .tagBlock("mineable/pickaxe") // or a pickaxe
-    .tagBlock('minecraft:needs_iron_tool') // the tool tier must be at least iron
+    .hardness(1.0)
+    .resistance(1.0)
+    .requiresTool(true)
+    .tagBlock('mineable/pickaxe')
+    .tagBlock('minecraft:needs_iron_tool')
     .textureAll('kubejs:block/turbine_controller_crash')
-})
 
-StartupEvents.registry("block", (event) => {
-  event.create("crashed_turbine_wall") // Create a new block with ID "kubejs:example_block"
-    .displayName("Crashed Turbine Wall") // Set a custom name
-    .mapColor("heavy_metal") // Set a material (affects the sounds and some properties)
+  event.create("crashed_turbine_wall")
+    .displayName("Crashed Turbine Wall")
+    .mapColor("heavy_metal")
     .soundType("copper")
-    .hardness(1.0) // Set hardness (affects mining time)
-    .resistance(1.0) // Set resistance (to explosions, etc)
-    .requiresTool(true) // Requires a tool or it won't drop (see tags below)
-    .tagBlock("mineable/pickaxe") // or a pickaxe
-    .tagBlock('minecraft:needs_iron_tool') // the tool tier must be at least iron
+    .hardness(1.0)
+    .resistance(1.0)
+    .requiresTool(true)
+    .tagBlock('mineable/pickaxe')
+    .tagBlock('minecraft:needs_iron_tool')
     .textureAll('kubejs:block/turbine_wall_crash')
-})
 
-StartupEvents.registry("block", (event) => {
-  event.create("crashed_reactor_frame") // Create a new block with ID "kubejs:example_block"
-    .displayName("Crashed Reactor Frame") // Set a custom name
-    .mapColor("heavy_metal") // Set a material (affects the sounds and some properties)
+  event.create("crashed_reactor_frame")
+    .displayName("Crashed Reactor Frame")
+    .mapColor("heavy_metal")
     .soundType("copper")
-    .hardness(1.0) // Set hardness (affects mining time)
-    .resistance(1.0) // Set resistance (to explosions, etc)
-    .requiresTool(true) // Requires a tool or it won't drop (see tags below)
-    .tagBlock("mineable/pickaxe") // or a pickaxe
-    .tagBlock('minecraft:needs_iron_tool') // the tool tier must be at least iron
+    .hardness(1.0)
+    .resistance(1.0)
+    .requiresTool(true)
+    .tagBlock("mineable/pickaxe")
+    .tagBlock('minecraft:needs_iron_tool')
     .textureAll('kubejs:block/reactor_frame_crash')
-})
 
-StartupEvents.registry("block", (event) => {
-  event.create("crashed_chamber_wall") // Create a new block with ID "kubejs:example_block"
-    .displayName("Crashed Chamber Wall") // Set a custom name
-    .mapColor("heavy_metal") // Set a material (affects the sounds and some properties)
+  event.create("crashed_chamber_wall")
+    .displayName("Crashed Chamber Wall")
+    .mapColor("heavy_metal")
     .soundType("copper")
-    .hardness(1.0) // Set hardness (affects mining time)
-    .resistance(1.0) // Set resistance (to explosions, etc)
-    .requiresTool(true) // Requires a tool or it won't drop (see tags below)
-    .tagBlock("mineable/pickaxe") // or a pickaxe
-    .tagBlock('minecraft:needs_iron_tool') // the tool tier must be at least iron
+    .hardness(1.0)
+    .resistance(1.0)
+    .requiresTool(true)
+    .tagBlock("mineable/pickaxe")
+    .tagBlock('minecraft:needs_iron_tool')
     .textureAll('kubejs:block/chamber_wall_crash')
-})
 
-StartupEvents.registry("block", (event) => {
-  event.create("crumbling_seared_bricks") // Create a new block with ID "kubejs:example_block"
-    .displayName("Crumbling Seared Bricks") // Set a custom name
+  // Tinker Blocks
+  event.create("crumbling_seared_bricks")
+    .displayName("Crumbling Seared Bricks")
     .soundType("stone")
-    .hardness(1.0) // Set hardness (affects mining time)
-    .resistance(1.0) // Set resistance (to explosions, etc)
-    .requiresTool(true) // Requires a tool or it won't drop (see tags below)
-    .tagBlock("mineable/pickaxe") // or a pickaxe
-    .tagBlock('minecraft:needs_iron_tool') // the tool tier must be at least iron
+    .hardness(1.0)
+    .resistance(1.0)
+    .requiresTool(true)
+    .tagBlock("mineable/pickaxe")
+    .tagBlock('minecraft:needs_iron_tool')
     .textureAll('kubejs:block/crumbling_seared_bricks')
-})
 
-StartupEvents.registry("block", (event) => {
-  event.create("crumbling_seared_bricks_2") // Create a new block with ID "kubejs:example_block"
-    .displayName("Crumbling Seared Bricks") // Set a custom name
+  event.create("crumbling_seared_bricks_2")
+    .displayName("Crumbling Seared Bricks")
     .soundType("stone")
-    .hardness(1.0) // Set hardness (affects mining time)
-    .resistance(1.0) // Set resistance (to explosions, etc)
-    .requiresTool(true) // Requires a tool or it won't drop (see tags below)
-    .tagBlock("mineable/pickaxe") // or a pickaxe
-    .tagBlock('minecraft:needs_iron_tool') // the tool tier must be at least iron
+    .hardness(1.0)
+    .resistance(1.0)
+    .requiresTool(true)
+    .tagBlock("mineable/pickaxe")
+    .tagBlock('minecraft:needs_iron_tool')
     .textureAll('kubejs:block/crumbling_seared_bricks_2')
-})
 
-StartupEvents.registry("block", (event) => {
-  event.create("crumbling_seared_bricks_3") // Create a new block with ID "kubejs:example_block"
-    .displayName("Crumbling Seared Bricks") // Set a custom name
+  event.create("crumbling_seared_bricks_3")
+    .displayName("Crumbling Seared Bricks")
     .soundType("stone")
-    .hardness(1.0) // Set hardness (affects mining time)
-    .resistance(1.0) // Set resistance (to explosions, etc)
-    .requiresTool(true) // Requires a tool or it won't drop (see tags below)
-    .tagBlock("mineable/pickaxe") // or a pickaxe
-    .tagBlock('minecraft:needs_iron_tool') // the tool tier must be at least iron
+    .hardness(1.0)
+    .resistance(1.0)
+    .requiresTool(true)
+    .tagBlock("mineable/pickaxe")
+    .tagBlock('minecraft:needs_iron_tool')
     .textureAll('kubejs:block/crumbling_seared_bricks_3')
 })

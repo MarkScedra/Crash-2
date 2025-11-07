@@ -1,0 +1,85 @@
+[
+  {
+    "processor_type": "minecraft:rule",
+    "rules": [
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:cyan_terracotta",
+          "probability": 0.1
+        },
+        "output_state": {
+          "Name": "chipped:cyan_terracotta_bricks"
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:light_gray_concrete",
+          "probability": 0.1
+        },
+        "output_state": {
+          "Name": "chipped:light_gray_concrete_bricks"
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:gray_concrete",
+          "probability": 0.1
+        },
+        "output_state": {
+          "Name": "chipped:gray_concrete_bricks"
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "chipped:andesite_bricks",
+          "probability": 0.2
+        },
+        "output_state": {
+          "Name": "chipped:cracked_andesite_bricks"
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:stone_bricks",
+          "probability": 0.2
+        },
+        "output_state": {
+          "Name": "minecraft:cracked_stone_bricks"
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:andesite",
+          "probability": 0.2
+        },
+        "output_state": {
+          "Name": "chipped:cobbled_andesite"
+        }
+      }
+    ]
+  }
+]

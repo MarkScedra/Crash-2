@@ -1,21 +1,21 @@
 {
   "structures": [
     {
-      "structure": "crash_landing:nuclear_plant",
+      "structure": "crash_landing:mer_lab",
       "weight": 1
     }
   ],
   "placement": {
     "type": "minecraft:concentric_rings",
-    "distance": 24,
-    "spread": 3,
-    "count": 19,
+    "distance": 29,
+    "spread": 5,
+    "count": 7,
     "preferred_biomes": "minecraft:desert",
-    "salt": 423453,
+    "salt": 4732453,
     "frequency": 1,
     "exclusion_zone": {
       "other_set": "crash_landing:city",
-      "chunk_count": 8
+      "chunk_count": 5
     }
   }
 }

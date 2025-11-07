@@ -10,9 +10,7 @@ StartupEvents.registry("block", (event) => {
     .tag("crash_landing:plasteel_block")
     .tag("forge:storage_blocks/plasteel")
     .textureAll('kubejs:block/light_plasteel_block')
-})
 
-StartupEvents.registry("block", (event) => {
   event.create("dark_plasteel_block")
     .displayName("Dark Plasteel Block")
     .mapColor("color_black")
@@ -24,9 +22,7 @@ StartupEvents.registry("block", (event) => {
     .tag("crash_landing:plasteel_block")
     .tag("forge:storage_blocks/plasteel")
     .textureAll('kubejs:block/dark_plasteel_block')
-})
 
-StartupEvents.registry("block", (event) => {
   event.create("ostrum_door_block")
     .displayName("Ostrum Door Block")
     .mapColor("color_purple")
