@@ -8,39 +8,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "pamhc2foodcore:bakewareitem"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pamhc2foodcore:cuttingboarditem"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pamhc2foodcore:juiceritem"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pamhc2foodcore:grinderitem"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pamhc2foodcore:mixingbowlitem"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pamhc2foodcore:potitem"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pamhc2foodcore:rolleritem"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pamhc2foodcore:saucepanitem"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pamhc2foodcore:skilletitem"
+          "name": "minecraft:apple"
         }
       ]
     }
