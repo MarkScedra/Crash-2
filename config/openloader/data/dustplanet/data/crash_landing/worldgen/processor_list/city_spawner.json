@@ -9,7 +9,7 @@
         "input_predicate": {
           "predicate_type": "minecraft:random_block_match",
           "block": "minecraft:spawner",
-          "probability": 0.5
+          "probability": 0.3
         },
         "output_state": {
           "Name": "minecraft:spawner"
@@ -20,6 +20,29 @@
             "SpawnData": {
               "entity": {
                 "id": "minecraft:blaze"
+              }
+            }
+          }
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:spawner",
+          "probability": 0.3
+        },
+        "output_state": {
+          "Name": "minecraft:spawner"
+        },
+        "block_entity_modifier": {
+          "type": "minecraft:append_static",
+          "data": {
+            "SpawnData": {
+              "entity": {
+                "id": "minecraft:zombie"
               }
             }
           }
@@ -41,7 +64,7 @@
           "data": {
             "SpawnData": {
               "entity": {
-                "id": "minecraft:zombified_piglin",
+                "id": "specialmobs:zombifiedpiglin",
                 "AngerTime": 2147483647
               }
             }
