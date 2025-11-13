@@ -25,6 +25,7 @@ config_enabled = false
   player.keep_inventory = false
   player.natural_regeneration = true
   player.players_sleeping_percentage = 100
+  player.slush_source_conversion = false
   player.spawn_radius = 10
   player.spectators_generate_chunks = true
 
