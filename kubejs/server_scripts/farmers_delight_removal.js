@@ -1,33 +1,4 @@
 ServerEvents.recipes(event => {
-    // Removed for being too generous with food substitutes
-    [
-        'vegandelight:campfire_cooking/cooked_smoked_tofish_from_campfire_cooking',
-        'vegandelight:campfire_cooking/leather_from_substitute_from_campfire_cooking',
-        'vegandelight:compacting/agave_from_compacting',
-        'vegandelight:compacting/blaze_cake_base_from_applesauce',
-        'vegandelight:compacting/cake_from_applesauce',
-        'vegandelight:cooking/agave',
-        'vegandelight:cooking/ink_sac',
-        'vegandelight:cooking/leather_substitute',
-        'vegandelight:cooking/pasta_with_tofuballs',
-        'vegandelight:crafting_shapeless/honey_glazed_tofu_block',
-        'vegandelight:crafting_shapeless/roasted_tofu_chops',
-        'vegandelight:crafting_shapeless/smoked_tofish',
-        'vegandelight:crafting_shapeless/smoked_tofish_roll',
-        'vegandelight:crafting_shapeless/tofish',
-        'vegandelight:crafting_shapeless/tofish_roll',
-        'vegandelight:crafting_shapeless/tofu_sandwich',
-        'vegandelight:crafting_shapeless/vegan_hamburger',
-        'vegandelight:crafting_shapeless/vegan_rice_roll_medley_block',
-        'vegandelight:cutting/feather',
-        'vegandelight:smelting/cooked_smoked_tofish',
-        'vegandelight:smelting/cooked_tofish',
-        'vegandelight:smelting/leather_from_substitute',
-        'vegandelight:smoking/smoked_tofish_from_smoking'
-    ].forEach(id => {
-        event.remove({ id: id });
-    });
-
     // Removed because they already exist in other ways
     [
         'farmersdelight:cooking/salt',
@@ -38,8 +9,6 @@ ServerEvents.recipes(event => {
     });
 
     // Specific recipe changes
-    
-
     event.remove({ id: 'culturaldelights:cooking/raw_pasta' });
     event.remove({ id: 'farmersdelight:pie_crust' });
     event.shaped(
@@ -57,28 +26,6 @@ ServerEvents.recipes(event => {
 });
 
 ServerEvents.tags('item', event => {
-    event.remove('forge:egg', 'vegandelight:applesauce')
-    event.remove('forge:eggs', 'vegandelight:applesauce')
-
-    event.remove('forge:raw_chicken', 'vegandelight:tofu_slices')
-    event.remove('forge:raw_mutton', 'vegandelight:tofu_slices')
-    event.remove('forge:cooked_chicken', 'vegandelight:cooked_tofu_slices')
-    event.remove('forge:cooked_mutton', 'vegandelight:cooked_tofu_slices')
-    event.remove('forge:raw_pork', 'vegandelight:smoked_tofu_slices')
-    event.remove('forge:cooked_pork', 'vegandelight:cooked_smoked_tofu_slices')
-    event.remove('forge:raw_beef', 'vegandelight:minced_tofu')
-    event.remove('forge:cooked_beef', 'vegandelight:tofu_patty')
-    event.remove('forge:raw_fishes/cod', 'vegandelight:tofish')
-    event.remove('forge:raw_fishes', 'vegandelight:tofish')
-    event.remove('forge:cooked_fishes/cod', 'vegandelight:cooked_tofish')
-    event.remove('forge:cooked_fishes', 'vegandelight:cooked_tofish')
-    event.remove('forge:raw_fishes/salmon', 'vegandelight:smoked_tofish')
-    event.remove('forge:raw_fishes', 'vegandelight:smoked_tofish')
-    event.remove('forge:cooked_fishes/salmon', 'vegandelight:cooked_smoked_tofish')
-    event.remove('forge:cooked_fishes', 'vegandelight:cooked_smoked_tofish')
-
-
-
     // Removed until player unlocks spawn eggs
     event.add('desolate_planet:animal_sourced',
         '#forge:cooked_beef',
@@ -91,15 +38,15 @@ ServerEvents.tags('item', event => {
         '#forge:raw_chicken',
         '#forge:raw_mutton',
         '#forge:raw_pork',
-        'culturaldelights:beef_burrito',
-        'culturaldelights:chicken_roll_slice',
-        'culturaldelights:chicken_roll',
-        'culturaldelights:chicken_taco',
-        'culturaldelights:egg_roll',
-        'culturaldelights:exotic_roll_medley',
-        'culturaldelights:mutton_sandwich',
-        'culturaldelights:pork_wrap',
-        'culturaldelights:spicy_curry',
+        // 'culturaldelights:beef_burrito',
+        // 'culturaldelights:chicken_roll_slice',
+        // 'culturaldelights:chicken_roll',
+        // 'culturaldelights:chicken_taco',
+        // 'culturaldelights:egg_roll',
+        // 'culturaldelights:exotic_roll_medley',
+        // 'culturaldelights:mutton_sandwich',
+        // 'culturaldelights:pork_wrap',
+        // 'culturaldelights:spicy_curry',
         'farmersdelight:bacon_and_eggs',
         'farmersdelight:bacon_sandwich',
         'farmersdelight:barbecue_stick',
@@ -152,16 +99,16 @@ ServerEvents.tags('item', event => {
     event.add('desolate_planet:fish_sourced',
         '#forge:cooked_fishes',
         '#forge:raw_fishes',
-        'culturaldelights:cooked_calamari',
-        'culturaldelights:cooked_squid',
-        'culturaldelights:exotic_roll_medley',
-        'culturaldelights:fish_taco',
-        'culturaldelights:glow_squid',
-        'culturaldelights:pufferfish_roll',
-        'culturaldelights:raw_calamari',
-        'culturaldelights:rice_ball',
-        'culturaldelights:squid',
-        'culturaldelights:tropical_roll',
+        // 'culturaldelights:cooked_calamari',
+        // 'culturaldelights:cooked_squid',
+        // 'culturaldelights:exotic_roll_medley',
+        // 'culturaldelights:fish_taco',
+        // 'culturaldelights:glow_squid',
+        // 'culturaldelights:pufferfish_roll',
+        // 'culturaldelights:raw_calamari',
+        // 'culturaldelights:rice_ball',
+        // 'culturaldelights:squid',
+        // 'culturaldelights:tropical_roll',
         'farmersdelight:baked_cod_stew',
         'farmersdelight:fish_stew',
         'farmersdelight:squid_ink_pasta',

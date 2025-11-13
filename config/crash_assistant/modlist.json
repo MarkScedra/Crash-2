@@ -239,11 +239,6 @@
     "modId": "crust",
     "version": "3.6.13"
   },
-  "culturaldelights-0.16.5.jar": {
-    "jarName": "culturaldelights-0.16.5.jar",
-    "modId": "culturaldelights",
-    "version": "0.16.5"
-  },
   "curios-forge-5.14.1+1.20.1.jar": {
     "jarName": "curios-forge-5.14.1+1.20.1.jar",
     "modId": "curios",
@@ -756,11 +751,6 @@
     "jarName": "torchmaster-20.1.9.jar",
     "modId": "torchmaster",
     "version": "20.1.9"
-  },
-  "vegandelight-1.4.jar": {
-    "jarName": "vegandelight-1.4.jar",
-    "modId": "vegandelight",
-    "version": "1.4"
   },
   "worldedit-mod-7.2.15.jar": {
     "jarName": "worldedit-mod-7.2.15.jar",
