@@ -2,56 +2,6 @@
   "name": "Basic Survival",
   "quests": [
     {
-      "uuid": "799cc1e8-bdff-4470-b5e1-b983ebfd6624",
-      "name": {
-        "text": "Sapping the Saplings",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Another way to get water is to drop some saplings or leaves into the Centrifugal Separator. It will give you a bit of water. Remember, you can power your machines with the flux capacitor from your emergency supply chest.",
-        "isTranslationKey": false
-      },
-      "x": 78,
-      "y": 75,
-      "icon": {
-        "id": "minecraft:oak_sapling",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "Make sure you don\u0027t use up all of your saplings, the only way to get more is from leaves or sifting dirt.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:water_bucket",
-                "Count": 1,
-                "tag": "{}"
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:potion",
-          "Count": 2,
-          "tag": "{Potion:\"minecraft:water\",Purity:3}"
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "89f755cb-748d-43d1-9430-0a3f3de8d907",
       "name": {
         "text": "Live to Fight Another Day",
@@ -113,6 +63,56 @@
           "Count": 32
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "799cc1e8-bdff-4470-b5e1-b983ebfd6624",
+      "name": {
+        "text": "Sapping the Saplings",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Another way to get water is to drop some saplings or leaves into the Centrifugal Separator. It will give you a bit of water. Remember, you can power your machines with the flux capacitor from your emergency supply chest.",
+        "isTranslationKey": false
+      },
+      "x": 78,
+      "y": 75,
+      "icon": {
+        "id": "minecraft:oak_sapling",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Make sure you don\u0027t use up all of your saplings, the only way to get more is from leaves or sifting dirt.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:water_bucket",
+                "Count": 1,
+                "tag": "{}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:potion",
+          "Count": 2,
+          "tag": "{Potion:\"minecraft:water\",Purity:3}"
+        }
+      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -565,24 +565,11 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "pamhc2crops:riceseeditem",
-          "Count": 1
+          "id": "farmersdelight:rice",
+          "Count": 8
         }
       ],
-      "rewardchoice": [
-        {
-          "id": "pamhc2crops:barleyseeditem",
-          "Count": 1
-        },
-        {
-          "id": "pamhc2crops:oatsseeditem",
-          "Count": 1
-        },
-        {
-          "id": "pamhc2crops:ryeseeditem",
-          "Count": 1
-        }
-      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -652,7 +639,7 @@
       "x": 46,
       "y": 75,
       "icon": {
-        "id": "pamhc2foodcore:grilledcheeseitem",
+        "id": "legumedelight:peanut_butter_and_jam_sandwich",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
@@ -699,20 +686,12 @@
       ],
       "rewardchoice": [
         {
-          "id": "pamhc2foodextended:strawberryjellysandwichitem",
-          "Count": 4
+          "id": "legumedelight:peanut_butter_and_jam_sandwich",
+          "Count": 8
         },
         {
-          "id": "pamhc2foodextended:grapejellysandwichitem",
-          "Count": 4
-        },
-        {
-          "id": "pamhc2foodcore:basichamburgeritem",
-          "Count": 4
-        },
-        {
-          "id": "pamhc2foodcore:grilledcheeseitem",
-          "Count": 4
+          "id": "legumedelight:bean_burger",
+          "Count": 8
         }
       ],
       "commandrewards": []
@@ -1584,16 +1563,7 @@
       ],
       "optionlinks": [],
       "reward": [],
-      "rewardchoice": [
-        {
-          "id": "pamhc2crops:cantaloupeseeditem",
-          "Count": 2
-        },
-        {
-          "id": "minecraft:iron_ore",
-          "Count": 4
-        }
-      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -1655,13 +1625,21 @@
         "8859440a-9852-445c-b1d6-15edc20c368c"
       ],
       "optionlinks": [],
-      "reward": [
+      "reward": [],
+      "rewardchoice": [
         {
           "id": "minecraft:iron_ore",
-          "Count": 8
+          "Count": 16
+        },
+        {
+          "id": "minecraft:gold_ore",
+          "Count": 4
+        },
+        {
+          "id": "minecraft:diamond",
+          "Count": 2
         }
       ],
-      "rewardchoice": [],
       "commandrewards": []
     },
     {
