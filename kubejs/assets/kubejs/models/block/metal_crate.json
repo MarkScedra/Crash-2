@@ -1,0 +1,7 @@
+{
+  "parent": "refurbished_furniture:block/crate_closed",
+  "textures": {
+    "particle": "minecraft:block/iron_block",
+    "texture": "kubejs:block/metal_crate"
+  }
+}
