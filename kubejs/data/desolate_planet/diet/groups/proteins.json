@@ -1,0 +1,9 @@
+{
+  "icon": "legumedelight:beans",
+  "color": "#d4781c",
+  "order": 10,
+  "default_value": 0.5,
+  "gain_multiplier": 1.75,
+  "decay_multiplier": 1.5,
+  "beneficial": true
+}
