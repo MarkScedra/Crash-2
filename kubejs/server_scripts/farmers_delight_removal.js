@@ -26,6 +26,37 @@ ServerEvents.recipes(event => {
 });
 
 ServerEvents.tags('item', event => {
+    //Tweaks to make certain foods more nutritional
+    event.add('diet:grains',
+        'kubejs:enderios',
+        'kubejs:nutrient_brick',
+        'legumedelight:baked_beans',
+        'legumedelight:beans_and_rice',
+        'legumedelight:chili',
+        'legumedelight:trail_mix'
+    )
+    event.add('diet:proteins',
+        'kubejs:bug_broth',
+        'kubejs:nutrient_brick',
+        'legumedelight:peanut_bar', // overrides it so peanut bar includes only protein and no sugar
+        'legumedelight:trail_mix'
+    )
+    event.add('diet:vegetables',
+        'kubejs:bug_broth',
+        'kubejs:enderios',
+        'kubejs:nutrient_brick',
+        'legumedelight:baked_beans',
+        'legumedelight:beans_and_rice',
+        'legumedelight:chili'
+    )
+    event.add('diet:fruits',
+        'kubejs:enderios',
+        'kubejs:nutrient_brick'
+    )
+    event.add('diet:sugars',
+        'legumedelight:baked_beans'
+    )
+
     // Removed until player unlocks spawn eggs
     event.add('desolate_planet:animal_sourced',
         '#forge:cooked_beef',
