@@ -134,6 +134,32 @@ ServerEvents.tags('item', event => {
     .setCanBeStoredInContainers(false)  // defaults to false
 */
 
+AStages.addRestrictionForTag('desolate_planet:egg_sourced', 'eggs', 'desolate_planet:egg_sourced')
+    // hides from JEI but is not restricted in any other way
+    .setRenderItemName(true)
+    .setHideTooltip(false)
+    .setCanPickedUp(true)
+    .setCanBeEquipped(true)
+    .setCanBeStoredInInventory(true)
+    .setCanAttack(true)
+    .setCanBePlaced(true)
+    .setCanItemBeLeftClicked(true)
+    .setCanItemBeRightClicked(true)
+    .setCanBeStoredInContainers(true)
+
+AStages.addRestrictionForTag('desolate_planet:milk_sourced', 'milk', 'desolate_planet:milk_sourced')
+    // hides from JEI but is not restricted in any other way
+    .setRenderItemName(true)
+    .setHideTooltip(false)
+    .setCanPickedUp(true)
+    .setCanBeEquipped(true)
+    .setCanBeStoredInInventory(true)
+    .setCanAttack(true)
+    .setCanBePlaced(true)
+    .setCanItemBeLeftClicked(true)
+    .setCanItemBeRightClicked(true)
+    .setCanBeStoredInContainers(true)
+
 AStages.addRestrictionForTag('desolate_planet:animal_sourced', 'animals', 'desolate_planet:animal_sourced')
     // hides from JEI but is not restricted in any other way
     .setRenderItemName(true)
