@@ -4,15 +4,33 @@
     {
       "uuid": "153e79a8-a018-421a-9543-a169eb2b62d5",
       "name": {
-        "text": "Unnamed",
+        "text": "Fruit of Your Labor",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Fruits are the final part of the balanced diet. They affect your health regeneration.",
         "isTranslationKey": false
       },
       "x": 190,
       "y": 138,
+      "icon": {
+        "id": "kubejs:staple_fruits",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:staple_fruits",
+                "Count": 1
+              },
+              "precision": "TAG_FUZZY"
+            }
+          ]
+        }
+      ],
       "prerequisites": [],
       "optionlinks": [],
       "reward": [],
@@ -266,13 +284,13 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Vegetables are the next part of your balanced diet. They affect your resistance to damage and decay fairly slowly.",
         "isTranslationKey": false
       },
       "x": 190,
       "y": 102,
       "icon": {
-        "id": "minecraft:carrot",
+        "id": "kubejs:staple_vegetables",
         "Count": 1
       },
       "tasks": [
@@ -281,9 +299,10 @@
           "items": [
             {
               "item": {
-                "id": "minecraft:carrot",
+                "id": "kubejs:staple_vegetables",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_FUZZY"
             }
           ]
         }
@@ -330,7 +349,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Simple cooking tools can only get you so far. For certain recipes, you\u0027ll need to cook your food in some pots and pans.",
+        "text": "Your starting food will only last a few days, so you\u0027re in dire need of a food source. ",
         "isTranslationKey": false
       },
       "x": 158,
@@ -530,7 +549,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "You are still in need of a more long-term food supply. Grains are the most important food group to obtain.",
+        "text": "You\u0027ll need to maintain a balanced diet, and finding a reliable source of grains is the most urgent part of that. Grains decay faster than most nutrients, and they affect your movement, mining, and attack speed.",
         "isTranslationKey": false
       },
       "x": 190,
@@ -543,37 +562,14 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Wheat",
-            "isTranslationKey": false
-          },
           "longDescription": {
-            "text": "Wheat is a staple crop that can be crafted directly into bread, and can be used to make flour and more when you get cooking tools.",
+            "text": "Wheat is a staple grain that can be crafted into bread, flour, and eventually all sorts of sandwiches and sweets. You can get plenty of wheat seeds from sifting dirt.",
             "isTranslationKey": false
           },
           "items": [
             {
               "item": {
                 "id": "minecraft:wheat",
-                "Count": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Bread",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "Three wheat can be made into bread.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:bread",
                 "Count": 1
               }
             }
@@ -597,28 +593,33 @@
     {
       "uuid": "c3c9db45-30f1-4ec3-a3f6-b8d3d245e322",
       "name": {
-        "text": "Unnamed",
+        "text": "Magic Beans",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Proteins are the next most important part of a balanced diet. Proteins decay somewhat fast, and primarily affect your attack strength.",
         "isTranslationKey": false
       },
       "x": 190,
       "y": 66,
       "icon": {
-        "id": "legumedelight:beans",
+        "id": "kubejs:staple_proteins",
         "Count": 1
       },
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Beans and peanuts are the primary plant-based proteins. They can be used for soups, sandwiches, and sweets, and more. Both have a chance of dropping from sifting dirt.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
-                "id": "legumedelight:beans",
+                "id": "kubejs:staple_proteins",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_FUZZY"
             }
           ]
         }
