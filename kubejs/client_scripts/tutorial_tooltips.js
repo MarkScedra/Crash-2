@@ -86,9 +86,6 @@ ItemEvents.tooltip(event => {
     event.addAdvanced("tconstruct:blazing_blood_bucket", (item, advanced, text) => { text.add(1, Text.gold("Craft by melting down blaze powder (or the blazes themselves)."));});
 
     // Food items
-    event.addAdvanced("pamhc2foodcore:crackeritem", (item, advanced, text) => { text.add(1, Text.gray("A cheap and surprisingly filling snack."));});
-    event.addAdvanced("pamhc2foodextended:beansandriceitem", (item, advanced, text) => { text.add(1, Text.gray("A cheap and very nutritious meal."));});
-    event.addAdvanced("pamhc2foodextended:veggiestirfryitem", (item, advanced, text) => { text.add(1, Text.gray("A practical and nutritionally complete meal."));});
     event.addAdvanced('kubejs:zombie_jerky', (item, advanced, text) => {
         if (!event.shift) {
             text.add(1, Text.red([Text.of("Mostly").italic(true), Text.of(" safe to eat.")]));
