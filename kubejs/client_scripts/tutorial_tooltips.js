@@ -89,18 +89,30 @@ ItemEvents.tooltip(event => {
     event.addAdvanced("pamhc2foodcore:crackeritem", (item, advanced, text) => { text.add(1, Text.gray("A cheap and surprisingly filling snack."));});
     event.addAdvanced("pamhc2foodextended:beansandriceitem", (item, advanced, text) => { text.add(1, Text.gray("A cheap and very nutritious meal."));});
     event.addAdvanced("pamhc2foodextended:veggiestirfryitem", (item, advanced, text) => { text.add(1, Text.gray("A practical and nutritionally complete meal."));});
-    [
-        "kubejs:zombie_jerky",
-        "kubejs:monster_mash",
-        "kubejs:bug_broth"
-    ].forEach(tool => {
-        event.addAdvanced(tool, (item, advanced, text) => {
+    event.addAdvanced('kubejs:zombie_jerky', (item, advanced, text) => {
+        if (!event.shift) {
             text.add(1, Text.red([Text.of("Mostly").italic(true), Text.of(" safe to eat.")]));
-        });
+        }
+        else {
+            text.add(2, Text.red("Has a chance to deal slight damage upon eating.").italic());
+        }
     });
-    event.addAdvanced('kubejs:zombie_jerky', (item, advanced, text) => { text.add(2, Text.darkGreen("Has a chance to deal slight damage upon eating."));});
-    event.addAdvanced('kubejs:monster_mash', (item, advanced, text) => { text.add(2, Text.darkGreen("Has a small chance to deal slight damage upon eating."));});
-    event.addAdvanced('kubejs:bug_broth', (item, advanced, text) => { text.add(2, Text.darkGreen("Has a very small chance to deal slight damage upon eating."));});
+    event.addAdvanced('kubejs:monster_mash', (item, advanced, text) => {
+        if (!event.shift) {
+            text.add(1, Text.red([Text.of("Mostly").italic(true), Text.of(" safe to eat.")]));
+        }
+        else {
+            text.add(2, Text.red("Has a small chance to deal slight damage upon eating.").italic());
+        }
+    });
+    event.addAdvanced('kubejs:bug_broth', (item, advanced, text) => {
+        if (!event.shift) {
+            text.add(1, Text.red([Text.of("Mostly").italic(true), Text.of(" safe to eat.")]));
+        }
+        else {
+            text.add(2, Text.red("Has a very small chance to deal slight damage upon eating.").italic());
+        }
+    });
 
     // Power generation
     event.addAdvanced("industrialforegoing:pitiful_generator", (item, advanced, text) => { text.add(1, Text.gray("A cheap but inefficient power generator."));});
