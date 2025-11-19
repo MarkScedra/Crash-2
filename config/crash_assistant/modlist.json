@@ -502,11 +502,6 @@
     "modId": "mob_grinding_utils",
     "version": "1.20.1-1.1.0"
   },
-  "modernfix-forge-5.24.4+mc1.20.1.jar": {
-    "jarName": "modernfix-forge-5.24.4+mc1.20.1.jar",
-    "modId": "modernfix",
-    "version": "5.24.4+mc1.20.1"
-  },
   "moonlight-1.20-2.16.13-forge.jar": {
     "jarName": "moonlight-1.20-2.16.13-forge.jar",
     "modId": "moonlight",
