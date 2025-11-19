@@ -1,0 +1,26 @@
+// Compost colors for legumedelight. You may add your own colors, change existing ones, or remove colors that aren't needed.
+baked_beans, #ffffff
+bean_burger, #ede1b6
+bean_burrito, #fffff5
+bean_paste, #ffffff
+bean_patty, #fffffe
+beans, #ffeae4
+beans_and_rice, #fffff8
+beans_on_toast, #fffff7
+candied_peanuts, #ffffde
+chili, #ffedd7
+mooncake, #fffff8
+pad_thai, #ffffff
+pasta_with_tomato_sauce, #ffffeb
+peanut_bar, #fffff2
+peanut_butter, #ffffff
+peanut_butter_and_jam_sandwich, #ffe4b9
+peanut_butter_cookie, #fffbc9
+peanut_butter_cup, #fffcf1
+peanuts, #e1af7d
+refried_beans, #ffffff
+rice_cake, #ffffff
+roasted_peanuts, #fff0d9
+trail_mix, #fffff4
+wild_beans, #ffffff
+wild_peanuts, #ffffff

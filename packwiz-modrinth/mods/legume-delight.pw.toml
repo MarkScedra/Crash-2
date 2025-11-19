@@ -1,0 +1,13 @@
+name = "Legume Delight"
+filename = "legumedelight-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7vb8E40Y/versions/4pPsnjUI/legumedelight-1.0.0.jar"
+hash-format = "sha512"
+hash = "595960eb229ec09e064db2f895598d78fe26bdb8aebf749d8d1701d351f6ef259feb0d51e76ddce0f67e6208e6c322fd775b3ea2a252efedf8b3f94de9c2d874"
+
+[update]
+[update.modrinth]
+mod-id = "7vb8E40Y"
+version = "4pPsnjUI"
