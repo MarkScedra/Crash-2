@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "b": {
+      "item": "minecraft:brick"
+    },
+    "i": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "pattern": [
+    "bSb",
+    "iBi",
+    "iii"
+  ],
+  "result": {
+    "item": "farmersdelight:cooking_pot"
+  },
+  "show_notification": true
+}
