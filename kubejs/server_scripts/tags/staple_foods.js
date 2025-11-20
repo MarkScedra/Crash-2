@@ -1,9 +1,8 @@
 ServerEvents.tags('item', event => {
-    event.add('desolate_planet:staple_fruits',
-        'kubejs:staple_fruits',
-        'minecraft:apple',
-        'minecraft:sweet_berries',
-        'minecraft:melon_slice',
+    event.add('desolate_planet:staple_grains',
+        'kubejs:staple_grains',
+        '#forge:flour',
+        '#forge:grain'
     )
 
     event.add('desolate_planet:staple_proteins',
@@ -21,5 +20,12 @@ ServerEvents.tags('item', event => {
         'farmersdelight:cabbage_leaf',
         'farmersdelight:tomato',
         'farmersdelight:onion'
+    )
+
+    event.add('desolate_planet:staple_fruits',
+        'kubejs:staple_fruits',
+        'minecraft:apple',
+        'minecraft:sweet_berries',
+        'minecraft:melon_slice'
     )
 });
