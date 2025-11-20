@@ -2,13 +2,10 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "forge:tool_mixingbowl"
-    },
-    {
       "item": "minecraft:rotten_flesh"
     },
     {
-      "tag": "forge:stock_ingredients/bone"
+      "tag": "forge:bones"
     },
     {
       "tag": "forge:salt"
@@ -18,4 +15,4 @@
     "item": "kubejs:monster_mash",
     "count": 1
   }
-}
+} 

@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "forge:ender_pearls"
+    },
+    {
+      "tag": "desolate_planet:staple_grains"
+    },
+    {
+      "tag": "forge:gunpowder"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "kubejs:enderios"
+  }
+}

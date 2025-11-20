@@ -1,0 +1,30 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:spider_eye"
+      },
+      {
+        "item": "exdeorum:silk_worm"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:spider_eye"
+      },
+      {
+        "item": "exdeorum:silk_worm"
+      }
+    ],
+    {
+      "tag": "forge:salt"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "kubejs:bug_broth"
+  }
+}
