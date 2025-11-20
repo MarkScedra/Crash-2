@@ -30,7 +30,6 @@ ServerEvents.tags('item', event => {
     event.add('diet:grains',
         'kubejs:enderios',
         'kubejs:nutrient_brick',
-        'legumedelight:baked_beans',
         'legumedelight:beans_and_rice',
         'legumedelight:chili',
         'legumedelight:trail_mix'
@@ -38,7 +37,10 @@ ServerEvents.tags('item', event => {
     event.add('diet:proteins',
         'kubejs:bug_broth',
         'kubejs:nutrient_brick',
-        'legumedelight:peanut_bar', // overrides it so peanut bar includes only protein and no sugar
+        'legumedelight:baked_beans',
+        'legumedelight:beans_and_rice',
+        'legumedelight:chili',
+        'legumedelight:peanut_bar', // overrides so peanut bar includes only protein and no sugar
         'legumedelight:trail_mix'
     )
     event.add('diet:vegetables',
