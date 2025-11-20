@@ -2,8 +2,12 @@
 ServerEvents.tags('item', event => {
     event.add('forge:adhesive', 'kubejs:paste')
     event.add('forge:adhesive', '#forge:slimeballs')
+
     event.add('forge:paste', 'kubejs:paste')
     event.add('forge:glue', 'kubejs:paste')
+
+    event.add('forge:dough_bases', '#forge:flour')
+    event.add('forge:dough_bases', '#forge:grain/wheat')
 })
 
 // Recipes
@@ -32,35 +36,79 @@ ServerEvents.recipes(event => {
     event.remove({ output: '#forge:dough' });
     event.remove({ output: 'create:crafting/appliances/slime_ball' });
 
+    // Dough from water bottle and bases
     event.shapeless(
         Item.of('create:dough', 3), [
-        '#forge:flour',
-        '#forge:flour',
-        '#forge:water'
+        Item.of('minecraft:potion', '{Potion:"minecraft:water"}').weakNBT(),
+        '#forge:dough_bases',
+        '#forge:dough_bases'
     ]
-    ).id('desolate_planet:dough_base_shapeless');
+    ).id('desolate_planet:dough_base_shapeless')
+    .replaceIngredient('minecraft:potion', 'minecraft:glass_bottle');
 
+    // Paste from water bottles and base
     event.shapeless(
         Item.of('kubejs:paste', 3), [
-        '#forge:flour',
-        '#forge:water',
-        '#forge:water'
+        Item.of('minecraft:potion', '{Potion:"minecraft:water"}').weakNBT(),
+        Item.of('minecraft:potion', '{Potion:"minecraft:water"}').weakNBT(),
+        '#forge:dough_bases',
     ]
-    ).id('desolate_planet:paste_base_shapeless');
+    ).id('desolate_planet:paste_base_shapeless')
+    .replaceIngredient('minecraft:potion', 'minecraft:glass_bottle');
 
-    event.shapeless(
-        Item.of('create:dough', 2), [
-        '#forge:paste',
-        '#forge:flour'
-    ]
-    ).id('desolate_planet:dough_from_paste_shapeless');
-
+    // Paste from dough and water bottle
     event.shapeless(
         Item.of('kubejs:paste', 2), [
         '#forge:dough',
-        '#forge:water'
+        Item.of('minecraft:potion', '{Potion:"minecraft:water"}').weakNBT()
     ]
-    ).id('desolate_planet:paste_from_dough_shapeless');
+    ).id('desolate_planet:paste_from_dough_shapeless')
+    .replaceIngredient('minecraft:potion', 'minecraft:glass_bottle');
+
+    // Dough from paste and base
+    event.shapeless(
+        Item.of('create:dough', 2), [
+        '#forge:paste',
+        '#forge:dough_bases'
+    ]
+    ).id('desolate_planet:dough_from_paste_shapeless');
+
+
+    
+    // Dough from bases and water bucket
+    event.shapeless(
+        Item.of('create:dough', 12), [
+        'minecraft:water_bucket',
+        '#forge:dough_bases',
+        '#forge:dough_bases',
+        '#forge:dough_bases',
+        '#forge:dough_bases',
+        '#forge:dough_bases',
+        '#forge:dough_bases',
+        '#forge:dough_bases',
+        '#forge:dough_bases'
+    ]
+    ).id('desolate_planet:dough_base_shapeless_bucket');
+
+    // Paste from base and water bucket
+    event.shapeless(
+        Item.of('kubejs:paste', 6), [
+        'minecraft:water_bucket',
+        '#forge:dough_bases',
+        '#forge:dough_bases'
+    ]
+    ).id('desolate_planet:paste_base_shapeless_bucket');
+
+    // Paste from dough and water bucket
+    event.shapeless(
+        Item.of('kubejs:paste', 8), [
+        'minecraft:water_bucket',
+        '#forge:dough',
+        '#forge:dough',
+        '#forge:dough',
+        '#forge:dough'
+    ]
+    ).id('desolate_planet:paste_from_dough_shapeless_bucket');
 
     event.custom({
         type: 'create:splashing',
