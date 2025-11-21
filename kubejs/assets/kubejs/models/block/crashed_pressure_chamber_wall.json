@@ -1,0 +1,8 @@
+{
+  "loader": "fusion:model",
+  "type": "connecting",
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "kubejs:block/crashed_pressure_chamber_wall"
+  }
+}
