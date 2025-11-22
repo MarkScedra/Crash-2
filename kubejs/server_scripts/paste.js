@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
 
 
     event.remove({ output: '#forge:dough' });
-    event.remove({ output: 'create:crafting/appliances/slime_ball' });
+    event.remove({ id: 'create:crafting/appliances/slime_ball' });
 
     // Dough from water bottle and bases
     event.shapeless(
