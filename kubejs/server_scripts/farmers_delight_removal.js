@@ -48,7 +48,7 @@ ServerEvents.recipes(event => {
             P: 'minecraft:paper',
             S: '#forge:string'
         }
-    ).id('desolate_planet:rope_from_string');
+    ).id('desolate_planet:canvas_from_paper_string');
 
     // Compost changes
     event.remove({ output: 'farmersdelight:organic_compost' });
