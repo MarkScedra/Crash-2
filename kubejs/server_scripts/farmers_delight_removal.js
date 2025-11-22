@@ -23,6 +23,61 @@ ServerEvents.recipes(event => {
             w: 'minecraft:wheat'
         }
     ).id('desolate_planet:pie_crust');
+
+    // Rope
+    event.shaped(
+        Item.of('farmersdelight:rope', 3),
+        [
+            'SS',
+            'SS',
+            'SS'
+        ],
+        {
+            S: '#forge:string'
+        }
+    ).id('desolate_planet:rope_from_string');
+
+    // Canvas
+    event.shaped(
+        Item.of('farmersdelight:canvas', 1),
+        [
+            'PS',
+            'SP'
+        ],
+        {
+            P: 'minecraft:paper',
+            S: '#forge:string'
+        }
+    ).id('desolate_planet:rope_from_string');
+
+    // Compost changes
+    event.remove({ output: 'farmersdelight:organic_compost' });
+    event.shapeless(
+        Item.of('farmersdelight:organic_compost'), [
+            'minecraft:dirt',
+            'minecraft:rotten_flesh',
+            'minecraft:rotten_flesh',
+            'minecraft:bone_meal',
+            'minecraft:bone_meal',
+            'minecraft:bone_meal',
+            ['minecraft:wheat', 'farmersdelight:rice_panicle', 'farmersdelight:straw'],
+            ['minecraft:wheat', 'farmersdelight:rice_panicle', 'farmersdelight:straw'],
+            ['minecraft:wheat', 'farmersdelight:rice_panicle', 'farmersdelight:straw']
+        ]
+    ).id('desolate_planet:organic_compost_from_rotten_flesh');
+    event.shapeless(
+        Item.of('farmersdelight:organic_compost'), [
+            'minecraft:dirt',
+            '#forge:vegetables',
+            '#forge:vegetables',
+            'minecraft:bone_meal',
+            'minecraft:bone_meal',
+            'minecraft:bone_meal',
+            ['minecraft:wheat', 'farmersdelight:rice_panicle', 'farmersdelight:straw'],
+            ['minecraft:wheat', 'farmersdelight:rice_panicle', 'farmersdelight:straw'],
+            ['minecraft:wheat', 'farmersdelight:rice_panicle', 'farmersdelight:straw']
+        ]
+    ).id('desolate_planet:organic_compost_from_vegetables');
 });
 
 ServerEvents.tags('item', event => {
