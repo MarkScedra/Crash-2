@@ -1,15 +1,9 @@
 ServerEvents.tags('item', event => {
     event.add('desolate_planet:crumbling_seared_bricks', 'kubejs:crumbling_seared_bricks')
-    event.add('desolate_planet:crumbling_seared_bricks', 'kubejs:crumbling_seared_bricks_1')
-    event.add('desolate_planet:crumbling_seared_bricks', 'kubejs:crumbling_seared_bricks_2')
-    event.add('desolate_planet:crumbling_seared_bricks', 'kubejs:crumbling_seared_bricks_3')
 })
 
 ServerEvents.tags('block', event => {
     event.add('desolate_planet:crumbling_seared_bricks', 'kubejs:crumbling_seared_bricks')
-    event.add('desolate_planet:crumbling_seared_bricks', 'kubejs:crumbling_seared_bricks_1')
-    event.add('desolate_planet:crumbling_seared_bricks', 'kubejs:crumbling_seared_bricks_2')
-    event.add('desolate_planet:crumbling_seared_bricks', 'kubejs:crumbling_seared_bricks_3')
 })
 
 

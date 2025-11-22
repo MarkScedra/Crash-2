@@ -85,29 +85,4 @@ StartupEvents.registry("block", (event) => {
     .requiresTool(true) // Requires a tool or it won't drop (see tags below)
     .tagBlock("mineable/pickaxe") // or a pickaxe
     .tagBlock('minecraft:needs_iron_tool') // the tool tier must be at least iron
-    .textureAll('kubejs:block/crumbling_seared_bricks')
-})
-
-StartupEvents.registry("block", (event) => {
-  event.create("crumbling_seared_bricks_2") // Create a new block with ID "kubejs:example_block"
-    .displayName("Crumbling Seared Bricks") // Set a custom name
-    .soundType("stone")
-    .hardness(1.0) // Set hardness (affects mining time)
-    .resistance(1.0) // Set resistance (to explosions, etc)
-    .requiresTool(true) // Requires a tool or it won't drop (see tags below)
-    .tagBlock("mineable/pickaxe") // or a pickaxe
-    .tagBlock('minecraft:needs_iron_tool') // the tool tier must be at least iron
-    .textureAll('kubejs:block/crumbling_seared_bricks_2')
-})
-
-StartupEvents.registry("block", (event) => {
-  event.create("crumbling_seared_bricks_3") // Create a new block with ID "kubejs:example_block"
-    .displayName("Crumbling Seared Bricks") // Set a custom name
-    .soundType("stone")
-    .hardness(1.0) // Set hardness (affects mining time)
-    .resistance(1.0) // Set resistance (to explosions, etc)
-    .requiresTool(true) // Requires a tool or it won't drop (see tags below)
-    .tagBlock("mineable/pickaxe") // or a pickaxe
-    .tagBlock('minecraft:needs_iron_tool') // the tool tier must be at least iron
-    .textureAll('kubejs:block/crumbling_seared_bricks_3')
 })
