@@ -17,6 +17,7 @@
         "id": "minecraft:sweet_berries",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -73,6 +74,7 @@
         "id": "minecraft:sugar",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -119,6 +121,7 @@
         "id": "minecraft:bread",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -315,6 +318,7 @@
         "id": "legumedelight:beans_and_rice",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -362,6 +366,7 @@
         "id": "farmersdelight:tomato",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -473,6 +478,7 @@
         "id": "legumedelight:pasta_with_tomato_sauce",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -580,6 +586,7 @@
         "id": "farmersdelight:cooking_pot",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -631,6 +638,7 @@
         "id": "farmersdelight:stove",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -739,6 +747,7 @@
         "id": "legumedelight:beans",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -795,6 +804,7 @@
         "id": "legumedelight:peanut_butter_and_jam_sandwich",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",

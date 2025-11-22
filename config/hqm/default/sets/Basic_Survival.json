@@ -1665,6 +1665,7 @@
         "id": "farmersdelight:rich_soil",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
