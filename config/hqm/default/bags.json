@@ -388,50 +388,6 @@
     ],
     "groups": [
       {
-        "id": "326de62d-9412-49e8-bac6-9ee4dbaa4035",
-        "name": {
-          "text": "Food Ok 1",
-          "isTranslationKey": false
-        },
-        "limit": 2,
-        "items": [
-          {
-            "id": "pamhc2foodextended:colasodaitem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2foodextended:popcornitem",
-            "Count": 2
-          },
-          {
-            "id": "pamhc2foodcore:jellybeansitem",
-            "Count": 4
-          }
-        ]
-      },
-      {
-        "id": "19c16e4f-4c36-4b42-8048-87f3f59c1494",
-        "name": {
-          "text": "Food Ok 2",
-          "isTranslationKey": false
-        },
-        "limit": 2,
-        "items": [
-          {
-            "id": "pamhc2foodcore:chocolatebaritem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2foodcore:marshmellowsitem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2foodextended:gingersnapsitem",
-            "Count": 2
-          }
-        ]
-      },
-      {
         "id": "abfcab75-5788-40f6-bc8b-ca68296b6de8",
         "name": {
           "text": "Merely Ok Raw 1",
@@ -536,74 +492,6 @@
     ],
     "groups": [
       {
-        "id": "96d0200d-9b74-4df4-bc7a-ff92250f1475",
-        "name": {
-          "text": "Food Good 1",
-          "isTranslationKey": false
-        },
-        "limit": 2,
-        "items": [
-          {
-            "id": "pamhc2foodcore:plaindonutitem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2foodcore:chocolatedonutitem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2foodcore:powdereddonutitem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2foodcore:sprinklesdonutitem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2foodcore:appledonutitem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2foodextended:frosteddonutitem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2foodextended:powdereddonutitem",
-            "Count": 1
-          }
-        ]
-      },
-      {
-        "id": "4801f308-9d47-4f6e-848e-f5a0e5c02201",
-        "name": {
-          "text": "Food Good 2",
-          "isTranslationKey": false
-        },
-        "limit": 2,
-        "items": [
-          {
-            "id": "pamhc2foodextended:pancakesitem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2foodextended:hashitem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2foodextended:omeletitem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2foodextended:orangejuiceitem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2foodextended:coffeeconlecheitem",
-            "Count": 1
-          }
-        ]
-      },
-      {
         "id": "d1d5c0fd-5faa-450b-accf-4dfd22bd3497",
         "name": {
           "text": "Good Armor",
@@ -660,292 +548,6 @@
         ]
       },
       {
-        "id": "6f40c15c-51c4-4698-a0ae-bf8b073300f4",
-        "name": {
-          "text": "Merely Ok Seed I",
-          "isTranslationKey": false
-        },
-        "limit": 1,
-        "items": [
-          {
-            "id": "pamhc2crops:cucumberseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:riceseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:beanseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:bellpepperseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:chilipepperseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:blueberryseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:candleberryseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:blackberryseeditem",
-            "Count": 1
-          }
-        ]
-      },
-      {
-        "id": "0bd9291d-82ad-474a-902f-17aa20f005fe",
-        "name": {
-          "text": "Merely Ok Seed II",
-          "isTranslationKey": false
-        },
-        "limit": 1,
-        "items": [
-          {
-            "id": "pamhc2crops:barleyseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:cauliflowerseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:leekseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:oatsseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:parsnipseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:rutabagaseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:ryeseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:scallionseeditem",
-            "Count": 1
-          }
-        ]
-      },
-      {
-        "id": "4d98ba61-be2e-4b8e-ad27-5ef0f9dfc478",
-        "name": {
-          "text": "Merely Ok Seed III",
-          "isTranslationKey": false
-        },
-        "limit": 1,
-        "items": [
-          {
-            "id": "pamhc2crops:soybeanseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:artichokeseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:brusselsproutseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:cabbageseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:okraseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:rhubarbseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:wintersquashseeditem",
-            "Count": 1
-          }
-        ]
-      },
-      {
-        "id": "e6dc9cbc-7402-42a6-99fa-318025d3fa5c",
-        "name": {
-          "text": "Merely Ok Seed IV",
-          "isTranslationKey": false
-        },
-        "limit": 1,
-        "items": [
-          {
-            "id": "pamhc2crops:peanutseeditem",
-            "Count": 1
-          },
-          {
-            "id": "minecraft:bamboo",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:tomatoseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:lettuceseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:onionseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:cornseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:strawberryseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:grapeseeditem",
-            "Count": 1
-          }
-        ]
-      },
-      {
-        "id": "52b1f811-645c-4124-b0a3-9fff5311fce6",
-        "name": {
-          "text": "Merely Ok Seed V",
-          "isTranslationKey": false
-        },
-        "limit": 1,
-        "items": [
-          {
-            "id": "pamhc2crops:raspberryseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:cranberryseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:kiwiseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2foodcore:sunflowerseedsitem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:spiceleafseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:eggplantseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:coffeebeanseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:peasseeditem",
-            "Count": 1
-          }
-        ]
-      },
-      {
-        "id": "a1c99b2e-653f-42a7-81e9-f82e4f2174ed",
-        "name": {
-          "text": "Merely Ok Seeds VI",
-          "isTranslationKey": false
-        },
-        "limit": 1,
-        "items": [
-          {
-            "id": "pamhc2crops:mustardseedsseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:zucchiniseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:cantaloupeseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:cactusfruitseeditem",
-            "Count": 1
-          },
-          {
-            "id": "minecraft:beetroot_seeds",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:broccoliseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:pineappleseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:turnipseeditem",
-            "Count": 1
-          }
-        ]
-      },
-      {
-        "id": "392f07f9-4a19-418a-ab28-f024ca77f908",
-        "name": {
-          "text": "Merely Ok Seeds VII",
-          "isTranslationKey": false
-        },
-        "limit": 1,
-        "items": [
-          {
-            "id": "pamhc2crops:gingerseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:garlicseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:celeryseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:radishseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:sweetpotatoseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:asparagusseeditem",
-            "Count": 1
-          },
-          {
-            "id": "pamhc2crops:tealeafseeditem",
-            "Count": 1
-          }
-        ]
-      },
-      {
         "id": "3f4f89d6-08d7-41ca-a932-5589d6d9c05d",
         "name": {
           "text": "Good Tools",
@@ -956,17 +558,17 @@
           {
             "id": "tconstruct:pickaxe",
             "Count": 1,
-            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:pierce\"}],tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":1.0f,\"tconstruct:attack_speed\":1.2f,\"tconstruct:durability\":60.0f,\"tconstruct:mining_speed\":0.1f},tic_volatile_data:{abilities:1,upgrades:3}}"
+            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:pierce\"}],tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":1.0f,\"tconstruct:attack_speed\":1.2f,\"tconstruct:durability\":60.0f,\"tconstruct:mining_speed\":0.5f},tic_volatile_data:{abilities:1,upgrades:3}}"
           },
           {
             "id": "tconstruct:hand_axe",
             "Count": 1,
-            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:stripping\"}],tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":6.0f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":60.0f,\"tconstruct:mining_speed\":0.1f},tic_volatile_data:{abilities:1,upgrades:3}}"
+            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:stripping\"}],tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":6.0f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":60.0f,\"tconstruct:mining_speed\":0.5f},tic_volatile_data:{abilities:1,upgrades:3}}"
           },
           {
             "id": "tconstruct:mattock",
             "Count": 1,
-            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:tilling\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.1f,\"tconstruct:durability\":1.25f,\"tconstruct:mining_speed\":1.1f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":1.6500001f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":75.0f,\"tconstruct:mining_speed\":0.1f},tic_volatile_data:{abilities:1,upgrades:3}}"
+            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:tilling\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.1f,\"tconstruct:durability\":1.25f,\"tconstruct:mining_speed\":1.1f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":1.6500001f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":75.0f,\"tconstruct:mining_speed\":0.55f},tic_volatile_data:{abilities:1,upgrades:3}}"
           }
         ]
       },
@@ -986,7 +588,7 @@
           {
             "id": "tconstruct:battlesign",
             "Count": 1,
-            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:copper\"],tic_modifiers:[{level:1,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:depth_protection\"},{level:1,name:\"tconstruct:bonking\"},{level:1,name:\"tconstruct:knockback\"},{level:1,name:\"tconstruct:blocking\"}],tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":2.0f,\"tconstruct:attack_speed\":1.2f,\"tconstruct:block_amount\":50.0f,\"tconstruct:durability\":294.0f,\"tconstruct:mining_speed\":0.1f},tic_volatile_data:{abilities:1,defense:3}}"
+            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:copper\"],tic_modifiers:[{level:1,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:depth_protection\"},{level:1,name:\"tconstruct:bonking\"},{level:1,name:\"tconstruct:knockback\"},{level:1,name:\"tconstruct:blocking\"}],tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":2.0f,\"tconstruct:attack_speed\":1.2f,\"tconstruct:block_amount\":50.0f,\"tconstruct:durability\":294.0f,\"tconstruct:mining_speed\":0.5f},tic_volatile_data:{abilities:1,defense:3}}"
           }
         ]
       }
