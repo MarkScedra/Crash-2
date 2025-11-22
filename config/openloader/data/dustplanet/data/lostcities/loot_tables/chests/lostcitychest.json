@@ -93,7 +93,7 @@
         },
         {
           "type": "item",
-          "name": "pamhc2foodcore:beefjerkyitem",
+          "name": "kubejs:nutrient_brick",
           "functions": [
             {
               "function": "set_count",
