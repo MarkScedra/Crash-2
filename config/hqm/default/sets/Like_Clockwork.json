@@ -143,54 +143,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "e6d0efde-1f09-434e-9f80-a45f09d37ec0",
-      "name": {
-        "text": "Penny Lane",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Copper plating is often used in fluid transportation.",
-        "isTranslationKey": false
-      },
-      "x": 110,
-      "y": 165,
-      "icon": {
-        "id": "create:copper_sheet",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "Copper plates are made from putting copper ingots into a mechanical press.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:copper_sheet",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3",
-        "1892c9be-9d6c-4c4a-bbe3-b0a606205724"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:copper_ingot",
-          "Count": 4
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "68d15aff-b4ec-4d53-aa16-ff96ec851e11",
       "name": {
         "text": "Top Brass",
@@ -253,6 +205,54 @@
           "Count": 32
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e6d0efde-1f09-434e-9f80-a45f09d37ec0",
+      "name": {
+        "text": "Penny Lane",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Copper plating is often used in fluid transportation.",
+        "isTranslationKey": false
+      },
+      "x": 110,
+      "y": 165,
+      "icon": {
+        "id": "create:copper_sheet",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Copper plates are made from putting copper ingots into a mechanical press.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:copper_sheet",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3",
+        "1892c9be-9d6c-4c4a-bbe3-b0a606205724"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:copper_ingot",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {

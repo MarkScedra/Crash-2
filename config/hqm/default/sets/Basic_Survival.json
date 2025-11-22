@@ -2,6 +2,56 @@
   "name": "Basic Survival",
   "quests": [
     {
+      "uuid": "799cc1e8-bdff-4470-b5e1-b983ebfd6624",
+      "name": {
+        "text": "Sapping the Saplings",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Another way to get water is to drop some saplings or leaves into the Centrifugal Separator. It will give you a bit of water. Remember, you can power your machines with the flux capacitor from your emergency supply chest.",
+        "isTranslationKey": false
+      },
+      "x": 78,
+      "y": 75,
+      "icon": {
+        "id": "minecraft:oak_sapling",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Make sure you don\u0027t use up all of your saplings, the only way to get more is from leaves or sifting dirt.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:water_bucket",
+                "Count": 1,
+                "tag": "{}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:potion",
+          "Count": 2,
+          "tag": "{Potion:\"minecraft:water\",Purity:3}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "89f755cb-748d-43d1-9430-0a3f3de8d907",
       "name": {
         "text": "Live to Fight Another Day",
@@ -12,7 +62,7 @@
         "isTranslationKey": false
       },
       "x": 94,
-      "y": 156,
+      "y": 157,
       "icon": {
         "id": "tconstruct:sword",
         "Count": 1,
@@ -63,56 +113,6 @@
           "Count": 32
         }
       ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "799cc1e8-bdff-4470-b5e1-b983ebfd6624",
-      "name": {
-        "text": "Sapping the Saplings",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Another way to get water is to drop some saplings or leaves into the Centrifugal Separator. It will give you a bit of water. Remember, you can power your machines with the flux capacitor from your emergency supply chest.",
-        "isTranslationKey": false
-      },
-      "x": 78,
-      "y": 75,
-      "icon": {
-        "id": "minecraft:oak_sapling",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "Make sure you don\u0027t use up all of your saplings, the only way to get more is from leaves or sifting dirt.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:water_bucket",
-                "Count": 1,
-                "tag": "{}"
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:potion",
-          "Count": 2,
-          "tag": "{Potion:\"minecraft:water\",Purity:3}"
-        }
-      ],
-      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -338,10 +338,10 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "With a furnace up, you can now take your next step. Check the port engine, where the water reclamation system has leaked and turned some of the dust to clay. Dig that up, make a crucible, and place it above a torch or some lava. In the crucible, not only can you melt cobblestone into lava, but you can melt down ore and ore chunks into molten metal. All you need is a casting table to cast the molten metal into ingots. If you ever need more clay, it can be made from water and dust in a barrel.",
+        "text": "With a furnace set up, you can take the next step. Check the port engine, where the water reclamation system has leaked and turned some of the dust to clay. Dig that up, make a crucible, and place it above a torch or some lava. In the crucible, not only can you melt cobblestone into lava, but you can melt down ore and ore chunks into molten metal. All you need is a casting table to cast the molten metal into ingots. If you ever need more clay, it can be made from water and dust in a barrel.",
         "isTranslationKey": false
       },
-      "x": 127,
+      "x": 126,
       "y": 102,
       "icon": {
         "id": "exdeorum:porcelain_crucible",
@@ -359,12 +359,6 @@
             {
               "item": {
                 "id": "exdeorum:porcelain_crucible",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "exdeorum:porcelain_bucket",
                 "Count": 1
               }
             }
@@ -457,27 +451,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "f720dbac-4e76-49a7-9f57-4800d558e3ca",
-      "name": {
-        "text": "Stillsuit Trigger",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Unnamed quest",
-        "isTranslationKey": false
-      },
-      "x": 359,
-      "y": 102,
-      "trigger": "QUEST_TRIGGER",
-      "prerequisites": [
-        "0862574f-2caf-43d7-b79c-99ca3a5fe67c"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "5f020d6d-64a9-4119-807f-f9619fb4ceac",
       "name": {
         "text": "Heat Shield",
@@ -534,7 +507,7 @@
         "text": "If you need to glue something in a pinch, you don\u0027t need to find slime to do it. It turns out mixing water and flour makes a great adhesive.",
         "isTranslationKey": false
       },
-      "x": 94,
+      "x": 62,
       "y": 48,
       "icon": {
         "id": "kubejs:paste",
@@ -559,13 +532,12 @@
         }
       ],
       "prerequisites": [
-        "d4d8bba6-7b9e-417a-b543-90ffb032400b",
-        "2a312464-2f8f-41b6-aff3-a31d475396a8"
+        "799cc1e8-bdff-4470-b5e1-b983ebfd6624"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "farmersdelight:rice",
+          "id": "minecraft:wheat",
           "Count": 8
         }
       ],
@@ -687,11 +659,13 @@
       "rewardchoice": [
         {
           "id": "legumedelight:peanut_butter_and_jam_sandwich",
-          "Count": 8
+          "Count": 8,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Replicated\",\"color\":\"yellow\",\"italic\":true}\u0027]}}"
         },
         {
           "id": "legumedelight:bean_burger",
-          "Count": 8
+          "Count": 8,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Replicated\",\"color\":\"yellow\",\"italic\":true}\u0027]}}"
         }
       ],
       "commandrewards": []
@@ -1071,7 +1045,7 @@
         "isTranslationKey": false
       },
       "x": 126,
-      "y": 48,
+      "y": 49,
       "icon": {
         "id": "minecraft:soul_sand",
         "Count": 1
@@ -1124,7 +1098,7 @@
       "reward": [
         {
           "id": "minecraft:soul_sand",
-          "Count": 4
+          "Count": 8
         }
       ],
       "rewardchoice": [],
@@ -1177,27 +1151,6 @@
           "tag": "{Potion:\"minecraft:water\",Purity:2}"
         }
       ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "ace193bf-bd8a-4435-a1c3-9175845b3469",
-      "name": {
-        "text": "Hard Route",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Trigger quest to control quests unlocked by the hard route",
-        "isTranslationKey": false
-      },
-      "x": 78,
-      "y": 183,
-      "trigger": "QUEST_TRIGGER",
-      "prerequisites": [
-        "477e01c0-8641-4b6b-970f-7374b04f6a68"
-      ],
-      "optionlinks": [],
-      "reward": [],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -1284,13 +1237,62 @@
       ],
       "prerequisites": [
         "5f020d6d-64a9-4119-807f-f9619fb4ceac",
-        "f720dbac-4e76-49a7-9f57-4800d558e3ca"
+        "0862574f-2caf-43d7-b79c-99ca3a5fe67c"
       ],
       "optionlinks": [],
       "reward": [
         {
           "id": "thermal:cured_rubber",
           "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d7150e2a-3614-4a26-b1b6-ddff205497b7",
+      "name": {
+        "text": "Making it Rain",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Getting a food source is urgent, but crops grow slowly. The fertilizer in your survival package won\u0027t last very long, so investing in another way to speed up crop growth is a good idea.",
+        "isTranslationKey": false
+      },
+      "x": 126,
+      "y": 156,
+      "icon": {
+        "id": "exdeorum:wooden_watering_can",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:consume",
+          "longDescription": {
+            "text": "The watering can speeds up plant growth when used on crops. It can be upgraded to increase its capacity and range. ",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "exdeorum:wooden_watering_can",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "804f4329-c6f5-4df8-915c-c590329cf26c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "exdeorum:wooden_watering_can",
+          "Count": 1,
+          "tag": "{Fluid:{Amount:300,FluidName:\"minecraft:water\"}}"
         }
       ],
       "rewardchoice": [],
@@ -1512,8 +1514,8 @@
         "text": "Trigger quest to control quests unlocked by the easy route",
         "isTranslationKey": false
       },
-      "x": 158,
-      "y": -23,
+      "x": 270,
+      "y": 75,
       "trigger": "QUEST_TRIGGER",
       "prerequisites": [
         "7ee731c2-da61-4aab-a5fa-864fc4b62277"
@@ -1562,7 +1564,12 @@
         "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "minecraft:charcoal",
+          "Count": 8
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -1640,6 +1647,75 @@
           "Count": 2
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8339057e-e3f2-4846-9bd4-95c311dd654b",
+      "name": {
+        "text": "Fertile Ground",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "You should be able to make more fertile soil by mixing some compostable materials into dirt and letting it sit for a few days. When ready, it can be tilled and used like normal farmland, but anything planted in it will grow faster.",
+        "isTranslationKey": false
+      },
+      "x": 94,
+      "y": 48,
+      "icon": {
+        "id": "farmersdelight:rich_soil",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Organic Compost",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Mixing some compostable materials into dirt will make organic compost.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "farmersdelight:organic_compost",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Rich Soil",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Organic compost will turn into rich soil if left out for a while. If you place it in sunlight, near water, and/or near mushroom blocks, the process will speed up.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "farmersdelight:rich_soil",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d4d8bba6-7b9e-417a-b543-90ffb032400b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "farmersdelight:rich_soil",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -1759,7 +1835,7 @@
         "text": "You\u0027ll need some tools to stay alive out here as well. Bone tools are likelythe best starting material, but you can make a different type if you\u0027d like. Wood and stone tools are generally ineffective.",
         "isTranslationKey": false
       },
-      "x": 126,
+      "x": 62,
       "y": 156,
       "icon": {
         "id": "tconstruct:mattock",
