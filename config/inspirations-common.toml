@@ -15,7 +15,7 @@
 	#Enables colored books: basically colored versions of the vanilla book to decorate shelves
 	bookshelf = true
 	#Enables rope: can be climbed like ladders and extended with additional rope
-	rope = true
+	rope = false
 	#Makes iron bars climbable if a rope is below them, requires block override on minecraft:iron_bars.
 	climbableBars = true
 	#Enables glass doors and trapdoors: basically doors, but made of glass. Not sure what you would expect.
@@ -27,7 +27,7 @@
 	#Enables additional flowers from breaking double flowers with shears.
 	flowers = true
 	#Enables enlightened bushes: bushes with lights.
-	enlightenedBush = true
+	enlightenedBush = false
 
 [utility]
 	#Enables the trapped book: will emit redstone power when placed in a bookshelf. Requires bookshelf.
@@ -43,7 +43,7 @@
 
 [cauldron]
 	#Allows filling glass bottles with milk from a cow. Note moving milk from bucket to bottles requires milk cauldrons
-	milkBottles = true
+	milkBottles = false
 	#If true, improves vanilla water cauldrons by including boiling particles, requires a block substitution on water cauldrons. More functionality coming to this option later.
 	replaceWaterCauldron = true
 
@@ -87,13 +87,13 @@
 	#Enables the charged arrow: places a redstone pulse where it lands
 	chargedArrow = true
 	#Enables locks and keys: an item allowing you to lock a tile entity to only open for a special named item
-	lock = true
+	lock = false
 	#Enables the north compass: a cheaper compass that always points north. Intended to either allow packs to replace the compass or as an alternative for F3 navigation
-	northCompass = true
+	northCompass = false
 	#Enables the barometer: a tool to measure the player's height in world.
-	barometer = true
+	barometer = false
 	#Enables the photometer: a tool to measure light in world. Can be pointed at a block to measure the light level of that block.
-	photometer = true
+	photometer = false
 	#Enables the dimension compass: a compass which points towards the place you entered a dimension.
 	#When used on a lodestone, works across dimensions taking nether coordinates into account
 	dimensionCompass = true
