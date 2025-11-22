@@ -89,6 +89,9 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "astages": {
+    "block_component_provider": true
+  },
   "corpse": {
     "corpse": true
   },
