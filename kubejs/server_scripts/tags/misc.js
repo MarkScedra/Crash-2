@@ -22,7 +22,6 @@ ServerEvents.tags('item', event => {
     )
 
     Ingredient.of(/^immersive_weathering:.*_leaf_pile$/).itemIds.forEach(id => {
-        console.log(`Adding leaf pile to tag: ${id}`);
         event.add('immersive_weathering:leaf_piles', id);
     });
 });
