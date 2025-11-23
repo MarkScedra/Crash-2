@@ -75,9 +75,20 @@ ItemEvents.tooltip(event => {
 		'kubejs:crashed_refinery_output'
     ].forEach(tool => {
         event.addAdvanced(tool, (item, advanced, text) => {
-            text.add(1, [Text.gray("Found in the area of an "), Text.white("Oil Rig")]);
+            text.add(1, [Text.gray("Found inside of an "), Text.white("Oil Rig")]);
         });
     });
+
+	// AE2
+    event.addAdvanced('kubejs:crashed_applied_controller', (item, advanced, text) => {
+		text.add(1, Text.gray("Found inside a structure"))
+		text.add(2, Text.gray("Make a frame out of it using inscriber to make the controller."))
+	});
+    event.addAdvanced('kubejs:controller_frame', (item, advanced, text) => {
+		text.add(1, Text.gray("Find crashed Controller in a"))
+		text.add(2, Text.gray("structure to make this."))
+	});
+    event.addAdvanced('ae2:controller', (item, advanced, text) => { text.add(1, Text.gray("Crafting recipe disabled. Find crashed Controller in a structure."));});
 
     // Tinkers' Construct
     event.addAdvanced("tconstruct:grout", (item, advanced, text) => { text.add(1, Text.gray("Crafting recipe disabled. Find crumbling seared bricks in the ruins."));});
