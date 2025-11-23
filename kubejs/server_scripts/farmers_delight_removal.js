@@ -379,7 +379,7 @@ ServerEvents.tags('item', event => {
     )
 });
 
-/*
+/*  All options:
     .setRenderItemName(false)           // defaults to false
     .setHideTooltip(true)               // defaults to true
     .setCanPickedUp(false)              // defaults to false
@@ -420,7 +420,20 @@ AStages.addRestrictionForTag('desolate_planet:milk_sourced', 'milk', 'desolate_p
     .setCanItemBeRightClicked(true)
     .setCanBeStoredInContainers(true)
 
-AStages.addRestrictionForTag('desolate_planet:animal_sourced', 'animals', 'desolate_planet:animal_sourced')
+AStages.addRestrictionForTag('desolate_planet:honey_sourced', 'honey', 'desolate_planet:honey_sourced')
+    // hides from JEI but is not restricted in any other way
+    .setRenderItemName(true)
+    .setHideTooltip(false)
+    .setCanPickedUp(true)
+    .setCanBeEquipped(true)
+    .setCanBeStoredInInventory(true)
+    .setCanAttack(true)
+    .setCanBePlaced(true)
+    .setCanItemBeLeftClicked(true)
+    .setCanItemBeRightClicked(true)
+    .setCanBeStoredInContainers(true)
+
+AStages.addRestrictionForTag('desolate_planet:meat_sourced', 'meat', 'desolate_planet:meat_sourced')
     // hides from JEI but is not restricted in any other way
     .setRenderItemName(true)
     .setHideTooltip(false)
@@ -445,3 +458,17 @@ AStages.addRestrictionForTag('desolate_planet:fish_sourced', 'fish', 'desolate_p
     .setCanItemBeLeftClicked(true)
     .setCanItemBeRightClicked(true)
     .setCanBeStoredInContainers(true)
+
+AStages.addRestrictionForTag('desolate_planet:kelp_sourced', 'kelp', 'desolate_planet:kelp_sourced')
+    // hides from JEI but is not restricted in any other way
+    .setRenderItemName(true)
+    .setHideTooltip(false)
+    .setCanPickedUp(true)
+    .setCanBeEquipped(true)
+    .setCanBeStoredInInventory(true)
+    .setCanAttack(true)
+    .setCanBePlaced(true)
+    .setCanItemBeLeftClicked(true)
+    .setCanItemBeRightClicked(true)
+    .setCanBeStoredInContainers(true)
+
