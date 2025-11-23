@@ -2,7 +2,7 @@ ItemEvents.modification(event => {
     event.modify(/^(?!kubejs:.*$|pamhc2foodextended:beansandriceitem$|pamhc2foodextended:veggiestirfryitem$).*/, item => {
         if (item.foodProperties) {
             const food = item.foodProperties;
-            food.nutrition = Math.max(1, Math.floor(food.nutrition * 0.5));
+            food.nutrition = Math.max(1, Math.round(food.nutrition * 0.5));
             //food.saturationModifier = food.saturationModifier * 0.5;
             //console.log(`Halved food: ${item.id}`);
         }
