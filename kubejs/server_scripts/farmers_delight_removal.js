@@ -221,8 +221,63 @@ ServerEvents.tags('item', event => {
         'legumedelight:baked_beans'
     )
 
+    // Removed until player unlocks chickens
+    event.add('desolate_planet:egg_sourced',
+        'minecraft:cake',
+        'createaddition:cake_base_baked',
+        'createaddition:cake_base',
+        'createaddition:chocolate_cake',
+        'createaddition:honey_cake',
+        'exdeorum:end_cake',
+        'farmersdelight:bacon_and_eggs',
+        'farmersdelight:baked_cod_stew',
+        'farmersdelight:egg_sandwich',
+        'farmersdelight:fried_egg',
+        'farmersdelight:fried_rice',
+        'farmersdelight:glow_berry_custard',
+        'farmersdelight:noodle_soup',
+        'farmersdelight:roast_chicken_block',
+        'farmersdelight:roast_chicken',
+        'legumedelight:mooncake',
+        'legumedelight:pad_thai',
+        'minecraft:pumpkin_pie',
+        'tconstruct:earth_cake',
+        'tconstruct:ender_cake',
+        'tconstruct:ichor_cake',
+        'tconstruct:magma_cake',
+        'tconstruct:sky_cake'
+    )
+
+    // Removed until player unlocks cows
+    event.add('desolate_planet:milk_sourced',
+        'minecraft:cake',
+        'farmersdelight:cake_slice',
+        'farmersdelight:chocolate_pie_slice',
+        'farmersdelight:chocolate_pie',
+        'farmersdelight:glow_berry_custard',
+        'farmersdelight:milk_bottle',
+        'farmersdelight:shepherds_pie_block',
+        'farmersdelight:shepherds_pie',
+        'farmersdelight:stuffed_potato',
+        'farmersdelight:sweet_berry_cheesecake_slice',
+        'farmersdelight:sweet_berry_cheesecake',
+        'refurbished_furniture:cheese_sandwich',
+        'refurbished_furniture:cheese_toastie',
+        'refurbished_furniture:cheese',
+        'tconstruct:cheese_block',
+        'tconstruct:cheese_ingot',
+    )
+
+    // Removed until player unlocks bees
+    event.add('desolate_planet:honey_sourced',
+        'create:honeyed_apple',
+        'farmersdelight:honey_cookie',
+        'farmersdelight:honey_glazed_ham_block',
+        'farmersdelight:honey_glazed_ham'
+    )
+
     // Removed until player unlocks spawn eggs
-    event.add('desolate_planet:animal_sourced',
+    event.add('desolate_planet:meat_sourced',
         '#forge:cooked_beef',
         '#forge:cooked_chicken',
         '#forge:cooked_mutton',
@@ -268,6 +323,7 @@ ServerEvents.tags('item', event => {
         'farmersdelight:shepherds_pie_block',
         'farmersdelight:smoked_ham',
         'farmersdelight:steak_and_potatoes',
+        'farmersdelight:stuffed_potato',
         'minecraft:rabbit_stew',
         // 'moredelight:chicken_salad',
         // 'moredelight:chicken_sandwich_with_egg_and_tomato',
@@ -311,6 +367,15 @@ ServerEvents.tags('item', event => {
         'farmersdelight:rice_roll_medley',
         'farmersdelight:salmon_roll',
         'farmersdelight:grilled_salmon',
+    )
+
+    // Removed because kelp doesn't exist in the desert
+    event.add('desolate_planet:kelp_sourced',
+        'farmersdelight:kelp_roll_slice',
+        'farmersdelight:kelp_roll',
+        'farmersdelight:noodle_soup',
+        'farmersdelight:rice_roll_medley_block',
+        'legumedelight:pad_thai'
     )
 });
 
