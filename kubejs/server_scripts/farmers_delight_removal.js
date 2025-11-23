@@ -532,3 +532,140 @@ AStages.addRestrictionForTag('desolate_planet:kelp_sourced', 'kelp', 'desolate_p
     .setCanItemBeRightClicked(true)
     .setCanBeStoredInContainers(true)
 
+
+
+PlayerEvents.inventoryChanged(event => {
+
+    if (!AStages.playerHasStage('eggs', event.player)) {
+        [
+            'minecraft:chicken_spawn_egg',
+            'minecraft:egg',
+            'farmersdelight:fried_egg',
+        ].forEach(item => {
+            if (event.player.inventory.contains(item)) AStages.addStageToPlayer('eggs', event.player);
+        });
+    }
+
+    if (!AStages.playerHasStage('milk', event.player)) {
+        [
+            'minecraft:cow_spawn_egg',
+            'minecraft:milk_bucket',
+            'ad_astra:cheese_block',
+            'ad_astra:cheese',
+            'ad_astra:moon_cheese_ore',
+            'exdeorum:porcelain_milk_bucket',
+            'farmersdelight:milk_bottle',
+            'tconstruct:cheese_block',
+            'tconstruct:cheese_ingot'
+        ].forEach(item => {
+            if (event.player.inventory.contains(item)) AStages.addStageToPlayer('milk', event.player);
+        });
+    }
+
+    if (!AStages.playerHasStage('honey', event.player)) {
+        [
+            'minecraft:bee_nest',
+            'minecraft:bee_spawn_egg',
+            'minecraft:beehive',
+            'minecraft:honey_block',
+            'minecraft:honey_bottle',
+            'minecraft:honeycomb_block',
+            'minecraft:honeycomb',
+            'tconstruct:honey_bucket'
+        ].forEach(item => {
+            if (event.player.inventory.contains(item)) AStages.addStageToPlayer('honey', event.player);
+        });
+    }
+
+    if (!AStages.playerHasStage('beef', event.player)) {
+        [
+            'minecraft:beef',
+            'minecraft:cooked_beef',
+            'minecraft:cow_spawn_egg',
+            'farmersdelight:beef_patty',
+            'farmersdelight:minced_beef',
+        ].forEach(item => {
+            if (event.player.inventory.contains(item)) AStages.addStageToPlayer('beef', event.player);
+        });
+    }
+
+    if (!AStages.playerHasStage('chicken', event.player)) {
+        [
+            'minecraft:chicken_spawn_egg',
+            'minecraft:chicken',
+            'minecraft:cooked_chicken',
+            'farmersdelight:chicken_cuts',
+            'farmersdelight:cooked_chicken_cuts',
+        ].forEach(item => {
+            if (event.player.inventory.contains(item)) AStages.addStageToPlayer('chicken', event.player);
+        });
+    }
+
+    if (!AStages.playerHasStage('mutton', event.player)) {
+        [
+            'minecraft:cooked_mutton',
+            'minecraft:mutton',
+            'minecraft:sheep_spawn_egg',
+            'farmersdelight:cooked_mutton_chops',
+            'farmersdelight:mutton_chops',
+        ].forEach(item => {
+            if (event.player.inventory.contains(item)) AStages.addStageToPlayer('mutton', event.player);
+        });
+    }
+
+    if (!AStages.playerHasStage('pork', event.player)) {
+        [
+            'minecraft:cooked_porkchop',
+            'minecraft:pig_spawn_egg',
+            'minecraft:porkchop',
+            'farmersdelight:bacon',
+            'farmersdelight:cooked_bacon',
+        ].forEach(item => {
+            if (event.player.inventory.contains(item)) AStages.addStageToPlayer('pork', event.player);
+        });
+    }
+
+    if (!AStages.playerHasStage('rabbit', event.player)) {
+        [
+            'minecraft:cooked_rabbit',
+            'minecraft:rabbit_spawn_egg',
+            'minecraft:rabbit',
+        ].forEach(item => {
+            if (event.player.inventory.contains(item)) AStages.addStageToPlayer('rabbit', event.player);
+        });
+    }
+
+    if (!AStages.playerHasStage('fish', event.player)) {
+        [
+            'minecraft:cod_spawn_egg',
+            'minecraft:cod',
+            'minecraft:cooked_cod',
+            'farmersdelight:cod_slice',
+            'farmersdelight:cooked_cod_slice',
+
+            'minecraft:cooked_salmon',
+            'minecraft:salmon_spawn_egg',
+            'minecraft:salmon',
+
+            'minecraft:tropical_fish_spawn_egg',
+            'minecraft:tropical_fish',
+            'farmersdelight:cooked_salmon_slice',
+            'farmersdelight:salmon_slice',
+
+            'minecraft:pufferfish_spawn_egg'
+        ].forEach(item => {
+            if (event.player.inventory.contains(item)) AStages.addStageToPlayer('fish', event.player);
+        });
+    }
+
+    if (!AStages.playerHasStage('kelp', event.player)) {
+        [
+            'minecraft:dried_kelp_block',
+            'minecraft:dried_kelp',
+            'minecraft:kelp'
+        ].forEach(item => {
+            if (event.player.inventory.contains(item)) AStages.addStageToPlayer('kelp', event.player);
+        });
+    }
+
+});
