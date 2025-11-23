@@ -241,7 +241,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "inspirations:sugar_cane_seeds",
+          "name": "minecraft:sugar_cane",
           "weight": 4,
           "functions": [
             {

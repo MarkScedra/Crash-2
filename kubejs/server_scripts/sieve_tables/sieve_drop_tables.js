@@ -196,7 +196,7 @@ ServerEvents.recipes(event => {
             exdeorum:grass_seeds	8	9.6	11.2	12.8	14.4	16
             minecraft:wheat_seeds	5	6	7	8	9	10
             farmersdelight:rice	5	6	7	8	9	10
-            inspirations:sugar_cane_seeds	4	4.8	5.6	6.4	7.2	8
+            minecraft:sugar_cane	4	4.8	5.6	6.4	7.2	8
             minecraft:oak_sapling	3	3.6	4.2	4.8	5.4	6
             minecraft:potato	2.5	3	3.5	4	4.5	5
             farmersdelight:tomato_seeds	2	2.4	2.8	3.2	3.6	4
@@ -207,7 +207,7 @@ ServerEvents.recipes(event => {
             minecraft:bamboo	1	1.2	1.4	1.6	1.8	2
             minecraft:beetroot_seeds	1	1.2	1.4	1.6	1.8	2
             minecraft:birch_sapling	1	1.2	1.4	1.6	1.8	2
-            inspirations:cactus_seeds	1	1.2	1.4	1.6	1.8	2
+            minecraft:cactus	1	1.2	1.4	1.6	1.8	2
             minecraft:melon_seeds	1	1.2	1.4	1.6	1.8	2
             minecraft:spruce_sapling	1	1.2	1.4	1.6	1.8	2
             minecraft:sweet_berries	1	1.2	1.4	1.6	1.8	2
