@@ -74,8 +74,8 @@ ServerEvents.recipes(event => {
             '#forge:crops/wheat',
             '#forge:crops/wheat',
             '#forge:crops/wheat',
-            '#forge:crops/apple',
-            '#forge:crops/apple',
+            'minecraft:apple',
+            'minecraft:apple',
             '#forge:crops/wheat',
             '#forge:crops/wheat',
             '#forge:crops/wheat'
@@ -139,14 +139,14 @@ ServerEvents.recipes(event => {
     // ocelot spawn egg recipe
     event.recipes.industrialforegoing.dissolution_chamber(
         [
-            '#forge:fishes',
-            '#forge:fishes',
-            '#forge:fishes',
+            '#forge:raw_fishes',
+            '#forge:raw_fishes',
+            '#forge:raw_fishes',
             'minecraft:jungle_sapling',
             'minecraft:jungle_sapling',
-            '#forge:fishes',
-            '#forge:fishes',
-            '#forge:fishes'
+            '#forge:raw_fishes',
+            '#forge:raw_fishes',
+            '#forge:raw_fishes'
         ],
         Fluid.of('industrialforegoing:essence', 32000),
         'minecraft:ocelot_spawn_egg',
@@ -156,14 +156,14 @@ ServerEvents.recipes(event => {
     // fox spawn egg recipe
     event.recipes.industrialforegoing.dissolution_chamber(
         [
-            '#forge:berries/sweetberry',
-            '#forge:berries/sweetberry',
-            '#forge:berries/sweetberry',
+            '#minecraft:fox_food',
+            '#minecraft:fox_food',
+            '#minecraft:fox_food',
             'minecraft:spruce_sapling',
             'minecraft:spruce_sapling',
-            '#forge:berries/sweetberry',
-            '#forge:berries/sweetberry',
-            '#forge:berries/sweetberry'
+            '#minecraft:fox_food',
+            '#minecraft:fox_food',
+            '#minecraft:fox_food'
         ],
         Fluid.of('industrialforegoing:essence', 32000),
         'minecraft:fox_spawn_egg',
@@ -275,9 +275,9 @@ ServerEvents.recipes(event => {
     // dolphin spawn egg recipe
     event.recipes.industrialforegoing.dissolution_chamber(
         [
-            '#forge:fishes',
-            '#forge:fishes',
-            '#forge:fishes',
+            '#forge:raw_fishes',
+            '#forge:raw_fishes',
+            '#forge:raw_fishes',
             'minecraft:water_bucket',
             'minecraft:water_bucket',
             '#forge:dusts/prismarine',
@@ -292,9 +292,9 @@ ServerEvents.recipes(event => {
     // axolotl spawn egg recipe
     event.recipes.industrialforegoing.dissolution_chamber(
         [
-            '#forge:fishes/rawtropicalfish',
-            '#forge:fishes/rawtropicalfish',
-            '#forge:fishes/rawtropicalfish',
+            '#forge:raw_fishes/tropical_fish',
+            '#forge:raw_fishes/tropical_fish',
+            '#forge:raw_fishes/tropical_fish',
             'minecraft:water_bucket',
             'minecraft:water_bucket',
             '#forge:stone',

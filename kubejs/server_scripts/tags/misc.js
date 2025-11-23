@@ -20,4 +20,9 @@ ServerEvents.tags('item', event => {
         'enderio:pressurized_fluid_conduit',
         'enderio:ender_fluid_conduit'
     )
+
+    Ingredient.of(/^immersive_weathering:.*_leaf_pile$/).itemIds.forEach(id => {
+        console.log(`Adding leaf pile to tag: ${id}`);
+        event.add('immersive_weathering:leaf_piles', id);
+    });
 });

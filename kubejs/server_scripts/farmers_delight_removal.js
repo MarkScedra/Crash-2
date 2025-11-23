@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
         ],
         {
             M: '#forge:milk',
-            S: '#forge:sugar',
+            S: 'minecraft:sugar',
             w: 'minecraft:wheat'
         }
     ).id('desolate_planet:pie_crust');
