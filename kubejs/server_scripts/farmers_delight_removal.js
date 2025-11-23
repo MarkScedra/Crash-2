@@ -1,6 +1,7 @@
 ServerEvents.recipes(event => {
     // Removed because they already exist in other ways
     [
+        'minecraft:cake',
         'farmersdelight:cooking/salt',
         'farmersdelight:mixing/dough_from_eggs',
         'farmersdelight:mixing/wheat_dough_from_eggs',
@@ -12,6 +13,91 @@ ServerEvents.recipes(event => {
 
 
     // Specific recipe changes
+
+    // Blaze cake base
+    event.remove({ id: 'create:compacting/blaze_cake_base' });
+    event.recipes.create.compacting(
+        'create:blaze_cake_base',
+        ['#forge:dough', 'minecraft:sugar', 'create:cinder_flour']
+    ).id('desolate_planet:blaze_cake_base_from_dough');
+
+    // Pumpkin soup
+    event.remove({ id: 'farmersdelight:cooking/pumpkin_soup' });
+    event.custom({
+        "type": "farmersdelight:cooking",
+        "cookingtime": 200,
+        "experience": 1.0,
+        "ingredients": [
+            {
+                "item": "farmersdelight:pumpkin_slice"
+            },
+            {
+                "item": "farmersdelight:pumpkin_slice"
+            },
+            {
+                "tag": "forge:crops/potato"
+            },
+            {
+                "tag": "forge:crops/onion"
+            },
+            {
+                "tag": "forge:salad_ingredients"
+            }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+            "item": "farmersdelight:pumpkin_soup"
+        }
+    }).id('desolate_planet:pumpkin_soup_from_vegetables');
+
+    // Hot cocoa
+    event.remove({ id: 'farmersdelight:cooking/hot_cocoa' });
+    event.custom({
+        "type": "farmersdelight:cooking",
+        "cookingtime": 200,
+        "experience": 1.0,
+        "ingredients": [
+            Item.of('minecraft:potion', '{Potion:"minecraft:water"}').weakNBT(),
+            {
+                "item": "minecraft:sugar"
+            },
+            {
+                "item": "minecraft:cocoa_beans"
+            },
+            {
+                "item": "minecraft:cocoa_beans"
+            }
+        ],
+        "recipe_book_tab": "drinks",
+        "result": {
+            "item": "farmersdelight:hot_cocoa"
+        }
+    }).id('desolate_planet:hot_cocoa_from_water');
+    event.custom({
+        "type": "farmersdelight:cooking",
+        "cookingtime": 200,
+        "experience": 1.0,
+        "ingredients": [
+            {
+                "tag": "forge:milk"
+            },
+            {
+                "item": "minecraft:sugar"
+            },
+            {
+                "item": "minecraft:cocoa_beans"
+            },
+            {
+                "item": "minecraft:cocoa_beans"
+            }
+        ],
+        "recipe_book_tab": "drinks",
+        "result": {
+            "item": "farmersdelight:hot_cocoa"
+        }
+    }).id('desolate_planet:hot_cocoa_from_milk');
+
+    // Pie crust
     event.remove({ id: 'farmersdelight:pie_crust' });
     event.shaped(
         Item.of('farmersdelight:pie_crust', 1),
@@ -32,6 +118,7 @@ ServerEvents.recipes(event => {
             'www'
         ],
         {
+
             B: Item.of('minecraft:potion', '{Potion:"minecraft:water"}').weakNBT(),
             S: 'minecraft:sugar',
             w: 'minecraft:wheat'
@@ -129,6 +216,8 @@ ServerEvents.tags('item', event => {
         'kubejs:nutrient_brick'
     )
     event.add('diet:sugars',
+        'farmersdelight:hot_cocoa',
+        'farmersdelight:melon_juice',
         'legumedelight:baked_beans'
     )
 
