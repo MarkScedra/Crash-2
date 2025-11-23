@@ -21,6 +21,8 @@ ServerEvents.recipes(event => {
         'tconstruct:sky_slime_ball': 0.10,
         'tconstruct:earth_slime_sapling': 0.05,
         'tconstruct:sky_slime_sapling': 0.03,
+        'tconstruct:earth_slime_grass_seeds': 0.03,
+        'tconstruct:sky_slime_grass_seeds': 0.01,
 
         'minecraft:spruce_sapling': 0.2,
         'minecraft:oak_sapling': 0.08,
