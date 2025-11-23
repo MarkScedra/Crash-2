@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","key":{"A":{"tag":"forge:circuits/ultimate"},"I":{"tag":"forge:ingots/iron"},"P":{"item":"mekanismgenerators:solar_generator"}},"pattern":["PAP","PAP","III"],"result":{"item":"mekanismgenerators:advanced_solar_generator"}}
