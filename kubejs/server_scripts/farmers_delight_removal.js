@@ -4,12 +4,14 @@ ServerEvents.recipes(event => {
         'farmersdelight:cooking/salt',
         'farmersdelight:mixing/dough_from_eggs',
         'farmersdelight:mixing/wheat_dough_from_eggs',
+        // 'culturaldelights:cooking/raw_pasta'
     ].forEach(id => {
         event.remove({ id: id });
     });
 
+
+
     // Specific recipe changes
-    event.remove({ id: 'culturaldelights:cooking/raw_pasta' });
     event.remove({ id: 'farmersdelight:pie_crust' });
     event.shaped(
         Item.of('farmersdelight:pie_crust', 1),
@@ -30,12 +32,15 @@ ServerEvents.recipes(event => {
             'www'
         ],
         {
-        
             B: Item.of('minecraft:potion', '{Potion:"minecraft:water"}').weakNBT(),
             S: 'minecraft:sugar',
             w: 'minecraft:wheat'
         }
     ).id('desolate_planet:pie_crust_from_water');
+
+
+
+    // Straw-related items
 
     // Rope
     event.shaped(
@@ -67,29 +72,29 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'farmersdelight:organic_compost' });
     event.shapeless(
         Item.of('farmersdelight:organic_compost'), [
-            'minecraft:dirt',
-            'minecraft:rotten_flesh',
-            'minecraft:rotten_flesh',
-            'minecraft:bone_meal',
-            'minecraft:bone_meal',
-            'minecraft:bone_meal',
-            ['minecraft:wheat', 'farmersdelight:rice_panicle', 'farmersdelight:straw'],
-            ['minecraft:wheat', 'farmersdelight:rice_panicle', 'farmersdelight:straw'],
-            ['minecraft:wheat', 'farmersdelight:rice_panicle', 'farmersdelight:straw']
-        ]
+        'minecraft:dirt',
+        'minecraft:rotten_flesh',
+        'minecraft:rotten_flesh',
+        'minecraft:bone_meal',
+        'minecraft:bone_meal',
+        'minecraft:bone_meal',
+        ['minecraft:wheat', 'farmersdelight:rice_panicle', 'farmersdelight:straw'],
+        ['minecraft:wheat', 'farmersdelight:rice_panicle', 'farmersdelight:straw'],
+        ['minecraft:wheat', 'farmersdelight:rice_panicle', 'farmersdelight:straw']
+    ]
     ).id('desolate_planet:organic_compost_from_rotten_flesh');
     event.shapeless(
         Item.of('farmersdelight:organic_compost'), [
-            'minecraft:dirt',
-            '#forge:vegetables',
-            '#forge:vegetables',
-            'minecraft:bone_meal',
-            'minecraft:bone_meal',
-            'minecraft:bone_meal',
-            ['minecraft:wheat', 'farmersdelight:rice_panicle', 'farmersdelight:straw'],
-            ['minecraft:wheat', 'farmersdelight:rice_panicle', 'farmersdelight:straw'],
-            ['minecraft:wheat', 'farmersdelight:rice_panicle', 'farmersdelight:straw']
-        ]
+        'minecraft:dirt',
+        '#forge:vegetables',
+        '#forge:vegetables',
+        'minecraft:bone_meal',
+        'minecraft:bone_meal',
+        'minecraft:bone_meal',
+        ['minecraft:wheat', 'farmersdelight:rice_panicle', 'farmersdelight:straw'],
+        ['minecraft:wheat', 'farmersdelight:rice_panicle', 'farmersdelight:straw'],
+        ['minecraft:wheat', 'farmersdelight:rice_panicle', 'farmersdelight:straw']
+    ]
     ).id('desolate_planet:organic_compost_from_vegetables');
 });
 
