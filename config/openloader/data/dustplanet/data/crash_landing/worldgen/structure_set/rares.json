@@ -1,12 +1,12 @@
 {
   "structures": [
     {
-      "structure": "crash_landing:oil_rig",
-      "weight": 3
-    },
-    {
       "structure": "crash_landing:mer_lab",
       "weight": 2
+    },
+    {
+      "structure": "crash_landing:oil_rig",
+      "weight": 3
     },
     {
       "structure": "crash_landing:nuclear_plant",

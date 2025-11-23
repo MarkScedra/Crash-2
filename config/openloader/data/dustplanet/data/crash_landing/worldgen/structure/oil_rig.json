@@ -24,7 +24,7 @@
         }
     },
     "start_height": {
-        "absolute": -3
+        "absolute": -2
     },
     "start_pool": "crash_landing:oil_rig/center",
     "step": "surface_structures",
