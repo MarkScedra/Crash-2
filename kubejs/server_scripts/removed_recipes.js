@@ -1,6 +1,7 @@
 ServerEvents.recipes(event => {
     // Removal by ID
     [
+        'create:splashing/ice',
         'enderio:iron_gear',
         'industrialforegoing:diamond_gear',
         'industrialforegoing:gold_gear',
