@@ -22,7 +22,20 @@ ServerEvents.recipes(event => {
             S: 'minecraft:sugar',
             w: 'minecraft:wheat'
         }
-    ).id('desolate_planet:pie_crust');
+    ).id('desolate_planet:pie_crust_from_milk');
+    event.shaped(
+        Item.of('farmersdelight:pie_crust', 1),
+        [
+            'SBS',
+            'www'
+        ],
+        {
+        
+            B: Item.of('minecraft:potion', '{Potion:"minecraft:water"}').weakNBT(),
+            S: 'minecraft:sugar',
+            w: 'minecraft:wheat'
+        }
+    ).id('desolate_planet:pie_crust_from_water');
 
     // Rope
     event.shaped(
