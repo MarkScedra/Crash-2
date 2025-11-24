@@ -1,0 +1,63 @@
+[
+  {
+    "processor_type": "minecraft:rule",
+    "rules": [
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "tconstruct:seared_bricks",
+          "probability": 0.8
+        },
+        "output_state": {
+          "Name": "kubejs:crumbling_seared_bricks"
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "tconstruct:seared_bricks_slab",
+          "probability": 0.75
+        },
+        "output_state": {
+          "Name": "minecraft:air"
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:spawner"
+        },
+        "output_state": {
+          "Name": "minecraft:spawner"
+        },
+        "block_entity_modifier": {
+          "type": "minecraft:append_static",
+          "data": {
+            "SpawnData": {
+              "entity": {
+                "id": "specialmobs:brutezombifiedpiglin",
+                "HandItems": [
+                  {
+                    "id": "minecraft:golden_sword",
+					"Count": 1
+                  },
+                  {}
+                ],
+                "AngerTime": 2147483647
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+]

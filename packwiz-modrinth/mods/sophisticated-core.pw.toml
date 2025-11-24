@@ -3,11 +3,11 @@ filename = "sophisticatedcore-1.20.1-1.2.107.1240.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "bd25a3a9d1b4a6e25b4087b58c0cd3a9564a78a7"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/nmoqTijg/versions/mysRx249/sophisticatedcore-1.20.1-1.2.101.1213.jar"
+hash-format = "sha512"
+hash = "93e1819fe547fdb61938723f9d3382b16022aadfece795a0d1338b573b78f35fcbe03c7278eaace2627782d75f52ec055b1e57895250bffda6511438b482a08f"
 
 [update]
-[update.curseforge]
-file-id = 7169400
-project-id = 618298
+[update.modrinth]
+mod-id = "nmoqTijg"
+version = "mysRx249"

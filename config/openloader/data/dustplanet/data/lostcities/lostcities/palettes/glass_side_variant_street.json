@@ -1,9 +1,0 @@
-{
-  "palette": [
-    {
-      "char": "@",
-      "block": "minecraft:andesite_slab[type=double]",
-      "damaged": "immersive_weathering:exposed_iron_bars"
-    }
-  ]
-}

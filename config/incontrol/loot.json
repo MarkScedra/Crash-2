@@ -1,1 +1,6 @@
-[]
+[
+  {
+    "mob": ["minecraft:zombified_piglin", "specialmobs:zombifiedpiglin", "specialmobs:hungryzombifiedpiglin"],
+    "remove": "minecraft:golden_sword"
+  }
+]

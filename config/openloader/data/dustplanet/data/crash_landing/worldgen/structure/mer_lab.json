@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": "minecraft:desert",
+    "max_distance_from_center": 116,
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "size": 4,
+    "spawn_overrides": {
+        "monster": {
+            "bounding_box": "piece",
+            "spawns": [
+                {
+                    "type": "specialmobs:madscientistzombie",
+                    "maxCount": 8,
+                    "minCount": 4,
+                    "weight": 4
+                },
+                {
+                    "type": "specialmobs:giantzombie",
+                    "maxCount": 2,
+                    "minCount": 1,
+                    "weight": 1
+                }
+            ]
+        }
+    },
+    "start_height": {
+        "absolute": -2
+    },
+    "start_pool": "crash_landing:mer_lab/center",
+    "step": "surface_structures",
+    "terrain_adaptation": "beard_thin",
+    "use_expansion_hack": false
+}

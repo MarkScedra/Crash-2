@@ -20,13 +20,17 @@ Familiarize yourself with your environment, orient yourself, and begin to follow
 This modpack is not yet finished, and I would love to hear feedback about how we can improve it. You can reach the developers on our discord, invite code §94en3SpWtJg§r, or go to §9discord.gg/4en3SpWtJg§r.
 
 Developers:
-- MarkSDR
 - Pawjwp
+- MarkSDR
+- ULSTICK
 - Nagasakii
 
-Other contributers:
-- Mei-Nanita
+Other contributors:
+- QinlingP
+- herobrian903
 - Kilometers
+- Mei-Nanita
+- Pand1024
 - Lobo_um_louco
 
 Original developer:

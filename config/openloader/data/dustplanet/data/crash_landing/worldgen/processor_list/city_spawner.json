@@ -1,0 +1,76 @@
+[
+  {
+    "processor_type": "minecraft:rule",
+    "rules": [
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:spawner",
+          "probability": 0.3
+        },
+        "output_state": {
+          "Name": "minecraft:spawner"
+        },
+        "block_entity_modifier": {
+          "type": "minecraft:append_static",
+          "data": {
+            "SpawnData": {
+              "entity": {
+                "id": "minecraft:blaze"
+              }
+            }
+          }
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:spawner",
+          "probability": 0.3
+        },
+        "output_state": {
+          "Name": "minecraft:spawner"
+        },
+        "block_entity_modifier": {
+          "type": "minecraft:append_static",
+          "data": {
+            "SpawnData": {
+              "entity": {
+                "id": "minecraft:zombie"
+              }
+            }
+          }
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:spawner"
+        },
+        "output_state": {
+          "Name": "minecraft:spawner"
+        },
+        "block_entity_modifier": {
+          "type": "minecraft:append_static",
+          "data": {
+            "SpawnData": {
+              "entity": {
+                "id": "specialmobs:zombifiedpiglin",
+                "AngerTime": 2147483647
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+]

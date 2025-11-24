@@ -1,13 +1,13 @@
 name = "Global GameRules"
-filename = "GlobalGameRules-1.20-8.0.0.11.jar"
+filename = "GlobalGameRules-1.20.1-8.1.0.12.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "e1ad2f5480453aed8059aeddd5964694116a9fc8"
+hash = "13a9e41740aa17a31f81beba233055bc84152eb0"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4587490
+file-id = 7172469
 project-id = 227657

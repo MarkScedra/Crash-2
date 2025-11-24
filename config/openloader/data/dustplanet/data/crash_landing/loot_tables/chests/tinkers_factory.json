@@ -42,7 +42,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "exdeorum:dust",
+          "name": "kubejs:dust_pile",
           "weight": 15,
           "functions": [
             {
@@ -99,38 +99,6 @@
                 "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "tconstruct:scorched_brick",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 5
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "tconstruct:nether_grout",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 5
               },
               "add": false
             }

@@ -35,7 +35,7 @@ A: Download the Modrinth or Curseforge app, search for the name of the pack, and
 
 ### Q: How can I play multiplayer?
 
-A: The [e4mc](https://modrinth.com/mod/e4mc) mod is installed. To play multiplayer, simply open your world to LAN and it will print an address in chat that other players can join with.
+A: The [e4mc](https://modrinth.com/mod/e4mc) mod is installed. To play multiplayer, simply open your world to LAN, and it will print an address in chat that other players can join with.
 
 ### Q: How do I set up a server? Do you have a server pack?
 
@@ -46,7 +46,7 @@ Once downloaded, unzip the file and run it locally via the `run.bat` (Windows) o
 
 A: Make sure you have allocated at least 6 GB of RAM to the modpack. I usually recommend 8 GB if your computer has enough.
 
-### Q: How can I disabled hardcore?
+### Q: How can I disable hardcore?
 
 A: I strongly recommend learning to use the sync shells for extra lives, it’s what the game was balanced around. If you select the easy route, you’ll start with enough power for 3 shells. Follow the steps in the Sync quest for a detailed guide.
 However, if you’ve tried that and still want to disable hardcore, you can edit the hardcore setting in `config/globalgamerules-common.toml`. On a server, the steps are slightly different. Download [this file](https://cdn.modrinth.com/data/Y5UhUxAD/versions/YopX3hzh/Non-Hardcore_Server_Files.zip) and replace the files on the server with the files in that zip. I recommend backing up the target files before replacing them.
@@ -57,7 +57,7 @@ A: There is a Tinker’s Construct smeltery building in the cities, containing c
 
 ### Q: What is the best power source?
 
-A: The quests include 3 recommended energy sources. The first is the _Pitiful Generator_, which is powered by burnable fuel and very slow. Once you get oil refining set up, you can use the _Compression Dynamo_ to burn various types of oils. Finally, you can get a _Nuclear Reactor_ in the end-game, which is a highly effective generation method. The quests will guide you through these three recommended methods, but other generators can be build along the way.
+A: The quests include 3 recommended energy sources. The first is the _Pitiful Generator_, which is powered by burnable fuel and very slow. Once you get oil refining set up, you can use the _Compression Dynamo_ to burn various types of oils. Finally, you can get a _Nuclear Reactor_ in the end-game, which is a highly effective generation method. The quests will guide you through these three recommended methods, but other generators can be built along the way.
 
 ### Q: Will updating to a new version break my world?
 
@@ -67,8 +67,12 @@ A: Generally no, you won’t have any issues. Only major releases break anything
 
 A: Absolutely!
 *   For simple suggestions, create an [issue](https://github.com/MarkScedra/Crash-2/issues) or let us know on the [Discord](https://discord.gg/4en3SpWtJg).
-*   For simpler submissions like textures, models, buildings, or other small files, you can send those to us and we can do the implementation work for you (if approved).
-*   For anything more complicated like full game mechanics, complex scripts, or large-scale config adjustments, you can submit a [pull request](https://github.com/MarkScedra/Crash-2/pulls) on Github. See our [Contributing Guide](https://github.com/MarkScedra/Crash-2?tab=contributing-ov-file) for information about setting up the modpack dev environment on your computer.
+*   For simpler submissions like textures, models, buildings, or other small files, you can send those to us, and we can do the implementation work for you (if approved).
+*   For anything more complicated like full game mechanics, complex scripts, or large-scale config adjustments, you can submit a [pull request](https://github.com/MarkScedra/Crash-2/pulls) on GitHub. See our [Contributing Guide](https://github.com/MarkScedra/Crash-2?tab=contributing-ov-file) for information about setting up the modpack dev environment on your computer.
+
+### Q: Do you have a roadmap/list of planned updates?
+
+A: Yes, the most up-to-date roadmap is in [our discord](https://discord.gg/nP9jaNze8e). I have many plans for the future of this modpack and the roadmap details the next 6-8 major updates. Feel free to let me know what you think and what you think the future of this modpack should include.
 
 ______________________________________________________________________
 
@@ -76,17 +80,18 @@ ______________________________________________________________________
 
 Developed by:
 
-*   [MarkSDR](https://modrinth.com/user/MarkSDR) (Original lead developer)
 *   [Pawjwp](https://modrinth.com/user/pawjwp) (Current lead developer)
+*   [MarkSDR](https://modrinth.com/user/MarkSDR) (Original lead developer)
+*   [ULSTICK](https://linktr.ee/ULSTICK) (Structures and other immersive content)
 *   Nagasakii (Early development work and initial quests)
 
 Other contributers:
 
+*   [QinlingP](https://www.curseforge.com/members/qinlingp/projects) (Packwiz setup and preset seed mod)
+*   herobrian903 (Create quest line prototyping)
 *   [Kilometers](https://modrinth.com/user/kilometersperhour) (Early development work)
-*   [ULSTICK](https://linktr.ee/ULSTICK) (Structure work)
-*   herobrian903 (Create quest line assistance)
 *   Mei-Nanita (Early recipe work)
-*   Pand1024 (Early github setup)
+*   Pand1024 (Early github maintenance)
 *   Lobo\_um\_louco (Early structure work)
 
 Original pack developer:
