@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model" :  "kubejs:block/crashed_refinery",
+			"y": 180
+		},
+		"facing=south": {
+			"model" :  "kubejs:block/crashed_refinery"
+		},
+		"facing=west": {
+			"model" :  "kubejs:block/crashed_refinery",
+			"y": 90
+		},
+		"facing=east": {
+			"model" :  "kubejs:block/crashed_refinery",
+			"y": 270
+		}
+	}
+}

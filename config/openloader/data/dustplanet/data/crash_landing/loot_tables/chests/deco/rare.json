@@ -29,7 +29,7 @@
         {
           "type": "minecraft:item",
           "name": "pneumaticcraft:failed_pcb",
-          "weight": 1,
+          "weight": 2,
           "quality": 1,
           "functions": [
             {
@@ -44,7 +44,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond",
-          "weight": 1,
+          "weight": 2,
           "quality": 1,
           "functions": [
             {
@@ -59,7 +59,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond",
-          "weight": 1,
+          "weight": 2,
           "quality": 1,
           "functions": [
             {
@@ -74,7 +74,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
-          "weight": 1,
+          "weight": 2,
           "quality": 1,
           "functions": [
             {
@@ -89,7 +89,7 @@
         {
           "type": "minecraft:item",
           "name": "tconstruct:debris_nugget",
-          "weight": 1,
+          "weight": 2,
           "quality": 2,
           "functions": [
             {

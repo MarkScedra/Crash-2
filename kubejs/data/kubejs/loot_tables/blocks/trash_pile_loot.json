@@ -3,12 +3,9 @@
     {
       "__comment": "common loot",
       "rolls": {
-        "min": 1,
-        "max": {
-          "type": "minecraft:binomial",
-          "n": 1,
-          "p": 0.25
-        }
+        "type": "minecraft:binomial",
+        "n": 1,
+        "p": 0.25
       },
       "entries": [
         {
