@@ -61,8 +61,8 @@
         "text": "The night is dark and full of terrors. Your chances of survival are low, but you can improve them with some sort of weapon to defend yourself.",
         "isTranslationKey": false
       },
-      "x": 142,
-      "y": 75,
+      "x": 94,
+      "y": 157,
       "icon": {
         "id": "tconstruct:sword",
         "Count": 1,
@@ -341,7 +341,7 @@
         "text": "With a furnace set up, you can take the next step. Check the port engine, where the water reclamation system has leaked and turned some of the dust to clay. Dig that up, make a crucible, and place it above a torch or some lava. In the crucible, not only can you melt cobblestone into lava, but you can melt down ore and ore chunks into molten metal. All you need is a casting table to cast the molten metal into ingots. If you ever need more clay, it can be made from water and dust in a barrel.",
         "isTranslationKey": false
       },
-      "x": 158,
+      "x": 126,
       "y": 102,
       "icon": {
         "id": "exdeorum:porcelain_crucible",
@@ -359,12 +359,6 @@
             {
               "item": {
                 "id": "exdeorum:porcelain_crucible",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "exdeorum:porcelain_bucket",
                 "Count": 1
               }
             }
@@ -466,29 +460,8 @@
         "text": "Desert clothing is useful for protection, but it\u0027s bulky and doesn\u0027t allow you to wear armor with it. One alternative is to put a thin layer of insulating material between you and your armor. This isn\u0027t usually as effective, but it allows for more protection from attack.",
         "isTranslationKey": false
       },
-      "x": 238,
+      "x": 206,
       "y": 129,
-      "trigger": "QUEST_TRIGGER",
-      "prerequisites": [
-        "0862574f-2caf-43d7-b79c-99ca3a5fe67c"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "6acadfe6-4853-4cf1-af89-d44bc0f42ce1",
-      "name": {
-        "text": "Cut and Paste",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "If you need to glue something in a pinch, you don\u0027t need to find slime to do it. It turns out mixing water and flour makes a great adhesive.",
-        "isTranslationKey": false
-      },
-      "x": 78,
-      "y": 75,
       "icon": {
         "id": "kubejs:leather_insulation",
         "Count": 1
@@ -534,8 +507,8 @@
         "text": "If you need to glue something in a pinch, you don\u0027t need to find slime to do it. It turns out mixing water and flour makes a great adhesive.",
         "isTranslationKey": false
       },
-      "x": 190,
-      "y": 156,
+      "x": 62,
+      "y": 48,
       "icon": {
         "id": "kubejs:paste",
         "Count": 1
@@ -559,29 +532,16 @@
         }
       ],
       "prerequisites": [
-        "3f4bca77-f975-4406-9e7b-1cbe559b3068"
+        "799cc1e8-bdff-4470-b5e1-b983ebfd6624"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "minecraft:leather",
+          "id": "minecraft:wheat",
           "Count": 8
         }
       ],
-      "rewardchoice": [
-        {
-          "id": "pamhc2crops:barleyseeditem",
-          "Count": 1
-        },
-        {
-          "id": "pamhc2crops:oatsseeditem",
-          "Count": 1
-        },
-        {
-          "id": "pamhc2crops:ryeseeditem",
-          "Count": 1
-        }
-      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -1084,8 +1044,8 @@
         "text": "The harsh reality is that you\u0027re stuck on this planet. No amount of obsidian rectangles will let you escape. However, the situation means you can\u0027t get some resources (like soul sand) through normal methods.",
         "isTranslationKey": false
       },
-      "x": 110,
-      "y": 21,
+      "x": 126,
+      "y": 49,
       "icon": {
         "id": "minecraft:soul_sand",
         "Count": 1
@@ -1195,27 +1155,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "ace193bf-bd8a-4435-a1c3-9175845b3469",
-      "name": {
-        "text": "Hard Route",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Trigger quest to control quests unlocked by the hard route",
-        "isTranslationKey": false
-      },
-      "x": 14,
-      "y": 165,
-      "trigger": "QUEST_TRIGGER",
-      "prerequisites": [
-        "477e01c0-8641-4b6b-970f-7374b04f6a68"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "8859440a-9852-445c-b1d6-15edc20c368c",
       "name": {
         "text": "Fine-Toothed Comb",
@@ -1311,54 +1250,49 @@
       "commandrewards": []
     },
     {
-      "uuid": "77e20e8d-ef39-4fa7-a124-af08260c09b9",
+      "uuid": "d7150e2a-3614-4a26-b1b6-ddff205497b7",
       "name": {
-        "text": "Smelting leaves",
+        "text": "Making it Rain",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Your new crucible can turn leaves into small amounts of water. It works like your Centrifugal Separator, but you only need a torch to power it. It\u0027s slow, but it makes investing in some shears early a good idea.",
+        "text": "Getting a food source is urgent, but crops grow slowly. The fertilizer in your survival package won\u0027t last very long, so investing in another way to speed up crop growth is a good idea.",
         "isTranslationKey": false
       },
-      "x": 174,
-      "y": 75,
+      "x": 126,
+      "y": 156,
       "icon": {
-        "id": "minecraft:oak_leaves",
+        "id": "exdeorum:wooden_watering_can",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
-          "type": "hardcorequesting:detect",
+          "type": "hardcorequesting:consume",
           "longDescription": {
-            "text": "Put a crucible above a heat source and right-click it with leaves to melt them into water.",
+            "text": "The watering can speeds up plant growth when used on crops. It can be upgraded to increase its capacity and range. ",
             "isTranslationKey": false
           },
           "items": [
             {
               "item": {
-                "id": "minecraft:water_bucket",
-                "Count": 1,
-                "tag": "{}"
-              }
+                "id": "exdeorum:wooden_watering_can",
+                "Count": 1
+              },
+              "precision": "FUZZY"
             }
           ]
         }
       ],
       "prerequisites": [
-        "1db4c845-3db8-4e94-aa7d-ff88f75a45fd",
-        "799cc1e8-bdff-4470-b5e1-b983ebfd6624"
+        "804f4329-c6f5-4df8-915c-c590329cf26c"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "minecraft:potion",
+          "id": "exdeorum:wooden_watering_can",
           "Count": 1,
-          "tag": "{Potion:\"minecraft:water\",Purity:3}"
-        },
-        {
-          "id": "minecraft:oak_sapling",
-          "Count": 1
+          "tag": "{Fluid:{Amount:300,FluidName:\"minecraft:water\"}}"
         }
       ],
       "rewardchoice": [],
@@ -1580,7 +1514,7 @@
         "text": "Trigger quest to control quests unlocked by the easy route",
         "isTranslationKey": false
       },
-      "x": 238,
+      "x": 270,
       "y": 75,
       "trigger": "QUEST_TRIGGER",
       "prerequisites": [
@@ -1725,8 +1659,8 @@
         "text": "You should be able to make more fertile soil by mixing some compostable materials into dirt and letting it sit for a few days. When ready, it can be tilled and used like normal farmland, but anything planted in it will grow faster.",
         "isTranslationKey": false
       },
-      "x": 254,
-      "y": 102,
+      "x": 94,
+      "y": 48,
       "icon": {
         "id": "farmersdelight:rich_soil",
         "Count": 1
@@ -1786,66 +1720,54 @@
       "commandrewards": []
     },
     {
-      "uuid": "b187f443-9637-4183-b582-af661a4070e0",
+      "uuid": "ae61c85d-2154-435e-91cc-78218ffe1dd6",
       "name": {
-        "text": "Exotic Tastes",
+        "text": "1-Up!",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Ichor and enderslime are more advanced kinds of slime with even more special properties in tinkering.",
+        "text": "This planet is full of hazards and hostiles. You will eventually need to venture out of the confines of your ship, but that poses a lot of risks. However, with a bit of effort, you may be able to give yourself a second chance if the worst happens. A Shell Constructor is the key to life after (first) death. Once you make one, you will need to provide energy and a blood sample and it will build you a new body.",
         "isTranslationKey": false
       },
-      "x": 78,
-      "y": 21,
+      "x": 286,
+      "y": 102,
       "icon": {
-        "id": "tconstruct:ichor_slime_ball",
+        "id": "sync:sync_core",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
+      "parentrequirement": 1,
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Shell Construction",
+            "isTranslationKey": false
+          },
           "longDescription": {
-            "text": "To get the more exotic types of slime, you\u0027ll need to sift with their respective materials. Ichor can be found sifting crushed netherrack, and enderslime can be found sifting crushed end stone.",
+            "text": "Place the constructor, give it a power source, and right click it to provide the DNA sample. Be careful, it will hurt a little.",
             "isTranslationKey": false
           },
           "items": [
             {
               "item": {
-                "id": "tconstruct:ichor_slime_ball",
+                "id": "sync:shell_constructor",
                 "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "tconstruct:ender_slime_ball",
-                "Count": 1
-              }
+              },
+              "precision": "FUZZY"
             }
           ]
         }
       ],
       "prerequisites": [
-        "c5d70928-cc40-46b5-bfb0-3f3b800a84ea",
-        "ab277ce2-86d3-4935-b7bc-499307cd7b5c"
+        "3ffa13cb-b198-4e83-bab7-676d08834311",
+        "a63b8539-ab2c-4741-a920-afc5081deb38"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "tconstruct:earth_slime_crystal",
-          "Count": 4
-        },
-        {
-          "id": "tconstruct:sky_slime_crystal",
-          "Count": 4
-        },
-        {
-          "id": "tconstruct:ichor_slime_crystal",
-          "Count": 4
-        },
-        {
-          "id": "tconstruct:ender_slime_crystal",
-          "Count": 4
+          "id": "chunkloaders:single_chunk_loader",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -1914,7 +1836,7 @@
         "text": "You\u0027ll need some tools to stay alive out here as well. Bone tools are likelythe best starting material, but you can make a different type if you\u0027d like. Wood and stone tools are generally ineffective.",
         "isTranslationKey": false
       },
-      "x": 94,
+      "x": 62,
       "y": 156,
       "icon": {
         "id": "tconstruct:mattock",
