@@ -1,0 +1,11 @@
+{
+  "values": [
+    "tconstruct:flint",
+    "tconstruct:bone",
+    "tconstruct:copper",
+    "tconstruct:iron",
+    "tconstruct:seared_stone",
+    "tconstruct:pig_iron",
+    "tconstruct:bronze"
+  ]
+}

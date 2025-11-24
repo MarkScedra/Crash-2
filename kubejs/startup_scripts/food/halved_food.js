@@ -1,22 +1,14 @@
 ItemEvents.modification(event => {
-    event.modify(/^(?!kubejs:.*$|pamhc2foodcore:stockitem$|pamhc2foodextended:beansandriceitem$|pamhc2foodextended:veggiestirfryitem$).*/, item => {
+    event.modify(/^(?!kubejs:.*$|pamhc2foodextended:beansandriceitem$|pamhc2foodextended:veggiestirfryitem$).*/, item => {
         if (item.foodProperties) {
             const food = item.foodProperties;
-            food.nutrition = Math.max(1, Math.floor(food.nutrition * 0.5));
+            food.nutrition = Math.max(1, Math.round(food.nutrition * 0.5));
             //food.saturationModifier = food.saturationModifier * 0.5;
             //console.log(`Halved food: ${item.id}`);
         }
     });
 
-    event.modify('pamhc2foodcore:stockitem', item => {
-        if (item.foodProperties) {
-            const food = item.foodProperties;
-            food.nutrition = Math.max(1, Math.floor(food.nutrition * 0.25));
-            //food.saturationModifier = food.saturationModifier * 0.25;
-            //console.log(`Quartered food: ${item.id}`);
-        }
-    });
-
+    /* If needed, certain foods can be three-quartered instead of halved, make sure to also add to the exclusion list above
     event.modify(/^(pamhc2foodextended:beansandriceitem$|pamhc2foodextended:veggiestirfryitem$)/, item => {
         if (item.foodProperties) {
             const food = item.foodProperties;
@@ -25,4 +17,5 @@ ItemEvents.modification(event => {
             //console.log(`Three-quartered food: ${item.id}`);
         }
     });
+    */
 });

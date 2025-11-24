@@ -131,7 +131,7 @@ ServerEvents.recipes(event => {
     // camelPackFillRecipe('minecraft:milk_bucket', 'minecraft:milk', 1000, 'minecraft:bucket');
     // camelPackFillRecipe('create:chocolate_bucket', 'create:chocolate', 1000, 'minecraft:bucket');
     // camelPackFillRecipe('create:honey_bucket', 'create:honey', 1000, 'minecraft:bucket');
-    // camelPackFillRecipe('#crash_landing:experience_buckets', 'industrialforegoing:essence', 1000, 'minecraft:bucket');
+    // camelPackFillRecipe('#desolate_planet:experience_buckets', 'industrialforegoing:essence', 1000, 'minecraft:bucket');
 
     camelPackFillRecipe(Item.of('minecraft:potion', '{Potion:"minecraft:water"}').weakNBT(), 'minecraft:water', 250, 'minecraft:glass_bottle');
 

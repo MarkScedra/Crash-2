@@ -1,8 +1,0 @@
-
-#General mod settings
-[general]
-	#-
-	client_renderBlood = true
-	#-
-	client_debugSensesVisual = false
-

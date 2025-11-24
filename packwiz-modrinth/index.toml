@@ -45,6 +45,11 @@ hash = "da11742acdabd86fc663fecce6c8f99482208dca5f16e558e3801d96624aea1e"
 metafile = true
 
 [[files]]
+file = "mods/astages.pw.toml"
+hash = "f3412be3c5a9d5747f49bc2559bf5c138fd878322d5560e013132720b75322fc"
+metafile = true
+
+[[files]]
 file = "mods/athena-ctm.pw.toml"
 hash = "e644d45d2364016b82b0f0efed4662bd818f4285aed8ec4e507932353814797a"
 metafile = true
@@ -220,8 +225,18 @@ hash = "1ab431c1e59a17ab2dafe0dd1cd726101ec461f2fcd6b0a9607c61592aa6a799"
 metafile = true
 
 [[files]]
+file = "mods/cultural-delights.pw.toml"
+hash = "374df668512fdfeb6a836491725f8d29995a6f402d2fd55af37248ade1f9d9b2"
+metafile = true
+
+[[files]]
 file = "mods/curios.pw.toml"
 hash = "0c36aaee77acc61474ca5b509e18c09dae3a6a28766134d8b7ac6150dc3bb9e8"
+metafile = true
+
+[[files]]
+file = "mods/diet.pw.toml"
+hash = "5bfdc87806b9b9c37b1ea6cc5ac241faa836b823958af7a5c63e02ffee7ac99c"
 metafile = true
 
 [[files]]
@@ -277,6 +292,11 @@ metafile = true
 [[files]]
 file = "mods/factory-blocks.pw.toml"
 hash = "18b660fd503ce88cba936c9f597100f6c8a991d36fbb50da85e0d90040093c56"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight.pw.toml"
+hash = "9f2ffb0d4c65fcb2a96878287a7119459b9d0637c395e5097d691416690d6563"
 metafile = true
 
 [[files]]
@@ -372,6 +392,11 @@ metafile = true
 [[files]]
 file = "mods/insanelib.pw.toml"
 hash = "dac5b31a28f4e1e3c73a43a465f119c79daa69391bd08d6852e713399ad3d163"
+metafile = true
+
+[[files]]
+file = "mods/inspirations.pw.toml"
+hash = "808f6d95c6627106a26c6d673fb9e4265848bd753dfa65020ae73ed95564d3eb"
 metafile = true
 
 [[files]]
@@ -510,26 +535,6 @@ hash = "0298b97dd8d7c3d87646f7e9b68ce9679f50cc58419448e6761fc78668cc1689"
 metafile = true
 
 [[files]]
-file = "mods/pams-harvestcraft-2-crops.pw.toml"
-hash = "3b27c6d0e7bb14d2c96b86793b851b4a2a7e4a9df973a8135f0992f875d9685d"
-metafile = true
-
-[[files]]
-file = "mods/pams-harvestcraft-2-food-core.pw.toml"
-hash = "8f7ae9854eed6870f602fe70efeb887261e9d2903af1e09bcf8ed02c63d359de"
-metafile = true
-
-[[files]]
-file = "mods/pams-harvestcraft-2-food-extended.pw.toml"
-hash = "2f1e01cd17cbc8109a9b22bcd0634e781d8fbc3d1d23c0fd25a67668a12e6d69"
-metafile = true
-
-[[files]]
-file = "mods/pams-harvestcraft-2-trees.pw.toml"
-hash = "66f31b60184130d6e3090d5249573edc36de7169a78117079130b15d3daf2c13"
-metafile = true
-
-[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "c4a0a7ae55e19d724c0df33fd790d913408250436ce6dfa9512a65854e4bc5ba"
 metafile = true
@@ -640,6 +645,11 @@ hash = "130f5b9bef1a7286de63a8b7c6e567c4260d3bcb663ec551563e1b8cfb02ff8b"
 metafile = true
 
 [[files]]
+file = "mods/slice-and-dice.pw.toml"
+hash = "a6ca501026edd6b3c62af7a02b53690f6ff2d188cd9249a907320d27a5f42625"
+metafile = true
+
+[[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
 hash = "81c1ee781472f39f694611e6843c1a03bf5734dec8e2548b2772ea7d42c6482d"
 metafile = true
@@ -742,6 +752,11 @@ metafile = true
 [[files]]
 file = "mods/torchmaster.pw.toml"
 hash = "fef2c31cf8765b9ed1b90adf8abeb0a71fd7f83d25a65d63573f5b882c6b9b0f"
+metafile = true
+
+[[files]]
+file = "mods/vegan-delight.pw.toml"
+hash = "9a4ffd825e071707df9dc44b9651ac830b4472e89358c3db21a7e600cbf4af37"
 metafile = true
 
 [[files]]

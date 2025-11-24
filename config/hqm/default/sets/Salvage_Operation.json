@@ -930,10 +930,11 @@
             },
             {
               "item": {
-                "id": "kubejs:camel_pack",
-                "Count": 1
+                "id": "minecraft:potion",
+                "Count": 1,
+                "tag": "{Potion:\"survive:purified_water\"}"
               },
-              "precision": "NBT_FUZZY"
+              "required": 8
             }
           ]
         }
@@ -942,25 +943,21 @@
         "099d1358-0b11-49f0-aa78-43531cd739b7"
       ],
       "optionlinks": [],
-      "reward": [
-        {
-          "id": "cgm:shell",
-          "Count": 16
-        },
-        {
-          "id": "minecraft:potion",
-          "Count": 4,
-          "tag": "{Potion:\"minecraft:water\",Purity:3}"
-        }
-      ],
+      "reward": [],
       "rewardchoice": [
         {
-          "id": "pamhc2foodcore:grilledcheeseitem",
-          "Count": 8
+          "id": "minecraft:potion",
+          "Count": 16,
+          "tag": "{Potion:\"minecraft:water\",Purity:3}"
         },
         {
-          "id": "bhc:red_heart",
-          "Count": 2
+          "id": "legumedelight:peanut_butter_and_jam_sandwich",
+          "Count": 8,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Replicated\",\"color\":\"yellow\",\"italic\":true}\u0027]}}"
+        },
+        {
+          "id": "cgm:shell",
+          "Count": 64
         }
       ],
       "commandrewards": []

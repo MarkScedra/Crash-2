@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
       extruder.catalyst = { item: catalyst };
     }
     event.custom(extruder)
-      .id('crash_landing:extruder/' + result.split(':')[1] + '_' + (inventoryFluid || adjacent).split(':')[1]);
+      .id('desolate_planet:extruder/' + result.split(':')[1] + '_' + (inventoryFluid || adjacent).split(':')[1]);
 
     // Thermal Extruder recipe
     var rockGen = {
@@ -35,7 +35,7 @@ ServerEvents.recipes(event => {
       rockGen.below = catalyst;
     }
     event.custom(rockGen)
-      .id('crash_landing:rock_gen/' + result.split(':')[1] + '_' + adjacent.split(':')[1]);
+      .id('desolate_planet:rock_gen/' + result.split(':')[1] + '_' + adjacent.split(':')[1]);
   }
 
   // Define extruding recipes

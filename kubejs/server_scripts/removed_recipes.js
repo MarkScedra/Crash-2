@@ -1,6 +1,8 @@
 ServerEvents.recipes(event => {
     // Removal by ID
     [
+        'cgm:workbench',
+        'create:splashing/ice',
         'enderio:iron_gear',
         'industrialforegoing:diamond_gear',
         'industrialforegoing:gold_gear',
@@ -66,7 +68,7 @@ ServerEvents.recipes(event => {
                 "industrialforegoing:fluid_extractor",
                 "industrialforegoing:mycelial_magma",
                 "industrialforegoing:latex_processing_unit",
-                "mekanismgenerators:heat_generator",
+                // "mekanismgenerators:heat_generator",
                 "minecraft:composter",
                 "tconstruct:grout",
                 "tconstruct:nether_grout",

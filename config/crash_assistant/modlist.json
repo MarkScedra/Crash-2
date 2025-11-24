@@ -44,6 +44,11 @@
     "modId": "architectury",
     "version": "9.2.14"
   },
+  "astages-1.4.0-1.20.1-all.jar": {
+    "jarName": "astages-1.4.0-1.20.1-all.jar",
+    "modId": "astages",
+    "version": "1.4.0-1.20.1"
+  },
   "athena-forge-1.20.1-3.1.2.jar": {
     "jarName": "athena-forge-1.20.1-3.1.2.jar",
     "modId": "athena",
@@ -174,8 +179,8 @@
     "modId": "cookingforblockheads",
     "version": "16.0.14"
   },
-  "copycats-3.0.4+mc.1.20.1-forge.jar": {
-    "jarName": "copycats-3.0.4+mc.1.20.1-forge.jar",
+  "copycats-3.0.2+mc.1.20.1-forge.jar": {
+    "jarName": "copycats-3.0.2+mc.1.20.1-forge.jar",
     "modId": "copycats",
     "version": "3.0.4+mc.1.20.1-forge"
   },
@@ -244,6 +249,11 @@
     "modId": "cubes_without_borders",
     "version": "3.0.0+mc1.20"
   },
+  "diet-forge-2.1.1+1.20.1.jar": {
+    "jarName": "diet-forge-2.1.1+1.20.1.jar",
+    "modId": "diet",
+    "version": "2.1.1+1.20.1"
+  },
   "dummmmmmy-1.20-2.0.9.jar": {
     "jarName": "dummmmmmy-1.20-2.0.9.jar",
     "modId": "dummmmmmy",
@@ -303,6 +313,11 @@
     "jarName": "factory_blocks-forge-1.4.0+mc1.20.1.jar",
     "modId": "factory_blocks",
     "version": "1.4.0+mc1.20.1"
+  },
+  "FarmersDelight-1.20.1-1.2.9.jar": {
+    "jarName": "FarmersDelight-1.20.1-1.2.9.jar",
+    "modId": "farmersdelight",
+    "version": "1.20.1-1.2.9"
   },
   "FastLeafDecay-32.jar": {
     "jarName": "FastLeafDecay-32.jar",
@@ -447,6 +462,11 @@
     "modId": "kubejsadditions",
     "version": "4.3.4"
   },
+  "legumedelight-1.0.0.jar": {
+    "jarName": "legumedelight-1.0.0.jar",
+    "modId": "legumedelight",
+    "version": "1.0.0"
+  },
   "lighty-forge-2.1.3+1.20.1.jar": {
     "jarName": "lighty-forge-2.1.3+1.20.1.jar",
     "modId": "lighty",
@@ -511,26 +531,6 @@
     "jarName": "OpenLoader-Forge-1.20.1-19.0.4.jar",
     "modId": "openloader",
     "version": "19.0.4"
-  },
-  "pamhc2crops-1.20-1.0.3.jar": {
-    "jarName": "pamhc2crops-1.20-1.0.3.jar",
-    "modId": "pamhc2crops",
-    "version": "1.0.3"
-  },
-  "pamhc2foodcore-1.20.4-1.0.5.jar": {
-    "jarName": "pamhc2foodcore-1.20.4-1.0.5.jar",
-    "modId": "pamhc2foodcore",
-    "version": "1.0.5"
-  },
-  "pamhc2foodextended-1.20.4-1.0.1.jar": {
-    "jarName": "pamhc2foodextended-1.20.4-1.0.1.jar",
-    "modId": "pamhc2foodextended",
-    "version": "1.0.1"
-  },
-  "pamhc2trees-1.20-1.0.2.jar": {
-    "jarName": "pamhc2trees-1.20-1.0.2.jar",
-    "modId": "pamhc2trees",
-    "version": "1.0.2"
   },
   "Patchouli-1.20.1-84.1-FORGE.jar": {
     "jarName": "Patchouli-1.20.1-84.1-FORGE.jar",
@@ -642,30 +642,25 @@
     "modId": "simplylight",
     "version": "1.20.1-1.4.6-build.50"
   },
-  "sophisticatedbackpacks-1.20.1-3.24.12.1411.jar": {
-    "jarName": "sophisticatedbackpacks-1.20.1-3.24.12.1411.jar",
+  "sophisticatedbackpacks-1.20.1-3.24.9.1391.jar": {
+    "jarName": "sophisticatedbackpacks-1.20.1-3.24.9.1391.jar",
     "modId": "sophisticatedbackpacks",
     "version": "3.24.12.1411"
   },
-  "sophisticatedcore-1.20.1-1.2.107.1240.jar": {
-    "jarName": "sophisticatedcore-1.20.1-1.2.107.1240.jar",
+  "sophisticatedcore-1.20.1-1.2.101.1213.jar": {
+    "jarName": "sophisticatedcore-1.20.1-1.2.101.1213.jar",
     "modId": "sophisticatedcore",
     "version": "1.2.107.1240"
   },
   "sophisticatedstorage-1.20.1-1.4.15.1362.jar": {
     "jarName": "sophisticatedstorage-1.20.1-1.4.15.1362.jar",
     "modId": "sophisticatedstorage",
-    "version": "1.4.15.1362"
+    "version": "1.4.11.1344"
   },
   "specialmobs-1.20.1-4.1.15.jar": {
     "jarName": "specialmobs-1.20.1-4.1.15.jar",
     "modId": "specialmobs",
     "version": "1.20.1-4.1.15"
-  },
-  "spiceofoverhaul-1.1.5.jar": {
-    "jarName": "spiceofoverhaul-1.1.5.jar",
-    "modId": "spiceofoverhaul",
-    "version": "1.1.5"
   },
   "starterstructure-1.20.1-4.2.jar": {
     "jarName": "starterstructure-1.20.1-4.2.jar",
@@ -756,10 +751,5 @@
     "jarName": "Zeta-1.0-30.jar",
     "modId": "zeta",
     "version": "1.0-30"
-  },
-  "zombieawareness-1.20.1-1.13.1.jar": {
-    "jarName": "zombieawareness-1.20.1-1.13.1.jar",
-    "modId": "zombieawareness",
-    "version": "1.20.1-1.13.1"
   }
 }

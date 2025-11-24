@@ -94,32 +94,42 @@ ItemEvents.tooltip(event => {
     event.addAdvanced("tconstruct:grout", (item, advanced, text) => { text.add(1, Text.gray("Crafting recipe disabled. Find crumbling seared bricks in the ruins."));});
     event.addAdvanced("tconstruct:nether_grout", (item, advanced, text) => { text.add(1, Text.gray("Crafting recipe disabled. Find crumbling seared bricks in the ruins."));});
     event.addAdvanced("tconstruct:seared_brick", (item, advanced, text) => { text.add(1, Text.gray("Find crumbling seared bricks in the ruins."));});
-    event.addAdvanced('kubejs:crumbling_seared_bricks', (item, advanced, text) => { text.add(1, Text.gray("Can be crushed into seared bricks with a hammer."));});
-    //[
-    //    "kubejs:crumbling_seared_brick"
-    //].forEach(tool => {
-    //    event.addAdvanced(tool, (item, advanced, text) => {
-    //        text.add(1, Text.gray("Can be crushed into seared bricks with a hammer."));
-    //    });
-    //});
+    [
+        "kubejs:crumbling_seared_brick",
+        "kubejs:crumbling_seared_brick_2",
+        "kubejs:crumbling_seared_brick_3"
+    ].forEach(tool => {
+        event.addAdvanced(tool, (item, advanced, text) => {
+            text.add(1, Text.gray("Can be crushed into seared bricks with a hammer."));
+        });
+    });
     event.addAdvanced("tconstruct:blazing_blood_bucket", (item, advanced, text) => { text.add(1, Text.gold("Craft by melting down blaze powder (or the blazes themselves)."));});
 
     // Food items
-    event.addAdvanced("pamhc2foodcore:crackeritem", (item, advanced, text) => { text.add(1, Text.gray("A cheap and surprisingly filling snack."));});
-    event.addAdvanced("pamhc2foodextended:beansandriceitem", (item, advanced, text) => { text.add(1, Text.gray("A cheap and very nutritious meal."));});
-    event.addAdvanced("pamhc2foodextended:veggiestirfryitem", (item, advanced, text) => { text.add(1, Text.gray("A practical and nutritionally complete meal."));});
-    [
-        "kubejs:zombie_jerky",
-        "kubejs:monster_mash",
-        "kubejs:bug_broth"
-    ].forEach(tool => {
-        event.addAdvanced(tool, (item, advanced, text) => {
+    event.addAdvanced('kubejs:zombie_jerky', (item, advanced, text) => {
+        if (!event.shift) {
             text.add(1, Text.red([Text.of("Mostly").italic(true), Text.of(" safe to eat.")]));
-        });
+        }
+        else {
+            text.add(2, Text.red("Has a chance to deal slight damage upon eating.").italic());
+        }
     });
-    event.addAdvanced('kubejs:zombie_jerky', (item, advanced, text) => { text.add(2, Text.darkGreen("Has a chance to deal slight damage upon eating."));});
-    event.addAdvanced('kubejs:monster_mash', (item, advanced, text) => { text.add(2, Text.darkGreen("Has a small chance to deal slight damage upon eating."));});
-    event.addAdvanced('kubejs:bug_broth', (item, advanced, text) => { text.add(2, Text.darkGreen("Has a very small chance to deal slight damage upon eating."));});
+    event.addAdvanced('kubejs:monster_mash', (item, advanced, text) => {
+        if (!event.shift) {
+            text.add(1, Text.red([Text.of("Mostly").italic(true), Text.of(" safe to eat.")]));
+        }
+        else {
+            text.add(2, Text.red("Has a small chance to deal slight damage upon eating.").italic());
+        }
+    });
+    event.addAdvanced('kubejs:bug_broth', (item, advanced, text) => {
+        if (!event.shift) {
+            text.add(1, Text.red([Text.of("Mostly").italic(true), Text.of(" safe to eat.")]));
+        }
+        else {
+            text.add(2, Text.red("Has a very small chance to deal slight damage upon eating.").italic());
+        }
+    });
 
     // Power generation
     event.addAdvanced("industrialforegoing:pitiful_generator", (item, advanced, text) => { text.add(1, Text.gray("A cheap but inefficient power generator."));});

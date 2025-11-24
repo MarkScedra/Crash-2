@@ -1,3 +1,0 @@
-// Compost colors for spiceofoverhaul. You may add your own colors, change existing ones, or remove colors that aren't needed.
-lunch_box, #6c471f
-paper_bag, #b49a80

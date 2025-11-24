@@ -180,7 +180,6 @@ ServerEvents.recipes(event => {
             exdeorum:gold_ore_chunk	0.5	2	2.4	2.8	3.2	3.6
             exdeorum:lead_ore_chunk	0	0.4	1.5	1.8	2.1	2.4
             exdeorum:silver_ore_chunk	0	0.4	1.5	1.8	2.1	2.4
-            minecraft:egg	0	0.4	1.5	1.8	2.1	2.4
             ae2:sky_dust	0	0	0	0.4	1.5	1.8
             thermal:sulfur	0.5	0.6	0.7	0.8	0.9	1
             thermal:niter	0.5	0.6	0.7	0.8	0.9	1
@@ -196,13 +195,14 @@ ServerEvents.recipes(event => {
             exdeorum:stone_pebble	180	216	252	288	324	360
             exdeorum:grass_seeds	8	9.6	11.2	12.8	14.4	16
             minecraft:wheat_seeds	5	6	7	8	9	10
-            pamhc2crops:riceseeditem	5	6	7	8	9	10
+            farmersdelight:rice	5	6	7	8	9	10
             minecraft:sugar_cane	4	4.8	5.6	6.4	7.2	8
             minecraft:oak_sapling	3	3.6	4.2	4.8	5.4	6
             minecraft:potato	2.5	3	3.5	4	4.5	5
-            pamhc2crops:soybeanseeditem	2	2.4	2.8	3.2	3.6	4
+            farmersdelight:tomato_seeds	2	2.4	2.8	3.2	3.6	4
             thermal:rubberwood_sapling	2	2.4	2.8	3.2	3.6	4
             minecraft:carrot	1.5	1.8	2.1	2.4	2.7	3
+            farmersdelight:onion	1.5	1.8	2.1	2.4	2.7	3
             exdeorum:mycelium_spores	0.3	1	1.2	1.4	1.6	1.8
             minecraft:bamboo	1	1.2	1.4	1.6	1.8	2
             minecraft:beetroot_seeds	1	1.2	1.4	1.6	1.8	2
@@ -211,17 +211,19 @@ ServerEvents.recipes(event => {
             minecraft:melon_seeds	1	1.2	1.4	1.6	1.8	2
             minecraft:spruce_sapling	1	1.2	1.4	1.6	1.8	2
             minecraft:sweet_berries	1	1.2	1.4	1.6	1.8	2
-            pamhc2crops:cottonseeditem	1	1.2	1.4	1.6	1.8	2
-            pamhc2crops:oatsseeditem	1	1.2	1.4	1.6	1.8	2
-            pamhc2crops:peanutseeditem	1	1.2	1.4	1.6	1.8	2
-            pamhc2crops:spiceleafseeditem	1	1.2	1.4	1.6	1.8	2
-            pamhc2crops:tomatoseeditem	1	1.2	1.4	1.6	1.8	2
+            farmersdelight:cabbage_seeds	1	1.2	1.4	1.6	1.8	2
             minecraft:dark_oak_sapling	0.5	0.6	0.7	0.8	0.9	1
-            pamhc2crops:grapeseeditem	0.5	0.6	0.7	0.8	0.9	1
-            pamhc2foodcore:sunflowerseedsitem	0.5	0.6	0.7	0.8	0.9	1
             minecraft:acacia_sapling	0.3	0.3	0.4	0.4	0.5	0.5
             minecraft:jungle_sapling	0.3	0.3	0.4	0.4	0.5	0.5
         `
+        /*
+            Potential additions:
+                culturaldelights:cucumber_seeds	1	1.2	1.4	1.6	1.8	2
+                culturaldelights:corn_kernels	1	1.2	1.4	1.6	1.8	2
+                culturaldelights:eggplant_seeds	1	1.2	1.4	1.6	1.8	2
+                culturaldelights:avocado_pit	1	1.2	1.4	1.6	1.8	2
+                vegandelight:soybean	1	1.2	1.4	1.6	1.8	2
+        */
     );
 
     registerSieveTable(

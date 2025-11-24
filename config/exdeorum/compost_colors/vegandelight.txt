@@ -1,0 +1,26 @@
+// Compost colors for vegandelight. You may add your own colors, change existing ones, or remove colors that aren't needed.
+applesauce, #a2792d
+applesauce_bucket, #b6ae9e
+cooked_smoked_tofish, #8d7243
+cooked_smoked_tofu, #9d7944
+cooked_smoked_tofu_slices, #7c5b2a
+cooked_tofish, #ac905c
+cooked_tofu, #cda466
+cooked_tofu_slices, #ac844a
+leather_substitute, #ae7847
+minced_tofu, #ffffff
+salt, #ffffff
+silken_tofu, #f7deb9
+smoked_tofish, #fffad3
+smoked_tofish_roll, #bea57d
+smoked_tofu, #fffff8
+smoked_tofu_slices, #ffffd4
+soybean, #c99048
+soymilk_bottle, #ffffff
+soymilk_bucket, #cccac9
+tofish, #f8fbf7
+tofish_roll, #eeede4
+tofu, #ffffff
+tofu_patty, #bb945a
+tofu_slices, #ffffff
+wild_soybean, #8ab14d

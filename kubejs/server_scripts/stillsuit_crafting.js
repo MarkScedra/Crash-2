@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
             'III'
         ],
         {
-            C: '#crash_landing:fluid_conduits',
+            C: '#desolate_planet:fluid_conduits',
             I: 'kubejs:insulated_hydraulic_fabric',
             F: 'kubejs:filter'
         }
@@ -35,7 +35,7 @@ ServerEvents.recipes(event => {
             'FPF'
         ],
         {
-            C: '#crash_landing:fluid_conduits',
+            C: '#desolate_planet:fluid_conduits',
             F: 'kubejs:insulated_hydraulic_fabric',
             P: 'kubejs:filtration_pocket',
             W: 'kubejs:camel_pack'
