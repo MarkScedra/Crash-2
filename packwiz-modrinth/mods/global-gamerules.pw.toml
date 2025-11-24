@@ -1,13 +1,13 @@
 name = "Global GameRules"
-filename = "GlobalGameRules-1.20-8.0.0.11.jar"
+filename = "GlobalGameRules-1.20.1-8.1.0.12.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/PIJSp01k/versions/Leux4ZWt/GlobalGameRules-1.20-8.0.0.11.jar"
+url = "https://cdn.modrinth.com/data/PIJSp01k/versions/F74x1SQ8/GlobalGameRules-1.20.1-8.1.0.12.jar"
 hash-format = "sha512"
-hash = "d78e1b1aab091a4cd932158627d8f3bb6738c6b30a24880e7842faae84d05df1950f4ebcb3a626ab1cd8b0ac237efe95cd7409f37b3da221650a420bddf4ad42"
+hash = "23a1dd1eb0ce3e773ce365641d9e7abff7e7c6c44222e9440c3bc413cba2188fa562d4f2076a6ccb9efb781acc9a7998e47484efa5b6859e139db691ad169e5e"
 
 [update]
 [update.modrinth]
 mod-id = "PIJSp01k"
-version = "Leux4ZWt"
+version = "F74x1SQ8"
