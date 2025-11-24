@@ -2,14 +2,31 @@
   "pools": [
     {
       "rolls": {
-        "type": "minecraft:constant",
-        "value": 1
+        "min": 1,
+        "max": 2
       },
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:potato",
+          "name": "minecraft:rotten_flesh",
+          "weight": 3,
+          "quality": 0,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
           "weight": 1,
+          "quality": 0,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -23,8 +40,9 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:sweet_berries",
-          "weight": 1,
+          "name": "kubejs:nutrient_brick",
+          "weight": 2,
+          "quality": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -38,38 +56,57 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:brown_mushroom",
-          "weight": 2,
+          "name": "legumedelight:candied_peanuts",
+          "weight": 1,
+          "quality": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
-                "max": 4
+                "max": 3
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:red_mushroom",
-          "weight": 2,
+          "name": "legumedelight:roasted_peanuts",
+          "weight": 1,
+          "quality": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
-                "max": 4
+                "max": 3
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "farmersdelight:onion",
-          "weight": 2,
+          "name": "legumedelight:trail_mix",
+          "weight": 3,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legumedelight:peanut_bar",
+          "weight": 3,
+          "quality": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -83,8 +120,9 @@
         },
         {
           "type": "minecraft:item",
-          "name": "farmersdelight:rotten_tomato",
-          "weight": 1,
+          "name": "legumedelight:peanut_butter",
+          "weight": 3,
+          "quality": 1,
           "functions": [
             {
               "function": "minecraft:set_count",

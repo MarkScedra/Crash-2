@@ -10,7 +10,7 @@
         {
           "type": "minecraft:item",
           "name": "kubejs:dust_pile",
-          "weight": 2,
+          "weight": 1,
           "quality": 1,
           "functions": [
             {
@@ -24,54 +24,16 @@
           ]
         },
         {
-          "type": "minecraft:item",
-          "name": "kubejs:nutrient_brick",
-          "weight": 1,
-          "quality": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "name": "crash_landing:chests/deco/kitchen_food",
+          "weight": 8,
+          "quality": 1
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:rotten_flesh",
-          "weight": 1,
-          "quality": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 4
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "legumedelight:peanut_bar",
-          "weight": 1,
-          "quality": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 2
-              },
-              "add": false
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "name": "crash_landing:chests/deco/kitchen_seeds",
+          "weight": 8,
+          "quality": 1
         },
         {
           "type": "minecraft:item",

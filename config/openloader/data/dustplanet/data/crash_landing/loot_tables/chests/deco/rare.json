@@ -29,7 +29,7 @@
         {
           "type": "minecraft:item",
           "name": "pneumaticcraft:failed_pcb",
-          "weight": 2,
+          "weight": 3,
           "quality": 1,
           "functions": [
             {
@@ -44,22 +44,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond",
-          "weight": 2,
-          "quality": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond",
-          "weight": 2,
+          "weight": 3,
           "quality": 1,
           "functions": [
             {
