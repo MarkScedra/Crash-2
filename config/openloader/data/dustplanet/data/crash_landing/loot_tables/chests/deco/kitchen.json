@@ -58,7 +58,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "pamhc2foodcore:beefjerkyitem",
+          "name": "legumedelight:peanut_bar",
           "weight": 1,
           "quality": 2,
           "functions": [
