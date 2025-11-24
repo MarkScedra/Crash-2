@@ -3,11 +3,11 @@ filename = "sophisticatedbackpackscreateintegration-1.20.1-0.1.5.30.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "5597cce58d4c3529574c12ef6d39932c600bcdc1"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/s85zLEDe/versions/QinxoQyt/sophisticatedbackpackscreateintegration-1.20.1-0.1.5.30.jar"
+hash-format = "sha512"
+hash = "a779f438b84ed47f67703b878623adf5ea5ff3e42bc56079b074ca41896977e438eb5170cefe4700e30fadfab2a86242792b3d327d347e81ec5b22ecde83b889"
 
 [update]
-[update.curseforge]
-file-id = 7169407
-project-id = 1238567
+[update.modrinth]
+mod-id = "s85zLEDe"
+version = "QinxoQyt"
