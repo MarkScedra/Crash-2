@@ -266,7 +266,7 @@
           ]
         },
         {
-          "type": "hardcorequesting:craft",
+          "type": "hardcorequesting:detect",
           "description": {
             "text": "...Desperate Measures",
             "isTranslationKey": false
@@ -351,6 +351,57 @@
       "commandrewards": []
     },
     {
+      "uuid": "cb601279-bcf8-4bab-acbd-83d08c6e9c40",
+      "name": {
+        "text": "It Was a Graveyard Smash",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Zombie jerky is a poor long-term food source. However, you don\u0027t have many options at the moment. To add a bit of variety to your diet, you can craft some food out of other mob drops.",
+        "isTranslationKey": false
+      },
+      "x": 206,
+      "y": 129,
+      "icon": {
+        "id": "kubejs:monster_mash",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Monster mash is made by mixing together rotten flesh, bones, and salt in a mixing bowl.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:monster_mash",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "68e49d0e-4d69-421a-98f6-878939a5cbc4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "cgm:shell",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:bone_meal",
+          "Count": 24
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "7012b3e3-e944-41fc-8ee4-6f2625669044",
       "name": {
         "text": "Garden Variety",
@@ -409,57 +460,6 @@
           "Count": 1
         }
       ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "cb601279-bcf8-4bab-acbd-83d08c6e9c40",
-      "name": {
-        "text": "It Was a Graveyard Smash",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Zombie jerky is a poor long-term food source. However, you don\u0027t have many options at the moment. To add a bit of variety to your diet, you can craft some food out of other mob drops.",
-        "isTranslationKey": false
-      },
-      "x": 206,
-      "y": 129,
-      "icon": {
-        "id": "kubejs:monster_mash",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "Monster mash is made by mixing together rotten flesh, bones, and salt in a mixing bowl.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "kubejs:monster_mash",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "68e49d0e-4d69-421a-98f6-878939a5cbc4"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "cgm:shell",
-          "Count": 16
-        },
-        {
-          "id": "minecraft:bone_meal",
-          "Count": 24
-        }
-      ],
-      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -533,11 +533,7 @@
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
-          "type": "hardcorequesting:craft",
-          "description": {
-            "text": "hqm.taskType.detect.title",
-            "isTranslationKey": true
-          },
+          "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "Combine some salt and some bug parts in your pot to make bug broth.",
             "isTranslationKey": false
