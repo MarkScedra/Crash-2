@@ -1,7 +1,6 @@
 ServerEvents.recipes(event => {
     // Removal by ID
     [
-        'cgm:workbench',
         'create:splashing/ice',
         'enderio:iron_gear',
         'industrialforegoing:diamond_gear',
