@@ -185,6 +185,13 @@ ServerEvents.recipes(event => {
     ).id('desolate_planet:organic_compost_from_vegetables');
 });
 
+ServerEvents.tags('block', event => {
+    // Ensures crops can be grown by watering can
+    event.add('exdeorum:watering_can_tickable',
+        '#minecraft:maintains_farmland'
+    )
+});
+
 ServerEvents.tags('item', event => {
     //Tweaks to make certain foods more nutritional
     event.add('diet:grains',
@@ -195,6 +202,7 @@ ServerEvents.tags('item', event => {
         'legumedelight:trail_mix'
     )
     event.add('diet:proteins',
+        'edeorum:silk_worm',
         'kubejs:bug_broth',
         'kubejs:nutrient_brick',
         'legumedelight:baked_beans',
