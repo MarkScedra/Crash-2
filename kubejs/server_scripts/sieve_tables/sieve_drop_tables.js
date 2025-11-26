@@ -196,6 +196,8 @@ ServerEvents.recipes(event => {
             exdeorum:grass_seeds	8	9.6	11.2	12.8	14.4	16
             minecraft:wheat_seeds	5	6	7	8	9	10
             farmersdelight:rice	5	6	7	8	9	10
+            legumedelight:beans	4	4.8	5.6	6.4	7.2	8
+            legumedelight:peanuts	4	4.8	5.6	6.4	7.2	8
             minecraft:sugar_cane	4	4.8	5.6	6.4	7.2	8
             minecraft:oak_sapling	3	3.6	4.2	4.8	5.4	6
             minecraft:potato	2.5	3	3.5	4	4.5	5
