@@ -16,11 +16,15 @@ hash = "d86beab1176c367beeed3b8fb8a2a8dfbd8a1db7293f067c01bc38c73020e398"
 
 [[files]]
 file = "config/Crust/client_config_editor.toml"
-hash = "6ba75deed64bea7c4b26c61dcbe1a8e47da371eeecce293efab115779d55b650"
+hash = "e8ffe71cb0cb8035cbc91ed2b904141d9890db4c3a642bad9c143569d1c580af"
 
 [[files]]
 file = "config/Crust/client_extra_inv_buttons.toml"
-hash = "c87f1ffb15789f0e69fba59da1f99a2fb0e49519a0c2e6429e8b76296b93f8f4"
+hash = "6b5e92084e7f8d01fe6baf7899bae8c6d68bb72d9ea8b8e3f76b0cfb413352e9"
+
+[[files]]
+file = "config/Crust/client_render_settings.toml"
+hash = "7a68ff87423719191bf04ae3a77133e07ec649461c18c412137b531f9987ac62"
 
 [[files]]
 file = "config/Crust/default_game_rules.toml"
@@ -28,7 +32,7 @@ hash = "42819a444f9d1d16454480f0e686d092b12637bf35b6f1bffeb8ecbd1d009734"
 
 [[files]]
 file = "config/Crust/modes.toml"
-hash = "f226cdc704b8d94a780aca7131933052f2971488dc3414ec9cfe34ecd2f00d54"
+hash = "1a1e4beb712c961f93397407174210de08d121e4a8515b4a72fa99220525dba7"
 
 [[files]]
 file = "config/Crust/render_settings.toml"
@@ -104,7 +108,7 @@ hash = "342faa846653a328ef91c06ed297e9e527bf6aaf8db4ad9165563feae201cf93"
 
 [[files]]
 file = "config/SpecialMobs/blazes/_family_of_blazes.toml"
-hash = "b86ffebeb211abf0de712a7aba20a50573464fffc26e80ed39616406332e87e0"
+hash = "4c60c16fd46b2cb170766f09893aa42894e547b8419e061c26bdbd745f4c75a0"
 
 [[files]]
 file = "config/SpecialMobs/blazes/_normal_blazes.toml"
@@ -144,7 +148,7 @@ hash = "436bb305b9ace482b93d8afa51349cc88ee85bc232903ddf757d101d4345cd0a"
 
 [[files]]
 file = "config/SpecialMobs/cave_spiders/_family_of_cave_spiders.toml"
-hash = "bb8d2e6961cf6ffe06e568d1a49549f948f8eb0337b3634944bc788268037c12"
+hash = "d6e2c5d5f9459d11108f2ff708d14db09b0bbf53fecaed324b6823388774037d"
 
 [[files]]
 file = "config/SpecialMobs/cave_spiders/_normal_cave_spiders.toml"
@@ -188,7 +192,7 @@ hash = "7ecff3abf60b58e06ac0ff094c4e61e617d62f0eb0e4df0187067c29264e4488"
 
 [[files]]
 file = "config/SpecialMobs/creepers/_family_of_creepers.toml"
-hash = "134d106cfca9b57809e546f62c6b4eeae0767699132d3d33e8610e23b1dce05d"
+hash = "a832e9014ccbde3095d06160b48f70d3e775cb50d124f115b97f1fb355c505c6"
 
 [[files]]
 file = "config/SpecialMobs/creepers/_normal_creepers.toml"
@@ -260,7 +264,7 @@ hash = "32c337b885610fcaa19a7934c1d6b40c3ce332a86f46a2954d88150f82c1b19c"
 
 [[files]]
 file = "config/SpecialMobs/drowned/_family_of_drowned.toml"
-hash = "ee50ada4ce64b8f697a5b9812e0e384c6ea2fd3d7da8869de80e36ada1e8797f"
+hash = "cc9ed68fc1d3188b08412d68c1ea10d599b28e401c4a92cf5a3d1f273ba446da"
 
 [[files]]
 file = "config/SpecialMobs/drowned/_normal_drowned.toml"
@@ -304,7 +308,7 @@ hash = "5eafc23943f7d68ebf4109d8e34c97f5fc859ecf13268bb660dd94f90a182e8b"
 
 [[files]]
 file = "config/SpecialMobs/endermen/_family_of_endermen.toml"
-hash = "2c82aa3443397f92e41cc41287fd10442f65be74a12225ccdd4b3c897970dddb"
+hash = "bf8517aeabe0a89de4f3ca1a587b89b276a52c7bde4bb2a73ce3c502ba82e576"
 
 [[files]]
 file = "config/SpecialMobs/endermen/_normal_endermen.toml"
@@ -344,7 +348,7 @@ hash = "6f1bc27cc3bbdf326a4b2bcb4bae2c1ae400e0c85fc9092d519135b4bea5de63"
 
 [[files]]
 file = "config/SpecialMobs/ghasts/_family_of_ghasts.toml"
-hash = "131cc9b55fbab99e979f2f23629cb98d048c4e26d33f940390af44eb064ecd13"
+hash = "7a442d451961065e49033a0b30b8db425042d34cd5363d1e9a8cbf86d8ff47a4"
 
 [[files]]
 file = "config/SpecialMobs/ghasts/_normal_ghasts.toml"
@@ -380,7 +384,7 @@ hash = "092a29481fdbf2756619778c76d006bd6f9f1bdd240019f76fc8415e4c1ff9e1"
 
 [[files]]
 file = "config/SpecialMobs/magma_cubes/_family_of_magma_cubes.toml"
-hash = "461f3e6b873f2e405a99137d81780cc60d1d6df95ef93fb124237b03d3d0993f"
+hash = "51bb76eed566e242f178729ba529628f9660f74f170f10a78576775a99434030"
 
 [[files]]
 file = "config/SpecialMobs/magma_cubes/_normal_magma_cubes.toml"
@@ -404,11 +408,11 @@ hash = "5d4d1ca491df62eef32e9ec9ad016cfee27457f357166dc72a46bcc450ccbb90"
 
 [[files]]
 file = "config/SpecialMobs/main.toml"
-hash = "ada8b3078067d53baf4047fe8c5e4eb93881a55fb047d1faa77d512e6c0b0f49"
+hash = "69afaca3bc331e444919e4dc668d79eae5babd76971d8ee6504a6645a462c6dc"
 
 [[files]]
 file = "config/SpecialMobs/silverfish/_family_of_silverfish.toml"
-hash = "26dc74f9ee3f1d7b3295b883a5d6a413711690e14ca474fb35a408db540f2d98"
+hash = "98309492d07f80e2f0b1d74ecd791bd1840a2e3c1048fd4c79ab1bf722dd6dcd"
 
 [[files]]
 file = "config/SpecialMobs/silverfish/_normal_silverfish.toml"
@@ -452,7 +456,7 @@ hash = "04cf5eff623bedaab8e978355a093dcf4c389636fbbc158e80489d74d76d9895"
 
 [[files]]
 file = "config/SpecialMobs/skeletons/_family_of_skeletons.toml"
-hash = "46600f131aa6752e83a5ba30856e58cc9607d9caf61364e9d287f8f1a57a6798"
+hash = "f16be16abc8ba484e4fbbf520d357783fdd9f11a902cf41a112a1bcaf967851d"
 
 [[files]]
 file = "config/SpecialMobs/skeletons/_normal_skeletons.toml"
@@ -508,7 +512,7 @@ hash = "3285869c55af7c9291dbfbd157994dc42212f3df256b053c4eec34a717062541"
 
 [[files]]
 file = "config/SpecialMobs/slimes/_family_of_slimes.toml"
-hash = "7b445e985d5c8134256ecbb5d4b9c82081ad5874b9cbd946656e4f80865c0d9f"
+hash = "5e3375174231cdff9cd84b849798312c24d7373961eb6f86387df2f93cda1402"
 
 [[files]]
 file = "config/SpecialMobs/slimes/_normal_slimes.toml"
@@ -552,7 +556,7 @@ hash = "2cb8072c393791a9b136c1db7b4eb31737439299df918faff0d4d8b06292dfb7"
 
 [[files]]
 file = "config/SpecialMobs/spiders/_family_of_spiders.toml"
-hash = "7a9f9e7ccbd1e70bd3a90f64d8fef291d902e6690026eeeda8011b35b7bdc39c"
+hash = "deb7348046e4ff7f70f3660edae4f78b927274f2e1c9ca6b1a586d67ccdda7ce"
 
 [[files]]
 file = "config/SpecialMobs/spiders/_normal_spiders.toml"
@@ -608,7 +612,7 @@ hash = "1bd67b4f70a1b27ddbd2a135356c003768ac6e3ef451c63f59e388a9f2cb73ee"
 
 [[files]]
 file = "config/SpecialMobs/witches/_family_of_witches.toml"
-hash = "41da9529fee8dc234d0cba28ffd78d0c63840b4cb75542b0a52fd8b441867a06"
+hash = "d562aa8ec27af5eefc078d3ce10c47af9aacfa7842c979c07fafdaa857f77ee1"
 
 [[files]]
 file = "config/SpecialMobs/witches/_normal_witches.toml"
@@ -640,7 +644,7 @@ hash = "e29b0c66e3b7820a26d5f185f80ed1fe6dec166bbd30ced9562dff08b0428ea2"
 
 [[files]]
 file = "config/SpecialMobs/wither_skeletons/_family_of_wither_skeletons.toml"
-hash = "646e35a757e9e42558cbf2f68bf1df0ce50dd63327e38b6e7229323eae9316f8"
+hash = "2dec609abbf7c42893342249644e1a035ad943925b400c56648b7060acaaa015"
 
 [[files]]
 file = "config/SpecialMobs/wither_skeletons/_normal_wither_skeletons.toml"
@@ -676,7 +680,7 @@ hash = "3da701ed2c3293be222f670932c46cd7a410ee2b409e60430edaaf5675eff25e"
 
 [[files]]
 file = "config/SpecialMobs/zombies/_family_of_zombies.toml"
-hash = "d403ca6e7b9a907a6a9c133bb93fa17cf85c9ba4c981e2b3908ec0c7af2a204d"
+hash = "4230ca25447ef8628e3a617d2bfe3db4685d291378cf6490d3ad22d45b9f53f1"
 
 [[files]]
 file = "config/SpecialMobs/zombies/_normal_zombies.toml"
@@ -720,7 +724,7 @@ hash = "942fb9d9f995507a51b0d0f6688f354beb0ed461a6a98c3d2f53082a230075a4"
 
 [[files]]
 file = "config/SpecialMobs/zombified_piglins/_family_of_zombified_piglins.toml"
-hash = "42e788b1e184c2421bb5ee4e4beee56916d84afa30366c6502f4c1c87397aabc"
+hash = "bd9495a422671d70b34a58302360fdc84943fb54eb1d73da5d914468f42a2845"
 
 [[files]]
 file = "config/SpecialMobs/zombified_piglins/_normal_zombified_piglins.toml"
@@ -812,7 +816,7 @@ hash = "08a9f7c6f63bd35d49b15fa5bccd8cdf667f21af0c9a8cb2ab5998eb598ee7c3"
 
 [[files]]
 file = "config/alltheleaks.json"
-hash = "bf8f24bc8f6587378ee02191404eaecf7b21039c7a366bf0b4aa84580d212fb8"
+hash = "ed68f0c0b35f9ebbb3d3f93a4913e314b04bfdeab480fc7683bd6ae392cd2e0e"
 
 [[files]]
 file = "config/almostunified/debug.json"
@@ -832,7 +836,7 @@ hash = "00801193d4955e3c655d2d837441810f30e7132ca96136e2e5dabd747f91792a"
 
 [[files]]
 file = "config/appleskin-client.toml"
-hash = "39f12e29aaafa29fbda146619d3befb38c21a84c1f1ae217b7aceed7c88f2714"
+hash = "e6609ffbea927ee6390b1317bb6f3abb3f31ee591ca5c1d5e748f5e625fefea1"
 
 [[files]]
 file = "config/appliedenergistics2/client.json"
@@ -996,7 +1000,7 @@ hash = "739e60334b4eb8db0a009fed2d980328e4d6cbe0f32c8b269c5d842403ea11b3"
 
 [[files]]
 file = "config/crash_assistant/crash_assistant_localization_overrides/README.md"
-hash = "52f394cd3754a29a6f236b1fe622bb430fa7e4632bce262eeb0333d71842bb52"
+hash = "943e1c3672b8a03f27519b357091133205119c7b3db2fcc4c25b597cabf8926d"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
@@ -1408,15 +1412,15 @@ hash = "3f344aa8bb2787457def07f2ea08780c742d68d5a76c3fa990f3d6c560820f42"
 
 [[files]]
 file = "config/hqm/default/sets/Basic_Survival.json"
-hash = "aad4328e8348cb5f4a7f55807453039c34e8f60e23ec0dc855b8ca125c43b0e8"
+hash = "c0883eba260a178ffc9b6145355fbfea40bc39ad6b6dd0fb1c78aea339bf34f7"
 
 [[files]]
 file = "config/hqm/default/sets/Like_Clockwork.json"
-hash = "3ee1a0671c48923d967e6c3bf68a5554ea5da2bfcb0a4d181f657970a8975f3f"
+hash = "44d17fa16b134dfc64d5f019983e913d8bb69fddfd41aabc4601da43f95b53e0"
 
 [[files]]
 file = "config/hqm/default/sets/Salvage_Operation.json"
-hash = "082e955b58cc9ec6b08b827391857200da02c990311685079221a8df92ea2fc1"
+hash = "31f8c91dbc3bfe66c75634b6732e3bdb7f0a60ed7c2a5dcca87ee63f59278b07"
 
 [[files]]
 file = "config/hqm/default/sets/Technological_Revolution.json"
@@ -1424,7 +1428,7 @@ hash = "c185d05b23134bd86e8aa32014e7ef70ca4fc6188d28a1e8c13922c5013416ef"
 
 [[files]]
 file = "config/hqm/default/sets/The_Food_Pyramid.json"
-hash = "ef3061bf03cafd006b4584c1a21f36fea6c456f6f3f62282f323d8219822861b"
+hash = "59b9ff75e3b56a9217b93e598ede68ed9f1f99558a154edf83930a0a7ad32d9e"
 
 [[files]]
 file = "config/hqm/default/sets/To_Infinity_and_Beyond.json"
@@ -1432,7 +1436,7 @@ hash = "2d429049dc294ed9f784a45e0353dd301e83c1e514933760a9ed29b032155736"
 
 [[files]]
 file = "config/hqm/default/sets/Under_Pressure.json"
-hash = "21b1ea7d298a24bd93e2fe317abec2ddb4e533186c5044115eb6aa894e8890c1"
+hash = "1477e71ac37a2110f05b14095ba8133a78e0a0c32e8e9887dbe399b38292769c"
 
 [[files]]
 file = "config/hqm/front.png"
@@ -1484,7 +1488,7 @@ hash = "5cada29124805d8e0454dc5b67225bbf87075cffd53418e9c56f674708220e2c"
 
 [[files]]
 file = "config/incontrol/rightclicks.json"
-hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+hash = "d6f20f54f1de2a24c221bbf2e94118f3e856cd59de6e815de369b659c857ad94"
 
 [[files]]
 file = "config/incontrol/spawn.json"
@@ -1721,6 +1725,110 @@ hash = "3765bb29b22168570c0c2470f13538b5899e6bdc7a28656fb950a4b1610cd678"
 [[files]]
 file = "config/openloader/data/dustplanet/data/cable_facades/recipes/facade_item.json"
 hash = "0829631442c9b4f19bece18d948f6a3e4c28621181cb01ce02f77f16ed203069"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/cgm/recipes/advanced_bullet.json"
+hash = "069135e5d4d68480ce9e7ba905874822af07a8067e01dd42bea453bf751236d9"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/cgm/recipes/assault_rifle.json"
+hash = "361a91c0b5064446e73c28e1303202a47282e5b993929cb51e175f7768cff964"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/cgm/recipes/basic_bullet.json"
+hash = "34f8ebc04a86b7ae8b41f79fa162477685322632444b8d41ff19c2387fc11c1d"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/cgm/recipes/bazooka.json"
+hash = "761e51f6da7e14844cb52afcfd2f2bf7d6f374e2aa1523dc012351beddd31758"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/cgm/recipes/dye_item.json"
+hash = "d6e7164e59a21200d079d37ce72d975c0321113000041a1ba9f58de56c1d8bd0"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/cgm/recipes/grenade.json"
+hash = "9a31cd3fbf912a1e63d60c77078dd5f635e50d8d4ef0277688c03a6a112f968d"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/cgm/recipes/grenade_launcher.json"
+hash = "24318bd74e46c11a2875a4fbe134137586d35f7f3491c02415ae334476f61f96"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/cgm/recipes/heavy_rifle.json"
+hash = "453321dcf30c0d1f14918112c2cc7d3fabe7e2036f966e1f6d6a720ac9bba7e8"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/cgm/recipes/light_grip.json"
+hash = "198e6309333ff50b0a5e2126f12efcd14d33c7ed8afcdf84707e025aec3c377d"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/cgm/recipes/light_stock.json"
+hash = "35b64236f6c0fb9d4f2238fbdae08524e0fcb6ad27aca5cbf84307879f9fe22f"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/cgm/recipes/long_scope.json"
+hash = "be7b4060df7975cd193f3a93e15a038b97866fb23ddbede52b343bdeb30c0545"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/cgm/recipes/machine_pistol.json"
+hash = "64b33f1c10415d368de4dcb21c124e89ca4373c553bc51dacd36213b5542de25"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/cgm/recipes/medium_scope.json"
+hash = "7d6863bda7c9155f694ec3edbea3c6869ba57d050e6a28738eba865a16dbf3de"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/cgm/recipes/mini_gun.json"
+hash = "2f076e0cb5d70ac53935aa3713ce6b4bba3bd462fae3a3287cbb22b237006bc9"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/cgm/recipes/missile.json"
+hash = "c13bbf88bb284ef73317fa4599ed0d57308b374d2d4d2d64a2438760bb2e501a"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/cgm/recipes/pistol.json"
+hash = "e2bb7c7263d7b270c5510d100a4747f2f31e97312a69a3e9a26663b07f2f1855"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/cgm/recipes/rifle.json"
+hash = "3710e0d5dda79f2032f3fae60ef67a97b7f5674598d824aefcea43a97d61c822"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/cgm/recipes/shell.json"
+hash = "c47678a2fe4400f3fd8debcf1f03f5abc8ceb617362422bf1ef158221f4d9378"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/cgm/recipes/short_scope.json"
+hash = "d5e927a652e188291f973f20d602053d5085b286e97b6f89fedadeee3476a890"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/cgm/recipes/shotgun.json"
+hash = "0ea85c199a6232020ee587dfeb19e582f5e5573c6e81c91a58bc63ace4317538"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/cgm/recipes/silencer.json"
+hash = "bee7d1d017d6e8e2e814b647279072254e02bccc9c64a1b132e4256533068939"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/cgm/recipes/specialised_grip.json"
+hash = "abca97a82474877a88e9e0a8259bfe73d0b0d5c14ed421c9dd7b9d8db9f57944"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/cgm/recipes/stun_grenade.json"
+hash = "c01340a4f03428f0364d045c9433117adf2264d055e9de047b628e2762700447"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/cgm/recipes/tactical_stock.json"
+hash = "5e57db7990711058a0b560f09b8b81cd836abeb00dc0d721fcdd05e048a165d3"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/cgm/recipes/weighted_stock.json"
+hash = "e2f6f822644b7e3453e69fec529318471e1b994fb0fca1fcc6acffabca936827"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/cgm/recipes/workbench.json"
+hash = "85fa8dd04d2d7ab41a647f34ffec4b233c53a082d0aef008365762368c524df8"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/cold_sweat/cold_sweat/world/temp_region/default.json"
@@ -3169,110 +3277,6 @@ hash = "c1f447a0a500d960d690515baf3bd3d03f905f7e3d9902a3b6b8d83c14a44363"
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/bhc/relic_apple.json"
 hash = "2088b794cf3edeff961ae9bafca0ebc29ff488d9c879b66b80057c1bd5cceaa7"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/cmg/advanced_bullet.json"
-hash = "069135e5d4d68480ce9e7ba905874822af07a8067e01dd42bea453bf751236d9"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/cmg/assault_rifle.json"
-hash = "361a91c0b5064446e73c28e1303202a47282e5b993929cb51e175f7768cff964"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/cmg/basic_bullet.json"
-hash = "34f8ebc04a86b7ae8b41f79fa162477685322632444b8d41ff19c2387fc11c1d"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/cmg/bazooka.json"
-hash = "761e51f6da7e14844cb52afcfd2f2bf7d6f374e2aa1523dc012351beddd31758"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/cmg/dye_item.json"
-hash = "d6e7164e59a21200d079d37ce72d975c0321113000041a1ba9f58de56c1d8bd0"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/cmg/grenade.json"
-hash = "9a31cd3fbf912a1e63d60c77078dd5f635e50d8d4ef0277688c03a6a112f968d"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/cmg/grenade_launcher.json"
-hash = "24318bd74e46c11a2875a4fbe134137586d35f7f3491c02415ae334476f61f96"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/cmg/heavy_rifle.json"
-hash = "453321dcf30c0d1f14918112c2cc7d3fabe7e2036f966e1f6d6a720ac9bba7e8"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/cmg/light_grip.json"
-hash = "198e6309333ff50b0a5e2126f12efcd14d33c7ed8afcdf84707e025aec3c377d"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/cmg/light_stock.json"
-hash = "35b64236f6c0fb9d4f2238fbdae08524e0fcb6ad27aca5cbf84307879f9fe22f"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/cmg/long_scope.json"
-hash = "be7b4060df7975cd193f3a93e15a038b97866fb23ddbede52b343bdeb30c0545"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/cmg/machine_pistol.json"
-hash = "64b33f1c10415d368de4dcb21c124e89ca4373c553bc51dacd36213b5542de25"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/cmg/medium_scope.json"
-hash = "7d6863bda7c9155f694ec3edbea3c6869ba57d050e6a28738eba865a16dbf3de"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/cmg/mini_gun.json"
-hash = "2f076e0cb5d70ac53935aa3713ce6b4bba3bd462fae3a3287cbb22b237006bc9"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/cmg/missile.json"
-hash = "c13bbf88bb284ef73317fa4599ed0d57308b374d2d4d2d64a2438760bb2e501a"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/cmg/pistol.json"
-hash = "e2bb7c7263d7b270c5510d100a4747f2f31e97312a69a3e9a26663b07f2f1855"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/cmg/rifle.json"
-hash = "3710e0d5dda79f2032f3fae60ef67a97b7f5674598d824aefcea43a97d61c822"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/cmg/shell.json"
-hash = "c47678a2fe4400f3fd8debcf1f03f5abc8ceb617362422bf1ef158221f4d9378"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/cmg/short_scope.json"
-hash = "d5e927a652e188291f973f20d602053d5085b286e97b6f89fedadeee3476a890"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/cmg/shotgun.json"
-hash = "0ea85c199a6232020ee587dfeb19e582f5e5573c6e81c91a58bc63ace4317538"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/cmg/silencer.json"
-hash = "bee7d1d017d6e8e2e814b647279072254e02bccc9c64a1b132e4256533068939"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/cmg/specialised_grip.json"
-hash = "abca97a82474877a88e9e0a8259bfe73d0b0d5c14ed421c9dd7b9d8db9f57944"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/cmg/stun_grenade.json"
-hash = "c01340a4f03428f0364d045c9433117adf2264d055e9de047b628e2762700447"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/cmg/tactical_stock.json"
-hash = "5e57db7990711058a0b560f09b8b81cd836abeb00dc0d721fcdd05e048a165d3"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/cmg/weighted_stock.json"
-hash = "e2f6f822644b7e3453e69fec529318471e1b994fb0fca1fcc6acffabca936827"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/cmg/workbench.json"
-hash = "85fa8dd04d2d7ab41a647f34ffec4b233c53a082d0aef008365762368c524df8"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/exdeorum/crucible_heat_source/blaze_burner.json"
@@ -5844,11 +5848,11 @@ hash = "3d29f1312d2c893a7938e977f3ca03ddeffd1c787e7405459601f252dc2c6f24"
 
 [[files]]
 file = "config/refurbished_furniture.client.toml"
-hash = "3910a814528dae85fc3d09d6a3c31c2d420f611ee37a4b412d657259bf37318c"
+hash = "f151762bc99261b0244618cb3cc856e4d1fe089b6cf9eaf7b23c42a9fbc57970"
 
 [[files]]
 file = "config/refurbished_furniture.server.toml"
-hash = "3a646ed2ef4c39cacc2c6368f2d9c7f9b69468cb04def08057f0ef04fe13ed46"
+hash = "cc8bb7e6e3a71c295f36c8fcc8df30471df0effdf4e56d842dd461aedceb2d19"
 
 [[files]]
 file = "config/resourceful-config-web.json"
@@ -6747,14 +6751,6 @@ file = "kubejs/assets/kubejs/textures/block/turbine_wall_crash.png"
 hash = "e2a862872d8ff3143e7649908abce3344806e84b73deb16bed9dcc5542a526a2"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/acacia_seed.png"
-hash = "45a830e3505c878fdf83a90c4069aaed008ce010518ebc391b664d5695df4364"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/birch_seed.png"
-hash = "3299b4150927b1d438ddf84903d2cc0ccfd2c75fb2a653fa916590f2de438b11"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/item/bug_broth.png"
 hash = "37233a9644512f4648bff4635052c3ee7917ef24e641d7c1127369c0cd6e635a"
 
@@ -7031,10 +7027,6 @@ file = "kubejs/assets/kubejs/textures/item/camel_pack_worn.png"
 hash = "57ebca61abf7bbaec6a057579a8b7e96bbb0d90cb9b5022f25126caa46626b1e"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/dark_oak_seed.png"
-hash = "95ec78dddf3edc3514251877cf9d14053c97ce743395401d5cf32c9bb326bd02"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/item/desert_cap.png"
 hash = "6c62964a9d7021c09f0d27466ae65a531dc4430b20a6627e65e9299014538ef5"
 
@@ -7079,10 +7071,6 @@ file = "kubejs/assets/kubejs/textures/item/insulated_hydraulic_fabric.png"
 hash = "e71052aaee1bdde1447f92e8d7c8241ca06e961980d6bdd4ac5c33e7219cbed6"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/jungle_seed.png"
-hash = "1e0f35e4818d746212364b0ab924536876a832c8abb6e8b16b5978a21561da69"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/item/leather_insulation.png"
 hash = "b1a0f5c81e1f8582c4749c65fd18e59532bf0c1cb5f9a7cfca44f4f948116c87"
 
@@ -7099,10 +7087,6 @@ file = "kubejs/assets/kubejs/textures/item/nutrient_brick.png"
 hash = "8746bf7618ffcd2d29a5d35619fd119d43e533f0f1f9feca65ec43399f9ab254"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/oak_seed.png"
-hash = "5d5a492051ba9d67616570b0cb6ee86a16d23da585ef2096521e2a98d2260830"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/item/paste.png"
 hash = "303c8a04688061962a23c477470178e29b9993326b100695b6ef9c2eb3e3fd59"
 
@@ -7113,10 +7097,6 @@ hash = "aea44ab10a66ddf12a31cb3277967b5b9a46b142a1511132a1ccb5f6fcae980d"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/plastic_scrap.png"
 hash = "498f5dfef8eb9e727bd44ce9fd50ac4bf64b3d937d848cdfbc0e988105f3935b"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/rubber_seed.png"
-hash = "d26c34b81726bd3eea4fafb762e3608cdb72fcd5a468b95263af1b19dbe00106"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/salty_water_bottle.png"
@@ -7137,10 +7117,6 @@ hash = "db530074cf0a2b1e6d6958f66536625764f47e00e3c1cc9f558586c24a5cf9dc"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/snow_pants.png"
 hash = "64fee8e18c943e5131041b6cd560c33e2d512f3a56f99cbc4a1c545479ccba2c"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/spruce_seed.png"
-hash = "8d65edbc52f9c4836765d77e3f9ab6b785021c3be4afda992c9ff67524b00f13"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/staple_fruits.png"
@@ -7472,7 +7448,7 @@ hash = "2af53c432a9114d071a6b2b069c8618e53261052d57fc9180e167aa132d2a9ef"
 
 [[files]]
 file = "kubejs/server_scripts/farmers_delight_removal.js"
-hash = "30af2f3a371feef464b551146d05febabd1fe0beb7a13d7d556ed32bd7580288"
+hash = "4ecfc0d09bd84c06a0bb09a63f5e2d546423034c42081df3471b23516c053f9e"
 
 [[files]]
 file = "kubejs/server_scripts/functional_storage_warning.js"
@@ -7516,7 +7492,7 @@ hash = "8cf3dd4ded7c26e0c97a8408202cda1ab2a719e4df4325d25a5c80cc038e4d32"
 
 [[files]]
 file = "kubejs/server_scripts/removed_recipes.js"
-hash = "13c0247323df3b3f66b66b3cbf61e7e943b5291a098343e4e42d7c622b0d011d"
+hash = "40729dbc9552c65d0f4822f5b10fca6e745b136822ca51783a032d0a307c4d23"
 
 [[files]]
 file = "kubejs/server_scripts/replacements/general_replacements.js"
@@ -7536,7 +7512,7 @@ hash = "5ff9e6fbce7f1dece1358f010c853b5161393fc7085bb4d5b39435356381d587"
 
 [[files]]
 file = "kubejs/server_scripts/sieve_tables/sieve_drop_tables.js"
-hash = "368c080bf854c07d3bf2df18f3bde01236cab038c78f8def5fe2d863e1f08946"
+hash = "d6d2e27e14be026bd65ae68f2988b2212c8309e3b2ca887d11dec793aff1200e"
 
 [[files]]
 file = "kubejs/server_scripts/sieve_tables/sieve_moss.js"
@@ -7644,7 +7620,7 @@ hash = "730ff20e69b9f29b17f33e9cfbaf8baaf39a6206355a1f0bf7b6a66e3c830470"
 
 [[files]]
 file = "kubejs/startup_scripts/crash_blocks/crash_blocks.js"
-hash = "5cc081abf8ce3a27a9df6e4ece10bd787074bd4b68d608bdbabb1d495186f920"
+hash = "66295cd3e62e5a705b6547a4128c0baf45035bd302bed565e8a3f5967ad70096"
 
 [[files]]
 file = "kubejs/startup_scripts/crash_blocks/custom_blocks.js"
@@ -7738,7 +7714,7 @@ metafile = true
 
 [[files]]
 file = "mods/alltheleaks.pw.toml"
-hash = "a7605bb08f027d90cb6da386e6910f8aeeda6c3b1ed433316c8ca718d6d77f19"
+hash = "40bab1828ae2b4d755db64f1c887a2fe06171fad6ab54d4a1863ca5c30ff9b55"
 metafile = true
 
 [[files]]
@@ -7933,7 +7909,7 @@ metafile = true
 
 [[files]]
 file = "mods/crust.pw.toml"
-hash = "7ad698fc7410e10ca415c232224e7d64a33cdd3e38217d725747dd9370570ffa"
+hash = "5576d424378d410799a89b0594ced9445b8992bbba1ac265a8072d2e923024f0"
 metafile = true
 
 [[files]]
@@ -7988,7 +7964,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-deorum.pw.toml"
-hash = "c2f86208e6be052c21e029515b4cb6e60625aaea3337dbf67c7c07004ba06447"
+hash = "5ad2446cd7a7703a7441139ca9c7a2399723e05a92da203cf9887d1ac2afa11b"
 metafile = true
 
 [[files]]
@@ -8313,7 +8289,7 @@ metafile = true
 
 [[files]]
 file = "mods/refurbished-furniture.pw.toml"
-hash = "d73a12995c84ff0680f7484f7e920d2feb716d948383f521d59adc1c09ddedfe"
+hash = "2bcee75d08b33dd6506b7cd3f67ea9d0d2c1bf14e26728fa8e12ef19c895b165"
 metafile = true
 
 [[files]]
@@ -8383,7 +8359,7 @@ metafile = true
 
 [[files]]
 file = "mods/special-mobs.pw.toml"
-hash = "282d6fa1c117c11acb80422272f4ce4b3c97af1bc2e3b292726b14dd90402218"
+hash = "87aa32bd97d01d614b16cca7cc27d6dad889eca335b46660d19bd19645d31af7"
 metafile = true
 
 [[files]]
@@ -8439,6 +8415,11 @@ metafile = true
 [[files]]
 file = "mods/thirst-was-taken.pw.toml"
 hash = "38affee268b65feab928cced2209fb358338c66ad6f98aedc9b5a7ece761a30b"
+metafile = true
+
+[[files]]
+file = "mods/thirsty-bottles.pw.toml"
+hash = "7cb6aa8dc7405cde218692170da9b00fc6ab96d9fab57ac9e4ce8a5a1f72b9f2"
 metafile = true
 
 [[files]]
