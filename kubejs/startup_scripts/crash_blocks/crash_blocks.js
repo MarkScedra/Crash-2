@@ -94,34 +94,47 @@ StartupEvents.registry("block", (event) => {
   event.create("crumbling_seared_bricks")
     .displayName("Crumbling Seared Bricks")
     .soundType("stone")
-    .hardness(1.0) // Set hardness (affects mining time)
-    .resistance(1.0) // Set resistance (to explosions, etc)
-    .requiresTool(true) // Requires a tool or it won't drop (see tags below)
-    .tagBlock("mineable/pickaxe") // or a pickaxe
-    .tagBlock('minecraft:needs_iron_tool') // the tool tier must be at least iron
+    .hardness(1.0)
+    .resistance(1.0)
+    .requiresTool(true)
+    .tagBlock("mineable/pickaxe")
+    .tagBlock('minecraft:needs_iron_tool')
     .textureAll('kubejs:block/crumbling_seared_bricks')
-})
 
-StartupEvents.registry("block", (event) => {
-  event.create("crumbling_seared_bricks_2") // Create a new block with ID "kubejs:example_block"
-    .displayName("Crumbling Seared Bricks") // Set a custom name
-    .soundType("stone")
-    .hardness(1.0) // Set hardness (affects mining time)
-    .resistance(1.0) // Set resistance (to explosions, etc)
-    .requiresTool(true) // Requires a tool or it won't drop (see tags below)
-    .tagBlock("mineable/pickaxe") // or a pickaxe
-    .tagBlock('minecraft:needs_iron_tool') // the tool tier must be at least iron
-    .textureAll('kubejs:block/crumbling_seared_bricks_2')
-})
+  // Pneumatic Blocks
+  event.create('crashed_refinery')
+    .displayName('Crashed Refinery')
+    .mapColor('heavy_metal')
+    .soundType('metal')
+    .hardness(4.0)
+    .resistance(6.0)
+	.property(BlockProperties.FACING)
+    .defaultState(state => state.setValue(BlockProperties.FACING, Direction.NORTH))
+    .placementState(state => state.setValue(BlockProperties.FACING, state.horizontalDirection))
+    .requiresTool(true)
+    .tagBlock('mineable/pickaxe')
+    .tagBlock('minecraft:needs_iron_tool')
 
-StartupEvents.registry("block", (event) => {
-  event.create("crumbling_seared_bricks_3") // Create a new block with ID "kubejs:example_block"
-    .displayName("Crumbling Seared Bricks") // Set a custom name
-    .soundType("stone")
-    .hardness(1.0) // Set hardness (affects mining time)
-    .resistance(1.0) // Set resistance (to explosions, etc)
-    .requiresTool(true) // Requires a tool or it won't drop (see tags below)
-    .tagBlock("mineable/pickaxe") // or a pickaxe
-    .tagBlock('minecraft:needs_iron_tool') // the tool tier must be at least iron
-    .textureAll('kubejs:block/crumbling_seared_bricks_3')
+  event.create('crashed_refinery_output')
+    .displayName('Crashed Refinery Output')
+    .mapColor('heavy_metal')
+    .soundType('metal')
+    .hardness(4.0)
+    .resistance(6.0)
+	.property(BlockProperties.FACING)
+    .defaultState(state => state.setValue(BlockProperties.FACING, Direction.NORTH))
+    .placementState(state => state.setValue(BlockProperties.FACING, state.horizontalDirection))
+    .requiresTool(true)
+    .tagBlock('mineable/pickaxe')
+    .tagBlock('minecraft:needs_iron_tool')
+
+  event.create("crashed_pressure_chamber_wall")
+    .displayName("Crashed Pressure Chamber Wall")
+    .mapColor("heavy_metal")
+    .soundType("metal")
+    .hardness(4.0)
+    .resistance(6.0)
+    .requiresTool(true)
+    .tagBlock("mineable/pickaxe")
+    .tagBlock('minecraft:needs_iron_tool')
 })
