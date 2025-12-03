@@ -1,7 +1,7 @@
 
 [General]
 	#How much faster is hydration depletion relative to hunger (1 means they will deplete at the same speed)
-	thirstDepletionModifier = 1.2
+	thirstDepletionModifier = 2.5
 	#Whether hydration depletion in peaceful mode
 	thirstDepletionInPeace = false
 	#How much is hydration depletion in nether faster than overworld
