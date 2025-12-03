@@ -4,7 +4,7 @@ setlocal EnableExtensions EnableDelayedExpansion
 rem ====== Paths ======
 for %%I in ("%~dp0..") do set "ROOT=%%~fI"
 set "SERVER_DIR=%ROOT%\packwiz-server"
-set "PACK_FOLDER=%ROOT%\packwiz-modrinth"
+set "PACK_FOLDER=%ROOT%\packwiz-curseforge"
 set "BUILD_DIR=%ROOT%\packwiz-builds"
 set "COPY_LIST_FILE=%ROOT%\packwiz-scripts\configs\server-copy-list.txt"
 

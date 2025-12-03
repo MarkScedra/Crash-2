@@ -2,7 +2,7 @@
 setlocal
 
 rem ====== SETTINGS ======
-set "PACK_FOLDER=packwiz-modrinth"
+set "PACK_FOLDER=packwiz-curseforge"
 set "BOOTSTRAP_JAR=packwiz-installer-bootstrap.jar"
 set "BOOTSTRAP_URL=https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar"
 
@@ -21,7 +21,7 @@ rem ====== Refresh the pack index so hashes are valid ======
 echo Running packwiz refresh for %PACK_FOLDER%...
 packwiz refresh -y --pack-file "%ROOT%\%PACK_FOLDER%\pack.toml"
 
-rem ====== Start packwiz serve from Modrinth pack (port 8080) ======
+rem ====== Start packwiz serve from Curseforge pack (port 8080) ======
 echo Starting packwiz serve (from %PACK_FOLDER%)...
 start "packwiz-serve" /B cmd /c "cd /d "%PACK_FOLDER%" && packwiz serve --basic -p 8080"
 
