@@ -1,3 +1,6 @@
+# The maximum speed the ceiling fan will spin when powered. This is visual only and does not affect damage.
+# Valid range: 1 to 50 (inclusive)
+ceilingFanMaxSpeed = 50.0
 # If enabled, shows an overlay on the HUD to help with cutting board slicing and combining recipes.
 # Note: This is an experimental feature.
 # Valid values: true, false

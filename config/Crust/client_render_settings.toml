@@ -1,0 +1,35 @@
+# crust:client_render_settings.toml
+# Settings for features related to in-world rendering.
+
+
+# Overrides the default fishing rod item animation so that it is compatible with fishing mobs that use Crust's base
+#   fishing hook. Set to false if it causes problems with another mod.
+#  * Requires a GAME restart to take effect *
+# <Boolean> Valid Values: { true, false }, Default: true
+fancy_fishing = true
+
+
+# Category: block_entity_debug_shapes
+
+# If true, block entities close to the player that support Crust's debug bounding box rendering will draw their boxes
+#   while 'show entity hitboxes' (F3+B) is active.
+# <Boolean> Valid Values: { true, false }, Default: true
+block_entity_debug_shapes.enabled = true
+# If block entity bounding box rendering is enabled, this value determines the 'radius' in chunks around the player in
+#   which Crust will look for block entities to render bounding boxes for. A value of 1 means only the chunk the player
+#   is standing in. This value is also capped by the effective render distance.
+# <Integer> Range: ≥ 1, Default: 3
+block_entity_debug_shapes.distance = 3
+
+
+# Category: entity_debug_shapes
+
+# If true, entities close to the player that support Crust's debug bounding box rendering will draw their boxes while
+#   'show entity hitboxes' (F3+B) is active.
+# <Boolean> Valid Values: { true, false }, Default: true
+entity_debug_shapes.enabled = true
+# If entity bounding box rendering is enabled, this value determines the maximum distance from the player in which
+#   Crust will look for entities to render bounding boxes for. This value is also capped by the effective render
+#   distance.
+# <Number> Range: ≥ 0.0, Default: 48.0
+entity_debug_shapes.distance = 48.0

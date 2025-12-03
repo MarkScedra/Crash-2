@@ -76,6 +76,10 @@
   #   prevents face-flying for all vanilla drops, but many drops only have a pickup delay of 10.
   # <Integer> Range: ≥ 0, Default: 40
   magnet_mode.delay = 40
+  # When true, makes magnet mode visually smoother by running its logic every tick. Otherwise, it runs every other
+  #   tick for a slight performance gain.
+  # <Boolean> Valid Values: { true, false }, Default: true
+  magnet_mode.smooth = true
 
 
 # Category: super_speed_mode

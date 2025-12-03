@@ -41,3 +41,17 @@
   # <Integer> Range: Any Value, Default: -44
   pause_menu_button.offset.vertical = -45
   pause_menu_button.offset.horizontal = -4
+
+
+# Category: searchbar_properties
+# Contains settings for the search bar added by Crust that appears in the config file selection screen and the config
+#   field browser screen.
+
+  # Determines the orientation and placement of the searchbar and its navigation buttons on the screen.
+  # <Enum> Valid Values: { "right", "left" }, Default: "left"
+  searchbar_properties.orientation = "left"
+
+  # If true, search results found by the searchbar will be highlighted.
+  # The searchbar will still auto-scroll to the first match even if this is disabled.
+  # <Boolean> Valid Values: { true, false }, Default: true
+  searchbar_properties.show_search_highlights = true
