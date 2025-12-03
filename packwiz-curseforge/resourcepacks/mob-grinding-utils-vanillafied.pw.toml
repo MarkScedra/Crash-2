@@ -1,6 +1,6 @@
 name = "Mob Grinding Utils: Vanillafied (16px)"
 filename = "Mob Grinding Utils Vanillafied.zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

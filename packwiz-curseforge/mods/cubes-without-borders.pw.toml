@@ -1,6 +1,6 @@
 name = "Cubes Without Borders"
 filename = "cwb-forge-3.0.0+mc1.20.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

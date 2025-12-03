@@ -5934,7 +5934,7 @@ hash = "315e92d20ca8372c06a4f7ba310bce09e030d1e5004b6fe5ec19f4705db8b8d3"
 
 [[files]]
 file = "config/thirst/common.toml"
-hash = "6f4779f2b448ea1b857cbe281cb42762bce06b43867626ed9c4abd9962ac3286"
+hash = "2f400301b537f1388a9201c339fffa3aa5df9cd99804e0e632c92377758a471a"
 
 [[files]]
 file = "config/thirst/container.toml"
@@ -8225,11 +8225,6 @@ metafile = true
 [[files]]
 file = "mods/phosphophyllite.pw.toml"
 hash = "b97dd25b71d5903daef228cf4d06d2e5c3ab97e83232557efb6d28c04fdd2996"
-metafile = true
-
-[[files]]
-file = "mods/piglins-guard-everything.pw.toml"
-hash = "d27a35b7e27c7868c72b26a15b4ffa8e560aa840305dbaf8099d5cea141dc1f3"
 metafile = true
 
 [[files]]

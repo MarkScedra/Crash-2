@@ -1,6 +1,6 @@
 name = "Fusion (Connected Textures)"
 filename = "fusion-1.2.11a-forge-mc1.20.1.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
