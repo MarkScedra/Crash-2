@@ -607,7 +607,9 @@
           ]
         }
       ],
-      "prerequisites": [],
+      "prerequisites": [
+        "099d1358-0b11-49f0-aa78-43531cd739b7"
+      ],
       "optionlinks": [],
       "reward": [
         {
