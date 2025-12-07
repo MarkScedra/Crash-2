@@ -994,7 +994,7 @@ hash = "943e1c3672b8a03f27519b357091133205119c7b3db2fcc4c25b597cabf8926d"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "93266b5588403f8ac172d80c2b5fd5a189df52738cdd9d1b4c5d8d5e5af1d4b2"
+hash = "33a20da43d01a6f96a1b0f0d8dfe64d5c3c08a8fce75945534cc4cce268660ca"
 
 [[files]]
 file = "config/crash_assistant/problematic_mods_config.json"
@@ -1418,7 +1418,7 @@ hash = "c185d05b23134bd86e8aa32014e7ef70ca4fc6188d28a1e8c13922c5013416ef"
 
 [[files]]
 file = "config/hqm/default/sets/The_Food_Pyramid.json"
-hash = "59b9ff75e3b56a9217b93e598ede68ed9f1f99558a154edf83930a0a7ad32d9e"
+hash = "6691c57cc71db09c013f10b06c9a247f1f5e4fad08976ccfd3aaaf00a091dd06"
 
 [[files]]
 file = "config/hqm/default/sets/To_Infinity_and_Beyond.json"
@@ -2885,20 +2885,16 @@ file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure/
 hash = "af38ff54b09bc0330fa662b3cc7be4d9c5493fff424234002c5fd62665712d9a"
 
 [[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure_set/city.json"
-hash = "f278326f5aebe5ee38cc38c02d8c7eedb9b91a80e395a48a7ef90694cf1c2fb6"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure_set/farm.json"
-hash = "d997434ed794b11f9924c380d7f45f024292fd7dbe96f8984a9847008a57ec3e"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure_set/rares.json"
-hash = "83146b73992488ea1c831a25ca20f2b4141de403535bebea28fcacb4e6c9f08f"
+file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure_set/large_structures.json"
+hash = "fae8db4e3d868a093cd4990845f63290a052335fb31b3d3538c51fa503dad884"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure_set/ship.json"
 hash = "6efe74bcc0841e9e479e7b5ca19a471b03a8cd19e8ac007cd4d4c4f1e9ed3e28"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure_set/small_structures.json"
+hash = "d997434ed794b11f9924c380d7f45f024292fd7dbe96f8984a9847008a57ec3e"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/city/building.json"
@@ -3407,42 +3403,6 @@ hash = "0c0d6824853cc51168bae00599e00a2d80bd8ebd008d4a5e9e294afe337c6dc5"
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/pneumaticcraft/chamber_wall_crashed.json"
 hash = "23f67e022fc13ff16fa867dfed1563b68d2628a36e681c0c492ccf00762ba183"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/simplyjetpacks/jetpack_mek1.json"
-hash = "466ceb33193f340020e3c3a0cdafda2ab27afabdcd0952638dd7f4bd9f5fe6f8"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/simplyjetpacks/jetpack_mek2.json"
-hash = "c841caa3f6aed6f82dae15953a662624396fa468122f80b74d8dcddf69b35bdf"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/simplyjetpacks/jetpack_mek3.json"
-hash = "735ab1f2af273c8e7c1ff0a0ca50b4ce9f5674bb3f1580473fc1e0e1fd115a8e"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/simplyjetpacks/jetpack_mek4.json"
-hash = "c7737daa0dd205b4bf98158c17cc74b0aff5dd7ad05ed9946fc29548bb6ac245"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/simplyjetpacks/leather_strap.json"
-hash = "32fae289ccfe859e3c52badcf532d4cf0c0958ec0d0855c51a9c4050577e1618"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/simplyjetpacks/thruster_mek1.json"
-hash = "c10e8e92a023c55bcdb321420026d77bc170ff8b0c165f65420ce1fa29c309be"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/simplyjetpacks/thruster_mek2.json"
-hash = "f8ac87932a650051b2c6c776f7164b025c141632633ffce487d04d923fd4858d"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/simplyjetpacks/thruster_mek3.json"
-hash = "5d6d6320597c183223357d05d9fc116299250c63c4586b9b8e302e32c128c99e"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/simplyjetpacks/thruster_mek4.json"
-hash = "7293e6e5307f35faac60af19ad57d7595e3b20e8ef5433b02a2197956cc4d040"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/smelting/rotten_flesh_smelting.json"
@@ -3985,19 +3945,19 @@ file = "config/openloader/data/dustplanet/data/minecraft/worldgen/template_pool/
 hash = "54229c23f7a00c1d9bbf69d40fd610f6543c38a807d1b34a37a0bb0677892879"
 
 [[files]]
-file = "config/openloader/data/dustplanet/data/mobgrindingutils/recipes/recipe_entity_conveyor.json"
+file = "config/openloader/data/dustplanet/data/mob_grinding_utils/recipes/recipe_entity_conveyor.json"
 hash = "bc02fc401f39ae96febb68c472dee5b95d36ab3533a9baf1ebb17653773c2aee"
 
 [[files]]
-file = "config/openloader/data/dustplanet/data/mobgrindingutils/recipes/recipe_entity_spawner.json"
+file = "config/openloader/data/dustplanet/data/mob_grinding_utils/recipes/recipe_entity_spawner.json"
 hash = "943a8e92bf2c6f9e7df5b66db9a619939ddf4c57ed792be536157dbcc4c92a78"
 
 [[files]]
-file = "config/openloader/data/dustplanet/data/mobgrindingutils/recipes/recipe_saw.json"
+file = "config/openloader/data/dustplanet/data/mob_grinding_utils/recipes/recipe_saw.json"
 hash = "7cd1817e53904a2bae1e460b7a09c1b17c28678c04acaa71a2548b2e7be95ef9"
 
 [[files]]
-file = "config/openloader/data/dustplanet/data/mobgrindingutils/recipes/recipe_tintedglass.json"
+file = "config/openloader/data/dustplanet/data/mob_grinding_utils/recipes/recipe_tintedglass.json"
 hash = "a1c97fd09bacb674c5960b92b559344c9e7dd20573d0891c5f1581c09a975125"
 
 [[files]]
@@ -7265,6 +7225,10 @@ file = "kubejs/client_scripts/refurbished_furniture_removal_jei.js"
 hash = "179a3ddaba628e664c2a67f2f9836f8504263c3c67e613c033ff78697ebe339a"
 
 [[files]]
+file = "kubejs/client_scripts/simplyjetpacks_hide_jei.js"
+hash = "5626a65eeefaa51c3a259072c29676ebc50624d4cf42935ed2532d881a21963f"
+
+[[files]]
 file = "kubejs/client_scripts/staple_foods_hide_jei.js"
 hash = "553d3faf56d29bd941121e81d39d3f89e1e12be1f4fc7f65fe1a85b7d8ca4faf"
 
@@ -7511,6 +7475,10 @@ hash = "19f319b0a6d1c82791deda7e9beb56b0c58dce47d6fc57875ea1ee5ecd351ca4"
 [[files]]
 file = "kubejs/server_scripts/sieve_tables/sieve_podzol.js"
 hash = "2a8db41cda94356847b9ff2eda786113712ce7a475a7cb92e795ceabd93f7e2d"
+
+[[files]]
+file = "kubejs/server_scripts/simplyjetpacks.js"
+hash = "8527d8ec331e7016948aa87fea39ce9506500035cc69b7542efbc00eae1e03bc"
 
 [[files]]
 file = "kubejs/server_scripts/spawn_eggs.js"
