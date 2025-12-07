@@ -8,7 +8,7 @@ _A hardcore survival modpack inspired by [Crash Landing](https://www.curseforge.
 
 </div>
 
-______________________________________________________________________
+***
 
 You have survived a crash landing on Planet T4L0S, an uncharted planet in the Varkin system. Preliminary scans indicate an arid environment with pockets of elevated radiation, high mineral content, and subterranean hydrocarbon reservoirs.
 
@@ -16,16 +16,27 @@ You will need to brave the blazing heat, find sources of food and water, scour t
 
 Desolate Planet is a challenging, quest-based modpack where you must struggle for survival on a dust planet with limited resources. The map is set to hardcore, you must use the [Sync](https://modrinth.com/mod/sync-fabric-rereported/) mod to build yourself more lives.
 
+<div align="center">
+
 ![The Nuclear Plant](https://cdn.modrinth.com/data/Y5UhUxAD/images/26717b9d9ab7cacc1e0d6605fc0bc932e9be0d32.webp)
 
-______________________________________________________________________
+</div>
+
+***
+
+<div align="center">
+
+[![GitHub](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/github-plural_vector.svg)](https://github.com/MarkScedra/Crash-2) [![Discord](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-plural_vector.svg)](https://discord.gg/4en3SpWtJg)
+
+</div>
 
 **This pack is still under development.** This version will still have bugs, and feedback is welcome.
 
 Reach us directly on the Discord server: [https://discord.gg/4en3SpWtJg](https://discord.gg/4en3SpWtJg)
 
 Or through the Subreddit: [https://www.reddit.com/r/CrashLanding2Modpack](https://www.reddit.com/r/CrashLanding2Modpack)
-______________________________________________________________________
+
+***
 
 ## FAQ
 
@@ -40,6 +51,7 @@ A: The [e4mc](https://modrinth.com/mod/e4mc) mod is installed. To play multiplay
 ### Q: How do I set up a server? Do you have a server pack?
 
 A: If you _aren't_ experienced with server hosting, see the answer above. If you _are_ experienced with server hosting, server packs are available with most releases. On Modrinth, go to the [latest version](https://modrinth.com/modpack/desolate-planet/version/latest) and scroll all the way to the bottom, past the mod list. On Curseforge, visit the [files](https://www.curseforge.com/minecraft/modpacks/desolate-planet/files/all) page, select the most recent one, and select "Additional Files".
+
 Once downloaded, unzip the file and run it locally via the `run.bat` (Windows) or `run.sh` (Linux/Mac) files. If you use a server hosting provider, upload _all_ the contents of the server pack to your host and find instructions for how to set up a Forge server on that host. These instructions are different for each server host, so find instructions specific to the one you are using.
 
 ### Q: Why does my game/world gets stuck while loading in?
@@ -49,6 +61,7 @@ A: Make sure you have allocated at least 6 GB of RAM to the modpack. I usually r
 ### Q: How can I disable hardcore?
 
 A: I strongly recommend learning to use the sync shells for extra lives, it’s what the game was balanced around. If you select the easy route, you’ll start with enough power for 3 shells. Follow the steps in the Sync quest for a detailed guide.
+
 However, if you’ve tried that and still want to disable hardcore, you can edit the hardcore setting in `config/globalgamerules-common.toml`. On a server, the steps are slightly different. Download [this file](https://cdn.modrinth.com/data/Y5UhUxAD/versions/YopX3hzh/Non-Hardcore_Server_Files.zip) and replace the files on the server with the files in that zip. I recommend backing up the target files before replacing them.
 
 ### Q: How do I get seared bricks/grout for a smeltery?
@@ -74,28 +87,33 @@ A: Absolutely!
 
 A: Yes, the most up-to-date roadmap is in [our discord](https://discord.gg/nP9jaNze8e). I have many plans for the future of this modpack and the roadmap details the next 6-8 major updates. Feel free to let me know what you think and what you think the future of this modpack should include.
 
-______________________________________________________________________
+***
 
 ## Credits
 
 Developed by:
 
 *   [Pawjwp](https://modrinth.com/user/pawjwp) (Current lead developer)
-*   [MarkSDR](https://modrinth.com/user/MarkSDR) (Original lead developer)
+*   [MarkSDR](https://modrinth.com/user/MarkSDR) (Former lead developer)
 *   [ULSTICK](https://linktr.ee/ULSTICK) (Structures and other immersive content)
-*   Nagasakii (Early development work and initial quests)
 
 Other contributers:
 
+*   Nagasakii (Early development work and initial quests)
 *   [QinlingP](https://www.curseforge.com/members/qinlingp/projects) (Packwiz setup and preset seed mod)
 *   herobrian903 (Create quest line prototyping)
 *   [Kilometers](https://modrinth.com/user/kilometersperhour) (Early development work)
 *   Mei-Nanita (Early recipe work)
 *   Pand1024 (Early github maintenance)
-*   Lobo\_um\_louco (Early structure work)
 
 Original pack developer:
 
 *   [Iskandar](https://x.com/iskan_dar)
 
+<div align="center">
+
 ![The Wasteland](https://cdn.modrinth.com/data/Y5UhUxAD/images/469e0228d64aa83a156b8817a1a5cc74ee8bdf6a.png)
+
+</div>
+
+_All proceeds from this modpack will be donated to [GiveWell](https://www.givewell.org/)._
