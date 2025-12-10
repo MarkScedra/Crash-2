@@ -7,7 +7,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "crash_landing:foundry_bastion/tunnel/straight",
-        "processors": "minecraft:empty"
+        "processors": "crash_landing:foundry_bastion/tunnels"
       }
     },
     {
@@ -16,7 +16,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "crash_landing:foundry_bastion/tunnel/junction",
-        "processors": "minecraft:empty"
+        "processors": "crash_landing:foundry_bastion/tunnels"
       }
     },
     {
@@ -25,7 +25,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "crash_landing:foundry_bastion/tunnel/junction_l",
-        "processors": "minecraft:empty"
+        "processors": "crash_landing:foundry_bastion/tunnels"
       }
     },
     {
@@ -34,7 +34,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "crash_landing:foundry_bastion/tunnel/junction_r",
-        "processors": "minecraft:empty"
+        "processors": "crash_landing:foundry_bastion/tunnels"
       }
     },
     {
@@ -43,7 +43,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "crash_landing:foundry_bastion/tunnel/cross",
-        "processors": "minecraft:empty"
+        "processors": "crash_landing:foundry_bastion/tunnels"
       }
     },
     {
@@ -52,7 +52,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "crash_landing:foundry_bastion/tunnel/stairs",
-        "processors": "minecraft:empty"
+        "processors": "crash_landing:foundry_bastion/tunnels"
       }
     },
 
@@ -62,7 +62,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "crash_landing:foundry_bastion/tunnel/trap_1",
-        "processors": "minecraft:empty"
+        "processors": "crash_landing:foundry_bastion/tunnels"
       }
     },
     {
@@ -71,7 +71,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "crash_landing:foundry_bastion/tunnel/trap_2",
-        "processors": "minecraft:empty"
+        "processors": "crash_landing:foundry_bastion/tunnels"
       }
     },
     {
@@ -80,7 +80,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "crash_landing:foundry_bastion/tunnel/trap_3",
-        "processors": "minecraft:empty"
+        "processors": "crash_landing:foundry_bastion/tunnels"
       }
     },
     {
@@ -89,7 +89,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "crash_landing:foundry_bastion/tunnel/end",
-        "processors": "minecraft:empty"
+        "processors": "crash_landing:foundry_bastion/tunnels"
       }
     },
 
@@ -99,7 +99,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "crash_landing:foundry_bastion/tunnel/room_1",
-        "processors": "minecraft:empty"
+        "processors": "crash_landing:foundry_bastion/tunnels"
       }
     },
 
@@ -109,7 +109,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "crash_landing:foundry_bastion/tunnel/room_2",
-        "processors": "minecraft:empty"
+        "processors": "crash_landing:foundry_bastion/tunnels"
       }
     },
 
@@ -119,7 +119,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "crash_landing:foundry_bastion/tunnel/room_3",
-        "processors": "minecraft:empty"
+        "processors": "crash_landing:foundry_bastion/tunnels"
       }
     },
 
@@ -129,7 +129,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "crash_landing:foundry_bastion/tunnel/room_4",
-        "processors": "minecraft:empty"
+        "processors": "crash_landing:foundry_bastion/tunnels"
       }
     }
   ]
