@@ -1,3 +1,5 @@
 {
-  "curios.identifier.insulation": "Insulation"
+  "curios.identifier.insulation": "Insulation",
+  
+  "item.desolate_planet.crook.description": "The Crook can be used to break leaves to increase sapling drops and get silkworms"
 }
