@@ -1,0 +1,8 @@
+{
+    "loader": "fusion:model",
+    "type": "base",
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "kubejs:block/crumbling_scorched_bricks"
+	}
+}

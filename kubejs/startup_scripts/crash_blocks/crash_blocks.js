@@ -100,6 +100,16 @@ StartupEvents.registry("block", (event) => {
     .tagBlock("mineable/pickaxe") // or a pickaxe
     .tagBlock('minecraft:needs_iron_tool') // the tool tier must be at least iron
     .textureAll('kubejs:block/crumbling_seared_bricks')
+
+  event.create("crumbling_scorched_bricks")
+    .displayName("Crumbling Scorched Bricks")
+    .soundType("tuff")
+    .hardness(1.0)
+    .resistance(1.0)
+    .requiresTool(true)
+    .tagBlock("mineable/pickaxe")
+    .tagBlock('minecraft:needs_iron_tool')
+    .textureAll('kubejs:block/crumbling_scorched_bricks')
 })
 
 StartupEvents.registry("block", (event) => {
