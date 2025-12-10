@@ -2014,12 +2014,13 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "functionalstorage:oak_4",
-          "Count": 1
+          "id": "sophisticatedstorage:limited_barrel_4",
+          "Count": 1,
+          "tag": "{woodType:\"spruce\"}"
         },
         {
-          "id": "functionalstorage:copper_upgrade",
-          "Count": 2
+          "id": "sophisticatedstorage:basic_to_iron_tier_upgrade",
+          "Count": 1
         }
       ],
       "rewardchoice": [],

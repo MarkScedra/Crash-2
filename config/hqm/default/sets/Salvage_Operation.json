@@ -229,10 +229,16 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "You can find meteorites or an AE2 supercomputer building by exploring the desert. You can make a meteorite compass to help locate them.",
+            "text": "You can find a Matter-Energy Research Lab or meteorites by exploring the desert. A meteorite compass can help locate meteorites if you can\u0027t find the presses elsewhere.",
             "isTranslationKey": false
           },
           "items": [
+            {
+              "item": {
+                "id": "kubejs:crashed_applied_controller",
+                "Count": 1
+              }
+            },
             {
               "item": {
                 "id": "ae2:smooth_sky_stone_block",
@@ -651,8 +657,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Break the crumbling seared bricks with a hammer or put them in some kind of crushing machine to get bricks.",
-            "isTranslationKey": true
+            "text": "You can find smeltery buildings in cities. Break the crumbling seared bricks with a hammer or put them in some kind of crushing machine to get bricks.",
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -893,7 +899,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "A melee weapon of some sort would be a wise idea and perhaps some armor as well. Make sure to bring enough food and water and if you haven\u0027t set up sync shells yet, now is the time to do so. If you took the hard route, you can still craft them. (Note: There\u0027s a city by the West of the shuttle.)",
+            "text": "A melee weapon of some sort would be a wise idea and perhaps some armor as well. Make sure to bring enough food and water and if you haven\u0027t set up sync shells yet, now is the time to do so. If you took the hard route, you can still craft them.",
             "isTranslationKey": false
           },
           "items": [
