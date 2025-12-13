@@ -41,13 +41,17 @@ ServerEvents.recipes(event => {
   // Define extruding recipes
   extrude('minecraft:cobblestone', 'minecraft:water', true);
   extrude('minecraft:stone', 'minecraft:water', true, 'minecraft:magma_block');
-  extrude('minecraft:basalt', 'minecraft:blue_ice', false, 'minecraft:soul_soil');
-  extrude('minecraft:blackstone', 'minecraft:blue_ice', false);
-  extrude('minecraft:cobbled_deepslate', 'minecraft:packed_ice', false);
-  extrude('minecraft:deepslate', 'minecraft:packed_ice', false, 'minecraft:magma_block');
-  //extrude('minecraft:netherrack', 'exdeorum:witch_water', true);
+
+  extrude('minecraft:cobbled_deepslate', 'minecraft:packed_ice', false);                          // metamorphic
+  extrude('minecraft:deepslate', 'minecraft:packed_ice', false, 'minecraft:magma_block');         // metamorphic
+  extrude('create:scoria', 'minecraft:packed_ice', false, 'minecraft:soul_soil');                 // igneous
+
+  extrude('minecraft:blackstone', 'minecraft:blue_ice', false);                                   // likely igneous
+  // to continue with the pattern, a smooth blackstone recipe would go here and use magma blocks  // likely igneous
+  extrude('minecraft:basalt', 'minecraft:blue_ice', false, 'minecraft:soul_soil');                // igneous
+
+
+
   extrude('minecraft:netherrack', 'thermal:redstone_fluid', true, null, 'thermal:redstone');
   extrude('minecraft:end_stone', 'thermal:ender_fluid', true, null, 'thermal:ender');
-  extrude('create:limestone', 'create:honey', true);
-  extrude('create:scoria', 'create:chocolate', true);
 });

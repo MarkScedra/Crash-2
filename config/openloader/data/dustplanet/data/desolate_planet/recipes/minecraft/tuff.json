@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "minecraft:charcoal"
+    },
+    "C": {
+      "item": "minecraft:stone"
+    }
+  },
+  "pattern": [
+    "CA",
+    "AC"
+  ],
+  "result": {
+    "count": 2,
+    "item": "minecraft:tuff"
+  },
+  "show_notification": true
+}
