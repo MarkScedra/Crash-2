@@ -24,6 +24,11 @@
     "modId": "almostunified",
     "version": "1.20.1-0.10.1"
   },
+  "another_furniture-forge-1.20.1-3.0.4.jar": {
+    "jarName": "another_furniture-forge-1.20.1-3.0.4.jar",
+    "modId": "another_furniture",
+    "version": "1.20.1-3.0.4"
+  },
   "appleskin-forge-mc1.20.1-2.5.1.jar": {
     "jarName": "appleskin-forge-mc1.20.1-2.5.1.jar",
     "modId": "appleskin",
@@ -531,11 +536,6 @@
     "jarName": "phosphophyllite-1.20.1-0.7.0-alpha.0.2.jar",
     "modId": "phosphophyllite",
     "version": "0.7.0-alpha.0.2"
-  },
-  "piglins-guard-everything-1.1.jar": {
-    "jarName": "piglins-guard-everything-1.1.jar",
-    "modId": "mr_piglins_guardeverything",
-    "version": "1.1"
   },
   "Placebo-1.20.1-8.6.3.jar": {
     "jarName": "Placebo-1.20.1-8.6.3.jar",

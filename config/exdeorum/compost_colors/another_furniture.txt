@@ -1,0 +1,2 @@
+// Compost colors for another_furniture. You may add your own colors, change existing ones, or remove colors that aren't needed.
+furniture_hammer, #6b5123
