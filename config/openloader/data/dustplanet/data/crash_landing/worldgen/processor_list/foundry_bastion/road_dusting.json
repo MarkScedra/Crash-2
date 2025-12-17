@@ -1,0 +1,33 @@
+[
+  {
+    "processor_type": "minecraft:rule",
+    "rules": [
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "rechiseled:stone_big_tiles_connecting",
+          "probability": 0.4
+        },
+        "output_state": {
+          "Name": "exdeorum:dust"
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "chipped:eroded_deepslate",
+          "probability": 0.05
+        },
+        "output_state": {
+          "Name": "exdeorum:dust"
+        }
+      }
+    ]
+  }
+]

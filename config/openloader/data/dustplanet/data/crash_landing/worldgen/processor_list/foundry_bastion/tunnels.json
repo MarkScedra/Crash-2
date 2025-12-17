@@ -1,0 +1,60 @@
+[
+  {
+    "processor_type": "minecraft:rule",
+    "rules": [
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:mud_bricks",
+          "probability": 0.3
+        },
+        "output_state": {
+          "Name": "chipped:tiny_mud_bricks_bricks"
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:mud_bricks",
+          "probability": 0.05
+        },
+        "output_state": {
+          "Name": "exdeorum:dust"
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:polished_blackstone_bricks",
+          "probability": 0.3
+        },
+        "output_state": {
+          "Name": "minecraft:cracked_polished_blackstone_bricks"
+        }
+      },
+
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "tconstruct:scorched_bricks",
+          "probability": 0.75
+        },
+        "output_state": {
+          "Name": "kubejs:crumbling_scorched_bricks"
+        }
+      }
+    ]
+  }
+]
