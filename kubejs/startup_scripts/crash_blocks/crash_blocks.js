@@ -101,6 +101,16 @@ StartupEvents.registry("block", (event) => {
     .tagBlock('minecraft:needs_iron_tool')
     .textureAll('kubejs:block/crumbling_seared_bricks')
 
+  event.create("crumbling_scorched_bricks")
+    .displayName("Crumbling Scorched Bricks")
+    .soundType("tuff")
+    .hardness(1.0)
+    .resistance(1.0)
+    .requiresTool(true)
+    .tagBlock("mineable/pickaxe")
+    .tagBlock('minecraft:needs_iron_tool')
+    .textureAll('kubejs:block/crumbling_scorched_bricks')
+
   // Pneumatic Blocks
   event.create('crashed_refinery')
     .displayName('Crashed Refinery')
